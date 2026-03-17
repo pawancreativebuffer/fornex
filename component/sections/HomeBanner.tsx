@@ -14,13 +14,13 @@ export default function HomeBanner() {
 
     return (
         <div className="w-full max-w-[1400px] mx-auto px-4 flex flex-wrap justify-between gap-10 relative z-50">
-            <div className="flex flex-col">
-                <h5 className="flex items-center gap-2 mb-5 font-[500] text-[18px] text-[#fff] bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-5 py-2 w-fit">
+            <div className="flex flex-col w-full max-w-[100%] lg:max-w-[620px] mt-20 lg:mt-0">
+                <h5 className="flex items-center gap-2 mx-auto lg:mx-0 lg:mb-5 font-[500] text-[18px] text-[#fff] bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-5 py-2 w-fit">
                     <Brain /> AI Innovation for
                 </h5>
-                <h1 className="text-shadow-lg/20 font-[700] text-[60px] text-[#fff] max-w-[700px] leading-[70px]">Healthcare & Billing Efficiency</h1>
+                <h1 className="text-shadow-lg/20 font-[700] text-[50px] lg:text-[60px] text-[#fff] max-w-[700px] leading-[60px] lg:leading-[70px] mx-auto mt-5 lg:mt-0 text-center lg:text-left lg:mx-0">Healthcare & Billing Efficiency</h1>
 
-                <div className="mt-8 flex items-center gap-4">
+                <div className="mt-8 flex items-center gap-4 justify-center lg:justify-start">
                     <div className="relative flex items-center justify-center w-[80px] h-[80px]">
                         {/* Glowing ring animations */}
                         <div className="absolute inset-0 rounded-full bg-white/20 animate-[ping_2s_cubic-bezier(0,0,0.2,1)_infinite]"></div>
@@ -37,7 +37,7 @@ export default function HomeBanner() {
                 </div>
             </div>
 
-            <div className="w-full max-w-[300px] flex flex-col justify-center">
+            <div className="w-full max-w-[300px] mx-auto lg:mx-0 flex flex-col justify-center">
                 <p className="w-full max-w-[170px] mx-auto text-[#fff] font-[400] text-[16px] text-center">Trusted by 500+ Healthcare Providers</p>
                 <div className="flex flex-row mt-6 justify-center">
                     {imagesData.map((item, i) => (
