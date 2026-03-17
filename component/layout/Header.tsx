@@ -36,37 +36,35 @@ export default function Header() {
                 </div>
 
                 {/* Desktop Navigation */}
-                <div className="gap-12 flex items-center justify-between">
-                    <nav className="hidden lg:flex items-center gap-8 text-[#2B2E34] text-[16px] font-medium">
-                        {navLinks.map((link) => (
-                            <Link key={link.name} href={link.href} className="hover:text-[#60C6B1] transition-colors">
-                                {link.name}
-                            </Link>
-                        ))}
-                    </nav>
+                <nav className="hidden lg:flex items-center gap-8 text-[#2B2E34] text-[16px] font-medium">
+                    {navLinks.map((link) => (
+                        <Link key={link.name} href={link.href} className="hover:text-[#60C6B1] transition-colors">
+                            {link.name}
+                        </Link>
+                    ))}
+                </nav>
 
-                    {/* Desktop Buttons & Mobile Toggle */}
-                    <div className="flex items-center gap-3">
-                        <div className="hidden lg:flex items-center gap-3">
-                            <button className="px-10 py-3 rounded-lg border border-[#60C6B1] text-[#60C6B1] hover:bg-[#60C6B1] hover:text-[#fff] cursor-pointer transition font-medium">
-                                Contact us
-                            </button>
+                {/* Desktop Buttons & Mobile Toggle */}
+                <div className="flex items-center gap-3">
+                    <div className="hidden lg:flex items-center gap-3">
+                        <button className="px-10 py-3 rounded-full border border-[#60C6B1] text-[#60C6B1] hover:bg-[#60C6B1] hover:text-[#fff] cursor-pointer transition font-medium">
+                            Contact us
+                        </button>
 
-                            <button className="px-4 py-3 rounded-lg border border-[#90C7E5] text-[#fff] bg-[#90C7E5] hover:bg-[#fff] hover:text-[#90C7E5] cursor-pointer transition flex items-center gap-2 font-medium">
-                                Get Consultation
-                                <ChevronRight size={20} />
-                            </button>
-                        </div>
-
-                        {/* Mobile Menu Button */}
-                        <button
-                            onClick={toggleMenu}
-                            className="lg:hidden p-2 text-[#2B2E34] hover:bg-gray-100 rounded-lg transition-colors"
-                            aria-label="Toggle Menu"
-                        >
-                            {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+                        <button className="px-5 py-3 rounded-full border border-[#90C7E5] text-[#fff] bg-[#90C7E5] hover:bg-[#fff] hover:text-[#90C7E5] cursor-pointer transition flex items-center gap-2 font-medium">
+                            Get Consultation
+                            <ChevronRight size={20} />
                         </button>
                     </div>
+
+                    {/* Mobile Menu Button */}
+                    <button
+                        onClick={toggleMenu}
+                        className="lg:hidden p-2 text-[#2B2E34] hover:bg-gray-100 rounded-lg transition-colors"
+                        aria-label="Toggle Menu"
+                    >
+                        {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+                    </button>
                 </div>
             </div>
 
@@ -90,10 +88,10 @@ export default function Header() {
                     </nav>
 
                     <div className="flex flex-col gap-4">
-                        <button className="w-full px-6 py-4 rounded-lg border border-[#60C6B1] text-[#60C6B1] font-semibold">
+                        <button className="w-full px-6 py-4 rounded-full border border-[#60C6B1] text-[#60C6B1] font-semibold">
                             Contact us
                         </button>
-                        <button className="w-full px-4 py-4 rounded-lg bg-[#90C7E5] text-white flex items-center justify-center gap-2 font-semibold">
+                        <button className="w-full px-4 py-4 rounded-full bg-[#90C7E5] text-white flex items-center justify-center gap-2 font-semibold">
                             Get Consultation
                             <ChevronRight size={20} />
                         </button>
