@@ -1,5 +1,6 @@
 import Header from '@/component/layout/Header'
 import HomeBanner from '@/component/sections/HomeBanner';
+import HomeServices from '@/component/sections/HomeServices';
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <HomeBanner />
       </section>
 
-      <div className="h-[50px]">wefwf</div>
+      <HomeServices />
     </>
   );
 }
