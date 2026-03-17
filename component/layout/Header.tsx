@@ -13,7 +13,7 @@ export default function Header() {
     };
 
     const navLinks = [
-        { name: "Home", href: "#" },
+        { name: "Home", href: "/" },
         { name: "Services", href: "#" },
         { name: "Clients", href: "#" },
         { name: "Case Studies", href: "#" },
@@ -22,7 +22,7 @@ export default function Header() {
 
     return (
         <header className="w-full py-4 relative z-50">
-            <div className="max-w-[1400px] mx-auto px-4 gap-4 flex items-center justify-between">
+            <div className="max-w-[1900px] mx-auto px-4 gap-4 flex items-center justify-between">
 
                 {/* Logo */}
                 <div className="flex items-center">
@@ -48,7 +48,7 @@ export default function Header() {
                     {/* Desktop Buttons & Mobile Toggle */}
                     <div className="flex items-center gap-3">
                         <div className="hidden lg:flex items-center gap-3">
-                            <button className="px-4 py-3 rounded-lg border border-[#60C6B1] text-[#60C6B1] hover:bg-[#60C6B1] hover:text-[#fff] cursor-pointer transition font-medium">
+                            <button className="px-10 py-3 rounded-lg border border-[#60C6B1] text-[#60C6B1] hover:bg-[#60C6B1] hover:text-[#fff] cursor-pointer transition font-medium">
                                 Contact us
                             </button>
 
