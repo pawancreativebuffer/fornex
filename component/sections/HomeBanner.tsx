@@ -9,9 +9,13 @@ export default function HomeBanner() {
             </iframe>
 
             <div className="absolute left-0 top-0 right-0 bottom-0 py-60">
-                <div className="max-w-[1400px] mx-auto px-4">
-                    <h4>Transforming Healthcare Through</h4>
-                    <h1>AI-Powered  Technology & Intelligent Billing Automation</h1>
+                <div className="max-w-[1400px] mx-auto px-4 flex items-center justify-between gap-10">
+                    <div className="flex flex-col">
+                        <h5>AI Innovation for</h5>
+                        <h1 className="font-[700] text-[90px] text-[#fff] max-w-[700px]">Healthcare & Billing Efficiency</h1>
+                    </div>
+
+                    <div></div>
                 </div>
             </div>
         </section>

@@ -21,8 +21,8 @@ export default function Header() {
     ];
 
     return (
-        <header className="w-full lg:py-10 lg:px-4 relative z-50">
-            <div className="max-w-[1400px] mx-auto px-4 lg:px-6 py-3 flex items-center justify-between gap-4 
+        <header className="w-full lg:py-10 lg:px-4 relative z-50 max-w-[1400px] mx-auto">
+            <div className="px-4 lg:px-6 py-3 flex items-center justify-between gap-4 
             bg-white/100 backdrop-blur-lg border border-white/60 lg:rounded-full 
             shadow-[0_8px_30px_rgba(0,0,0,0.2)]">
 
@@ -62,7 +62,7 @@ export default function Header() {
                     {/* Mobile Menu Button */}
                     <button
                         onClick={toggleMenu}
-                        className="lg:hidden p-2 text-[#2B2E34] hover:bg-gray-100 rounded-lg transition-colors"
+                        className="lg:hidden p-0 text-[#2B2E34] hover:bg-gray-100 rounded-lg transition-colors"
                         aria-label="Toggle Menu"
                     >
                         {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
