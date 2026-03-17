@@ -21,10 +21,10 @@ export default function Header() {
     ];
 
     return (
-        <header className="w-full lg:py-10 lg:px-4 relative z-50 max-w-[1400px] mx-auto">
+        <header className="w-full lg:py-6 lg:px-4 relative z-50 max-w-[1400px] mx-auto">
             <div className="px-4 lg:px-6 py-3 flex items-center justify-between gap-4 
             bg-white/100 backdrop-blur-lg border border-white/60 lg:rounded-full 
-            shadow-[0_8px_30px_rgba(0,0,0,0.2)]">
+            shadow-[0_10px_30px_rgba(0,0,0,0.4)]">
 
                 {/* Logo */}
                 <div className="flex items-center">
@@ -72,7 +72,7 @@ export default function Header() {
 
             {/* Mobile Navigation Overlay */}
             <div className={`
-                fixed inset-0 z-40 transition-transform duration-300 ease-in-out top-[74px] md:top-[91px] bottom-0 lg:hidden bg-[#f9fbfb] overflow-auto
+                fixed inset-0 z-40 transition-transform duration-300 ease-in-out top-[73px] md:top-[90px] bottom-0 lg:hidden bg-[#f9fbfb] overflow-auto
                 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
 
                 <div className="flex flex-col p-4">
