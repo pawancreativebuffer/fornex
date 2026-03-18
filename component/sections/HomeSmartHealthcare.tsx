@@ -53,7 +53,7 @@ export default function HomeSmartHealthcare() {
                 {/* Right Side: Placeholder for image/graphic */}
                 <div className="w-full lg:w-1/2 rounded-3xl relative flex items-center justify-center min-h-[520px] overflow-hidden">
                     <iframe
-                        className="absolute h-full scale-125"
+                        className="absolute h-full scale-105"
                         src="https://app.spline.design/file/bb70638b-6c76-4026-9b70-9015bcfa94e6?view=preview"
                         width="100%"
                         height="100%">
