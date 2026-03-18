@@ -22,10 +22,6 @@ export default function HomeSmartHealthcare() {
         <section className="w-full max-w-[1400px] mx-auto px-4 my-10">
             <div className="bg-white rounded-[40px] p-8 lg:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50 flex flex-col lg:flex-row items-center gap-12 min-h-[600px] overflow-hidden relative">
 
-                {/* Background Decoration (Matching the reference's blobs) */}
-                <div className="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] bg-purple-100/30 blur-[100px] rounded-full -z-10" />
-                <div className="absolute bottom-[-10%] left-[-5%] w-[300px] h-[300px] bg-blue-50/20 blur-[80px] rounded-full -z-10" />
-
                 {/* Left Side: Content & Stats */}
                 <div className="w-full lg:w-1/2 space-y-8">
                     {/* Badge */}
@@ -55,8 +51,13 @@ export default function HomeSmartHealthcare() {
                 </div>
 
                 {/* Right Side: Placeholder for image/graphic */}
-                <div className="w-full lg:w-1/2 relative flex items-center justify-center min-h-[400px]">
-                    wef
+                <div className="w-full lg:w-1/2 rounded-3xl relative flex items-center justify-center min-h-[520px] overflow-hidden">
+                    <iframe
+                        className="absolute h-full scale-125"
+                        src="https://app.spline.design/file/bb70638b-6c76-4026-9b70-9015bcfa94e6?view=preview"
+                        width="100%"
+                        height="100%">
+                    </iframe>
                 </div>
 
             </div>
