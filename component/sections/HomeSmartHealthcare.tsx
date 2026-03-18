@@ -23,7 +23,7 @@ export default function HomeSmartHealthcare() {
             <div className="bg-white rounded-[40px] p-8 lg:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50 flex flex-col lg:flex-row items-center gap-12 min-h-[600px] overflow-hidden relative">
 
                 {/* Left Side: Content & Stats */}
-                <div className="w-full lg:w-1/2 space-y-8">
+                <div className="w-full lg:w-1/2 space-y-8 relative z-[10]">
                     {/* Badge */}
                     <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base">
                         <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
@@ -50,16 +50,12 @@ export default function HomeSmartHealthcare() {
                     </div>
                 </div>
 
-                {/* Right Side: Placeholder for image/graphic */}
-                <div className="w-full lg:w-1/2 rounded-3xl relative flex items-center justify-center min-h-[520px] overflow-hidden">
-                    <iframe
-                        className="absolute h-full"
-                        src="https://app.spline.design/file/5030c9d9-2853-4aba-8a86-ee31fba0afd9?view=preview"
-                        width="100%"
-                        height="100%">
-                    </iframe>
-                </div>
-
+                <iframe
+                    className="absolute h-full w-full"
+                    src="https://app.spline.design/file/5030c9d9-2853-4aba-8a86-ee31fba0afd9?view=preview"
+                    width="100%"
+                    height="100%">
+                </iframe>
             </div>
         </section>
     );
