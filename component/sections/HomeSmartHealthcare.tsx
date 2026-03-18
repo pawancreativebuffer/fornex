@@ -51,7 +51,7 @@ export default function HomeSmartHealthcare() {
                 </div>
 
                 <iframe
-                    className="absolute h-full w-full scale-120"
+                    className="absolute h-full w-full scale-125"
                     src="https://app.spline.design/file/5030c9d9-2853-4aba-8a86-ee31fba0afd9?view=preview"
                     width="100%"
                     height="100%">
