@@ -15,10 +15,10 @@ export default function HomeServices() {
             title: "Secure & Compliant Systems",
             subtitle: "HIPAA & SOC2 compliant",
             icon: ShieldCheck,
-            bgColor: "bg-[#9BD7B7]",    // Green
+            bgColor: "bg-[#60C6B1]",    // Green
             textColor: "text-[#000]",
-            subtitleColor: "text-[#58896C]",
-            iconColor: "text-[#7FC29E]",
+            subtitleColor: "text-[#307e6e]",
+            iconColor: "text-[#4fa996]",
         },
         {
             title: "Integration Expertise",
@@ -33,10 +33,10 @@ export default function HomeServices() {
             title: "Scalable Digital Solutions",
             subtitle: "Built for future growth",
             icon: TrendingUp,
-            bgColor: "bg-[#7AA8F1]",    // Blue
+            bgColor: "bg-[#90c7e5]",    // Blue
             textColor: "text-[#000]",
-            subtitleColor: "text-[#3D66A6]",
-            iconColor: "text-[#6294E5]",
+            subtitleColor: "text-[#437591]",
+            iconColor: "text-[#6d9fbb]",
         }
     ];
 
