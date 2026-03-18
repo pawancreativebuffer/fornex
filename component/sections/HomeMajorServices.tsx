@@ -32,7 +32,7 @@ const services = [
         id: 5,
         title: "Growth & Digital Marketing Solutions",
         description: "Data-driven marketing strategies specifically tailored for healthcare providers to grow their patient base and strengthen their digital presence.",
-        image: "/images/five.jpg",
+        image: "/images/five.png",
     },
 ];
 
@@ -40,7 +40,7 @@ export default function HomeMajorServices() {
     const [activeIndex, setActiveIndex] = useState(1);
 
     return (
-        <section className="w-full px-2 my-10">
+        <section className="w-full px-4 lg:px-2 my-10">
             <div className="flex flex-col md:flex-row w-full h-[700px] md:h-[500px] gap-2">
                 {services.map((service, index) => (
                     <div
