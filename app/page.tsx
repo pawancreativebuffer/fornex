@@ -3,6 +3,7 @@ import HomeBanner from '@/component/sections/HomeBanner';
 import HomeMajorServices from '@/component/sections/HomeMajorServices';
 import HomeServices from '@/component/sections/HomeServices';
 import HomeSmartHealthcare from '@/component/sections/HomeSmartHealthcare';
+import HomeSystemWeWork from '@/component/sections/HomeSystemWeWork';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <HomeServices />
       <HomeSmartHealthcare />
       <HomeMajorServices />
+      <HomeSystemWeWork />
     </>
   );
 }

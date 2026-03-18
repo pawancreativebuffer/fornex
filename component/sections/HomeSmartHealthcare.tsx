@@ -42,7 +42,7 @@ export default function HomeSmartHealthcare() {
                                 <div className="text-4xl lg:text-5xl font-bold text-[#2D2D2D] tracking-tight">
                                     {stat.number}
                                 </div>
-                                <p className="text-gray-500 text-sm lg:text-base font-medium leading-snug">
+                                <p className="text-gray-500 text-base font-regular leading-snug">
                                     {stat.description}
                                 </p>
                             </div>

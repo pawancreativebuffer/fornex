@@ -7,8 +7,8 @@ export default function HomeBanner() {
     const [isVideoOpen, setIsVideoOpen] = useState(false);
 
     const imagesData = [
-        { name: "/images/soc.png" },
         { name: "/images/hippa.png" },
+        { name: "/images/soc.png" },
         { name: "/images/hl7.png" },
     ];
 
