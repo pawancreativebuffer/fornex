@@ -51,7 +51,7 @@ export default function HomeSmartHealthcare() {
                 </div>
 
 
-                <div className="relative lg:absolute scale-125 h-[400px] lg:h-full w-full">
+                <div className="relative lg:absolute lg:scale-125 h-[400px] lg:h-full w-full">
                     <iframe
                         className="absolute h-full w-full"
                         src="https://app.spline.design/file/5030c9d9-2853-4aba-8a86-ee31fba0afd9?view=preview"
