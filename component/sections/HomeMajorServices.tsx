@@ -8,36 +8,36 @@ const services = [
         id: 1,
         title: "Healthcare Software Development",
         description: "Custom-built medical software solutions designed to digitize patient care, streamline clinical operations, and ensure data security across all platforms.",
-        image: "/assets/services/software_dev.png",
+        image: "/images/one.jpg",
     },
     {
         id: 2,
         title: "EHR / EMR Integration & Development",
         description: "Expert integration services connecting your practice with leading Electronic Health Records systems for seamless data exchange and interoperability.",
-        image: "/assets/services/ehr_integration.png",
+        image: "/images/two.jpg",
     },
     {
         id: 3,
         title: "Website & Mobile App Development",
         description: "Creating intuitive, HIPAA-compliant patient portals, telehealth platforms, and mobile apps that enhance user engagement and clinical efficiency.",
-        image: "/assets/services/web_mobile.png",
+        image: "/images/three.jpg",
     },
     {
         id: 4,
         title: "Medical Billing & Revenue Cycle Management",
         description: "Optimizing your revenue cycle with advanced billing software and management tools that reduce denials and accelerate payment cycles.",
-        image: "/assets/services/medical_billing.png",
+        image: "/images/four.jpg",
     },
     {
         id: 5,
         title: "Growth & Digital Marketing Solutions",
         description: "Data-driven marketing strategies specifically tailored for healthcare providers to grow their patient base and strengthen their digital presence.",
-        image: "/assets/services/growth_marketing.png",
+        image: "/images/five.jpg",
     },
 ];
 
 export default function HomeMajorServices() {
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState(1);
 
     return (
         <section className="w-full px-2 my-10">
