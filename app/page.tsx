@@ -1,6 +1,7 @@
 import Header from '@/component/layout/Header'
 import HomeBanner from '@/component/sections/HomeBanner';
 import HomeServices from '@/component/sections/HomeServices';
+import HomeSmartHealthcare from '@/component/sections/HomeSmartHealthcare';
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       </section>
 
       <HomeServices />
+      <HomeSmartHealthcare />
     </>
   );
 }
+

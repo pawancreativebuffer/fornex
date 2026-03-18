@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+/* body {
+    background: #f5f5f5;
+} */
+
 @layer utilities {
     .animation-delay-500 {
         animation-delay: 500ms;
