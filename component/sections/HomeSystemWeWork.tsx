@@ -63,7 +63,7 @@ export default function HomeSystemWeWork() {
                     </div>
 
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#1a2b3c] mb-4 lg:mb-8">
-                        Integrated with the Systems You Already Use
+                        <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Integrated</span> with the Systems You Already Use
                     </h2>
 
                     <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-8 lg:max-w-[500px]">
