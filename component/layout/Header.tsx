@@ -53,7 +53,7 @@ export default function Header() {
                             Contact us
                         </button>
 
-                        <button className="px-5 py-3 rounded-full border border-[#90C7E5] text-[#fff] bg-[#90C7E5] hover:bg-[#fff] hover:text-[#90C7E5] cursor-pointer transition flex items-center gap-2 font-medium">
+                        <button className="px-5 py-3 rounded-full border border-[#6896af] text-[#fff] bg-[#6896af] hover:bg-[#fff] hover:text-[#6896af] cursor-pointer transition flex items-center gap-2 font-medium">
                             Get Consultation
                             <ChevronRight size={20} />
                         </button>
@@ -93,7 +93,7 @@ export default function Header() {
                         <button className="w-full px-6 py-4 rounded-full border border-[#60C6B1] text-[#60C6B1] font-semibold">
                             Contact us
                         </button>
-                        <button className="w-full px-4 py-4 rounded-full bg-[#90C7E5] text-white flex items-center justify-center gap-2 font-semibold">
+                        <button className="w-full px-4 py-4 rounded-full bg-[#6896af] text-white flex items-center justify-center gap-2 font-semibold">
                             Get Consultation
                             <ChevronRight size={20} />
                         </button>
