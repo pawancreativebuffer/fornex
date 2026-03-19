@@ -20,7 +20,7 @@ export default function HomeSmartHealthcare() {
 
     return (
         <section className="w-full max-w-[1400px] mx-auto px-4 my-10">
-            <div className="bg-white rounded-[40px] p-6 lg:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50 flex flex-col lg:flex-row items-center gap-12 min-h-[600px] overflow-hidden relative">
+            <div className="bg-white rounded-[40px] p-6 lg:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50 flex flex-col lg:flex-row items-center gap-12 lg:min-h-[600px] overflow-hidden relative">
 
                 {/* Left Side: Content & Stats */}
                 <div className="w-full lg:w-1/2 space-y-8 relative z-[10]">
@@ -51,7 +51,7 @@ export default function HomeSmartHealthcare() {
                 </div>
 
 
-                <div className="relative lg:absolute lg:scale-125 h-[400px] lg:h-full w-full">
+                <div className="relative hidden lg:block lg:absolute lg:scale-125 h-[400px] lg:h-full w-full">
                     <iframe
                         className="absolute h-full w-full"
                         src="https://app.spline.design/file/5030c9d9-2853-4aba-8a86-ee31fba0afd9?view=preview"
