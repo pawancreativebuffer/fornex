@@ -10,8 +10,7 @@ export default function HomeAutomation() {
                 </iframe>
 
                 <h2 className="text-3xl lg:text-4xl font-bold leading-[1.3] text-[#fff] relative z-[1] max-w-[500px]">
-                    A World Where No Patient Waits Longer Because of a
-                    <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Software Problem</span>
+                    A World Where No Patient Waits Longer Because of a <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Software Problem</span>
                 </h2>
             </div>
         </section>
