@@ -1,7 +1,7 @@
 export default function HomeAutomation() {
     return (
         <section className="w-full max-w-[1400px] mx-auto px-4 my-10">
-            <div className="bg-white h-[600px] rounded-[40px] p-6 lg:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50 flex justify-between flex-col overflow-hidden relative">
+            <div className="bg-[#000] h-[600px] rounded-[40px] p-6 lg:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50 flex justify-between flex-col overflow-hidden relative">
                 <iframe
                     className="absolute h-full w-full scale-[0.5] md:scale-[1.2] top-[-10px] left-0"
                     src="https://app.spline.design/file/cb764323-8ee7-44af-8cd6-671fbc8f6c39?view=preview"
