@@ -1,4 +1,5 @@
 import Header from '@/component/layout/Header'
+import HomeAutomation from '@/component/sections/HomeAutomation';
 import HomeBanner from '@/component/sections/HomeBanner';
 import HomeMajorServices from '@/component/sections/HomeMajorServices';
 import HomeServices from '@/component/sections/HomeServices';
@@ -24,6 +25,7 @@ export default function Home() {
       <HomeSmartHealthcare />
       <HomeMajorServices />
       <HomeSystemWeWork />
+      <HomeAutomation />
     </>
   );
 }
