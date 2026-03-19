@@ -14,7 +14,7 @@ export default function HomeAutomation() {
                         <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                         <span>Our Mission</span>
                     </div>
-                    <h2 className="text-2xl font-medium leading-[1.5] text-[#fff] mt-5">
+                    <h2 className="text-2xl font-medium leading-[1.3] text-[#fff] mt-5">
                         A World Where No Patient Waits Longer Because of a <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Software Problem</span>
                     </h2>
                 </div>
