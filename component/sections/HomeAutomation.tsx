@@ -2,12 +2,23 @@ export default function HomeAutomation() {
     return (
         <section className="w-full max-w-[1400px] mx-auto px-4 my-10">
             <div className="bg-[#000] h-[600px] rounded-[40px] p-6 lg:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50 flex justify-between flex-col overflow-hidden relative">
-                <iframe
+                {/* <iframe
                     className="absolute h-full w-full scale-[1.2] top-[-10px] left-0 opacity-30 lg:opacity-100"
                     src="https://app.spline.design/file/cb764323-8ee7-44af-8cd6-671fbc8f6c39?view=preview"
                     width="100%"
                     height="100%">
-                </iframe>
+                </iframe> */}
+
+                <video
+                    src="/images/banner2.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="absolute top-0 left-0 w-full h-full object-cover opacity-70 lg:opacity-100"
+                >
+                </video>
+                <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/100 via-transparent to-black"></div>
 
                 <div className="relative z-[1] max-w-[400px]">
                     <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base">
