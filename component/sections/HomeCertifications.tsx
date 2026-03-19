@@ -34,6 +34,18 @@ export default function HomeCertifications() {
         }
     ];
 
+    const allImages = [
+        {
+            image: '/images/hl7-2.png'
+        },
+        {
+            image: '/images/hl7-3.png'
+        },
+        {
+            image: '/images/smart.png'
+        }
+    ]
+
     return (
         <section className="w-full my-10 lg:my-20">
             <div className="max-w-[1400px] mx-auto px-4">
@@ -70,6 +82,41 @@ export default function HomeCertifications() {
                             </p>
                         </div>
                     ))}
+                </div>
+
+                {/* Featured Certification Banner */}
+                <div className="rounded-[2.5rem] p-6 lg:p-12 mt-20 bg-[#eff8f6] border border-[#60C6B1]/20 overflow-hidden relative shadow-sm">
+                    {/* Subtle Background Accent */}
+                    <div className="absolute top-0 right-0 w-64 h-64 bg-[#60C6B1] opacity-[0.03] rounded-full -mr-32 -mt-32 blur-3xl"></div>
+
+                    <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-10">
+                        {/* Left: Text Content */}
+                        <div className="flex-1 text-center lg:text-left">
+                            <div className="flex items-center justify-center lg:justify-start gap-2 text-[#60C6B1] font-medium text-sm lg:text-base mb-4">
+                                <div className="w-2.5 h-2.5 bg-[#60C6B1] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
+                                <span>Compliance & Security Certifications</span>
+                            </div>
+
+                            <h2 className="text-3xl font-bold text-[#2D2D2D] leading-[1.2] max-w-[500px]">
+                                Built for Healthcare Security & Compliance
+                            </h2>
+                        </div>
+
+                        {/* Right: Certification Cards Row */}
+                        <div className="flex flex-wrap lg:flex-nowrap items-center justify-center lg:justify-end gap-5 w-full lg:w-auto">
+                            {allImages.map((item, i) => (
+                                <div
+                                    key={i}
+                                    className="bg-white rounded-[24px] p-4 w-full sm:w-[240px] lg:w-[260px] h-[140px] lg:h-[155px] flex items-center justify-center shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_15px_40px_rgba(0,0,0,0.06)] transition-all duration-300 transform hover:-translate-y-1"
+                                >
+                                    {/* Image Placeholder Area */}
+                                    <div className="w-full h-full bg-[#f8fafc] rounded-[18px] border border-gray-100/50 flex items-center justify-center overflow-hidden">
+                                        <img src={item.image} alt={item.image} className="w-[80%] h-[50%] object-contain" />
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
