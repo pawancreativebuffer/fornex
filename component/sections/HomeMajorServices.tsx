@@ -85,14 +85,14 @@ export default function HomeMajorServices() {
                             <div className={`absolute inset-0 flex items-center justify-center transition-opacity duration-500 ${activeIndex === index ? 'opacity-0' : 'opacity-100'
                                 }`}>
                                 <div className="relative h-full w-full flex items-center justify-center">
-                                    <h3 className="text-white text-lg md:text-xl font-bold text-center -rotate-90 origin-center tracking-wide uppercase opacity-80 group-hover:opacity-100 transition-all duration-300">
+                                    <h3 className="text-white pl-14 pr-5 md:pl-0 md:pr-0 text-xs md:text-xl font-bold text-center md:min-w-[300px] md:-rotate-90 origin-center tracking-wide uppercase opacity-80 group-hover:opacity-100 transition-all duration-300">
                                         {service.title}
                                     </h3>
                                 </div>
                             </div>
 
                             {/* Static Index Number for Collapsed State */}
-                            <div className={`absolute top-6 left-6 md:top-8 md:left-8 transition-all duration-500 ${activeIndex === index ? 'opacity-0 scale-50' : 'opacity-100 scale-100'
+                            <div className={`absolute top-2 left-2 md:top-4 md:left-4 transition-all duration-500 ${activeIndex === index ? 'opacity-0 scale-50' : 'opacity-100 scale-100'
                                 }`}>
                                 <div className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-white/30 bg-white/10 backdrop-blur-md flex items-center justify-center shadow-xl">
                                     <span className="text-white font-mono text-base md:text-lg font-[400]">0{index + 1}</span>
