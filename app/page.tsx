@@ -6,6 +6,7 @@ import HomeMajorServices from '@/component/sections/HomeMajorServices';
 import HomeServices from '@/component/sections/HomeServices';
 import HomeSmartHealthcare from '@/component/sections/HomeSmartHealthcare';
 import HomeSystemWeWork from '@/component/sections/HomeSystemWeWork';
+import HomeAllService from '@/component/sections/HomeAllService';
 import HomePlatform from '@/component/sections/HomePlatform';
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <HomeSystemWeWork />
       <HomeAutomation />
       <HomeCertifications />
+      <HomeAllService />
       <HomePlatform />
     </>
   );
