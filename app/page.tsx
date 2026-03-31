@@ -10,6 +10,7 @@ import HomeAllService from '@/component/sections/HomeAllService';
 import HomePlatform from '@/component/sections/HomePlatform';
 import HomeBilingAndSoftware from '@/component/sections/HomeBilingAndSoftware';
 import HomeClients from '@/component/sections/HomeClients';
+import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
       <HomePlatform />
       <HomeBilingAndSoftware />
       <HomeClients />
+      <HomeClientTestimonials />
     </>
   );
 }
