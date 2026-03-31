@@ -9,6 +9,7 @@ import HomeSystemWeWork from '@/component/sections/HomeSystemWeWork';
 import HomeAllService from '@/component/sections/HomeAllService';
 import HomePlatform from '@/component/sections/HomePlatform';
 import HomeBilingAndSoftware from '@/component/sections/HomeBilingAndSoftware';
+import HomeClients from '@/component/sections/HomeClients';
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <HomeAllService />
       <HomePlatform />
       <HomeBilingAndSoftware />
+      <HomeClients />
     </>
   );
 }
