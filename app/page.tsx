@@ -8,6 +8,7 @@ import HomeSmartHealthcare from '@/component/sections/HomeSmartHealthcare';
 import HomeSystemWeWork from '@/component/sections/HomeSystemWeWork';
 import HomeAllService from '@/component/sections/HomeAllService';
 import HomePlatform from '@/component/sections/HomePlatform';
+import HomeBilingAndSoftware from '@/component/sections/HomeBilingAndSoftware';
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
       <HomeCertifications />
       <HomeAllService />
       <HomePlatform />
+      <HomeBilingAndSoftware />
     </>
   );
 }
