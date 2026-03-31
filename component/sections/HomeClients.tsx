@@ -1,4 +1,6 @@
-import Image from 'next/image';
+'use client';
+
+import { Stethoscope, UserRound } from 'lucide-react';
 
 const logos = [
     { src: '/images/insta_brans.png', alt: 'insta_brans' },
@@ -12,7 +14,16 @@ const logos = [
 
 export default function HomeClients() {
     return (
-        <section className="relative w-full bg-[#f7fbfe] overflow-hidden my-10 lg:my-20 py-10 lg:py-20">
+        <section className="relative w-full bg-[#f7fbfe] overflow-hidden my-10 lg:my-15 py-10 lg:py-20">
+            {/* Background Decorative Icons */}
+            <div className="absolute top-1/2 -right-32 -translate-y-1/2 opacity-[0.03] text-[#90c7e5] pointer-events-none animate-float hidden lg:block">
+                <UserRound size={600} strokeWidth={0.5} />
+            </div>
+
+            <div className="absolute -bottom-20 -left-20 opacity-[0.02] text-[#90c7e5] pointer-events-none rotate-12">
+                <Stethoscope size={400} strokeWidth={0.5} />
+            </div>
+
             <div className="max-w-[1400px] mx-auto px-4 relative z-10">
                 <div className="flex flex-col items-center text-center mb-10">
                     <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
@@ -52,6 +63,16 @@ export default function HomeClients() {
                     </div>
                 </div>
             </div>
+
+            <style jsx>{`
+                @keyframes float {
+                    0%, 100% { transform: translateY(-50%) translateX(0); }
+                    50% { transform: translateY(-55%) translateX(-10px); }
+                }
+                .animate-float {
+                    animation: float 10s ease-in-out infinite;
+                }
+            `}</style>
         </section>
     );
 }

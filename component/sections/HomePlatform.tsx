@@ -31,7 +31,7 @@ export default function HomePlatform() {
     const [activeTab, setActiveTab] = useState(tabs[1]);
 
     return (
-        <section className="w-full bg-[#fcfeff] py-10 lg:py-20 overflow-hidden">
+        <section className="w-full bg-[#fcfeff] py-10 lg:py-15 overflow-hidden">
             {/* Header Section */}
             <div className="max-w-[1400px] mx-auto px-4">
                 <div className="flex flex-col items-center text-center mb-4">

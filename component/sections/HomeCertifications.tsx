@@ -47,7 +47,7 @@ export default function HomeCertifications() {
     ]
 
     return (
-        <section className="w-full my-10 lg:my-20">
+        <section className="w-full my-10 lg:my-15">
             <div className="max-w-[1400px] mx-auto px-4">
                 {/* Header Section */}
                 <div className="flex flex-col items-center text-center mb-16">
