@@ -12,6 +12,7 @@ import HomeBilingAndSoftware from '@/component/sections/HomeBilingAndSoftware';
 import HomeClients from '@/component/sections/HomeClients';
 import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 import HomeFaq from '@/component/sections/HomeFaq';
+import HomeBlog from '@/component/sections/HomeBlog';
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
       <HomeBilingAndSoftware />
       <HomeClientTestimonials />
       <HomeFaq />
+      <HomeBlog />
     </>
   );
 }
