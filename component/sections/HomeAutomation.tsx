@@ -18,7 +18,7 @@ export default function HomeAutomation() {
                         <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                         <span>Our Mission</span>
                     </div>
-                    <h2 className="text-2xl font-medium leading-[1.3] text-[#fff] mt-4">
+                    <h2 className="text-2xl lg:text-3xl font-semibold leading-[1.3] text-[#fff] mt-4">
                         Built to Make Healthcare Technology Work <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">For Everyone Who Depends On It</span>
                     </h2>
                 </div>
@@ -28,7 +28,7 @@ export default function HomeAutomation() {
                         <div className="w-2.5 h-2.5 bg-[#60c6b1] rounded-full shadow-[0_0_10px_rgba(96,198,177,0.5)]" />
                         <span>Our Vision</span>
                     </div>
-                    <h2 className="text-2xl font-medium leading-[1.3] text-[#fff] mt-4">
+                    <h2 className="text-2xl lg:text-3xl font-semibold leading-[1.3] text-[#fff] mt-4">
                         A World Where No Patient Waits Longer Because of a <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Software Problem</span>
                     </h2>
                 </div>
