@@ -41,7 +41,7 @@ export default function HomeServices() {
     ];
 
     return (
-        <section className="w-full max-w-[1400px] mx-auto px-4 my-10">
+        <section className="w-full max-w-[1400px] mx-auto px-4 my-10 lg:my-15">
             <div className="bg-white rounded-[30px] p-4 lg:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.1)]">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {services.map((service, index) => {

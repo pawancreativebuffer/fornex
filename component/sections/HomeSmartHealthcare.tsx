@@ -19,7 +19,7 @@ export default function HomeSmartHealthcare() {
     ];
 
     return (
-        <section className="w-full max-w-[1400px] mx-auto px-4 my-10">
+        <section className="w-full max-w-[1400px] mx-auto px-4 my-10 lg:my-15">
             <div className="bg-white rounded-[40px] p-6 lg:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50 flex flex-col lg:flex-row items-center gap-12 lg:min-h-[600px] overflow-hidden relative">
 
                 {/* Left Side: Content & Stats */}

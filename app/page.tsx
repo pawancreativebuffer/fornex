@@ -31,12 +31,12 @@ export default function Home() {
       <HomeSmartHealthcare />
       <HomeMajorServices />
       <HomeSystemWeWork />
+      <HomeClients />
       <HomeAutomation />
       <HomeCertifications />
       <HomeAllService />
       <HomePlatform />
       <HomeBilingAndSoftware />
-      <HomeClients />
       <HomeClientTestimonials />
     </>
   );

@@ -1,6 +1,6 @@
 export default function HomeAutomation() {
     return (
-        <section className="w-full max-w-[1400px] mx-auto px-4 my-10">
+        <section className="w-full max-w-[1400px] mx-auto px-4">
             <div className="bg-[#000] h-[600px] rounded-[40px] p-6 lg:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50 flex justify-between flex-col overflow-hidden relative">
                 <video
                     src="/images/banner.mp4"
