@@ -13,6 +13,7 @@ import HomeClients from '@/component/sections/HomeClients';
 import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 import HomeFaq from '@/component/sections/HomeFaq';
 import HomeBlog from '@/component/sections/HomeBlog';
+import Footer from '@/component/layout/Footer';
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
       <HomeClientTestimonials />
       <HomeFaq />
       <HomeBlog />
+      <Footer />
     </>
   );
 }
