@@ -72,28 +72,18 @@ export default function HomeClientTestimonials() {
                     {/* Right Section: Testimonial Slider */}
                     <div className="relative group">
                         {/* Navigation Arrows (Matching Image Layout) */}
-                        <div className="hidden lg:flex justify-end mb-5 right-0 gap-4 pr-2">
+                        <div className="flex justify-center lg:justify-end mb-5 right-0 gap-4 pr-2">
                             <button
                                 onClick={prevSlide}
-                                className="text-white hover:text-white transition-colors flex items-center gap-2 group/btn cursor-pointer"
+                                className="text-white transition-colors flex items-center gap-2 group/btn cursor-pointer"
                             >
                                 <ArrowLeft className="w-8 h-8 transition-transform group-hover/btn:-translate-x-1" strokeWidth={1} />
                             </button>
                             <button
                                 onClick={nextSlide}
-                                className="text-white hover:text-white transition-colors flex items-center gap-2 group/btn cursor-pointer"
+                                className="text-white transition-colors flex items-center gap-2 group/btn cursor-pointer"
                             >
                                 <ArrowRight className="w-8 h-8 transition-transform group-hover/btn:translate-x-1" strokeWidth={1} />
-                            </button>
-                        </div>
-
-                        {/* Mobile Navigation */}
-                        <div className="flex lg:hidden justify-center lg:justify-end mb-6 gap-6">
-                            <button onClick={prevSlide} className="text-gray-500 hover:text-white transition-colors">
-                                <ArrowLeft className="w-8 h-8" strokeWidth={1} />
-                            </button>
-                            <button onClick={nextSlide} className="text-gray-500 hover:text-white transition-colors">
-                                <ArrowRight className="w-8 h-8" strokeWidth={1} />
                             </button>
                         </div>
 
