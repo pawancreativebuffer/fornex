@@ -33,22 +33,21 @@ export default function Footer() {
                 {/* Top Section */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-10">
                     {/* Logo Column */}
-                    <div className="lg:col-span-1">
+                    <div className="lg:col-span-1 flex justify-center items-start md:justify-start">
                         <Image
                             src="/images/f-logo.svg"
                             alt="Fornex Health Logo"
                             width={100}
                             height={60}
-                            className="mb-8"
                         />
                     </div>
 
                     {/* Company Column */}
                     <div className="lg:col-span-1">
-                        <h4 className="text-white font-[600] text-[18px] mb-8 tracking-wider uppercase">Company</h4>
+                        <h4 className="text-white font-[600] text-[18px] mb-8 tracking-wider uppercase flex justify-center items-start md:justify-start">Company</h4>
                         <ul className="flex flex-col gap-y-2">
                             {footerLinks.company.map((link) => (
-                                <li key={link.name} className="mb-0">
+                                <li key={link.name} className="mb-0  flex justify-center items-start md:justify-start">
                                     <Link href={link.href} className="flex items-center gap-2 hover:text-[#64d2b1] transition-colors group">
                                         <ChevronRight size={14} className="text-[#64d2b1]" />
                                         <span className="text-[14px] hover:translate-x-1 transition-transform">
@@ -62,10 +61,10 @@ export default function Footer() {
 
                     {/* Services Column */}
                     <div className="lg:col-span-1">
-                        <h4 className="text-white font-[600] text-[18px] mb-8 tracking-wider uppercase">Services</h4>
+                        <h4 className="text-white font-[600] text-[18px] mb-8 tracking-wider uppercase  flex justify-center items-start md:justify-start">Services</h4>
                         <ul className="flex flex-col gap-y-2">
                             {footerLinks.services.map((link) => (
-                                <li key={link.name} className="mb-0">
+                                <li key={link.name} className="mb-0  flex justify-center items-start md:justify-start">
                                     <Link href={link.href} className="flex items-center gap-2 hover:text-[#64d2b1] transition-colors group">
                                         <ChevronRight size={14} className="text-[#64d2b1]" />
                                         <span className="text-[14px] hover:translate-x-1 transition-transform">
