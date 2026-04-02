@@ -92,7 +92,7 @@ export default function HomeClientTestimonials() {
                             onMouseEnter={() => setIsPaused(true)}
                             onMouseLeave={() => setIsPaused(false)}
                             className="relative p-8 lg:p-14 
-                                bg-white/8 
+                                bg-white/40 
                                 backdrop-blur-xl 
                                 border 
                                 border-white/30 
@@ -104,7 +104,7 @@ export default function HomeClientTestimonials() {
                                 "
                         >
                             {/* Quote Icon */}
-                            <Quote size={80} className="text-white/30 absolute bottom-10 right-8" />
+                            <Quote size={80} className="text-[#aacee1] absolute bottom-10 right-8" />
 
                             <div
                                 key={currentSlide}
@@ -124,8 +124,8 @@ export default function HomeClientTestimonials() {
                                             />
                                         </div>
                                         <div>
-                                            <h4 className="text-white font-[600] text-xl">{testimonials[currentSlide].name}</h4>
-                                            <p className="text-white/70 text-sm font-medium">{testimonials[currentSlide].role}</p>
+                                            <h4 className="text-black font-[600] text-xl">{testimonials[currentSlide].name}</h4>
+                                            <p className="text-black/70 text-sm font-medium">{testimonials[currentSlide].role}</p>
                                         </div>
                                     </div>
                                 </div>
