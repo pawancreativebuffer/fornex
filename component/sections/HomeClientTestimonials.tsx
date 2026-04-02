@@ -53,12 +53,12 @@ export default function HomeClientTestimonials() {
     }, [nextSlide, isPaused]);
 
     return (
-        <section className="relative w-full overflow-hidden bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] py-10 lg:py-15 mt-10 lg:mt-15">
+        <section className="relative w-full overflow-hidden bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] py-10 lg:pt-15 lg:pb-25 mt-10 lg:mt-15">
             <div className="max-w-[1400px] mx-auto px-4 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
                     {/* Left Section: Content */}
-                    <div className="flex flex-col gap-8">
+                    <div className="flex flex-col gap-8 lg:mt-10">
                         <div className="space-y-6">
                             <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-white tracking-tight ">
                                 Trusted by Healthcare Leaders Across the Industry
