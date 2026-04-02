@@ -14,22 +14,22 @@ import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials'
 import HomeFaq from '@/component/sections/HomeFaq';
 import HomeBlog from '@/component/sections/HomeBlog';
 import Footer from '@/component/layout/Footer';
+import HomeBannerImages from '@/component/sections/HomeBannerImages';
 
 export default function Home() {
   return (
     <>
-      <section className="relative lg:h-[100vh] overflow-hidden flex justify-between flex-col pb-15 lg:pb-20 bg-[#000]">
-        <iframe
-          className="absolute h-full scale-125 opacity-70 lg:opacity-100"
-          src="https://app.spline.design/file/cb764323-8ee7-44af-8cd6-671fbc8f6c39?view=preview"
-          width="100%"
-          height="100%">
-        </iframe>
+      <section className="relative overflow-hidden flex justify-between flex-col bg-[#1a2b3c] pb-40 md:pb-80">
+        {/* Background Decorative Element */}
+        <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#60C6B1] rounded-full blur-[150px] opacity-50 pointer-events-none"></div>
+        <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-500 rounded-full blur-[150px] opacity-50 pointer-events-none"></div>
+
 
         <Header />
         <HomeBanner />
       </section>
 
+      <HomeBannerImages />
       <HomeServices />
       <HomeSmartHealthcare />
       <HomeMajorServices />
