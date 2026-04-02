@@ -88,7 +88,7 @@ export default function HomeClientTestimonials() {
                         </div>
 
                         {/* Mobile Navigation */}
-                        <div className="flex lg:hidden justify-end mb-6 gap-6">
+                        <div className="flex lg:hidden justify-center lg:justify-end mb-6 gap-6">
                             <button onClick={prevSlide} className="text-gray-500 hover:text-white transition-colors">
                                 <ArrowLeft className="w-8 h-8" strokeWidth={1} />
                             </button>
