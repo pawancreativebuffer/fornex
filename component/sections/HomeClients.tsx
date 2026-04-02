@@ -14,7 +14,7 @@ const logos = [
 
 export default function HomeClients() {
     return (
-        <section className="relative w-full bg-[#f7fbfe] overflow-hidden my-10 lg:my-15 py-10 lg:py-20">
+        <section className="relative w-full bg-[#f7fbfe] overflow-hidden mt-10 lg:mt-15 py-10 lg:py-20">
             {/* Background Decorative Icons */}
             <div className="absolute top-1/2 -right-32 -translate-y-1/2 opacity-[0.03] text-[#90c7e5] pointer-events-none animate-float hidden lg:block">
                 <UserRound size={600} strokeWidth={0.5} />
