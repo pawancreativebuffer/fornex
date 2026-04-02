@@ -101,22 +101,32 @@ export default function HomeClientTestimonials() {
                         <div
                             onMouseEnter={() => setIsPaused(true)}
                             onMouseLeave={() => setIsPaused(false)}
-                            className="relative p-8 lg:p-14 bg-[#1A1A1A]/80 backdrop-blur-xl border border-white/5 rounded-[40px] overflow-hidden transition-all duration-700 hover:border-white/10 hover:shadow-2xl hover:shadow-[#90c7e5]/5 group/card"
+                            className="relative p-8 lg:p-14 
+                                bg-white/15 
+                                backdrop-blur-xl 
+                                border 
+                                border-white/30 
+                                rounded-[1rem]
+                                lg:rounded-[40px]
+                                shadow-[0_0_60px_rgba(0,0,0,0.05)]
+                                overflow-hidden 
+                                transition-all duration-700  
+                                "
                         >
                             {/* Quote Icon */}
-                            <Quote size={80} className="text-white/10 absolute top-8 left-8" />
+                            <Quote size={80} className="text-white/50 absolute bottom-10 right-8" />
 
                             <div
                                 key={currentSlide}
                                 className="animate-slide-up relative z-10 space-y-12 h-full flex flex-col justify-between"
                             >
-                                <p className="text-gray-300 text-xl lg:text-[26px] leading-[1.6] font-medium min-h-[160px]">
+                                <p className="text-black-300 text-base font-regular leading-relaxed min-h-[100px]">
                                     "{testimonials[currentSlide].text}"
                                 </p>
 
-                                <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 pt-10 border-t border-white/5">
+                                <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 pt-10 border-t border-white/30">
                                     <div className="flex items-center gap-5">
-                                        <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#90c7e5]/30 group-hover:scale-110 transition-transform duration-500">
+                                        <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#fff]/30 group-hover:scale-110 transition-transform duration-500">
                                             <img
                                                 src={testimonials[currentSlide].image}
                                                 alt={testimonials[currentSlide].name}
@@ -124,22 +134,9 @@ export default function HomeClientTestimonials() {
                                             />
                                         </div>
                                         <div>
-                                            <h4 className="text-white font-bold text-xl">{testimonials[currentSlide].name}</h4>
-                                            <p className="text-[#90c7e5] text-sm font-medium">{testimonials[currentSlide].role}</p>
+                                            <h4 className="text-white font-[600] text-xl">{testimonials[currentSlide].name}</h4>
+                                            <p className="text-white/70 text-sm font-medium">{testimonials[currentSlide].role}</p>
                                         </div>
-                                    </div>
-
-                                    <div className="flex items-center gap-2">
-                                        <div className="flex">
-                                            {[...Array(5)].map((_, i) => (
-                                                <Star
-                                                    key={i}
-                                                    size={18}
-                                                    className={`fill-current ${i < testimonials[currentSlide].rating ? "text-[#90c7e5]" : "text-gray-700"}`}
-                                                />
-                                            ))}
-                                        </div>
-                                        <span className="text-gray-400 font-bold ml-2">5.0</span>
                                     </div>
                                 </div>
                             </div>
