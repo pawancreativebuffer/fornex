@@ -49,7 +49,7 @@ export default function HomeFaq() {
     };
 
     return (
-        <section className="relative w-full bg-[#f7fbfe] py-12 lg:py-20">
+        <section className="relative w-full bg-[#f7fbfe] py-10 lg:py-15">
             <div className="max-w-[1200px] mx-auto px-4">
 
                 {/* Heading */}
