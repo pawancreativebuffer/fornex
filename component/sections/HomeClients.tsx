@@ -39,8 +39,8 @@ export default function HomeClients() {
                 {/* Infinite Marquee Container */}
                 <div className="relative group select-none">
                     {/* Gradient Overlays for smooth entry/exit */}
-                    <div className="absolute left-0 top-0 bottom-0 w-32 md:w-64 bg-gradient-to-r from-[#f7fbfe] to-transparent z-10 pointer-events-none" />
-                    <div className="absolute right-0 top-0 bottom-0 w-32 md:w-64 bg-gradient-to-l from-[#f7fbfe] to-transparent z-10 pointer-events-none" />
+                    <div className="absolute left-0 top-0 bottom-0 w-32 md:w-64 bg-gradient-to-r from-[#fff] to-transparent z-10 pointer-events-none" />
+                    <div className="absolute right-0 top-0 bottom-0 w-32 md:w-64 bg-gradient-to-l from-[#fff] to-transparent z-10 pointer-events-none" />
 
                     <div className="flex overflow-hidden">
                         <div className="flex items-center gap-5 md:gap-10 py-8 animate-marquee">
