@@ -50,7 +50,7 @@ export default function HomeClients() {
                                     key={index}
                                     className="flex-shrink-0 flex items-center justify-center p-6 md:p-8 rounded-3xl glass-card w-[220px] md:w-[280px] h-[100px] md:h-[130px] group/card hover:shadow-2xl hover:shadow-[#90c7e5]/20 hover:-translate-y-1.5 transition-all duration-500 ease-out"
                                 >
-                                    <div className="relative grayscale opacity-50 group-hover/card:grayscale-0 group-hover/card:opacity-100 transition-all duration-500 transform group-hover/card:scale-105">
+                                    <div className="relative group-hover/card:grayscale-0 group-hover/card:opacity-100 transition-all duration-500 transform group-hover/card:scale-105">
                                         <img
                                             src={logo.src}
                                             alt={logo.alt}
