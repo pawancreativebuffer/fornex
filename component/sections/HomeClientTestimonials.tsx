@@ -102,7 +102,7 @@ export default function HomeClientTestimonials() {
                             onMouseEnter={() => setIsPaused(true)}
                             onMouseLeave={() => setIsPaused(false)}
                             className="relative p-8 lg:p-14 
-                                bg-white/15 
+                                bg-white/8 
                                 backdrop-blur-xl 
                                 border 
                                 border-white/30 
@@ -114,17 +114,17 @@ export default function HomeClientTestimonials() {
                                 "
                         >
                             {/* Quote Icon */}
-                            <Quote size={80} className="text-white/50 absolute bottom-10 right-8" />
+                            <Quote size={80} className="text-white/30 absolute bottom-10 right-8" />
 
                             <div
                                 key={currentSlide}
                                 className="animate-slide-up relative z-10 space-y-12 h-full flex flex-col justify-between"
                             >
-                                <p className="text-black-300 text-base font-regular leading-relaxed min-h-[100px]">
+                                <p className="text-black-300 text-base font-regular leading-relaxed min-h-[100px] mb-8">
                                     "{testimonials[currentSlide].text}"
                                 </p>
 
-                                <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 pt-10 border-t border-white/30">
+                                <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 pt-8 border-t border-white/30">
                                     <div className="flex items-center gap-5">
                                         <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#fff]/30 group-hover:scale-110 transition-transform duration-500">
                                             <img
