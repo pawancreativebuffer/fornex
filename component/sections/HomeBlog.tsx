@@ -68,7 +68,12 @@ export default function HomeBlog() {
 
     const scroll = (direction: 'left' | 'right') => {
         if (!scrollRef.current) return;
-        const scrollAmount = scrollRef.current.clientWidth * 0.8; // Scroll about 80% to show next card
+        const card = scrollRef.current.firstElementChild as HTMLElement;
+        if (!card) return;
+        const cardWidth = card.clientWidth;
+        const gap = 24; // Consistent with gap-6
+        const scrollAmount = cardWidth + gap;
+
         scrollRef.current.scrollBy({
             left: direction === 'left' ? -scrollAmount : scrollAmount,
             behavior: 'smooth'
