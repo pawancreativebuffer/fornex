@@ -13,12 +13,12 @@ export default function Footer() {
         company: [
             { name: "About Us", href: "#" },
             { name: "Our Team", href: "#" },
-            { name: "Careers", href: "#" },
-            { name: "Press", href: "#" },
+            { name: "Services", href: "#" },
+            { name: "Case Studies", href: "#" },
             { name: "Contact", href: "#" },
         ],
         services: [
-            { name: "Healthcare Software Development", href: "#" },
+            { name: "Healthcare Software", href: "#" },
             { name: "Medical Billing & RCM", href: "#" },
             { name: "EHR Integration", href: "#" },
             { name: "Health Tech Startup Services", href: "#" },
@@ -31,7 +31,7 @@ export default function Footer() {
         <footer className="bg-[#1a1d21] text-gray-400 pt-10 lg:pt-15">
             <div className="max-w-[1400px] mx-auto px-4">
                 {/* Top Section */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-10">
                     {/* Logo Column */}
                     <div className="lg:col-span-1">
                         <Image
@@ -78,7 +78,7 @@ export default function Footer() {
                     </div>
 
                     {/* Newsletter Column */}
-                    <div className="lg:col-span-1">
+                    <div className="lg:col-span-2">
                         <div className="bg-[#24272b] p-6 lg:p-8 rounded-2xl border border-gray-800 shadow-xl">
                             <h4 className="text-white font-bold text-[18px] mb-4 tracking-wider uppercase">Newsletter</h4>
                             <p className="text-[14px] text-gray-400 mb-6 leading-relaxed">
