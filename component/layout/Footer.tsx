@@ -46,9 +46,9 @@ export default function Footer() {
                     {/* Company Column */}
                     <div className="lg:col-span-1">
                         <h4 className="text-white font-[600] text-[18px] mb-8 tracking-wider uppercase">Company</h4>
-                        <ul className="space-y-3">
+                        <ul className="flex flex-col gap-y-2">
                             {footerLinks.company.map((link) => (
-                                <li key={link.name}>
+                                <li key={link.name} className="mb-0">
                                     <Link href={link.href} className="flex items-center gap-2 hover:text-[#64d2b1] transition-colors group">
                                         <ChevronRight size={14} className="text-[#64d2b1]" />
                                         <span className="text-[14px] hover:translate-x-1 transition-transform">
@@ -63,9 +63,9 @@ export default function Footer() {
                     {/* Services Column */}
                     <div className="lg:col-span-1">
                         <h4 className="text-white font-[600] text-[18px] mb-8 tracking-wider uppercase">Services</h4>
-                        <ul className="space-y-3">
+                        <ul className="flex flex-col gap-y-2">
                             {footerLinks.services.map((link) => (
-                                <li key={link.name}>
+                                <li key={link.name} className="mb-0">
                                     <Link href={link.href} className="flex items-center gap-2 hover:text-[#64d2b1] transition-colors group">
                                         <ChevronRight size={14} className="text-[#64d2b1]" />
                                         <span className="text-[14px] hover:translate-x-1 transition-transform">
@@ -88,12 +88,12 @@ export default function Footer() {
                                 <input
                                     type="email"
                                     placeholder="Email Address *"
-                                    className="w-full bg-[#1a1d21] border border-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#64d2b1] transition-colors text-white placeholder:text-gray-600"
+                                    className="w-full bg-[#1a1d21] border border-gray-700 rounded-full px-4 py-3 text-sm focus:outline-none focus:border-[#64d2b1] transition-colors text-white placeholder:text-gray-600"
                                     required
                                 />
                                 <button
                                     type="submit"
-                                    className="w-full bg-[#64d2b1] text-[#1a1d21] font-bold py-3 rounded-xl hover:bg-[#52b396] transition-colors cursor-pointer text-sm"
+                                    className="w-full bg-[#64d2b1] text-[#1a1d21] font-[500] py-3 rounded-full hover:bg-[#52b396] transition-colors cursor-pointer text-sm"
                                 >
                                     Submit
                                 </button>
