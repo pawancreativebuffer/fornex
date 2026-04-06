@@ -51,13 +51,16 @@ export default function HomeSmartHealthcare() {
                 </div>
 
 
-                <div className="relative hidden lg:block lg:absolute lg:scale-125 h-[400px] lg:h-full w-full">
-                    <iframe
-                        className="absolute h-full w-full"
-                        src="https://app.spline.design/file/5030c9d9-2853-4aba-8a86-ee31fba0afd9?view=preview"
-                        width="100%"
-                        height="100%">
-                    </iframe>
+                <div className="w-full lg:w-1/2 relative h-auto lg:h-[500px] overflow-hidden flex items-center rounded-3xl">
+                    <video
+                        src="/images/medical.mp4"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        className="w-full"
+                    >
+                    </video>
                 </div>
             </div>
         </section>
