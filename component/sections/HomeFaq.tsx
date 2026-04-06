@@ -103,7 +103,7 @@ export default function HomeFaq() {
                                 </button>
 
                                 {/* Answer */}
-                                <div className={`overflow-hidden transition-all duration-300 px-6 ${isOpen ? "max-h-[200px] pb-6" : "max-h-0"}`}>
+                                <div className={`overflow-hidden transition-all duration-300 px-6 ${isOpen ? "max-h-[500px] pb-6 overflow-auto" : "max-h-0"}`}>
                                     <p className="text-gray-500 text-base font-regular leading-relaxed">
                                         {faq.answer}
                                     </p>
