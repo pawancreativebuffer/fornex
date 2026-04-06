@@ -1,6 +1,7 @@
 import Header from '@/component/layout/Header'
 import Footer from '@/component/layout/Footer';
 import ServicesBanner from '@/component/sections/ServicesBanner';
+import ServicesAll from '@/component/sections/ServicesAll';
 
 export default function ServicePage() {
     return (
@@ -14,6 +15,7 @@ export default function ServicePage() {
                 <ServicesBanner />
             </section>
 
+            <ServicesAll />
             <Footer />
         </>
     )
