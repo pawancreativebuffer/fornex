@@ -61,7 +61,7 @@ const services = [
 
 export default function ServicesAll() {
     return (
-        <section className="w-full py-10 lg:py-15 bg-[#FCFEFF] relative overflow-hidden">
+        <section className="w-full py-10 lg:py-15 relative overflow-hidden">
             {/* Background Decorative Elements */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-50 rounded-full blur-3xl opacity-30 -translate-y-1/2 translate-x-1/2" />
             <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-teal-50 rounded-full blur-3xl opacity-30 translate-y-1/2 -translate-x-1/2" />
@@ -90,7 +90,7 @@ export default function ServicesAll() {
                         return (
                             <div
                                 key={service.id}
-                                className={`group relative p-6 lg:p-10 rounded-3xl border border-gray-100 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.06)] hover:-translate-y-2 flex flex-col overflow-hidden ${service.size === 'lg' ? 'lg:col-span-2' : ''
+                                className={`group relative p-6 lg:p-10 rounded-3xl border border-gray-100 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.04)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.08)] hover:-translate-y-2 flex flex-col overflow-hidden ${service.size === 'lg' ? 'lg:col-span-2' : ''
                                     }`}
                             >
                                 {/* Hover Glow */}
