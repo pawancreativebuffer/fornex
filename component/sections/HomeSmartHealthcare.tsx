@@ -58,7 +58,7 @@ export default function HomeSmartHealthcare() {
                         muted
                         loop
                         playsInline
-                        className="w-full"
+                        className="w-full lg:translate-y-[-20px]"
                     >
                     </video>
                 </div>

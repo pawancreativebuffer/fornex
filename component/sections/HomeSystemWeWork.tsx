@@ -14,41 +14,45 @@ export default function HomeSystemWeWork() {
 
     const partners = [
         {
-            name: "/images/athenahealth.png",
-            description: "Cloud-based EHR for ambulatory care",
-            position: "top-[9%] left-[15%] lg:-translate-x-1/2",
-            delay: "0s",
+            name: "/images/epic.png",
+            description: "Industry standard for large health systems",
+            delay: "0.4s",
+        },
+        {
+            name: "/images/pcca.png",
+            description: "Simple, cloud-based EHR for small practices",
+            delay: "0.4s",
         },
         {
             name: "/images/e-clinic.png",
             description: "Widely used by independent practices",
-            position: "top-[10%] right-[0%]",
             delay: "0.1s",
         },
         {
             name: "/images/nextgen.png",
-            description: "Multi-specialty group practices",
-            position: "top-[45%] right-[-10%]",
+            description: "Designed for multi-specialty practices",
             delay: "0.2s",
         },
         {
-            name: "/images/kareo.png",
-            description: "Built for small to mid-size practices",
-            position: "bottom-[0%] right-[0%]",
-            delay: "0.3s",
-        },
-        {
-            name: "/images/epic.png",
-            description: "Industry standard for large health systems",
-            position: "bottom-[0%] left-[20%] lg:-translate-x-1/2",
-            delay: "0.4s",
-        },
-        {
             name: "/images/oracle.png",
-            description: "Enterprise EHR for hospitals",
-            position: "top-[45%] left-[-15%]",
+            description: "Enterprise EHR for modern healthcare organizations",
             delay: "0.5s",
-        }
+        },
+        {
+            name: "/images/cerner.png",
+            description: "Trusted EHR for hospitals and health networks",
+            delay: "0.5s",
+        },
+        // {
+        //     name: "/images/athenahealth.png",
+        //     description: "Cloud-based EHR for ambulatory care",
+        //     delay: "0s",
+        // },
+        // {
+        //     name: "/images/kareo.png",
+        //     description: "Built for small to mid-size practices",
+        //     delay: "0.3s",
+        // }
     ];
 
     return (
@@ -91,23 +95,17 @@ export default function HomeSystemWeWork() {
                 </div>
 
                 {/* Right Visuals */}
-                <div className="relative lg:h-[700px] w-full flex justify-center">
-
-                    {/* Main Character Placeholder with Glow */}
-                    <div className="flex item-start scale-115 hidden lg:block">
-                        <img src="/images/doctor.png" alt='doctor' />
-                    </div>
+                <div className="relative w-full flex justify-center">
 
                     {/* Partner Floating Cards (Visible only on lg screens) */}
-                    <div className="relative lg:absolute inset-0 z-20 pointer-events-none grid sm:grid-cols-1 md:grid-cols-2 gap-4 w-full">
+                    <div className="relative grid sm:grid-cols-1 md:grid-cols-2 gap-6 w-full">
                         {partners.map((partner, idx) => (
                             <div
                                 key={idx}
-                                style={{ animationDelay: `${idx * 0.8}s` }}
-                                className={`static lg:absolute bg-white/95 backdrop-blur-md p-5 rounded-[1.8rem] shadow-[0_15px_40px_rgba(0,0,0,0.06)] border border-gray-100 w-full lg:w-[240px] pointer-events-auto transition-all hover:scale-110 hover:-translate-y-3 hover:shadow-[0_30px_60px_rgba(0,0,0,0.12)] hover:z-30 duration-500 animate-float ${partner.position}`}
+                                className={`w-full bg-white/95 backdrop-blur-md p-6 rounded-[1rem] shadow-[0_15px_40px_rgba(0,0,0,0.06)] border border-gray-100 w-full transition-all hover:scale-110 hover:shadow-[0_30px_60px_rgba(0,0,0,0.12)] hover:z-30 duration-500`}
                             >
                                 <div className="mb-4 flex items-center justify-center">
-                                    <img src={partner.name} alt={partner.name} className="w-auto h-[40px] object-contain" />
+                                    <img src={partner.name} alt={partner.name} className="w-auto h-[90px] object-contain" />
                                 </div>
                                 <p className="text-gray-500 text-sm text-center font-regular leading-snug">
                                     {partner.description}
