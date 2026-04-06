@@ -1,6 +1,6 @@
 import Header from '@/component/layout/Header'
 import Footer from '@/component/layout/Footer';
-import HomeBanner from '@/component/sections/HomeBanner';
+import ServicesBanner from '@/component/sections/ServicesBanner';
 
 export default function ServicePage() {
     return (
@@ -11,7 +11,7 @@ export default function ServicePage() {
                 <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-500 rounded-full blur-[150px] opacity-70 pointer-events-none"></div>
 
                 <Header />
-                <HomeBanner />
+                <ServicesBanner />
             </section>
 
             <Footer />
