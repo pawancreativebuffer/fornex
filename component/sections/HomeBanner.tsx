@@ -61,7 +61,7 @@ export default function HomeBanner() {
 
                         <iframe
                             className="w-full h-full"
-                            src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+                            src="https://www.youtube.com/embed/HBgV4_InaZ8?autoplay=1"
                             title="Product Demo Video"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
