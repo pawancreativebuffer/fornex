@@ -13,7 +13,7 @@ export default function HomeBanner() {
     ];
 
     return (
-        <div className="w-full max-w-[1400px] mx-auto px-4 py-20 flex flex-wrap justify-between gap-10 relative z-50">
+        <div className="w-full max-w-[1400px] mx-auto px-4 py-20 flex flex-wrap justify-between gap-10 relative z-100">
             <div className="flex flex-col w-full max-w-[100%] lg:max-w-[620px]">
                 <h5 className="flex items-center gap-2 mx-auto lg:mx-0 lg:mb-5 font-[500] text-[18px] text-[#fff] bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-5 py-2 w-fit">
                     <Brain /> AI Innovation for
@@ -50,7 +50,7 @@ export default function HomeBanner() {
 
             {/* Video Modal */}
             {isVideoOpen && (
-                <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm">
+                <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/80 backdrop-blur-sm">
                     <div className="relative w-full max-w-4xl mx-4 aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl border border-white/10 animate-[fadeIn_0.3s_ease-out]">
                         <button
                             onClick={() => setIsVideoOpen(false)}
