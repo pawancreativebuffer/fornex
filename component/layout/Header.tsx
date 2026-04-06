@@ -2,11 +2,13 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 import Image from "next/image";
 import { ChevronRight, Menu, X } from "lucide-react";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const pathname = usePathname();
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -14,7 +16,7 @@ export default function Header() {
 
     const navLinks = [
         { name: "Home", href: "/" },
-        { name: "Services", href: "#" },
+        { name: "Services", href: "/services" },
         { name: "Clients", href: "#" },
         { name: "Case Studies", href: "#" },
         { name: "Blogs", href: "#" },
@@ -39,11 +41,24 @@ export default function Header() {
 
                 {/* Desktop Navigation */}
                 <nav className="hidden lg:flex items-center gap-7 text-[#2B2E34] text-[16px] font-medium">
-                    {navLinks.map((link) => (
-                        <Link key={link.name} href={link.href} className="hover:text-[#60C6B1] transition-colors">
-                            {link.name}
-                        </Link>
-                    ))}
+                    <nav className="hidden lg:flex items-center gap-7 text-[#2B2E34] text-[16px] font-medium">
+                        {navLinks.map((link) => {
+                            const isActive = pathname === link.href;
+
+                            return (
+                                <Link
+                                    key={link.name}
+                                    href={link.href}
+                                    className={`transition-colors ${isActive
+                                        ? 'text-[#60C6B1]'
+                                        : 'text-[#2B2E34] hover:text-[#60C6B1]'
+                                        }`}
+                                >
+                                    {link.name}
+                                </Link>
+                            );
+                        })}
+                    </nav>
                 </nav>
 
                 {/* Desktop Buttons & Mobile Toggle */}
