@@ -6,32 +6,32 @@ import { ArrowRight } from 'lucide-react';
 const services = [
     {
         id: 1,
-        title: "Healthcare Software Development",
-        description: "Custom-built medical software solutions designed to digitize patient care, streamline clinical operations, and ensure data security across all platforms.",
+        title: "Carevation",
+        description: "Caregivers struggled to manage appointments, medications, and medical records across scattered tools, causing coordination challenges. ForNex Health built a centralized caregiving platform to organize health records, appointments, medications, and daily care tasks.",
         image: "/images/one.jpg",
     },
     {
         id: 2,
-        title: "EHR / EMR Integration & Development",
-        description: "Expert integration services connecting your practice with leading Electronic Health Records systems for seamless data exchange and interoperability.",
+        title: "Oasis Notes",
+        description: "Providers struggled with fragmented documentation and inefficient workflows while accessing patient records across multiple system screens. ForNex Health optimized workflows and unified patient records, enabling faster access to history, labs, diagnoses, and medications.",
         image: "/images/two.jpg",
     },
     {
         id: 3,
-        title: "Website & Mobile App Development",
-        description: "Creating intuitive, HIPAA-compliant patient portals, telehealth platforms, and mobile apps that enhance user engagement and clinical efficiency.",
+        title: "Manhattan Cardiovascular Associates",
+        description: "High claim denial rate (22%) causing $180,000/month in revenue loss. Outdated EHR with no patient portal integration. ForNex implemented denial management workflows, automated claim scrubbing, and a patient-facing portal integrated with their existing eClinicalWorks EHR.",
         image: "/images/three.jpg",
     },
     {
         id: 4,
-        title: "Medical Billing & Revenue Cycle Management",
-        description: "Optimizing your revenue cycle with advanced billing software and management tools that reduce denials and accelerate payment cycles.",
+        title: "Apollo 360 Health",
+        description: "Needed a HIPAA-compliant telehealth platform and EHR integration from scratch. 6-month launch deadline. ForNex developed a custom patient portal, video consultation module, and FHIR R4 integration with Athenahealth — deployed on AWS HIPAA architecture.",
         image: "/images/four.jpg",
     },
     {
         id: 5,
-        title: "Growth & Digital Marketing Solutions",
-        description: "Data-driven marketing strategies specifically tailored for healthcare providers to grow their patient base and strengthen their digital presence.",
+        title: "Super School Org",
+        description: "Super School Org needed an engaging, mobile-first solution to help parents stay connected to their child's educational journey in real time. We developed a seamless mobile app that allows parents to track progress, receive updates, communicate with teachers, and access resources from anywhere, anytime.",
         image: "/images/five.png",
     },
 ];
@@ -77,7 +77,7 @@ export default function HomeMajorServices() {
                                     {service.description}
                                 </p>
                                 <button className="flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-bold text-sm hover:bg-blue-600 hover:text-white transition-all duration-300 transform group-hover:translate-x-1">
-                                    LEARN MORE <ArrowRight size={18} />
+                                    Read Full Case Study <ArrowRight size={18} />
                                 </button>
                             </div>
 
@@ -85,7 +85,7 @@ export default function HomeMajorServices() {
                             <div className={`absolute inset-0 flex items-center justify-center transition-opacity duration-500 ${activeIndex === index ? 'opacity-0' : 'opacity-100'
                                 }`}>
                                 <div className="relative h-full w-full flex items-center justify-center">
-                                    <h3 className="text-white pl-14 pr-5 md:pl-0 md:pr-0 text-xs md:text-xl font-bold text-center md:min-w-[300px] md:-rotate-90 origin-center tracking-wide uppercase opacity-80 group-hover:opacity-100 transition-all duration-300">
+                                    <h3 className="text-white pl-14 pr-5 md:pl-0 md:pr-0 text-xs md:text-xl font-bold text-center md:min-w-[330px] md:-rotate-90 origin-center tracking-wide uppercase opacity-80 group-hover:opacity-100 transition-all duration-300">
                                         {service.title}
                                     </h3>
                                 </div>
