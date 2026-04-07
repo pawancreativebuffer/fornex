@@ -68,7 +68,7 @@ export default function HomeMajorServices() {
                             <div className={`transition-all duration-700 delay-100 ${activeIndex === index ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0 pointer-events-none'
                                 }`}>
                                 <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-regular text-white mb-4 tracking-wider uppercase">
-                                    Service 0{index + 1}
+                                    Case Study 0{index + 1}
                                 </span>
                                 <h3 className="text-2xl md:text-4xl font-bold text-white mb-4 leading-tight max-w-md">
                                     {service.title}

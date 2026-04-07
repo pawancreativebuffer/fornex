@@ -64,9 +64,9 @@ export default function Header() {
                 {/* Desktop Buttons & Mobile Toggle */}
                 <div className="flex items-center gap-3">
                     <div className="hidden lg:flex items-center gap-3">
-                        <button className="px-8 py-3 rounded-full border border-[#60C6B1] text-[#60C6B1] hover:bg-[#60C6B1] hover:text-[#fff] cursor-pointer transition font-medium">
+                        <Link href="/contact" className="px-8 py-3 rounded-full border border-[#60C6B1] text-[#60C6B1] hover:bg-[#60C6B1] hover:text-[#fff] cursor-pointer transition font-medium">
                             Contact us
-                        </button>
+                        </Link>
 
                         <button className="px-5 py-3 rounded-full border border-[#6896af] text-[#fff] bg-[#6896af] hover:bg-[#fff] hover:text-[#6896af] cursor-pointer transition flex items-center gap-2 font-medium">
                             Get Consultation
@@ -105,9 +105,9 @@ export default function Header() {
                     </nav>
 
                     <div className="flex flex-col gap-4">
-                        <button className="w-full px-6 py-4 rounded-full border border-[#60C6B1] text-[#60C6B1] font-semibold">
+                        <Link href="/contact" className="w-full px-6 py-4 rounded-full border border-[#60C6B1] text-[#60C6B1] font-semibold">
                             Contact us
-                        </button>
+                        </Link>
                         <button className="w-full px-4 py-4 rounded-full bg-[#6896af] text-white flex items-center justify-center gap-2 font-semibold">
                             Get Consultation
                             <ChevronRight size={20} />
