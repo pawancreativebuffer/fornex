@@ -6,6 +6,7 @@ import ServiceHowWeDeliver from '@/component/sections/ServicesHowWeDeliver';
 import ServiceInfo from '@/component/sections/ServicesInfo';
 import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 import HomeFaq from '@/component/sections/HomeFaq';
+import ServiceReady from '@/component/sections/ServicesReady';
 
 export default function ServicePage() {
     return (
@@ -24,6 +25,7 @@ export default function ServicePage() {
             <ServiceInfo />
             <HomeClientTestimonials />
             <HomeFaq />
+            <ServiceReady />
             <Footer />
         </>
     )
