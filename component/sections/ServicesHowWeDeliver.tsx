@@ -23,7 +23,7 @@ export default function ServiceHowWeDeliver() {
     ];
 
     return (
-        <section className="w-full relative py-15 bg-[#f7fbfe] overflow-hidden">
+        <section className="w-full relative py-10 lg:py-15 bg-[#f7fbfe] overflow-hidden">
             <div className="max-w-[1400px] mx-auto px-4 text-center">
                 {/* Header Section */}
 

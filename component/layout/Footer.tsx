@@ -11,9 +11,9 @@ export default function Footer() {
 
     const footerLinks = {
         company: [
-            { name: "About Us", href: "#" },
-            { name: "Our Team", href: "#" },
-            { name: "Services", href: "#" },
+            { name: "Home", href: "/" },
+            { name: "Services", href: "/services" },
+            { name: "Clients", href: "#" },
             { name: "Case Studies", href: "#" },
             { name: "Contact", href: "#" },
         ],
