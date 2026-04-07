@@ -77,7 +77,7 @@ export default function ServiceInfo() {
 
                                 {/* Badge */}
                                 <div
-                                    className="absolute top-6 left-10 md:top-8 md:left-12 lg:top-7 lg:left-8 xl:top-6 xl:left-8 w-12 h-12 rounded-full flex items-center justify-center text-white text-[14px] font-black shadow-xl z-20 border-[4px] border-white transition-all duration-500 group-hover:scale-110 group-hover:-rotate-12"
+                                    className="absolute top-8 left-10 md:top-8 md:left-12 lg:top-8 lg:left-8 w-12 h-12 rounded-full flex items-center justify-center text-white text-[14px] font-black shadow-xl z-20 border-[4px] border-white transition-all duration-500 group-hover:scale-110 group-hover:-rotate-12"
                                     style={{ backgroundColor: stat.color }}
                                 >
                                     0{index + 1}
