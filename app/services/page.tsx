@@ -4,6 +4,8 @@ import ServicesBanner from '@/component/sections/ServicesBanner';
 import ServicesAll from '@/component/sections/ServicesAll';
 import ServiceHowWeDeliver from '@/component/sections/ServicesHowWeDeliver';
 import ServiceInfo from '@/component/sections/ServicesInfo';
+import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
+import HomeFaq from '@/component/sections/HomeFaq';
 
 export default function ServicePage() {
     return (
@@ -20,6 +22,8 @@ export default function ServicePage() {
             <ServicesAll />
             <ServiceHowWeDeliver />
             <ServiceInfo />
+            <HomeClientTestimonials />
+            <HomeFaq />
             <Footer />
         </>
     )

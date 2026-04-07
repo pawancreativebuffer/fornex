@@ -28,7 +28,7 @@ export default function ServiceInfo() {
     ];
 
     return (
-        <section className="w-full relative py-10 lg:pt-15 lg:pb-30 bg-white overflow-hidden">
+        <section className="w-full relative py-10 lg:pt-15 lg:pb-15 bg-white overflow-hidden">
             <div className="max-w-[1400px] mx-auto px-4 relative z-10">
                 <div className="flex flex-wrap justify-center items-center lg:flex-nowrap lg:-space-x-15">
                     {stats.map((stat, index) => (
