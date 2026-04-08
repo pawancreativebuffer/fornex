@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from 'react';
-import { ArrowUpRight, ExternalLink, TrendingUp, CheckCircle2, FlaskConical, Stethoscope } from "lucide-react";
+import { ArrowUpRight, ExternalLink, TrendingUp, } from "lucide-react";
 import Link from 'next/link';
 
 const CLIENTS_DATA = [
