@@ -69,16 +69,13 @@ export default function ClientList() {
 
                     {/* Left Sticky Column */}
                     <div className="md:sticky md:top-25 md:self-start z-20">
-
                         <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                             <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                             <span> Success Stories</span>
                         </div>
-
                         <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#1a2b3c] mb-4 lg:mb-8">
                             Empowering <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Industry Leaders</span> to innovate.
                         </h2>
-
                         <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-8 lg:max-w-[500px]">
                             We partner with the world's most innovative healthcare institutions to build scalable, secure, and future-ready digital ecosytems.
                         </p>
@@ -97,7 +94,7 @@ export default function ClientList() {
                     </div>
 
                     {/* Right Scrollable Column */}
-                    <div className="flex flex-col gap-20 lg:gap-32">
+                    <div className="flex flex-col gap-20 lg:gap-30">
                         {CLIENTS_DATA.map((client, index) => (
                             <div
                                 key={client.id}
@@ -117,7 +114,7 @@ export default function ClientList() {
                                             <div>
                                                 <h3 className="text-2xl lg:text-4xl font-[700] text-[#1a2b3c] group-hover:translate-x-2 transition-transform duration-500">{client.name}</h3>
                                                 <div className="flex items-center gap-3 mt-2">
-                                                    <span className="px-3 py-0.5 rounded-full bg-slate-100 text-slate-500 text-[10px] font-bold uppercase tracking-wider">{client.category}</span>
+                                                    <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-500 text-[12px] font-bold uppercase tracking-wider">{client.category}</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -129,14 +126,14 @@ export default function ClientList() {
                                     {/* Item Body */}
                                     <div className="grid md:grid-cols-[1.2fr_1fr] gap-12 lg:gap-20 items-center pt-4">
                                         <div className="flex flex-col gap-6 order-2 md:order-1">
-                                            <p className="text-slate-500 text-lg lg:text-xl leading-relaxed">
+                                            <p className="text-gray-500 text-base font-regular leading-relaxed">
                                                 {client.description}
                                             </p>
 
                                             <div className="flex flex-wrap gap-4">
-                                                <div className="flex items-center gap-3 px-5 py-3 rounded-xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                                                <div className="flex items-center gap-3 p-4 rounded-xl border border-gray-100 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.04)]">
                                                     <div className="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center">
-                                                        <TrendingUp className="w-4 h-4" />
+                                                        <TrendingUp className="w-6 h-6" />
                                                     </div>
                                                     <div className="flex flex-col">
                                                         <span className="text-[10px] text-slate-400 uppercase font-semibold">Outcome</span>
