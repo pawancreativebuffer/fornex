@@ -1,0 +1,217 @@
+import { services } from '../allServices';
+import Header from '@/component/layout/Header';
+import Footer from '@/component/layout/Footer';
+import {
+  CheckCircle2,
+  ArrowRight,
+  Star,
+  Zap,
+  ShieldCheck,
+  Users,
+  BarChart3,
+  Lightbulb,
+  Layers,
+  Sparkles,
+  TrendingUp,
+  Stethoscope,
+  Smartphone,
+  Receipt,
+  Search,
+  ChevronRight
+} from 'lucide-react';
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+
+export async function generateStaticParams() {
+  return services.map((service) => ({
+    slug: service.slug,
+  }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const service = services.find((s) => s.slug === slug);
+  if (!service) return { title: 'Service Not Found' };
+
+  return {
+    title: `${service.hero.title} | Fornex Healthcare`,
+    description: service.hero.subtitle,
+  };
+}
+
+export default async function ServiceDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const service = services.find((s) => s.slug === slug);
+
+  if (!service) {
+    notFound();
+  }
+
+  // Map slugs to main icons
+  const iconMap: Record<string, any> = {
+    "healthcare-software-development": Stethoscope,
+    "ehr-emr-integration": Layers,
+    "website-mobile-app-development": Smartphone,
+    "medical-billing-rcm": Receipt,
+    "healthcare-digital-marketing": TrendingUp,
+  };
+
+  const offeringIcons = [Layers, Zap, ShieldCheck, Users, BarChart3, Lightbulb];
+
+  return (
+    <>
+      <section className="relative overflow-hidden flex justify-between flex-col bg-[#1a2b3c]">
+        {/* Background Decorative Element */}
+        <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#60C6B1] rounded-full blur-[150px] opacity-70 pointer-events-none"></div>
+        <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-500 rounded-full blur-[150px] opacity-70 pointer-events-none"></div>
+
+        <Header />
+
+        <div className="w-full max-w-[1400px] mx-auto px-4 py-20 flex flex-wrap items-center justify-center gap-5 relative z-50">
+          <h1 className="text-shadow-lg/20 max-w-[1100px] font-[700] text-[50px] lg:text-[60px] text-[#fff] leading-[60px] lg:leading-[70px] mx-auto text-center">
+            {service.hero.title}
+          </h1>
+          <p className="text-gray-400 max-w-[1100px] text-[16px] font-regular leading-relaxed text-center">
+            {service.hero.subtitle}
+          </p>
+          <div className="flex w-full justify-center">
+            <Link href='/contact' className="px-5 py-3 mx-auto mt-5 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[transparent] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
+              {service.cta.action}
+              <ChevronRight size={20} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {service.introduction && (
+        <section className="py-24 relative overflow-hidden">
+          <div className="max-w-[1200px] mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+              <div className="animate-slide-left">
+                <p className="text-gray-500 text-2xl leading-relaxed font-medium">
+                  {service.introduction}
+                </p>
+                {service.approach && (
+                  <div className="mt-12 p-8 border-l-4 border-[#60C6B1] bg-gray-50 rounded-r-3xl">
+                    <p className="text-[#1a2b3c] text-xl italic font-medium">
+                      {service.approach}
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              <div className="grid gap-6 animate-slide-right">
+                {service.challenges && service.challenges.map((challenge, idx) => (
+                  <div key={idx} className="flex items-center gap-6 p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition-all">
+                    <div className="w-12 h-12 rounded-2xl bg-red-50 text-red-400 flex items-center justify-center shrink-0">
+                      <Search size={24} />
+                    </div>
+                    <span className="text-[#1a2b3c] text-lg font-bold">{challenge}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {service.offerings && (
+        <section className="py-24 bg-gray-50">
+          <div className="max-w-[1200px] mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {service.offerings.map((offering, idx) => {
+                const Icon = offeringIcons[idx % offeringIcons.length];
+                return (
+                  <div key={idx} className="bg-white p-10 rounded-[2.5rem] border border-gray-100 hover:shadow-2xl transition-all duration-500 group">
+                    <div className="w-16 h-16 rounded-2xl bg-[#f0fdfa] text-[#60C6B1] flex items-center justify-center mb-8 group-hover:bg-[#60C6B1] group-hover:text-white transition-all shadow-sm">
+                      <Icon size={32} />
+                    </div>
+                    <h3 className="text-2xl font-black text-[#1a2b3c] mb-4">{offering.title}</h3>
+                    <p className="text-gray-500 text-lg leading-relaxed">{offering.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {(service.benefits || service.audience) && (
+        <section className="py-24">
+          <div className="max-w-[1200px] mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div className="space-y-6">
+                {service.benefits && service.benefits.map((benefit, idx) => (
+                  <div key={idx} className="flex gap-6 p-8 bg-gray-50 rounded-[2rem] border border-gray-100 hover:bg-white hover:border-[#60C6B1] transition-all group">
+                    <div className="w-10 h-10 rounded-full bg-white text-[#60C6B1] flex items-center justify-center shrink-0 shadow-sm group-hover:bg-[#60C6B1] group-hover:text-white transition-all">
+                      <CheckCircle2 size={24} />
+                    </div>
+                    <span className="text-xl font-bold text-[#1a2b3c]">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+              <div className="bg-[#1a2b3c] p-12 lg:p-16 rounded-[3rem] text-white">
+                <div className="grid gap-6">
+                  {service.audience && service.audience.map((item, idx) => (
+                    <div key={idx} className="flex items-center gap-4 p-6 bg-white/5 border border-white/10 rounded-2xl hover:bg-[#60C6B1] hover:text-[#1a2b3c] transition-all cursor-default">
+                      <Users size={24} />
+                      <span className="text-lg font-bold">{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {service.process && (
+        <section className="py-24 bg-gray-900 text-white">
+          <div className="max-w-[1200px] mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {service.process.map((step, idx) => (
+                <div key={idx} className="p-10 rounded-[2.5rem] bg-white/5 border border-white/5 hover:border-[#60C6B1] transition-all group">
+                  <div className="text-6xl font-black text-white/5 mb-6 group-hover:text-[#60C6B1]/20 transition-all">0{idx + 1}</div>
+                  <h3 className="text-2xl font-bold">{step}</h3>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {service.whyChooseUs && (
+        <section className="py-24">
+          <div className="max-w-[1200px] mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="space-y-8">
+                {service.whyChooseUs.map((reason, idx) => (
+                  <div key={idx} className="flex gap-6 group">
+                    <div className="w-12 h-12 rounded-2xl bg-teal-50 text-[#60C6B1] flex items-center justify-center shrink-0 group-hover:bg-[#60C6B1] group-hover:text-white transition-all shadow-sm">
+                      <Star size={24} fill="currentColor" />
+                    </div>
+                    <span className="text-2xl font-black text-[#1a2b3c]">{reason}</span>
+                  </div>
+                ))}
+              </div>
+              <div className="p-12 bg-[#60C6B1] rounded-[3rem] text-[#1a2b3c]">
+                {service.cta && (
+                  <div className="text-center">
+                    <h2 className="text-3xl md:text-4xl font-black mb-10 leading-tight">
+                      {service.cta.text}
+                    </h2>
+                    <button className="px-12 py-6 bg-[#1a2b3c] text-white rounded-full font-black text-xl hover:bg-white hover:text-[#1a2b3c] transition-all shadow-2xl">
+                      {service.cta.action}
+                    </button>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      <Footer />
+    </>
+  );
+}
