@@ -57,39 +57,41 @@ export default function ClientList() {
     }, []);
 
     return (
-        <section className="w-full bg-[#f8fafc] py-20 lg:py-32 relative">
+        <section className="w-full py-10 lg:py-25 relative">
             {/* Background Decorations */}
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none opacity-[0.03]">
                 <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#60C6B1] rounded-full blur-[120px]"></div>
                 <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-blue-500 rounded-full blur-[120px]"></div>
             </div>
 
-            <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <div className="max-w-[1400px] mx-auto px-4">
                 <div className="grid md:grid-cols-[1fr_1.8fr] gap-16 lg:gap-32 items-start">
 
                     {/* Left Sticky Column */}
-                    <div className="md:sticky md:top-24 md:self-start z-20">
-                        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#60C6B1]/10 border border-[#60C6B1]/20 text-[#60C6B1] font-semibold text-sm uppercase tracking-wider mb-6 animate-slide-right">
-                            <span className="w-2 h-2 rounded-full bg-[#60C6B1] animate-pulse"></span>
-                            Success Stories
+                    <div className="md:sticky md:top-25 md:self-start z-20">
+
+                        <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
+                            <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
+                            <span> Success Stories</span>
                         </div>
 
-                        <h2 className="text-[#1a2b3c] font-[700] text-4xl lg:text-6xl leading-[1.1] mb-8 animate-slide-right [animation-delay:200ms]">
-                            Empowering <span className="text-[#60C6B1]">Industry Leaders</span> to innovate.
+                        <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#1a2b3c] mb-4 lg:mb-8">
+                            Empowering <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Industry Leaders</span> to innovate.
                         </h2>
 
-                        <p className="text-slate-500 text-lg lg:text-xl leading-relaxed mb-10 max-w-md animate-slide-right [animation-delay:400ms]">
+                        <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-8 lg:max-w-[500px]">
                             We partner with the world's most innovative healthcare institutions to build scalable, secure, and future-ready digital ecosytems.
                         </p>
 
                         <div className="grid grid-cols-2 gap-6 animate-slide-up [animation-delay:600ms]">
-                            <div className="p-4 rounded-2xl bg-white border border-slate-100 shadow-sm">
-                                <h4 className="text-3xl font-bold text-[#1a2b3c]">50+</h4>
-                                <p className="text-slate-400 text-sm mt-1 uppercase tracking-tight">Active Clients</p>
+                            <div className="p-4 rounded-2xl bg-white shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-gray-100">
+                                <h4 className="text-4xl font-bold text-[#1a2b3c]">50+</h4>
+                                <p className="text-slate-400 text-[16px] mt-1">Active Clients</p>
                             </div>
-                            <div className="p-4 rounded-2xl bg-white border border-slate-100 shadow-sm">
-                                <h4 className="text-3xl font-bold text-[#60C6B1]">98%</h4>
-                                <p className="text-slate-400 text-sm mt-1 uppercase tracking-tight">Retention Rate</p>
+
+                            <div className="p-4 rounded-2xl bg-white shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-gray-100">
+                                <h4 className="text-4xl font-bold text-[#60C6B1]">98%</h4>
+                                <p className="text-slate-400 text-[16px] mt-1">Retention Rate</p>
                             </div>
                         </div>
                     </div>
