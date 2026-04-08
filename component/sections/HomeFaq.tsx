@@ -1,5 +1,6 @@
 "use client";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 const faqData = [
@@ -118,10 +119,12 @@ export default function HomeFaq() {
                     <p className="text-[16px] font-[600] text-[#1a2b3c] mb-2">Still have questions?</p>
                     <p className="text-gray-500 text-base font-regular leading-relaxed">Can't find the answer you're looking for? Let's talk directly.</p>
 
-                    <button className="px-5 py-3 mx-auto mt-5 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[transparent] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
-                        Contact Support
-                        <ArrowRight size={20} />
-                    </button>
+                    <div className="flex">
+                        <Link href='/contact' className="px-5 py-3 mx-auto mt-5 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[transparent] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
+                            Contact Support
+                            <ArrowRight size={20} />
+                        </Link>
+                    </div>
                 </div>
             </div>
         </section>
