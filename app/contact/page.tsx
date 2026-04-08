@@ -1,6 +1,7 @@
 import Header from '@/component/layout/Header'
 import Footer from '@/component/layout/Footer';
 import ContactBanner from '@/component/sections/ContactBanner';
+import ContactDetails from '@/component/sections/ContactDetails';
 
 export default function ServicePage() {
     return (
@@ -13,6 +14,8 @@ export default function ServicePage() {
                 <Header />
                 <ContactBanner />
             </section>
+
+            <ContactDetails />
             <Footer />
         </>
     )

@@ -19,7 +19,7 @@ export default function ContactBanner() {
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[80%] bg-[#60C6B1]/10 blur-[100px] rounded-full -z-10" />
 
                 {/* Glass Overlay (Half-cut circle touching bottom) */}
-                <div className="absolute bottom-0 left-0 w-full h-[90%] bg-white/[0.03] backdrop-blur-[15px] border border-white/20 rounded-t-full z-10 shadow-[0_-20px_50px_rgba(0,0,0,0.1)] flex flex-col items-center justify-start overflow-hidden">
+                <div className="absolute bottom-0 left-0 w-full h-[90%] bg-white/[0.03] backdrop-blur-[15px] border border-white/20 border-b-0 rounded-t-full z-10 shadow-[0_-20px_50px_rgba(0,0,0,0.1)] flex flex-col items-center justify-start overflow-hidden">
                     {/* Reflection Highlight */}
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-gradient-to-r from-transparent via-white/40 to-transparent rounded-full shadow-[0_0_15px_white]" />
 
