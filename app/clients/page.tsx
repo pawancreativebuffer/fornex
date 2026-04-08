@@ -1,7 +1,7 @@
 import Header from '@/component/layout/Header'
 import Footer from '@/component/layout/Footer';
-import ContactDetails from '@/component/sections/ContactDetails';
 import ClientsBanner from '@/component/sections/ClientsBanner';
+import ClientList from '@/component/sections/ClientsList';
 
 export default function ClientsPage() {
     return (
@@ -15,6 +15,7 @@ export default function ClientsPage() {
                 <ClientsBanner />
             </section>
 
+            <ClientList />
             <Footer />
         </>
     )
