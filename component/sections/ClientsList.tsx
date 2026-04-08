@@ -7,33 +7,53 @@ import Link from 'next/link';
 const CLIENTS_DATA = [
     {
         id: "01",
-        name: "St. Mary's Integrated Health",
-        category: "Hospital Network",
-        description: "A comprehensive digital transformation project involving the integration of multi-departmental patient records and real-time monitoring systems across 15+ locations.",
-        impact: "45% faster patient wait times",
+        name: "Carevation",
+        category: "AI Driven Healthcare Platform",
+        description: "Carevation utilizes advanced AI algorithms to predict patient health risks and optimize treatment plans. By analyzing vast amounts of patient data, the platform provides healthcare professionals with actionable insights to improve care outcomes and reduce unnecessary hospital visits.",
+        impact: "Reduced hospital readmission rates",
         image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
-        icon: <Stethoscope className="w-14 h-14" />,
+        icon: '/images/carevation.png',
         color: "#60C6B1"
     },
     {
         id: "02",
-        name: "Global Biotech Diagnostics",
-        category: "Laboratory & Research",
-        description: "Implementing advanced AI-driven diagnostic tools to automate lab testing workflows and improve accuracy in early disease detection protocols.",
-        impact: "99.2% Accuracy Rate",
-        image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=1200",
-        icon: <FlaskConical className="w-14 h-14" />,
-        color: "#3b82f6"
+        name: "Oasis Notes",
+        category: "Digital Health Records",
+        description: "Oasis Notes revolutionizes healthcare documentation by providing an intuitive platform for healthcare providers to record and manage patient notes efficiently. This platform integrates with EHR/EMR systems, offering secure, real-time access to patient information, improving clinical workflows, and enhancing patient care delivery.",
+        impact: "Faster clinical documentation workflows",
+        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
+        icon: '/images/oasis.png',
+        color: "#60C6B1"
     },
     {
         id: "03",
-        name: "Nexus Health Insurance",
-        category: "Insurance Provider",
-        description: "Development of a unified claims processing platform that utilizes blockchain for secure data handling and instant claim settlements for policyholders.",
-        impact: "Instant Settlement Enabled",
-        image: "https://images.unsplash.com/photo-1576091160550-217359f4ecf8?auto=format&fit=crop&q=80&w=1200",
-        icon: <CheckCircle2 className="w-14 h-14" />,
+        name: "Apollo 360",
+        category: "Healthtech Platform",
+        description: "A comprehensive healthcare platform designed to provide personalized care and facilitate real-time health monitoring. Apollo 360 Health integrates with existing healthcare systems, enabling patients to track their health metrics, access medical records, and communicate with healthcare providers seamlessly across multiple devices.",
+        impact: "Enhanced patient engagement & monitoring",
+        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
+        icon: '/images/apollo.png',
         color: "#60C6B1"
+    },
+    {
+        id: "04",
+        name: "Super School",
+        category: "Special Children Management",
+        description: "Super School offers a mobile-first solution to bridge the gap between parents and teachers. With real-time updates on student progress, attendance, and school activities, Super School enhances parent involvement and ensures better academic outcomes for students.",
+        impact: "Improved special child engagement",
+        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
+        icon: '/images/super-school.png',
+        color: "#3b82f6"
+    },
+    {
+        id: "05",
+        name: "Manhattan Cardiovascular Associates",
+        category: "Patient Management System",
+        description: "Manhattan Cardiovascular Associates leverages an advanced EHR system designed to improve patient care and streamline practice management. This system integrates clinical, operational, and administrative workflows to enhance both patient care and practice efficiency.",
+        impact: "Reduced patient wait times",
+        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
+        icon: '/images/manhattan.webp',
+        color: "#3b82f6"
     }
 ];
 
@@ -97,8 +117,7 @@ export default function ClientList() {
                     {/* Right Scrollable Column */}
                     <div className="flex flex-col gap-20 lg:gap-30">
                         {CLIENTS_DATA.map((client, index) => (
-                            <div
-                                key={client.id}
+                            <div key={client.id}
                                 ref={el => { listRefs.current[index] = el; }}
                                 className="opacity-0 translate-y-20 transition-all duration-700 ease-out group"
                             >
@@ -152,7 +171,7 @@ export default function ClientList() {
                                         </div>
 
                                         <div className="order-1 md:order-2 relative">
-                                            <div className="aspect-[4/3] rounded-3xl overflow-hidden glass-card shadow-2xl relative z-10">
+                                            <div className="aspect-[3/3] rounded-3xl overflow-hidden glass-card shadow-2xl relative z-10">
                                                 <img
                                                     src={client.image}
                                                     alt={client.name}
@@ -161,9 +180,13 @@ export default function ClientList() {
                                                 <div className="absolute inset-0 bg-gradient-to-t from-[#1a2b3c]/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                                             </div>
                                             {/* Decorative circle behind image */}
-                                            <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full border-[8px] border-white z-20 hidden lg:block overflow-hidden shadow-xl">
-                                                <div className="w-full h-full bg-[#60C6B1]/70 backdrop-blur-md flex items-center justify-center text-[#fff]">
-                                                    {client.icon}
+                                            <div className="absolute -bottom-6 -right-6 w-40 h-20 rounded-xl z-20 hidden lg:block overflow-hidden shadow-xl">
+                                                <div className="w-full p-3 h-full bg-white backdrop-blur-md flex items-center justify-center text-[#fff]">
+                                                    <img
+                                                        src={client.icon}
+                                                        alt={client.name}
+                                                        className="w-full h-full object-contain"
+                                                    />
                                                 </div>
                                             </div>
                                         </div>
@@ -175,6 +198,6 @@ export default function ClientList() {
 
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
