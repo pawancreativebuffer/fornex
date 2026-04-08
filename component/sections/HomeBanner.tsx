@@ -38,7 +38,7 @@ export default function HomeBanner() {
             </div>
 
             <div className="w-full max-w-[300px] mx-auto lg:mx-0 flex flex-col justify-center">
-                <p className="w-full max-w-[170px] mx-auto text-[#fff] font-[400] text-[16px] text-center">Trusted by 500+ Healthcare Providers</p>
+                <p className="w-full max-w-[170px] mx-auto text-[#fff] font-[400] text-[16px] text-center">Trusted by 50+ Healthcare Providers</p>
                 <div className="flex flex-row mt-6 justify-center">
                     {imagesData.map((item, i) => (
                         <span key={i} className={`bg-white/10 backdrop-blur-md border border-white/20 rounded-full w-[110px] h-[110px] flex items-center justify-center relative shadow-lg transition-transform hover:-translate-y-2 hover:z-20 ${i !== 0 ? "-ml-8" : ""}`} style={{ zIndex: 10 - i }}>
