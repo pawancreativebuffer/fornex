@@ -11,7 +11,7 @@ const CLIENTS_DATA = [
         category: "AI Driven Healthcare Platform",
         description: "Carevation utilizes advanced AI algorithms to predict patient health risks and optimize treatment plans. By analyzing vast amounts of patient data, the platform provides healthcare professionals with actionable insights to improve care outcomes and reduce unnecessary hospital visits.",
         impact: "Reduced hospital readmission rates",
-        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
+        image: "/images/one.jpg",
         icon: '/images/carevation.png',
         color: "#60C6B1"
     },
@@ -21,40 +21,40 @@ const CLIENTS_DATA = [
         category: "Digital Health Records",
         description: "Oasis Notes revolutionizes healthcare documentation by providing an intuitive platform for healthcare providers to record and manage patient notes efficiently. This platform integrates with EHR/EMR systems, offering secure, real-time access to patient information, improving clinical workflows, and enhancing patient care delivery.",
         impact: "Faster clinical documentation workflows",
-        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
+        image: "/images/two.jpg",
         icon: '/images/oasis.png',
         color: "#60C6B1"
     },
     {
         id: "03",
-        name: "Apollo 360",
-        category: "Healthtech Platform",
-        description: "A comprehensive healthcare platform designed to provide personalized care and facilitate real-time health monitoring. Apollo 360 Health integrates with existing healthcare systems, enabling patients to track their health metrics, access medical records, and communicate with healthcare providers seamlessly across multiple devices.",
-        impact: "Enhanced patient engagement & monitoring",
-        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
-        icon: '/images/apollo.png',
-        color: "#60C6B1"
-    },
-    {
-        id: "04",
-        name: "Super School",
-        category: "Special Children Management",
-        description: "Super School offers a mobile-first solution to bridge the gap between parents and teachers. With real-time updates on student progress, attendance, and school activities, Super School enhances parent involvement and ensures better academic outcomes for students.",
-        impact: "Improved special child engagement",
-        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
-        icon: '/images/super-school.png',
-        color: "#3b82f6"
-    },
-    {
-        id: "05",
         name: "Manhattan Cardiovascular Associates",
         category: "Patient Management System",
         description: "Manhattan Cardiovascular Associates leverages an advanced EHR system designed to improve patient care and streamline practice management. This system integrates clinical, operational, and administrative workflows to enhance both patient care and practice efficiency.",
         impact: "Reduced patient wait times",
-        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
+        image: "/images/three.jpg",
         icon: '/images/manhattan.webp',
         color: "#3b82f6"
-    }
+    },
+    {
+        id: "04",
+        name: "Apollo 360",
+        category: "Healthtech Platform",
+        description: "A comprehensive healthcare platform designed to provide personalized care and facilitate real-time health monitoring. Apollo 360 Health integrates with existing healthcare systems, enabling patients to track their health metrics, access medical records, and communicate with healthcare providers seamlessly across multiple devices.",
+        impact: "Enhanced patient engagement & monitoring",
+        image: "/images/four.jpg",
+        icon: '/images/apollo.png',
+        color: "#60C6B1"
+    },
+    {
+        id: "05",
+        name: "Super School",
+        category: "Special Children Management",
+        description: "Super School offers a mobile-first solution to bridge the gap between parents and teachers. With real-time updates on student progress, attendance, and school activities, Super School enhances parent involvement and ensures better academic outcomes for students.",
+        impact: "Improved special child engagement",
+        image: "/images/five.png",
+        icon: '/images/super-school.png',
+        color: "#3b82f6"
+    },
 ];
 
 export default function ClientList() {
