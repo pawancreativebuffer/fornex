@@ -12,7 +12,7 @@ const CLIENTS_DATA = [
         description: "A comprehensive digital transformation project involving the integration of multi-departmental patient records and real-time monitoring systems across 15+ locations.",
         impact: "45% faster patient wait times",
         image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
-        icon: <Stethoscope className="w-6 h-6" />,
+        icon: <Stethoscope className="w-14 h-14" />,
         color: "#60C6B1"
     },
     {
@@ -22,7 +22,7 @@ const CLIENTS_DATA = [
         description: "Implementing advanced AI-driven diagnostic tools to automate lab testing workflows and improve accuracy in early disease detection protocols.",
         impact: "99.2% Accuracy Rate",
         image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=1200",
-        icon: <FlaskConical className="w-6 h-6" />,
+        icon: <FlaskConical className="w-14 h-14" />,
         color: "#3b82f6"
     },
     {
@@ -32,7 +32,7 @@ const CLIENTS_DATA = [
         description: "Development of a unified claims processing platform that utilizes blockchain for secure data handling and instant claim settlements for policyholders.",
         impact: "Instant Settlement Enabled",
         image: "https://images.unsplash.com/photo-1576091160550-217359f4ecf8?auto=format&fit=crop&q=80&w=1200",
-        icon: <CheckCircle2 className="w-6 h-6" />,
+        icon: <CheckCircle2 className="w-14 h-14" />,
         color: "#60C6B1"
     }
 ];
@@ -145,7 +145,7 @@ export default function ClientList() {
 
                                             <div className="flex gap-4">
                                                 <Link href="#" className="px-5 py-3 rounded-full border border-[#1a2b3c] text-[#fff] bg-[#1a2b3c] hover:bg-[#fff] hover:text-[#1a2b3c] cursor-pointer transition flex items-center gap-2 font-medium">
-                                                    View Portal
+                                                    View Case Study
                                                     <ExternalLink size={20} />
                                                 </Link>
                                             </div>
@@ -161,8 +161,8 @@ export default function ClientList() {
                                                 <div className="absolute inset-0 bg-gradient-to-t from-[#1a2b3c]/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                                             </div>
                                             {/* Decorative circle behind image */}
-                                            <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full border-[10px] border-white z-20 hidden lg:block overflow-hidden shadow-xl">
-                                                <div className="w-full h-full bg-[#60C6B1]/20 backdrop-blur-md flex items-center justify-center text-[#60C6B1]">
+                                            <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full border-[8px] border-white z-20 hidden lg:block overflow-hidden shadow-xl">
+                                                <div className="w-full h-full bg-[#60C6B1]/70 backdrop-blur-md flex items-center justify-center text-[#fff]">
                                                     {client.icon}
                                                 </div>
                                             </div>
