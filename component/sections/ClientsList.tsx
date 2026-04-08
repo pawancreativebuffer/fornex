@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import { ArrowUpRight, ExternalLink, TrendingUp, CheckCircle2, FlaskConical, Stethoscope } from "lucide-react";
+import Link from 'next/link';
 
 const CLIENTS_DATA = [
     {
@@ -132,23 +133,21 @@ export default function ClientList() {
 
                                             <div className="flex flex-wrap gap-4">
                                                 <div className="flex items-center gap-3 p-4 rounded-xl border border-gray-100 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.04)]">
-                                                    <div className="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                                                    <div className="w-12 h-12 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center">
                                                         <TrendingUp className="w-6 h-6" />
                                                     </div>
-                                                    <div className="flex flex-col">
-                                                        <span className="text-[10px] text-slate-400 uppercase font-semibold">Outcome</span>
-                                                        <span className="text-slate-700 font-bold text-sm leading-tight">{client.impact}</span>
+                                                    <div className="flex flex-col gap-1">
+                                                        <span className="text-[12px] text-slate-400 uppercase font-semibold">Outcome</span>
+                                                        <span className="text-slate-700 font-semibold text-[16px] leading-tight">{client.impact}</span>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div className="flex gap-4 mt-2">
-                                                <button className="px-6 py-3 rounded-full bg-[#1a2b3c] text-white font-semibold text-sm flex items-center gap-2 hover:bg-[#60C6B1] transition-colors shadow-lg shadow-[#1a2b3c]/10">
-                                                    Case Study <ExternalLink className="w-4 h-4" />
-                                                </button>
-                                                <button className="px-6 py-3 rounded-full border border-slate-200 text-[#1a2b3c] font-semibold text-sm hover:bg-slate-50 transition-colors">
-                                                    Visit Portal
-                                                </button>
+                                            <div className="flex gap-4">
+                                                <Link href="#" className="px-5 py-3 rounded-full border border-[#1a2b3c] text-[#fff] bg-[#1a2b3c] hover:bg-[#fff] hover:text-[#1a2b3c] cursor-pointer transition flex items-center gap-2 font-medium">
+                                                    View Portal
+                                                    <ExternalLink size={20} />
+                                                </Link>
                                             </div>
                                         </div>
 
