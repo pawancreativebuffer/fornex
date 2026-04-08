@@ -10,6 +10,7 @@ import {
     Search,
     Shield
 } from 'lucide-react';
+import Link from 'next/link';
 
 const services = [
     {
@@ -19,7 +20,8 @@ const services = [
         icon: Stethoscope,
         color: "from-[#60C6B1] to-[#4fa996]",
         size: "lg", // Large card
-        highlights: ["Custom Patient Portals", "Clinical Workflow Tools"]
+        highlights: ["Custom Patient Portals", "Clinical Workflow Tools"],
+        slug: "healthcare-software-development"
     },
     {
         id: 2,
@@ -28,7 +30,8 @@ const services = [
         icon: Layers,
         color: "from-[#90c7e5] to-[#6d9fbb]",
         size: "sm",
-        highlights: ["FHIR R4 / HL7", "Interoperability"]
+        highlights: ["FHIR R4 / HL7", "Interoperability"],
+        slug: "ehr-emr-integration"
     },
     {
         id: 3,
@@ -37,7 +40,8 @@ const services = [
         icon: Smartphone,
         color: "from-[#ff9900] to-[#ffcc00]",
         size: "sm",
-        highlights: ["Telehealth Web", "Native Mobile"]
+        highlights: ["Telehealth Web", "Native Mobile"],
+        slug: "website-mobile-app-development",
     },
     {
         id: 4,
@@ -46,7 +50,8 @@ const services = [
         icon: Receipt,
         color: "from-[#E3ACC8] to-[#D393B3]",
         size: "sm",
-        highlights: ["Denial Management", "Claims Processing"]
+        highlights: ["Denial Management", "Claims Processing"],
+        slug: "medical-billing-rcm"
     },
     {
         id: 5,
@@ -55,7 +60,8 @@ const services = [
         icon: TrendingUp,
         color: "from-[#c66060] to-[#9b4b4b]",
         size: "sm", // Medium card
-        highlights: ["Patient Acquisition", "Brand Strategy"]
+        highlights: ["Patient Acquisition", "Brand Strategy"],
+        slug: "healthcare-digital-marketing",
     }
 ];
 
@@ -124,9 +130,9 @@ export default function ServicesAll() {
                                 </div>
 
                                 <div className="pt-6 border-t border-gray-50 flex items-center justify-between mt-auto">
-                                    <button className="text-[16px] font-[600] text-[#1a2b3c] flex items-center gap-2 opacity-60 group-hover:opacity-100 transition-all cursor-pointer">
+                                    <Link href={`/services/${service.slug}`} className="text-[16px] font-[600] text-[#1a2b3c] flex items-center gap-2 opacity-60 group-hover:opacity-100 transition-all cursor-pointer">
                                         EXPLORE SERVICE <ArrowUpRight size={16} />
-                                    </button>
+                                    </Link>
 
                                     {/* Small Decorative Elements for Lg Card */}
                                     {service.size === 'lg' && (
