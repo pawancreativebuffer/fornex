@@ -2,7 +2,7 @@ export default function HomeSmartHealthcare() {
     const stats = [
         {
             number: "100+",
-            description: "Healthcare Providers Served",
+            description: "Hospital's & Clinic's Served",
         },
         {
             number: "40%",
@@ -32,7 +32,7 @@ export default function HomeSmartHealthcare() {
 
                     {/* Heading */}
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D]">
-                        Understand <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">and improve your health</span>
+                        Results built on real <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Healthcare</span> Impact
                     </h2>
 
                     {/* Stats Grid */}

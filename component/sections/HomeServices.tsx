@@ -1,10 +1,11 @@
 import { ArrowRight, Stethoscope, ShieldCheck, Network, TrendingUp } from "lucide-react";
+import Link from "next/link";
 
 export default function HomeServices() {
     const services = [
         {
             title: "Health-Focused Development",
-            subtitle: "Custom healthcare software",
+            subtitle: "Built exclusively for clinics, hospitals, and healthtech startups never generic, always clinical-grade.",
             icon: Stethoscope,
             bgColor: "bg-[#F4D957]",    // Yellow
             textColor: "text-[#000]",
@@ -13,7 +14,7 @@ export default function HomeServices() {
         },
         {
             title: "Secure & Compliant Systems",
-            subtitle: "HIPAA & SOC2 compliant",
+            subtitle: "HIPPA, GDPR, ONC and SOC2 compliant from day one no patches, no shortcuts.",
             icon: ShieldCheck,
             bgColor: "bg-[#60C6B1]",    // Green
             textColor: "text-[#000]",
@@ -22,7 +23,7 @@ export default function HomeServices() {
         },
         {
             title: "Integration Expertise",
-            subtitle: "Seamless API & EHR connect",
+            subtitle: "Native integrations with Epic, Cerner & Athenahealth using FHIR R4 and HL7 standards.",
             icon: Network,
             bgColor: "bg-[#E3ACC8]",    // Pink
             textColor: "text-[#000]",
@@ -30,8 +31,8 @@ export default function HomeServices() {
             iconColor: "text-[#D393B3]",
         },
         {
-            title: "Scalable Digital Solutions",
-            subtitle: "Built for future growth",
+            title: "AI-Powered Digital Solutions",
+            subtitle: "Automated claim scrubbing, predictive denial management, and AI-assisted charting built in, not bolted on.",
             icon: TrendingUp,
             bgColor: "bg-[#90c7e5]",    // Blue
             textColor: "text-[#000]",
@@ -49,7 +50,7 @@ export default function HomeServices() {
                         return (
                             <div
                                 key={index}
-                                className={`relative overflow-hidden rounded-[20px] p-6 lg:p-8 h-[240px] cursor-pointer transition-transform hover:-translate-y-2 ${service.bgColor}`}
+                                className={`relative overflow-hidden rounded-[20px] p-6 lg:p-8 h-[300px] cursor-pointer transition-transform hover:-translate-y-2 ${service.bgColor}`}
                             >
                                 {/* Text Content */}
                                 <div className="relative z-10 flex flex-col h-full">
@@ -62,9 +63,9 @@ export default function HomeServices() {
 
                                     {/* Bottom Arrow Button */}
                                     <div className="mt-auto">
-                                        <span className={`w-10 h-10 rounded-full bg-[#000] flex items-center justify-center transition-transform hover:scale-110`}>
+                                        <Link href="/contact" className={`w-10 h-10 rounded-full bg-[#000] flex items-center justify-center transition-transform hover:scale-110`}>
                                             <ArrowRight className="text-white w-5 h-5" />
-                                        </span>
+                                        </Link>
                                     </div>
                                 </div>
 

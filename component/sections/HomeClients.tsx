@@ -32,7 +32,7 @@ export default function HomeClients() {
                     </div>
 
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] max-w-[900px]">
-                        Trusted by Leading <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Healthcare Organizations</span> Across the US
+                        Trusted by Leading <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Healthcare Organizations</span> Across the Globe
                     </h2>
                 </div>
 

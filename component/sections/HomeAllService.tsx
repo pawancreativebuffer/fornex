@@ -13,6 +13,7 @@ import {
     Database,
     LineChart
 } from 'lucide-react';
+import Link from 'next/link';
 
 const services = [
     {
@@ -147,11 +148,11 @@ export default function HomeAllService() {
                             </div>
                         </div>
 
-                        <div className="mt-8">
-                            <button className="px-5 py-3 rounded-full border border-[#fff] text-[#2D2D2D] bg-[#fff] hover:bg-transparent hover:text-[#fff] cursor-pointer transition flex items-center gap-2 font-medium">
+                        <div className="mt-8 flex">
+                            <Link href='/contact' className="px-5 py-3 rounded-full border border-[#fff] text-[#2D2D2D] bg-[#fff] hover:bg-transparent hover:text-[#fff] cursor-pointer transition flex items-center gap-2 font-medium">
                                 Get Free Consultation
                                 <ChevronRight size={20} />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

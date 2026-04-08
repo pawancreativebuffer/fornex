@@ -1,6 +1,7 @@
 'use client';
 
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 export default function HomeSystemWeWork() {
     const integrations = [
@@ -67,7 +68,7 @@ export default function HomeSystemWeWork() {
                     </div>
 
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#1a2b3c] mb-4 lg:mb-8">
-                        <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Integrated</span> with the Systems You Already Use
+                        <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Integrate</span> with the Systems You Already Use
                     </h2>
 
                     <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-8 lg:max-w-[500px]">
@@ -86,11 +87,11 @@ export default function HomeSystemWeWork() {
                         ))}
                     </div>
 
-                    <div>
-                        <button className="px-5 py-3 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[#fff] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
+                    <div className="flex">
+                        <Link href='/contact' className="px-5 py-3 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[#fff] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
                             Get Free Consultation
                             <ArrowRight size={20} />
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
@@ -116,7 +117,7 @@ export default function HomeSystemWeWork() {
 
                     {/* Mobile optimized partner cards (Simple grid below or stacked) - omitted here for brevity as user usually focuses on the premium look showed in image */}
                 </div>
-            </div>
-        </section>
+            </div >
+        </section >
     );
 }

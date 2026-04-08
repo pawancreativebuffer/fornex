@@ -1,5 +1,6 @@
 "use client";
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 const specialtiesRow1 = [
     { name: "Physical Therapy", label: "Rehab", image: '/images/physical-therapy.svg' },
@@ -38,10 +39,10 @@ export default function HomeBilingAndSoftware() {
                         </p>
 
                         <div className="flex flex-wrap gap-4 mt-4">
-                            <button className="px-5 py-3 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[transparent] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
+                            <Link href='/services' className="px-5 py-3 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[transparent] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
                                 Explore Our Specialties
                                 <ArrowRight size={20} />
-                            </button>
+                            </Link>
                         </div>
                     </div>
 

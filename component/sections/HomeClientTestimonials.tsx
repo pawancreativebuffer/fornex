@@ -6,25 +6,25 @@ import { Quote, Star, ArrowLeft, ArrowRight } from 'lucide-react';
 const testimonials = [
     {
         id: 1,
-        text: "Bit PI has revolutionized the way I manage projects. Its comprehensive suite of tools, user-friendly interface, and robust performance have significantly enhanced our productivity and collaboration. A must-have for any team!",
-        name: "Jack William",
-        role: "CEO of MarketingPoint",
+        text: "Working with Fornex Health significantly improved our medical billing process. Their automation and expertise reduced claim denials and accelerated reimbursements, making our revenue cycle far more efficient.",
+        name: "Sarah Williams",
+        role: "Operations Manager, Apollo 360 Health",
         image: "/images/one.jpg",
         rating: 5
     },
     {
         id: 2,
-        text: "The integration and ease of use of this platform are simply unparalleled. Our team has seen a 40% increase in productivity since we started using it. The support team is also incredibly responsive and helpful.",
-        name: "Sarah Jenkins",
-        role: "Project Manager at TechFlow",
+        text: "Fornex Health helped us modernize our healthcare systems with seamless EHR integration and improved workflows. Their team understood our operational challenges and delivered a reliable solution that enhanced both efficiency and patient care.",
+        name: "Dr. Michael Carter",
+        role: "Cardiology Director, Manhattan Cardiovascular",
         image: "/images/two.jpg",
         rating: 5
     },
     {
         id: 3,
-        text: "As a startup founder, I need tools that scale with us. This solution has been with us from day one and continues to exceed our expectations. The analytics dashboard is a game-changer for our decision-making.",
-        name: "Michael Chen",
-        role: "Founder & CTO at Innovate",
+        text: "The Fornex Health team delivered a secure and scalable platform that perfectly fits our telehealth services. Their attention to compliance and system integration made the entire process smooth and successful.",
+        name: "David Thompson",
+        role: "Founder, InstaMD Telehealth Platform",
         image: "/images/three.jpg",
         rating: 5
     }

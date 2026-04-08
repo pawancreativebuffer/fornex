@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ArrowRight, ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 const tabs = [
     {
@@ -9,21 +10,21 @@ const tabs = [
         label: "Custom EHR Dashboard",
         title: "Custom EHR Dashboard",
         description: "A powerful, centralized dashboard designed to give healthcare teams a clear view of patient data and daily operations. Monitor vital signs, patient records, and treatment updates through an intuitive and organized interface.",
-        image: "/images/platform/ehr.png",
+        image: "/images/dashboard.png",
     },
     {
         id: "billing",
         label: "Medical Billing Dashboard",
         title: "Medical Billing Dashboard",
         description: "Optimize your revenue cycle with our advanced billing platform. Track claims, manage denials, and accelerate payments with real-time analytics and automated workflows.",
-        image: "/images/platform/billing.png",
+        image: "/images/biling-new.png",
     },
     {
         id: "portal",
         label: "Patient Portal Interface",
         title: "Patient Portal Interface",
         description: "Empower patients with a secure, user-friendly portal. Enable easy appointment scheduling, lab result access, and direct communication with healthcare providers.",
-        image: "/images/platform/portal.png",
+        image: "/images/profile.png",
     }
 ];
 
@@ -101,7 +102,7 @@ export default function HomePlatform() {
                                     key={activeTab.id}
                                     src={activeTab.image}
                                     alt={activeTab.title}
-                                    className="w-full h-full object-cover animate-[fadeIn_0.8s_ease-out]"
+                                    className="w-full h-full object-cover object-top animate-[fadeIn_0.8s_ease-out]"
                                 />
 
                                 {/* Overlay Shadow for depth */}
@@ -130,11 +131,11 @@ export default function HomePlatform() {
                                     ))}
                                 </ul>
 
-                                <div className="pt-4">
-                                    <button className="px-5 py-3 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[transparent] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
+                                <div className="pt-4 flex">
+                                    <Link href='/contact' className="px-5 py-3 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[transparent] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
                                         Get Free Consultation
                                         <ArrowRight size={20} />
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
