@@ -18,12 +18,11 @@ export default function Footer() {
             { name: "Blogs", href: "/blogs" },
         ],
         services: [
-            { name: "Healthcare Software", href: "#" },
-            { name: "Medical Billing & RCM", href: "#" },
-            { name: "EHR Integration", href: "#" },
-            { name: "Health Tech Startup Services", href: "#" },
-            { name: "Digital Marketing", href: "#" },
-            { name: "Patient Portal Development", href: "#" },
+            { name: "Healthcare Softwares", href: "#" },
+            { name: "EHR & EMR Integration", href: "#" },
+            { name: "Website & Mobile Apps", href: "#" },
+            { name: "Billing Management", href: "#" },
+            { name: "Healthcare Digital Marketing", href: "#" }
         ],
     };
 
