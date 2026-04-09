@@ -32,7 +32,7 @@ const blogs = [
         id: 5,
         title: "Advancing Patient Care Through Smarter Systems",
         desc: "Discover how smart infrastructure is redefining the patient experience and improving outcomes.",
-        image: "/images/one.jpg",
+        image: "/images/five.png",
     }
 ];
 
