@@ -7,26 +7,6 @@ import Link from 'next/link';
 const CLIENTS_DATA = [
     {
         id: "01",
-        name: "Carevation",
-        category: "AI Driven Healthcare Platform",
-        description: "Carevation utilizes advanced AI algorithms to predict patient health risks and optimize treatment plans. By analyzing vast amounts of patient data, the platform provides healthcare professionals with actionable insights to improve care outcomes and reduce unnecessary hospital visits.",
-        impact: "Reduced hospital readmission rates",
-        image: "/images/one.jpg",
-        icon: '/images/carevation.png',
-        color: "#60C6B1"
-    },
-    {
-        id: "02",
-        name: "Oasis Notes",
-        category: "Digital Health Records",
-        description: "Oasis Notes revolutionizes healthcare documentation by providing an intuitive platform for healthcare providers to record and manage patient notes efficiently. This platform integrates with EHR/EMR systems, offering secure, real-time access to patient information, improving clinical workflows, and enhancing patient care delivery.",
-        impact: "Faster clinical documentation workflows",
-        image: "/images/two.jpg",
-        icon: '/images/oasis.png',
-        color: "#60C6B1"
-    },
-    {
-        id: "03",
         name: "Manhattan Cardiovascular Associates",
         category: "Patient Management System",
         description: "Manhattan Cardiovascular Associates leverages an advanced EHR system designed to improve patient care and streamline practice management. This system integrates clinical, operational, and administrative workflows to enhance both patient care and practice efficiency.",
@@ -36,7 +16,7 @@ const CLIENTS_DATA = [
         color: "#3b82f6"
     },
     {
-        id: "04",
+        id: "02",
         name: "Apollo 360",
         category: "Healthtech Platform",
         description: "A comprehensive healthcare platform designed to provide personalized care and facilitate real-time health monitoring. Apollo 360 Health integrates with existing healthcare systems, enabling patients to track their health metrics, access medical records, and communicate with healthcare providers seamlessly across multiple devices.",
@@ -46,7 +26,17 @@ const CLIENTS_DATA = [
         color: "#60C6B1"
     },
     {
-        id: "05",
+        id: "03",
+        name: "Oasis Notes",
+        category: "Digital Health Records",
+        description: "Oasis Notes revolutionizes healthcare documentation by providing an intuitive platform for healthcare providers to record and manage patient notes efficiently. This platform integrates with EHR/EMR systems, offering secure, real-time access to patient information, improving clinical workflows, and enhancing patient care delivery.",
+        impact: "Faster clinical documentation workflows",
+        image: "/images/two.jpg",
+        icon: '/images/oasis.png',
+        color: "#60C6B1"
+    },
+    {
+        id: "04",
         name: "Super School",
         category: "Special Children Management",
         description: "Super School offers a mobile-first solution to bridge the gap between parents and teachers. With real-time updates on student progress, attendance, and school activities, Super School enhances parent involvement and ensures better academic outcomes for students.",

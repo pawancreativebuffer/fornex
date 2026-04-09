@@ -4,11 +4,23 @@ import { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const services = [
+    // {
+    //     id: 0,
+    //     title: "Carevation",
+    //     description: "Caregivers struggled to manage appointments, medications, and medical records across scattered tools, causing coordination challenges. ForNex Health built a centralized caregiving platform to organize health records, appointments, medications, and daily care tasks.",
+    //     image: "/images/one.jpg",
+    // },
+    {
+        id: 0,
+        title: "Manhattan Cardiovascular Associates",
+        description: "High claim denial rate (22%) causing $180,000/month in revenue loss. Outdated EHR with no patient portal integration. ForNex implemented denial management workflows, automated claim scrubbing, and a patient-facing portal integrated with their existing eClinicalWorks EHR.",
+        image: "/images/three.jpg",
+    },
     {
         id: 1,
-        title: "Carevation",
-        description: "Caregivers struggled to manage appointments, medications, and medical records across scattered tools, causing coordination challenges. ForNex Health built a centralized caregiving platform to organize health records, appointments, medications, and daily care tasks.",
-        image: "/images/one.jpg",
+        title: "Apollo 360 Health",
+        description: "Needed a HIPAA-compliant telehealth platform and EHR integration from scratch. 6-month launch deadline. ForNex developed a custom patient portal, video consultation module, and FHIR R4 integration with Athenahealth — deployed on AWS HIPAA architecture.",
+        image: "/images/four.jpg",
     },
     {
         id: 2,
@@ -18,18 +30,6 @@ const services = [
     },
     {
         id: 3,
-        title: "Manhattan Cardiovascular Associates",
-        description: "High claim denial rate (22%) causing $180,000/month in revenue loss. Outdated EHR with no patient portal integration. ForNex implemented denial management workflows, automated claim scrubbing, and a patient-facing portal integrated with their existing eClinicalWorks EHR.",
-        image: "/images/three.jpg",
-    },
-    {
-        id: 4,
-        title: "Apollo 360 Health",
-        description: "Needed a HIPAA-compliant telehealth platform and EHR integration from scratch. 6-month launch deadline. ForNex developed a custom patient portal, video consultation module, and FHIR R4 integration with Athenahealth — deployed on AWS HIPAA architecture.",
-        image: "/images/four.jpg",
-    },
-    {
-        id: 5,
         title: "Super School Org",
         description: "Super School Org needed an engaging, mobile-first solution to help parents stay connected to their child's educational journey in real time. We developed a seamless mobile app that allows parents to track progress, receive updates, communicate with teachers, and access resources from anywhere, anytime.",
         image: "/images/five.png",
