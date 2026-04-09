@@ -28,6 +28,25 @@ export default function Footer() {
 
     return (
         <footer className="bg-[#1a1d21] text-gray-400 pt-10 lg:pt-15">
+            {/* Floating Call Button */}
+            <a
+                href="tel:8528835744"
+                className="fixed bottom-[90px] right-5 w-15 h-15 z-[115] bg-[#6d9fbb] p-[4px] rounded-full transform transition-transform duration-300 hover:scale-[1.15] active:scale-95 flex items-center justify-center shadow-lg text-white"
+                title="Call Us"
+            >
+                <Phone size={24} fill="currentColor" />
+            </a>
+
+            {/* Floating WhatsApp Button */}
+            <a
+                href="https://wa.me/8528835744"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="fixed bottom-5 right-5 w-15 h-15 z-[115] bg-[#41c652] p-3 rounded-full transform transition-transform duration-300 hover:scale-[1.15] active:scale-95 flex items-center justify-center shadow-lg"
+            >
+                <img src="/images/whatsapp.png" alt="WhatsApp" className="w-full h-full object-contain" />
+            </a>
+
             <div className="max-w-[1400px] mx-auto px-4">
                 {/* Top Section */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-10">

@@ -67,10 +67,10 @@ export default function Header() {
                             Contact us
                         </Link>
 
-                        <button className="px-5 py-3 rounded-full border border-[#6896af] text-[#fff] bg-[#6896af] hover:bg-[#fff] hover:text-[#6896af] cursor-pointer transition flex items-center gap-2 font-medium">
+                        <Link href='https://calendly.com/pawan_panwar/letstalk?embed_domain=creativebuffer.com&embed_type=Inline&month=2026-04' target="_blank" className="px-5 py-3 rounded-full border border-[#6896af] text-[#fff] bg-[#6896af] hover:bg-[#fff] hover:text-[#6896af] cursor-pointer transition flex items-center gap-2 font-medium">
                             Book a Call
                             <Calendar size={20} />
-                        </button>
+                        </Link>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -107,10 +107,10 @@ export default function Header() {
                         <Link href="/contact" className="w-full px-6 py-4 rounded-full border border-[#60C6B1] text-[#60C6B1] font-semibold text-center">
                             Contact us
                         </Link>
-                        <button className="w-full px-4 py-4 rounded-full bg-[#6896af] text-white flex items-center justify-center gap-2 font-semibold">
+                        <Link href='https://calendly.com/pawan_panwar/letstalk?embed_domain=creativebuffer.com&embed_type=Inline&month=2026-04' target="_blank" className="w-full px-4 py-4 rounded-full bg-[#6896af] text-white flex items-center justify-center gap-2 font-semibold">
                             Book a Call
                             <Calendar size={20} />
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>
