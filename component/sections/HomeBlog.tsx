@@ -2,6 +2,7 @@
 
 import React, { useRef, useEffect, useState } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 const blogs = [
     {
@@ -9,30 +10,35 @@ const blogs = [
         title: "The Future of Healthcare Technology",
         desc: "Digital innovation is transforming the healthcare industry with smarter systems and connected data.",
         image: "/images/one.jpg",
+        link: '#'
     },
     {
         id: 2,
         title: "Why EHR Integration Matters for Healthcare",
         desc: "Seamless EHR integration helps healthcare organizations manage patient data more efficiently.",
         image: "/images/two.jpg",
+        link: '#'
     },
     {
         id: 3,
         title: "How Medical Billing Optimization Improves",
         desc: "Efficient medical billing processes reduce claim denials and speed up reimbursements.",
         image: "/images/three.jpg",
+        link: '#'
     },
     {
         id: 4,
         title: "The Role of Telehealth in Healthcare Solutions",
         desc: "Building compliant telehealth solutions that scale and provide better patient outreach.",
         image: "/images/four.jpg",
+        link: '#'
     },
     {
         id: 5,
         title: "Advancing Patient Care Through Smarter Systems",
         desc: "Discover how smart infrastructure is redefining the patient experience and improving outcomes.",
         image: "/images/five.png",
+        link: '#'
     }
 ];
 
@@ -165,13 +171,15 @@ export default function HomeBlog() {
                                 </p>
 
                                 <div className="flex items-center justify-between w-full mt-4">
-                                    <button className="text-[#60C6B1] font-medium text-sm lg:text-[15px] group/btn flex items-center gap-1 transition-all duration-300">
-                                        Learn more
-                                        <span className="w-0 group-hover/btn:w-4 overflow-hidden transition-all duration-300 ease-in-out border-b border-[#60C6B1]"></span>
-                                    </button>
-                                    <div className="w-12 h-12 bg-[#60C6B1]/10 text-[#60C6B1] rounded-full flex items-center justify-center group-hover:bg-[#60C6B1] group-hover:text-white transition-all duration-500 shadow-sm">
-                                        <ArrowRight size={22} className="group-hover:translate-x-0.5 transition-transform duration-300" />
-                                    </div>
+                                    <Link href={blog.link} className='flex w-full items-center justify-between'>
+                                        <button className="text-[#60C6B1] font-medium text-sm lg:text-[15px] group/btn flex items-center gap-1 transition-all duration-300">
+                                            Learn more
+                                            <span className="w-0 group-hover/btn:w-4 overflow-hidden transition-all duration-300 ease-in-out border-b border-[#60C6B1]"></span>
+                                        </button>
+                                        <div className="w-12 h-12 bg-[#60C6B1]/10 text-[#60C6B1] rounded-full flex items-center justify-center group-hover:bg-[#60C6B1] group-hover:text-white transition-all duration-500 shadow-sm">
+                                            <ArrowRight size={22} className="group-hover:translate-x-0.5 transition-transform duration-300" />
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
