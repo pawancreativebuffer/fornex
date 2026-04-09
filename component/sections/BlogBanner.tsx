@@ -4,7 +4,7 @@ import { Globe } from "lucide-react";
 
 export default function BlogBanner() {
     return (
-        <div className="w-full max-w-[1400px] mx-auto px-4 flex flex-wrap items-center justify-between gap-10 relative z-50">
+        <div className="w-full max-w-[1400px] mx-auto px-4 flex flex-wrap items-center justify-center lg:justify-between gap-10 relative z-50">
             <div className="flex flex-col pt-20 lg:py-20 w-full max-w-[100%] lg:max-w-[600px]">
                 <h5 className="flex items-center gap-2 mx-auto lg:mx-0 lg:mb-5 font-[500] text-[18px] text-[#fff] bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-5 py-2 w-fit">
                     <Globe /> Blog
@@ -14,7 +14,7 @@ export default function BlogBanner() {
                 </h1>
             </div>
 
-            <div className="w-full max-w-[500px] h-[460px] mx-auto lg:mx-0 relative flex items-end justify-center">
+            <div className="w-full max-w-[500px] h-[380px] md:h-[460px] mx-auto lg:mx-0 relative flex items-end justify-center mx-auto">
                 {/* Visual Glow Layer */}
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[80%] bg-[#60C6B1]/10 blur-[100px] rounded-full -z-10" />
 
@@ -28,8 +28,8 @@ export default function BlogBanner() {
                     <div className="absolute top-1/3 right-1/4 w-1.5 h-1.5 bg-[#60C6B1]/50 rounded-full animate-bounce delay-1000 blur-sm" />
 
                     {/* Support Content (Optional decoration) */}
-                    <div className="relative z-20 flex flex-col items-center gap-4 text-center px-6 pt-15">
-                        {/* <img src="/images/contact.png" alt="contact" /> */}
+                    <div className="relative z-20 flex flex-col items-center gap-4 text-center px-20 pt-30">
+                        <img src="/images/blog.png" alt="blog" />
                     </div>
                 </div>
             </div>
