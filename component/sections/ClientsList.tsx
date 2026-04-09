@@ -13,7 +13,6 @@ const CLIENTS_DATA = [
         impact: "Reduced patient wait times",
         image: "/images/three.jpg",
         icon: '/images/manhattan.webp',
-        color: "#3b82f6"
     },
     {
         id: "02",
@@ -23,7 +22,6 @@ const CLIENTS_DATA = [
         impact: "Enhanced patient engagement & monitoring",
         image: "/images/four.jpg",
         icon: '/images/apollo.png',
-        color: "#60C6B1"
     },
     {
         id: "03",
@@ -33,7 +31,6 @@ const CLIENTS_DATA = [
         impact: "Faster clinical documentation workflows",
         image: "/images/two.jpg",
         icon: '/images/oasis.png',
-        color: "#60C6B1"
     },
     {
         id: "04",
@@ -43,7 +40,15 @@ const CLIENTS_DATA = [
         impact: "Improved special child engagement",
         image: "/images/five.png",
         icon: '/images/super-school.png',
-        color: "#3b82f6"
+    },
+    {
+        id: "05",
+        name: "MRI Safe Programming & Scheduling",
+        category: "Medical Device Software",
+        description: "A specialized healthcare solution designed to ensure safe MRI procedures for patients with pacemakers. The system enables clinicians to program devices into MRI-safe modes, verify compatibility, and manage pre-MRI workflows with structured scheduling and safety checks.",
+        impact: "Safer MRIs with faster workflows",
+        image: "/images/one.jpg",
+        icon: '/images/mri.png',
     },
 ];
 

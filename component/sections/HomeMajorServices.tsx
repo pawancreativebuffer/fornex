@@ -34,6 +34,12 @@ const services = [
         description: "Super School Org needed an engaging, mobile-first solution to help parents stay connected to their child's educational journey in real time. We developed a seamless mobile app that allows parents to track progress, receive updates, communicate with teachers, and access resources from anywhere, anytime.",
         image: "/images/five.png",
     },
+    {
+        id: 4,
+        title: "MRI Safe Programming & Scheduling",
+        description: "A specialized healthcare solution designed to ensure safe MRI procedures for patients with pacemakers. The system enables clinicians to program devices into MRI-safe modes, verify compatibility, and manage pre-MRI workflows with structured scheduling and safety checks.",
+        image: "/images/one.jpg",
+    },
 ];
 
 export default function HomeMajorServices() {
