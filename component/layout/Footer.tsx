@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronRight, MapPin, Phone, Mail, ArrowUp, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { ChevronRight, MapPin, Phone, Mail, ArrowUp, Facebook, Instagram, Linkedin } from "lucide-react";
 
 export default function Footer() {
     const scrollToTop = () => {
@@ -18,11 +18,11 @@ export default function Footer() {
             { name: "Blogs", href: "/blogs" },
         ],
         services: [
-            { name: "Healthcare Softwares", href: "#" },
-            { name: "EHR & EMR Integration", href: "#" },
-            { name: "Website & Mobile Apps", href: "#" },
-            { name: "Billing Management", href: "#" },
-            { name: "Healthcare Digital Marketing", href: "#" }
+            { name: "Healthcare Softwares", href: "/services/healthcare-software-development" },
+            { name: "EHR & EMR Integration", href: "/services/ehr-emr-integration" },
+            { name: "Website & Mobile Apps", href: "/services/website-mobile-app-development" },
+            { name: "Billing Management", href: "/services/medical-billing-rcm" },
+            { name: "Healthcare Digital Marketing", href: "/services/healthcare-digital-marketing" }
         ],
     };
 

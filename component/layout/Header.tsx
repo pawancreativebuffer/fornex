@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
 import Image from "next/image";
-import { ChevronRight, Menu, X } from "lucide-react";
+import { Calendar, Menu, X } from "lucide-react";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -68,8 +68,8 @@ export default function Header() {
                         </Link>
 
                         <button className="px-5 py-3 rounded-full border border-[#6896af] text-[#fff] bg-[#6896af] hover:bg-[#fff] hover:text-[#6896af] cursor-pointer transition flex items-center gap-2 font-medium">
-                            Get Consultation
-                            <ChevronRight size={20} />
+                            Book a Call
+                            <Calendar size={20} />
                         </button>
                     </div>
 
@@ -104,12 +104,12 @@ export default function Header() {
                     </nav>
 
                     <div className="flex flex-col gap-4">
-                        <Link href="/contact" className="w-full px-6 py-4 rounded-full border border-[#60C6B1] text-[#60C6B1] font-semibold">
+                        <Link href="/contact" className="w-full px-6 py-4 rounded-full border border-[#60C6B1] text-[#60C6B1] font-semibold text-center">
                             Contact us
                         </Link>
                         <button className="w-full px-4 py-4 rounded-full bg-[#6896af] text-white flex items-center justify-center gap-2 font-semibold">
-                            Get Consultation
-                            <ChevronRight size={20} />
+                            Book a Call
+                            <Calendar size={20} />
                         </button>
                     </div>
                 </div>
