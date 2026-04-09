@@ -172,7 +172,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
           <div className="max-w-[1400px] mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
               {service.process.map((step, idx) => (
-                <div key={idx} className="p-2 rounded-[1.5rem] bg-white/10 backdrop-blur-md border border-white/20 hover:border-[#fff] transition-all group">
+                <div key={idx} className="p-2 py-6 rounded-[1.5rem] bg-white/10 backdrop-blur-md border border-white/20 hover:border-[#fff] transition-all group">
                   <div className="text-6xl font-black text-white/40 mb-3 group-hover:text-[#fff] transition-all text-center">0{idx + 1}</div>
                   <h3 className="text-[22px] font-semibold text-center">{step}</h3>
                 </div>
