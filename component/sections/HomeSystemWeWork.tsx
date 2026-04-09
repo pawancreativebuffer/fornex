@@ -1,7 +1,8 @@
 'use client';
 
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ChevronUp, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
 
 export default function HomeSystemWeWork() {
     const integrations = [
@@ -17,48 +18,71 @@ export default function HomeSystemWeWork() {
         {
             name: "/images/epic.png",
             description: "Industry standard for large health systems",
-            delay: "0.4s",
         },
         {
             name: "/images/pcca.png",
             description: "Simple, cloud-based EHR for small practices",
-            delay: "0.4s",
         },
         {
             name: "/images/e-clinic.png",
             description: "Widely used by independent practices",
-            delay: "0.1s",
         },
         {
             name: "/images/nextgen.png",
             description: "Designed for multi-specialty practices",
-            delay: "0.2s",
         },
         {
             name: "/images/oracle.png",
             description: "Enterprise EHR for modern healthcare organizations",
-            delay: "0.5s",
         },
         {
             name: "/images/cerner.png",
             description: "Trusted EHR for hospitals and health networks",
-            delay: "0.5s",
         },
-        // {
-        //     name: "/images/athenahealth.png",
-        //     description: "Cloud-based EHR for ambulatory care",
-        //     delay: "0s",
-        // },
-        // {
-        //     name: "/images/kareo.png",
-        //     description: "Built for small to mid-size practices",
-        //     delay: "0.3s",
-        // }
+        {
+            name: "/images/athenahealth.png",
+            description: "Cloud-based EHR for ambulatory care",
+        },
+        {
+            name: "/images/kareo.png",
+            description: "Built for small to mid-size practices",
+        },
     ];
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [isMobile, setIsMobile] = useState(false);
+    const visibleCards = 6;
+
+    const rowHeight = 234;
+
+    useEffect(() => {
+        const checkMobile = () => setIsMobile(window.innerWidth < 768);
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        return () => window.removeEventListener('resize', checkMobile);
+    }, []);
+
+    const nextSlide = () => {
+        const step = isMobile ? 1 : 2;
+        if (currentIndex + (isMobile ? 3 : visibleCards) < partners.length) {
+            setCurrentIndex(prev => prev + step);
+        } else {
+            setCurrentIndex(0);
+        }
+    };
+
+    const prevSlide = () => {
+        const step = isMobile ? 1 : 2;
+        if (currentIndex > 0) {
+            setCurrentIndex(prev => prev - step);
+        } else {
+            setCurrentIndex(Math.max(0, partners.length - (isMobile ? 3 : visibleCards)));
+        }
+    };
 
     return (
         <section className="w-full my-10 lg:my-0 lg:py-16 bg-[#FCFEFF] lg:overflow-hidden">
-            <div className="max-w-[1400px] mx-auto px-4 grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+            <div className="max-w-[1400px] mx-auto px-4 grid lg:grid-cols-2 gap-8 lg:gap-16 items-center relative">
 
                 {/* Left Content */}
                 <div className="flex flex-col relative z-30">
@@ -95,27 +119,59 @@ export default function HomeSystemWeWork() {
                     </div>
                 </div>
 
-                {/* Right Visuals */}
-                <div className="relative w-full flex justify-center">
+                {/* Right Visuals Slider */}
+                <div className="relative w-full lg:overflow-hidden h-auto lg:h-[700px] flex items-center">
 
-                    {/* Partner Floating Cards (Visible only on lg screens) */}
-                    <div className="relative grid sm:grid-cols-1 md:grid-cols-2 gap-6 w-full">
-                        {partners.map((partner, idx) => (
-                            <div
-                                key={idx}
-                                className={`w-full bg-white/95 backdrop-blur-md p-6 rounded-[1rem] shadow-[0_15px_40px_rgba(0,0,0,0.06)] border border-gray-100 w-full transition-all hover:scale-110 hover:shadow-[0_30px_60px_rgba(0,0,0,0.12)] hover:z-30 duration-500`}
-                            >
-                                <div className="mb-4 flex items-center justify-center">
-                                    <img src={partner.name} alt={partner.name} className="w-auto h-[90px] object-contain" />
-                                </div>
-                                <p className="text-gray-500 text-sm text-center font-regular leading-snug">
-                                    {partner.description}
-                                </p>
-                            </div>
-                        ))}
+                    {/* Navigation Arrows (Desktop Only) */}
+                    <div className="hidden lg:flex absolute right-0 top-1/2 -translate-y-1/2 flex-col gap-4 z-40">
+                        <button
+                            onClick={prevSlide}
+                            className="p-3 cursor-pointer rounded-full bg-white shadow-lg border border-gray-100 text-[#60C6B1] hover:bg-[#60C6B1] hover:text-white transition-all duration-300 group"
+                            aria-label="Previous partners"
+                        >
+                            <ChevronUp size={24} className="group-hover:scale-110 transition-transform" />
+                        </button>
+                        <button
+                            onClick={nextSlide}
+                            className="p-3 cursor-pointer rounded-full bg-white shadow-lg border border-gray-100 text-[#60C6B1] hover:bg-[#60C6B1] hover:text-white transition-all duration-300 group"
+                            aria-label="Next partners"
+                        >
+                            <ChevronDown size={24} className="group-hover:scale-110 transition-transform" />
+                        </button>
                     </div>
 
-                    {/* Mobile optimized partner cards (Simple grid below or stacked) - omitted here for brevity as user usually focuses on the premium look showed in image */}
+                    <div
+                        className="w-full lg:pl-5 lg:pr-16 h-full relative"
+                    >
+                        <div
+                            className="grid grid-cols-1 md:grid-cols-2 gap-6 transition-transform duration-700 ease-in-out"
+                            style={{
+                                transform: isMobile ? 'none' : `translateY(-${(currentIndex / 2) * rowHeight}px)`
+                            } as any}
+                        >
+                            {partners.map((partner, idx) => (
+                                <div
+                                    key={idx}
+                                    className={`w-full bg-white/95 backdrop-blur-md p-6 rounded-[1rem] shadow-[0_8px_15px_rgba(0,0,0,0.07)] border border-gray-100 transition-all h-[210px] flex flex-col justify-center items-center`}
+                                >
+                                    <div className="mb-4 flex items-center justify-center h-[90px] w-full">
+                                        <img
+                                            src={partner.name}
+                                            alt={partner.name}
+                                            className="w-auto h-full object-contain transition-all duration-500"
+                                            onError={(e) => {
+                                                const target = e.target as HTMLImageElement;
+                                                target.src = "https://via.placeholder.com/150?text=" + partner.description.split(' ')[0];
+                                            }}
+                                        />
+                                    </div>
+                                    <p className="text-gray-500 text-sm text-center font-regular leading-snug">
+                                        {partner.description}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div >
         </section >
