@@ -135,7 +135,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               <div className="space-y-2">
                 <div className='text-2xl lg:text-5xl font-bold leading-[1.1] text-[#1a2b3c] mb-6 uppercase'>Benefits</div>
                 {service.benefits && service.benefits.map((benefit, idx) => (
-                  <div key={idx} className="flex items-center gap-5 p-2 bg-gray-50 rounded-[2rem] border border-gray-100 hover:bg-white hover:border-[#60C6B1] transition-all group">
+                  <div key={idx} className="flex items-center gap-5 p-2 bg-[#f7fbfe] rounded-[2rem] border border-gray-100 hover:bg-white hover:border-[#60C6B1] transition-all group">
                     <div className="w-10 h-10 rounded-full bg-white text-[#60C6B1] flex items-center justify-center shrink-0 shadow-sm group-hover:bg-[#60C6B1] group-hover:text-white transition-all">
                       <CheckCircle2 size={24} />
                     </div>
