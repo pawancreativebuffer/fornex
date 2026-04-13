@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 const services = [
     // {
@@ -15,30 +16,35 @@ const services = [
         title: "Manhattan Cardiovascular Associates",
         description: "High claim denial rate (22%) causing $180,000/month in revenue loss. Outdated EHR with no patient portal integration. ForNex implemented denial management workflows, automated claim scrubbing, and a patient-facing portal integrated with their existing eClinicalWorks EHR.",
         image: "/images/three.jpg",
+        link: '/clients/manhattan-cardiovascular-associates'
     },
     {
         id: 1,
         title: "Apollo 360 Health",
         description: "Needed a HIPAA-compliant telehealth platform and EHR integration from scratch. 6-month launch deadline. ForNex developed a custom patient portal, video consultation module, and FHIR R4 integration with Athenahealth — deployed on AWS HIPAA architecture.",
         image: "/images/four.jpg",
+        link: '/clients/manhattan-cardiovascular-associates'
     },
     {
         id: 2,
         title: "Oasis Notes",
         description: "Providers struggled with fragmented documentation and inefficient workflows while accessing patient records across multiple system screens. ForNex Health optimized workflows and unified patient records, enabling faster access to history, labs, diagnoses, and medications.",
         image: "/images/two.jpg",
+        link: '/clients/manhattan-cardiovascular-associates'
     },
     {
         id: 3,
         title: "Super School Org",
         description: "Super School Org needed an engaging, mobile-first solution to help parents stay connected to their child's educational journey in real time. We developed a seamless mobile app that allows parents to track progress, receive updates, communicate with teachers, and access resources from anywhere, anytime.",
         image: "/images/five.png",
+        link: '/clients/manhattan-cardiovascular-associates'
     },
     {
         id: 4,
         title: "MRI Safe Programming & Scheduling",
         description: "A specialized healthcare solution designed to ensure safe MRI procedures for patients with pacemakers. The system enables clinicians to program devices into MRI-safe modes, verify compatibility, and manage pre-MRI workflows with structured scheduling and safety checks.",
         image: "/images/one.jpg",
+        link: '/clients/manhattan-cardiovascular-associates'
     },
 ];
 
@@ -71,7 +77,7 @@ export default function HomeMajorServices() {
                         {/* Content Layout */}
                         <div className="absolute inset-0 p-6 md:p-10 flex flex-col justify-end">
                             {/* Active Content */}
-                            <div className={`transition-all duration-700 delay-100 ${activeIndex === index ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0 pointer-events-none'
+                            <div className={`transition-all duration-700 z-[10] delay-100 ${activeIndex === index ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                                 }`}>
                                 <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-regular text-white mb-4 tracking-wider uppercase">
                                     Case Study 0{index + 1}
@@ -82,9 +88,11 @@ export default function HomeMajorServices() {
                                 <p className="text-white/80 text-base font-regular max-w-xl mb-8 leading-relaxed line-clamp-3">
                                     {service.description}
                                 </p>
-                                <button className="flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-bold text-sm hover:bg-blue-600 hover:text-white transition-all duration-300 transform group-hover:translate-x-1">
-                                    Read Full Case Study <ArrowRight size={18} />
-                                </button>
+                                <div className='flex'>
+                                    <Link href={service.link} className="flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-bold text-sm transition-all duration-300 transform group-hover:translate-x-1">
+                                        Read Full Case Study <ArrowRight size={18} />
+                                    </Link>
+                                </div>
                             </div>
 
                             {/* Collapsed Content (Vertical Title) */}

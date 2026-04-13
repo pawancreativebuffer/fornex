@@ -13,6 +13,8 @@ const CLIENTS_DATA = [
         impact: "Reduced patient wait times",
         image: "/images/three.jpg",
         icon: '/images/manhattan.webp',
+        link: '/clients/manhattan-cardiovascular-associates'
+
     },
     {
         id: "02",
@@ -22,6 +24,7 @@ const CLIENTS_DATA = [
         impact: "Enhanced patient engagement & monitoring",
         image: "/images/four.jpg",
         icon: '/images/apollo.png',
+        link: '/clients/manhattan-cardiovascular-associates'
     },
     {
         id: "03",
@@ -31,6 +34,7 @@ const CLIENTS_DATA = [
         impact: "Faster clinical documentation workflows",
         image: "/images/two.jpg",
         icon: '/images/oasis.png',
+        link: '/clients/manhattan-cardiovascular-associates'
     },
     {
         id: "04",
@@ -40,6 +44,7 @@ const CLIENTS_DATA = [
         impact: "Improved special child engagement",
         image: "/images/five.png",
         icon: '/images/super-school.png',
+        link: '/clients/manhattan-cardiovascular-associates'
     },
     {
         id: "05",
@@ -49,6 +54,7 @@ const CLIENTS_DATA = [
         impact: "Safer MRIs with faster workflows",
         image: "/images/one.jpg",
         icon: '/images/mri.png',
+        link: '/clients/manhattan-cardiovascular-associates'
     },
 ];
 
@@ -133,9 +139,9 @@ export default function ClientList() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="hidden sm:flex w-14 h-14 rounded-full border border-slate-200 items-center justify-center text-slate-400 group-hover:bg-[#60C6B1] group-hover:text-white group-hover:border-[#60C6B1] group-hover:rotate-45 transition-all duration-500 cursor-pointer shadow-sm">
+                                        <Link href={client.link} className="hidden sm:flex flex-shrink-0 w-14 h-14 rounded-full border border-slate-200 items-center justify-center text-slate-400 group-hover:bg-[#60C6B1] group-hover:text-white group-hover:border-[#60C6B1] group-hover:rotate-45 transition-all duration-500 cursor-pointer shadow-sm">
                                             <ArrowUpRight className="w-6 h-6" />
-                                        </div>
+                                        </Link>
                                     </div>
 
                                     {/* Item Body */}
@@ -158,7 +164,7 @@ export default function ClientList() {
                                             </div>
 
                                             <div className="flex gap-4">
-                                                <Link href="#" className="px-5 py-3 rounded-full border border-[#1a2b3c] text-[#fff] bg-[#1a2b3c] hover:bg-[#fff] hover:text-[#1a2b3c] cursor-pointer transition flex items-center gap-2 font-medium">
+                                                <Link href={client.link} className="px-5 py-3 rounded-full border border-[#1a2b3c] text-[#fff] bg-[#1a2b3c] hover:bg-[#fff] hover:text-[#1a2b3c] cursor-pointer transition flex items-center gap-2 font-medium">
                                                     View Case Study
                                                     <ExternalLink size={20} />
                                                 </Link>
