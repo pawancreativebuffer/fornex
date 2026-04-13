@@ -132,7 +132,7 @@ export default function HomeAllService() {
                 <div className="relative max-w-[1400px] w-full mx-auto flex flex-col lg:flex-row min-h-[600px] xl:min-h-[100vh] px-4">
 
                     {/* Left Side: Services List */}
-                    <div className="w-full lg:w-2/3 py-10 lg:py-24 lg:pr-30 flex flex-col justify-center relative z-10">
+                    <div className="w-full lg:w-2/3 py-10 lg:py-12 lg:pr-30 flex flex-col justify-center relative z-10">
                         <div className="mb-8">
                             <div className="flex items-center gap-2 text-[#60C6B1] font-medium text-sm lg:text-base mb-4">
                                 <div className="w-2.5 h-2.5 bg-[#60C6B1] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
