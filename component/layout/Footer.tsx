@@ -13,7 +13,7 @@ export default function Footer() {
         company: [
             { name: "Home", href: "/" },
             { name: "Services", href: "/services" },
-            { name: "Clients", href: "/clients" },
+            { name: "Clients & Case Studies", href: "/clients" },
             { name: "Contact", href: "/contact" },
             { name: "Blogs", href: "/blogs" },
         ],
