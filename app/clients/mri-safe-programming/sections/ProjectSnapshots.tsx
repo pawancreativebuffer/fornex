@@ -98,65 +98,54 @@ export default function ProjectSnapshots() {
 
                 {/* Timeline */}
                 <div>
-                    <h2 className="text-2xl lg:text-4xl font-bold leading-[1.1] text-[#2D2D2D] mb-6">
+                    <h2 className="text-2xl lg:text-4xl font-bold leading-[1.1] text-[#2D2D2D] mb-10">
                         Project <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Timeline — 2025</span>
                     </h2>
-                    <div className="relative border-l border-slate-800 pl-6 space-y-8">
 
+                    <div className="relative pl-[20px] space-y-4">
                         {[
                             {
                                 title: "Discovery",
-                                time: "Q1 2025",
+                                time: "Step 1",
                                 desc: "Stakeholder interviews, market research, competitive analysis, user persona development.",
                             },
                             {
                                 title: "Architecture",
-                                time: "Q1–Q2 2025",
+                                time: "Step 2",
                                 desc: "System design, tech stack selection, API contracts, data modeling & infrastructure planning.",
                             },
                             {
                                 title: "Design",
-                                time: "Q2 2025",
-                                current: true,
+                                time: "Step 3",
                                 desc: "Wireframes, high-fidelity prototypes, design system creation, usability testing.",
                             },
                             {
                                 title: "Development",
-                                time: "Q2–Q3 2025",
+                                time: "Step 4",
                                 desc: "React Native + Kotlin implementation, backend services, integrations, QA cycles.",
                             },
                             {
                                 title: "Beta Launch",
-                                time: "Q3–Q4 2025",
+                                time: "Step 5",
                                 desc: "Staged rollout, user feedback loops, performance monitoring, iteration before launch.",
                             },
                         ].map((item, i) => (
                             <div key={i} className="relative group">
 
                                 {/* Dot */}
-                                <div
-                                    className={`absolute -left-[34px] top-2 w-3 h-3 rounded-full ${item.current ? "bg-teal-400" : "bg-slate-600"
-                                        }`}
-                                />
+                                <div className={`absolute -left-[34px] top-2 w-3 h-3 rounded-full bg-teal-400`} />
 
                                 {/* Card */}
-                                <div className="bg-gradient-to-br from-[#0f172a] to-[#111827] border border-slate-800 rounded-xl p-5 hover:border-teal-400 transition-all">
+                                <div className="rounded-[20px] p-5 bg-white p-6 shadow-[0_8px_15px_rgba(0,0,0,0.07)]">
                                     <div className="flex items-center gap-3 mb-2">
                                         <span className="text-xs text-teal-400">
                                             {item.time}
                                         </span>
-                                        {item.current && (
-                                            <span className="text-[10px] bg-teal-400/20 text-teal-300 px-2 py-0.5 rounded">
-                                                CURRENT
-                                            </span>
-                                        )}
                                     </div>
-
-                                    <h3 className="text-lg font-semibold mb-2">
+                                    <h3 className="font-bold text-[22px] lg:text-[24px] leading-tight mb-1 text-[#000]">
                                         {item.title}
                                     </h3>
-
-                                    <p className="text-sm text-slate-400">
+                                    <p className="text-gray-500 text-base font-regular leading-relaxed">
                                         {item.desc}
                                     </p>
                                 </div>
