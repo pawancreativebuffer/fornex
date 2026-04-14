@@ -12,6 +12,7 @@ import {
     PenTool,
     Code,
     FlaskConical,
+    ArrowRight,
 } from "lucide-react";
 
 export default function ProjectSnapshots() {
@@ -33,7 +34,7 @@ export default function ProjectSnapshots() {
                 </div>
 
                 {/* Info Cards */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
                     {[
                         { icon: User, title: "Client", value: "Carevation" },
                         { icon: User, title: "Founder", value: "Adrian Chung" },
@@ -48,15 +49,15 @@ export default function ProjectSnapshots() {
                         return (
                             <div
                                 key={i}
-                                className="bg-gradient-to-br from-[#0f172a] to-[#111827] border border-slate-800 rounded-xl p-5 hover:border-teal-400 transition-all duration-300"
+                                className="bg-white border border-gray-100 rounded-[20px] p-5 hover:border-[#60c6b1] hover:shadow-[0_20px_50px_rgba(0,0,0,0.05)] hover:-translate-y-1 transition-all duration-500"
                             >
                                 <div className="flex items-center gap-3 mb-3">
-                                    <Icon size={18} className="text-teal-400" />
-                                    <p className="text-xs text-slate-400 uppercase tracking-wider">
+                                    <Icon size={22} className="text-[#60c6b1]" />
+                                    <p className="text-base text-gray-500 font-regular leading-snug">
                                         {item.title}
                                     </p>
                                 </div>
-                                <p className="text-sm font-medium text-white">
+                                <p className="text-[18px] font-medium text-[#2D2D2D]">
                                     {item.value}
                                 </p>
                             </div>
@@ -65,10 +66,10 @@ export default function ProjectSnapshots() {
                 </div>
 
                 {/* Engagement Flow */}
-                <div className="bg-gradient-to-r from-[#0f172a] to-[#111827] border border-slate-800 rounded-xl p-6 mb-12">
-                    <p className="text-xs text-slate-400 uppercase tracking-wider mb-4">
+                <div className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] rounded-[20px] p-6 mb-10">
+                    <h3 className="text-[22px] lg:text-[24px] font-bold text-[#fff] mb-4">
                         Fornex Engagement
-                    </p>
+                    </h3>
 
                     <div className="flex flex-wrap gap-3 items-center">
                         {[
@@ -82,12 +83,12 @@ export default function ProjectSnapshots() {
                             return (
                                 <div
                                     key={i}
-                                    className="flex items-center gap-2 bg-[#0b1220] border border-slate-700 px-4 py-2 rounded-lg text-sm"
+                                    className="flex items-center gap-4 bg-[#fff] p-4 rounded-lg text-[16px] font-medium uppercase"
                                 >
-                                    <Icon size={14} className="text-teal-400" />
+                                    <Icon size={24} className="text-[#60c6b1]" />
                                     {step.label}
                                     {i !== 4 && (
-                                        <span className="ml-2 text-slate-500">→</span>
+                                        <ArrowRight size={24} className="text-[#2D2D2D]" />
                                     )}
                                 </div>
                             );

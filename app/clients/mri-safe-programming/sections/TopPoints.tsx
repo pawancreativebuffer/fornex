@@ -31,7 +31,7 @@ export default function TopPoints() {
     return (
         <section className="relative w-full overflow-hidden py-10 lg:py-15 bg-white">
             <div className="max-w-[1400px] mx-auto px-4">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
                     {/* Left Column: Heading & Intro */}
                     <div className="max-w-xl animate-slide-right">
                         <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] mb-4 lg:mb-8">
