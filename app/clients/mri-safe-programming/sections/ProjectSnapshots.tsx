@@ -106,8 +106,8 @@ export default function ProjectSnapshots() {
 
                             {/* Card */}
                             <div className="rounded-[20px] bg-white p-6 shadow-[0_8px_15px_rgba(0,0,0,0.07)]">
-                                <div className="flex items-center gap-3 mb-2">
-                                    <span className="text-xs text-teal-400">
+                                <div className="flex items-center gap-3 mb-4">
+                                    <span className="text-sm bg-gray-100 px-5 py-1 rounded-full">
                                         {item.time}
                                     </span>
                                 </div>
@@ -121,6 +121,7 @@ export default function ProjectSnapshots() {
                         </div>
                     ))}
                 </div>
+
 
             </div>
         </section>
