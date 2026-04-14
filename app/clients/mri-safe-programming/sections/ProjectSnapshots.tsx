@@ -102,7 +102,7 @@ export default function ProjectSnapshots() {
                         Project <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Timeline — 2025</span>
                     </h2>
 
-                    <div className="relative pl-[20px] space-y-4">
+                    <div className="relative border-l-2 border-l-[#60c6b1] pl-6 space-y-4">
                         {[
                             {
                                 title: "Discovery",
@@ -133,7 +133,7 @@ export default function ProjectSnapshots() {
                             <div key={i} className="relative group">
 
                                 {/* Dot */}
-                                <div className={`absolute -left-[34px] top-2 w-3 h-3 rounded-full bg-teal-400`} />
+                                <div className="absolute -left-[50px] top-6 w-5 h-5 rounded-full border-2 border-[#60c6b1] bg-teal-400 shadow-lg z-10 group-hover:scale-125 transition-transform duration-300" />
 
                                 {/* Card */}
                                 <div className="rounded-[20px] p-5 bg-white p-6 shadow-[0_8px_15px_rgba(0,0,0,0.07)]">
