@@ -44,7 +44,7 @@ const services = [
         title: "MRI Safe Programming & Scheduling",
         description: "A specialized healthcare solution designed to ensure safe MRI procedures for patients with pacemakers. The system enables clinicians to program devices into MRI-safe modes, verify compatibility, and manage pre-MRI workflows with structured scheduling and safety checks.",
         image: "/images/one.jpg",
-        link: '/clients/manhattan-cardiovascular-associates'
+        link: '/clients/mri-safe-programming'
     },
 ];
 

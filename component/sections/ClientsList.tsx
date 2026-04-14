@@ -54,7 +54,7 @@ const CLIENTS_DATA = [
         impact: "Safer MRIs with faster workflows",
         image: "/images/one.jpg",
         icon: '/images/mri.png',
-        link: '/clients/manhattan-cardiovascular-associates'
+        link: '/clients/mri-safe-programming'
     },
 ];
 
