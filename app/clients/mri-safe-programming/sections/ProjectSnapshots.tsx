@@ -8,12 +8,6 @@ import {
     MapPin,
     DollarSign,
     Cpu,
-    Search,
-    DraftingCompass,
-    PenTool,
-    Code,
-    FlaskConical,
-    ArrowRight,
 } from "lucide-react";
 
 export default function ProjectSnapshots() {
@@ -27,14 +21,6 @@ export default function ProjectSnapshots() {
         { icon: MapPin, title: "Geography", value: "United States" },
         { icon: DollarSign, title: "Business Model", value: "Freemium" },
         { icon: Cpu, title: "Platforms", value: "React Native + Kotlin" },
-    ]
-
-    const allIcons = [
-        { icon: Search, label: "Discovery" },
-        { icon: DraftingCompass, label: "Architecture" },
-        { icon: PenTool, label: "Design" },
-        { icon: Code, label: "Development" },
-        { icon: FlaskConical, label: "Beta Launch" },
     ]
 
     const timeline = [
@@ -105,43 +91,18 @@ export default function ProjectSnapshots() {
                     })}
                 </div>
 
-                {/* Engagement Flow */}
-                <div className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] rounded-[20px] p-6 mb-10">
-                    <h3 className="text-[22px] lg:text-[24px] font-bold text-[#fff] mb-4">
-                        Fornex Engagement
-                    </h3>
-
-                    <div className="flex flex-wrap gap-3 items-center">
-                        {allIcons.map((step, i) => {
-                            const Icon = step?.icon;
-                            return (
-                                <div
-                                    key={i}
-                                    className="flex items-center gap-4 bg-[#fff] p-4 rounded-lg text-[16px] font-medium uppercase"
-                                >
-                                    <Icon size={24} className="text-[#60c6b1]" />
-                                    {step.label}
-                                    {i !== 4 && (
-                                        <ArrowRight size={24} className="text-[#2D2D2D]" />
-                                    )}
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-
                 {/* Timeline */}
                 <h2 className="text-2xl lg:text-4xl font-bold leading-[1.1] text-[#2D2D2D] mb-10">
                     Project <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Timeline — 2025</span>
                 </h2>
 
-                <div className="relative pl-6 space-y-4">
+                <div className="relative pl-8 space-y-4">
                     <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-gradient-to-b from-[#60c6b1] to-[#90c7e5]" />
 
                     {timeline.map((item, i) => (
                         <div key={i} className="relative">
                             {/* Dot */}
-                            <div className="absolute -left-8 top-0 w-5 h-5 rounded-full border-3 border-[#60c6b1] bg-white shadow-lg" />
+                            <div className="absolute -left-10 top-0 w-5 h-5 rounded-full border-4 border-[#60c6b1] bg-white shadow-lg" />
 
                             {/* Card */}
                             <div className="rounded-[20px] bg-white p-6 shadow-[0_8px_15px_rgba(0,0,0,0.07)]">
