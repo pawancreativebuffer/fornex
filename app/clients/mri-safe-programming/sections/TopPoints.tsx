@@ -1,29 +1,29 @@
-import { Shield, Brain, Target, Users } from 'lucide-react';
+import { Activity, Stethoscope, Microscope, HeartPulse } from 'lucide-react';
 
 export default function TopPoints() {
     const points = [
         {
             title: "12 Months",
             description: "Zero to beta launch",
-            icon: Shield,
+            icon: Activity,
             featured: true
         },
         {
             title: "5 Modules",
             description: "Built & delivered",
-            icon: Brain,
+            icon: Stethoscope,
             featured: false
         },
         {
             title: "2 Platforms",
             description: "iOS & Android",
-            icon: Target,
+            icon: Microscope,
             featured: false
         },
         {
             title: "1 CareSpace",
             description: "Unified care workspace",
-            icon: Users,
+            icon: HeartPulse,
             featured: false
         }
     ];
