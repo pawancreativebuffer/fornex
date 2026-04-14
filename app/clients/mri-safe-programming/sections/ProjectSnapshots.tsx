@@ -98,10 +98,9 @@ export default function ProjectSnapshots() {
 
                 {/* Timeline */}
                 <div>
-                    <p className="text-xs text-slate-400 uppercase tracking-wider mb-6">
-                        Project Timeline — 2025
-                    </p>
-
+                    <h2 className="text-2xl lg:text-4xl font-bold leading-[1.1] text-[#2D2D2D] mb-6">
+                        Project <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Timeline — 2025</span>
+                    </h2>
                     <div className="relative border-l border-slate-800 pl-6 space-y-8">
 
                         {[
