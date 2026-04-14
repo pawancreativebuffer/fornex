@@ -78,8 +78,8 @@ export default function ProjectSnapshots() {
                                 className="bg-white border border-gray-100 rounded-[20px] p-5 hover:border-[#60c6b1] hover:shadow-[0_20px_50px_rgba(0,0,0,0.05)] hover:-translate-y-1 transition-all duration-500"
                             >
                                 <div className="flex items-center gap-3 mb-3">
-                                    <Icon size={20} className="text-[#60c6b1]" />
-                                    <p className="text-sm text-gray-500 font-regular leading-snug">
+                                    <span className="bg-[#60c6b1] p-2 rounded-[0_10px_10px_10px]"><Icon size={24} className="text-white" /></span>
+                                    <p className="text-base text-gray-500 font-regular leading-snug">
                                         {item.title}
                                     </p>
                                 </div>
