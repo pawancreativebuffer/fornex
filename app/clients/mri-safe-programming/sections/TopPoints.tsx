@@ -43,7 +43,7 @@ export default function TopPoints() {
                     </div>
 
                     {/* Right Column: Grid of Cards */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 animate-slide-left">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 animate-slide-left">
 
                         {points.map((point, index) => (
                             <div
