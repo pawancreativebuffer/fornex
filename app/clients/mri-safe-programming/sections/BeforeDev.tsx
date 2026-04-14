@@ -18,7 +18,7 @@ export default function BeforeDev() {
                             <div className="w-2.5 h-2.5 bg-[#60C6B1] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                             <span>The Background</span>
                         </div>
-                        <h1 className="text-shadow-lg/20 font-[700] text-[50px] lg:text-[60px] text-[#fff] leading-[60px] lg:leading-[70px]">
+                        <h1 className="text-shadow-lg/20 font-[700] text-4xl lg:text-6xl text-[#fff] leading-[1.1]">
                             A Healthcare Veteran Who <span className="text-[#60C6B1]">Lived the Problem</span> Before He Built the Solution
                         </h1>
 
