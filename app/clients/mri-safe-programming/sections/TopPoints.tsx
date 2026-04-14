@@ -49,13 +49,13 @@ export default function TopPoints() {
                             <div
                                 key={index}
                                 className={`
-                                    border border-gray-100 rounded-[20px] p-6 flex flex-col justify-between group hover:shadow-[0_20px_50px_rgba(0,0,0,0.05)] hover:-translate-y-2 transition-all duration-500
+                                    border border-gray-100 rounded-[20px] text-center p-6 flex flex-col justify-between group hover:shadow-[0_20px_50px_rgba(0,0,0,0.05)] hover:-translate-y-2 transition-all duration-500
                                     ${point.featured ? 'bg-gradient-to-r from-[#60c6b1] to-[#90c7e5]' : 'bg-[#fff]'}
                                 `}
                             >
                                 <div>
                                     <div className={`mb-4 inline-flex items-center justify-center rounded-2xl`}>
-                                        <point.icon className={`w-10 h-10 ${point.featured ? 'text-white' : 'text-[#FF4D00]'}`} />
+                                        <point.icon className={`w-10 h-10 ${point.featured ? 'text-white' : 'text-[#60c6b1]'}`} />
                                     </div>
                                 </div>
                                 <h2 className={`text-[22px] lg:text-[24px] font-bold ${point.featured ? 'text-white' : 'text-[#1a2b3c]'}`}>

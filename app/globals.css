@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+    --spacing-15: 3.75rem;
+    --spacing-70: 17.5rem;
+}
+
+
 body {
     background: #fcfeff !important;
 }

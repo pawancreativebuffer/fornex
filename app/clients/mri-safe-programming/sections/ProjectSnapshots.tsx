@@ -1,6 +1,7 @@
+"use client";
+
 import {
     User,
-    Globe,
     Layers,
     Smartphone,
     Rocket,
@@ -16,6 +17,54 @@ import {
 } from "lucide-react";
 
 export default function ProjectSnapshots() {
+
+    const flow = [
+        { icon: User, title: "Client", value: "Carevation" },
+        { icon: User, title: "Founder", value: "Adrian Chung" },
+        { icon: Layers, title: "Industry", value: "Digital Health" },
+        { icon: Smartphone, title: "Project Type", value: "Mobile App" },
+        { icon: Rocket, title: "Stage", value: "Early Access / Beta" },
+        { icon: MapPin, title: "Geography", value: "United States" },
+        { icon: DollarSign, title: "Business Model", value: "Freemium" },
+        { icon: Cpu, title: "Platforms", value: "React Native + Kotlin" },
+    ]
+
+    const allIcons = [
+        { icon: Search, label: "Discovery" },
+        { icon: DraftingCompass, label: "Architecture" },
+        { icon: PenTool, label: "Design" },
+        { icon: Code, label: "Development" },
+        { icon: FlaskConical, label: "Beta Launch" },
+    ]
+
+    const timeline = [
+        {
+            title: "Discovery",
+            time: "Step 1",
+            desc: "Stakeholder interviews, market research, competitive analysis, user persona development.",
+        },
+        {
+            title: "Architecture",
+            time: "Step 2",
+            desc: "System design, tech stack selection, API contracts, data modeling & infrastructure planning.",
+        },
+        {
+            title: "Design",
+            time: "Step 3",
+            desc: "Wireframes, high-fidelity prototypes, design system creation, usability testing.",
+        },
+        {
+            title: "Development",
+            time: "Step 4",
+            desc: "React Native + Kotlin implementation, backend services, integrations, QA cycles.",
+        },
+        {
+            title: "Beta Launch",
+            time: "Step 5",
+            desc: "Staged rollout, user feedback loops, performance monitoring, iteration before launch.",
+        },
+    ]
+
     return (
         <section className="relative w-full overflow-hidden py-10 lg:py-15 bg-[#f7fbfe]">
             <div className="max-w-[1400px] mx-auto px-4">
@@ -35,16 +84,7 @@ export default function ProjectSnapshots() {
 
                 {/* Info Cards */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
-                    {[
-                        { icon: User, title: "Client", value: "Carevation" },
-                        { icon: User, title: "Founder", value: "Adrian Chung" },
-                        { icon: Layers, title: "Industry", value: "Digital Health" },
-                        { icon: Smartphone, title: "Project Type", value: "Mobile App" },
-                        { icon: Rocket, title: "Stage", value: "Early Access / Beta" },
-                        { icon: MapPin, title: "Geography", value: "United States" },
-                        { icon: DollarSign, title: "Business Model", value: "Freemium" },
-                        { icon: Cpu, title: "Platforms", value: "React Native + Kotlin" },
-                    ].map((item, i) => {
+                    {flow.map((item, i) => {
                         const Icon = item.icon;
                         return (
                             <div
@@ -52,8 +92,8 @@ export default function ProjectSnapshots() {
                                 className="bg-white border border-gray-100 rounded-[20px] p-5 hover:border-[#60c6b1] hover:shadow-[0_20px_50px_rgba(0,0,0,0.05)] hover:-translate-y-1 transition-all duration-500"
                             >
                                 <div className="flex items-center gap-3 mb-3">
-                                    <Icon size={22} className="text-[#60c6b1]" />
-                                    <p className="text-base text-gray-500 font-regular leading-snug">
+                                    <Icon size={20} className="text-[#60c6b1]" />
+                                    <p className="text-sm text-gray-500 font-regular leading-snug">
                                         {item.title}
                                     </p>
                                 </div>
@@ -72,14 +112,8 @@ export default function ProjectSnapshots() {
                     </h3>
 
                     <div className="flex flex-wrap gap-3 items-center">
-                        {[
-                            { icon: Search, label: "Discovery" },
-                            { icon: DraftingCompass, label: "Architecture" },
-                            { icon: PenTool, label: "Design" },
-                            { icon: Code, label: "Development" },
-                            { icon: FlaskConical, label: "Beta Launch" },
-                        ].map((step, i) => {
-                            const Icon = step.icon;
+                        {allIcons.map((step, i) => {
+                            const Icon = step?.icon;
                             return (
                                 <div
                                     key={i}
@@ -97,62 +131,34 @@ export default function ProjectSnapshots() {
                 </div>
 
                 {/* Timeline */}
-                <div>
-                    <h2 className="text-2xl lg:text-4xl font-bold leading-[1.1] text-[#2D2D2D] mb-10">
-                        Project <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Timeline — 2025</span>
-                    </h2>
+                <h2 className="text-2xl lg:text-4xl font-bold leading-[1.1] text-[#2D2D2D] mb-10">
+                    Project <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Timeline — 2025</span>
+                </h2>
 
-                    <div className="relative border-l-2 border-l-[#60c6b1] pl-6 space-y-4">
-                        {[
-                            {
-                                title: "Discovery",
-                                time: "Step 1",
-                                desc: "Stakeholder interviews, market research, competitive analysis, user persona development.",
-                            },
-                            {
-                                title: "Architecture",
-                                time: "Step 2",
-                                desc: "System design, tech stack selection, API contracts, data modeling & infrastructure planning.",
-                            },
-                            {
-                                title: "Design",
-                                time: "Step 3",
-                                desc: "Wireframes, high-fidelity prototypes, design system creation, usability testing.",
-                            },
-                            {
-                                title: "Development",
-                                time: "Step 4",
-                                desc: "React Native + Kotlin implementation, backend services, integrations, QA cycles.",
-                            },
-                            {
-                                title: "Beta Launch",
-                                time: "Step 5",
-                                desc: "Staged rollout, user feedback loops, performance monitoring, iteration before launch.",
-                            },
-                        ].map((item, i) => (
-                            <div key={i} className="relative group">
+                <div className="relative pl-6 space-y-4">
+                    <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-gradient-to-b from-[#60c6b1] to-[#90c7e5]" />
 
-                                {/* Dot */}
-                                <div className="absolute -left-[50px] top-6 w-5 h-5 rounded-full border-2 border-[#60c6b1] bg-teal-400 shadow-lg z-10 group-hover:scale-125 transition-transform duration-300" />
+                    {timeline.map((item, i) => (
+                        <div key={i} className="relative">
+                            {/* Dot */}
+                            <div className="absolute -left-8 top-0 w-5 h-5 rounded-full border-3 border-[#60c6b1] bg-white shadow-lg" />
 
-                                {/* Card */}
-                                <div className="rounded-[20px] p-5 bg-white p-6 shadow-[0_8px_15px_rgba(0,0,0,0.07)]">
-                                    <div className="flex items-center gap-3 mb-2">
-                                        <span className="text-xs text-teal-400">
-                                            {item.time}
-                                        </span>
-                                    </div>
-                                    <h3 className="font-bold text-[22px] lg:text-[24px] leading-tight mb-1 text-[#000]">
-                                        {item.title}
-                                    </h3>
-                                    <p className="text-gray-500 text-base font-regular leading-relaxed">
-                                        {item.desc}
-                                    </p>
+                            {/* Card */}
+                            <div className="rounded-[20px] bg-white p-6 shadow-[0_8px_15px_rgba(0,0,0,0.07)]">
+                                <div className="flex items-center gap-3 mb-2">
+                                    <span className="text-xs text-teal-400">
+                                        {item.time}
+                                    </span>
                                 </div>
+                                <h3 className="font-bold text-[22px] lg:text-[24px] leading-tight mb-1 text-[#000]">
+                                    {item.title}
+                                </h3>
+                                <p className="text-gray-500 text-base font-regular leading-relaxed">
+                                    {item.desc}
+                                </p>
                             </div>
-                        ))}
-
-                    </div>
+                        </div>
+                    ))}
                 </div>
 
             </div>
