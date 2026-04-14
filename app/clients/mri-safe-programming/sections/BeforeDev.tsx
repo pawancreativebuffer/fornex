@@ -9,7 +9,7 @@ export default function BeforeDev() {
             <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#60C6B1] rounded-full blur-[150px] opacity-70 pointer-events-none"></div>
             <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-500 rounded-full blur-[150px] opacity-70 pointer-events-none"></div>
 
-            <div className="max-w-[1400px] mx-auto px-6 lg:px-12 relative z-10">
+            <div className="max-w-[1400px] mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
 
                     {/* Left Column: Content */}
