@@ -2,6 +2,7 @@ import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
 import TopPoints from './sections/TopPoints';
 import Banner from './sections/Banner';
+import ProjectSnapshots from './sections/ProjectSnapshots';
 
 export default async function MriSafeProgrammingPage() {
     return (
@@ -16,6 +17,7 @@ export default async function MriSafeProgrammingPage() {
             </section>
 
             <TopPoints />
+            <ProjectSnapshots />
             <Footer />
         </>
     );
