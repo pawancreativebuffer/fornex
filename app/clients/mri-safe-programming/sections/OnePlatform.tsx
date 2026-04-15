@@ -8,7 +8,8 @@ import {
     FileText,
     Heart,
     ArrowRight,
-    Check
+    Check,
+    Activity
 } from 'lucide-react';
 
 const strategicPoints = [
@@ -23,8 +24,8 @@ const coreModules = [
     {
         id: "1",
         title: "Appointment & Task Management",
-        icon: <Calendar className="w-6 h-6" />,
-        color: "#90c7e5",
+        icon: <Calendar className="w-12 h-12" />,
+        color: "#60C6B1",
         bullets: [
             "Real-time visibility into upcoming appointments, overdue tasks, and follow-up items across the entire care team",
             "Calendar integration prevents scheduling conflicts",
@@ -35,8 +36,8 @@ const coreModules = [
     {
         id: "2",
         title: "Medication Management",
-        icon: <Pill className="w-6 h-6" />,
-        color: "#60C6B1",
+        icon: <Pill className="w-12 h-12" />,
+        color: "#90c7e5",
         bullets: [
             "Comprehensive medication tracking — dosage, instructions, refill schedules, and prescribing provider",
             "A complete medication history is always available for specialist visits",
@@ -47,7 +48,7 @@ const coreModules = [
     {
         id: "3",
         title: "CareSpace — Shared Collaborative Workspace",
-        icon: <Users2 className="w-6 h-6" />,
+        icon: <Users2 className="w-12 h-12" />,
         color: "#ff9900",
         bullets: [
             "The central hub where all care information lives",
@@ -59,7 +60,7 @@ const coreModules = [
     {
         id: "4",
         title: "Document & Records Storage",
-        icon: <FileText className="w-6 h-6" />,
+        icon: <FileText className="w-12 h-12" />,
         color: "#E3ACC8",
         bullets: [
             "Secure storage for medical records, test results, insurance documents, and care plans",
@@ -71,7 +72,7 @@ const coreModules = [
     {
         id: "5",
         title: "Caregiver Wellness & Self-Care",
-        icon: <Heart className="w-6 h-6" />,
+        icon: <Heart className="w-12 h-12" />,
         color: "#c66060",
         bullets: [
             "Built-in mood and stress check-ins",
@@ -121,56 +122,52 @@ export default function OnePlatform() {
                         </div>
                     </div>
 
-                    {/* Right Column: Core Modules (Sticky Stacking Sections) */}
-                    <div className="lg:w-[55%] flex flex-col pt-10">
+                    {/* Right Column: Core Modules (One by One) */}
+                    <div className="lg:w-[55%] flex flex-col gap-10">
                         {coreModules.map((module, index) => (
                             <div
                                 key={module.id}
-                                className="min-h-[90vh] lg:min-h-screen relative flex flex-col pt-0"
+                                className="relative flex flex-col"
                                 style={{ zIndex: index + 1 }}
                             >
                                 <div
-                                    className="sticky top-28 lg:top-40 bg-[#1a2b3c] text-white rounded-[32px] p-8 lg:p-12 shadow-2xl border border-white/5 overflow-hidden transition-all duration-700"
+                                    className="rounded-[40px] p-5 lg:p-10 shadow-xl flex flex-col justify-center text-white overflow-hidden"
+                                    style={{ backgroundColor: module.color }}
                                 >
-                                    {/* Subtle decorative glow */}
-                                    <div
-                                        className="absolute -top-32 -right-32 w-80 h-80 blur-[100px] opacity-10 rounded-full"
-                                        style={{ backgroundColor: module.color }}
-                                    />
+                                    {/* Large Background Icon */}
+                                    <div className="absolute -bottom-0 -right-0 opacity-15 pointer-events-none scale-[4.5] rotate-[-15deg]">
+                                        {module.icon}
+                                    </div>
 
-                                    <div className="relative z-10">
-                                        <div className="flex items-center gap-6 mb-10 lg:mb-14">
-                                            <div
-                                                className="w-14 h-14 rounded-2xl flex items-center justify-center shadow-lg"
-                                                style={{ color: module.color, backgroundColor: 'rgba(255,255,255,0.08)' }}
-                                            >
-                                                {module.icon}
+                                    <div className="relative z-10 w-full">
+                                        {/* Module Header */}
+                                        <div className="flex flex-col gap-6">
+                                            <div className="w-20 h-20 bg-white/20 rounded-[20px] flex items-center justify-center shadow-lg backdrop-blur-sm">
+                                                <div className="text-white">
+                                                    {module.icon}
+                                                </div>
                                             </div>
                                             <div>
-                                                <span className="text-xs font-bold tracking-[0.2em] uppercase opacity-40 block mb-1">Module {module.id}</span>
-                                                <h4 className="text-2xl lg:text-3xl font-bold text-white leading-tight">
+                                                <span className="text-sm font-semibold tracking-[0.1em] uppercase opacity-60 block mb-2">Module {module.id}</span>
+                                                <h4 className="text-4xl font-bold leading-tight">
                                                     {module.title}
                                                 </h4>
                                             </div>
                                         </div>
 
-                                        <div className="space-y-6 lg:space-y-10">
+                                        {/* Module Content - Single Line Points */}
+                                        <div className="space-y-4 max-w-[800px] mt-8">
                                             {module.bullets.map((bullet, i) => (
                                                 <div key={i} className="flex items-start gap-5 group/item">
-                                                    <div className="w-2 h-2 rounded-full mt-2.5 shrink-0 transition-all duration-300 group-hover/item:scale-150" style={{ backgroundColor: module.color }} />
-                                                    <p className="text-gray-300 text-base lg:text-xl leading-relaxed group-hover/item:text-white transition-colors duration-300 font-medium">
+                                                    <div className="w-2 h-2 rounded-full mt-2.5 shrink-0 bg-white/40 group-hover/item:bg-white group-hover/item:scale-150 transition-all duration-300" />
+                                                    <p className="text-white text-[16px] leading-relaxed group-hover/item:text-white transition-colors duration-300 font-medium">
                                                         {bullet}
                                                     </p>
                                                 </div>
                                             ))}
                                         </div>
-
-                                        <div className="mt-12 flex justify-end opacity-20">
-                                            <ArrowRight className="w-8 h-8" style={{ color: module.color }} />
-                                        </div>
                                     </div>
                                 </div>
-                                <div className="h-40 lg:h-64 shrink-0" />
                             </div>
                         ))}
                     </div>
