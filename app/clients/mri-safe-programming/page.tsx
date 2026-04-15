@@ -8,6 +8,7 @@ import Undeniable from './sections/Undeniable';
 import CoreProblem from './sections/CoreProblem';
 import Fragmentation from './sections/Fragmentations';
 import OnePlatform from './sections/OnePlatform';
+import ProjectTimeline from './sections/ProjectTimeline';
 
 export default async function MriSafeProgrammingPage() {
     return (
@@ -23,11 +24,15 @@ export default async function MriSafeProgrammingPage() {
 
             <TopPoints />
             <ProjectSnapshots />
+
             <BeforeDev />
-            <Undeniable />
             <CoreProblem />
+
+            <Undeniable />
             <Fragmentation />
+
             <OnePlatform />
+            <ProjectTimeline />
             <Footer />
         </>
     );
