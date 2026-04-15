@@ -85,12 +85,12 @@ const coreModules = [
 
 export default function OnePlatform() {
     return (
-        <section className="relative w-full py-10 lg:py-15 bg-[#f7fbfe] overflow-hidden">
+        <section className="relative w-full py-10 lg:py-15 bg-[#f7fbfe]">
             <div className="max-w-[1400px] mx-auto px-4">
                 <div className="flex flex-col lg:flex-row gap-12 lg:gap-24 items-start">
 
                     {/* Left Column: Header + Strategic Points (Sticky) */}
-                    <div className="lg:w-[45%]">
+                    <div className="lg:w-[45%] lg:sticky lg:top-15">
                         <div className="mb-10">
                             <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                                 <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
