@@ -10,6 +10,7 @@ import Fragmentation from './sections/Fragmentations';
 import OnePlatform from './sections/OnePlatform';
 import ProjectTimeline from './sections/ProjectTimeline';
 import Ecosystem from './sections/Ecosystem';
+import Collage from './sections/Collage';
 
 export default async function MriSafeProgrammingPage() {
     return (
@@ -27,6 +28,7 @@ export default async function MriSafeProgrammingPage() {
             <ProjectSnapshots />
 
             <BeforeDev />
+            <Collage />
             <CoreProblem />
 
             <Undeniable />
