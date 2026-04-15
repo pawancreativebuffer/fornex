@@ -7,6 +7,7 @@ import BeforeDev from './sections/BeforeDev';
 import Undeniable from './sections/Undeniable';
 import CoreProblem from './sections/CoreProblem';
 import Fragmentation from './sections/Fragmentations';
+import OnePlatform from './sections/OnePlatform';
 
 export default async function MriSafeProgrammingPage() {
     return (
@@ -26,6 +27,7 @@ export default async function MriSafeProgrammingPage() {
             <Undeniable />
             <CoreProblem />
             <Fragmentation />
+            <OnePlatform />
             <Footer />
         </>
     );
