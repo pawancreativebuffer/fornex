@@ -9,6 +9,7 @@ import CoreProblem from './sections/CoreProblem';
 import Fragmentation from './sections/Fragmentations';
 import OnePlatform from './sections/OnePlatform';
 import ProjectTimeline from './sections/ProjectTimeline';
+import Ecosystem from './sections/Ecosystem';
 
 export default async function MriSafeProgrammingPage() {
     return (
@@ -33,6 +34,8 @@ export default async function MriSafeProgrammingPage() {
 
             <OnePlatform />
             <ProjectTimeline />
+
+            <Ecosystem />
             <Footer />
         </>
     );

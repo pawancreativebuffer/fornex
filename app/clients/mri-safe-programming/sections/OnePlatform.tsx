@@ -123,7 +123,7 @@ export default function OnePlatform() {
                     </div>
 
                     {/* Right Column: Core Modules (One by One) */}
-                    <div className="lg:w-[55%] flex flex-col gap-10">
+                    <div className="lg:w-[55%] flex flex-col gap-10 overflow-hidden">
                         {coreModules.map((module, index) => (
                             <div
                                 key={module.id}
