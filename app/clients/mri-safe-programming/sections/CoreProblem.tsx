@@ -69,7 +69,7 @@ export default function CoreProblem() {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
 
                     {/* Left Column: Subtitles / Selectable Tiles */}
-                    <div className="lg:col-span-12 xl:col-span-4 lg:mb-12">
+                    <div className="lg:col-span-12 xl:col-span-4">
                         <div className="flex items-center gap-2 text-[#60C6B1] font-medium text-sm lg:text-base mb-5">
                             <div className="w-2.5 h-2.5 bg-[#60C6B1] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                             <span>Core Problem</span>
