@@ -5,6 +5,7 @@ import Banner from './sections/Banner';
 import ProjectSnapshots from './sections/ProjectSnapshots';
 import BeforeDev from './sections/BeforeDev';
 import Undeniable from './sections/Undeniable';
+import CoreProblem from './sections/CoreProblem';
 
 export default async function MriSafeProgrammingPage() {
     return (
@@ -22,6 +23,7 @@ export default async function MriSafeProgrammingPage() {
             <ProjectSnapshots />
             <BeforeDev />
             <Undeniable />
+            <CoreProblem />
             <Footer />
         </>
     );

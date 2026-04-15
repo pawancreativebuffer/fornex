@@ -5,7 +5,8 @@ export default function Banner() {
     return (
         <div className="w-full max-w-[1400px] mx-auto px-4 py-20 flex flex-col flex-wrap items-center justify-center gap-5 relative z-50">
             <h1 className="text-shadow-lg/20 max-w-[1200px] font-[700] text-[50px] lg:text-[60px] text-[#fff] leading-[60px] lg:leading-[70px] mx-auto text-center">
-                How <span className="text-[#60C6B1]">ForNex Health</span> Turned a Caregiver's Decade of Struggle Into a Platform Serving Millions of Americans
+                From Spreadsheets and Sticky Notes to an <span className="text-[#60C6B1]">AI-Powered</span>, Purpose-Built Caregiving Platform
+
             </h1>
             <p className="text-gray-400 max-w-[1200px] text-[16px] font-regular leading-relaxed text-center">
                 Carevation needed more than a developer — they needed a healthcare technology partner who could translate a founder's lived caregiving experience into a purpose-built mobile platform. ForNex Health designed and delivered it from zero to beta in 2025.
