@@ -167,6 +167,18 @@ export default function CoreProblem() {
                                     </p>
                                 </div>
                             </div>
+
+                            {/* New Bottom Section: The Impact Quote */}
+                            <div className="mt-6 p-5 rounded-[20px] bg-gradient-to-br from-white/5 to-transparent border border-white/10 relative overflow-hidden group">
+                                <div className="flex flex-col lg:flex-row items-center gap-6 relative z-10">
+                                    <div className="p-3 rounded-[10px] bg-[#60C6B1]/10 text-[#60C6B1]">
+                                        <MessageSquare size={24} />
+                                    </div>
+                                    <p className="text-white/80 text-[16px] font-medium leading-relaxed italic text-center lg:text-left uppercase">
+                                        "The result is a fragmented, stressful experience stitched together from tools that were never meant to work together."
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
