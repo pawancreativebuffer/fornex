@@ -234,7 +234,7 @@ export default function KeyLearnings() {
                                     {processData[activeIndex].icon}
                                 </div>
                                 <div>
-                                    <div className="text-[10px] font-black uppercase tracking-[.2em] opacity-40 mb-2">Breakthrough point</div>
+                                    <div className="text-[14px] font-black uppercase tracking-[.1em] opacity-40 mb-2">Product Insights</div>
                                     <div className="h-1 w-24 rounded-full bg-gray-100 overflow-hidden mx-auto lg:mx-0">
                                         <div
                                             className="h-full transition-all duration-1000 ease-out"
