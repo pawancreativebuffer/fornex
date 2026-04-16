@@ -15,6 +15,8 @@ import TechStack from './sections/TechStack';
 import BusinessProcess from './sections/BusinessProcess';
 import Results from './sections/Results';
 import KeyLearnings from './sections/KeyLearning';
+import Ideal from './sections/Ideal';
+import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 
 export default async function MriSafeProgrammingPage() {
     return (
@@ -46,6 +48,8 @@ export default async function MriSafeProgrammingPage() {
             <BusinessProcess />
             <Results />
             <KeyLearnings />
+            <Ideal />
+            <HomeClientTestimonials />
             <Footer />
         </>
     );
