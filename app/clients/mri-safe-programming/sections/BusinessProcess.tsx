@@ -93,7 +93,7 @@ export default function BusinessProcess() {
                             <div className="lg:grid lg:grid-cols-12 lg:gap-0 items-stretch min-h-[140px]">
                                 {/* Left Section: Category with Arrow Effect */}
                                 <div
-                                    className="col-span-3 relative p-6 text-white flex flex-col justify-center transition-transform duration-500 lg:group-hover:translate-x-2"
+                                    className="col-span-3 relative p-4 lg:p-6 text-white flex flex-col justify-center transition-transform duration-500 lg:group-hover:translate-x-2"
                                     style={{ backgroundColor: item.color }}
                                 >
                                     {/* Arrow Pointing Shape (Desktop only) */}
@@ -105,7 +105,7 @@ export default function BusinessProcess() {
                                         }}
                                     />
 
-                                    <div className="flex items-start gap-4 mb-3">
+                                    <div className="flex items-start gap-4">
                                         <div className="p-3 bg-white/20 rounded-lg backdrop-blur-sm mt-1">
                                             {item.icon}
                                         </div>
