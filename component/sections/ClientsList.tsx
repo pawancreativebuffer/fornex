@@ -13,7 +13,7 @@ const CLIENTS_DATA = [
         impact: "Reduced patient wait times",
         image: "/images/three.jpg",
         icon: '/images/manhattan.webp',
-        link: '/clients/manhattan-cardiovascular-associates'
+        link: '/clients'
 
     },
     {
@@ -24,7 +24,7 @@ const CLIENTS_DATA = [
         impact: "Enhanced patient engagement & monitoring",
         image: "/images/four.jpg",
         icon: '/images/apollo.png',
-        link: '/clients/manhattan-cardiovascular-associates'
+        link: '/clients'
     },
     {
         id: "03",
@@ -34,7 +34,7 @@ const CLIENTS_DATA = [
         impact: "Faster clinical documentation workflows",
         image: "/images/two.jpg",
         icon: '/images/oasis.png',
-        link: '/clients/manhattan-cardiovascular-associates'
+        link: '/clients'
     },
     {
         id: "04",
@@ -44,7 +44,7 @@ const CLIENTS_DATA = [
         impact: "Improved special child engagement",
         image: "/images/five.png",
         icon: '/images/super-school.png',
-        link: '/clients/manhattan-cardiovascular-associates'
+        link: '/clients'
     },
     {
         id: "05",
@@ -54,7 +54,17 @@ const CLIENTS_DATA = [
         impact: "Safer MRIs with faster workflows",
         image: "/images/one.jpg",
         icon: '/images/mri.png',
-        link: '/clients/mri-safe-programming'
+        link: '/clients'
+    },
+    {
+        id: "06",
+        name: "Carevation",
+        category: "Caregiving Platform",
+        description: "A unified caregiving platform designed to simplify and coordinate care journeys. It empowers caregivers and families with tools for communication, scheduling, and real-time updates—ensuring seamless collaboration and better care outcomes.",
+        impact: "Better coordination, less stress",
+        image: "/images/one.jpg",
+        icon: '/images/carevation.png',
+        link: '/clients/carevation'
     },
 ];
 

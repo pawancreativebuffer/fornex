@@ -16,35 +16,35 @@ const services = [
         title: "Manhattan Cardiovascular Associates",
         description: "High claim denial rate (22%) causing $180,000/month in revenue loss. Outdated EHR with no patient portal integration. ForNex implemented denial management workflows, automated claim scrubbing, and a patient-facing portal integrated with their existing eClinicalWorks EHR.",
         image: "/images/three.jpg",
-        link: '/clients/manhattan-cardiovascular-associates'
+        link: '#'
     },
     {
         id: 1,
         title: "Apollo 360 Health",
         description: "Needed a HIPAA-compliant telehealth platform and EHR integration from scratch. 6-month launch deadline. ForNex developed a custom patient portal, video consultation module, and FHIR R4 integration with Athenahealth — deployed on AWS HIPAA architecture.",
         image: "/images/four.jpg",
-        link: '/clients/manhattan-cardiovascular-associates'
+        link: '#'
     },
     {
         id: 2,
         title: "Oasis Notes",
         description: "Providers struggled with fragmented documentation and inefficient workflows while accessing patient records across multiple system screens. ForNex Health optimized workflows and unified patient records, enabling faster access to history, labs, diagnoses, and medications.",
         image: "/images/two.jpg",
-        link: '/clients/manhattan-cardiovascular-associates'
+        link: '#'
     },
     {
         id: 3,
         title: "Super School Org",
         description: "Super School Org needed an engaging, mobile-first solution to help parents stay connected to their child's educational journey in real time. We developed a seamless mobile app that allows parents to track progress, receive updates, communicate with teachers, and access resources from anywhere, anytime.",
         image: "/images/five.png",
-        link: '/clients/manhattan-cardiovascular-associates'
+        link: '#'
     },
     {
         id: 4,
         title: "MRI Safe Programming & Scheduling",
         description: "A specialized healthcare solution designed to ensure safe MRI procedures for patients with pacemakers. The system enables clinicians to program devices into MRI-safe modes, verify compatibility, and manage pre-MRI workflows with structured scheduling and safety checks.",
         image: "/images/one.jpg",
-        link: '/clients/mri-safe-programming'
+        link: '#'
     },
 ];
 
