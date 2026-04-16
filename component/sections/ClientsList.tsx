@@ -191,7 +191,7 @@ export default function ClientList() {
                                                 <div className="absolute inset-0 bg-gradient-to-t from-[#1a2b3c]/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                                             </div>
                                             {/* Decorative circle behind image */}
-                                            <div className="absolute -bottom-6 -right-6 w-50 h-20 rounded-xl z-20 hidden lg:block overflow-hidden shadow-xl">
+                                            <div className="absolute -bottom-6 -right-6 w-50 h-25 rounded-xl z-20 hidden lg:block overflow-hidden shadow-xl">
                                                 <div className="w-full p-3 h-full bg-white backdrop-blur-md flex items-center justify-center text-[#fff]">
                                                     <img
                                                         src={client.icon}

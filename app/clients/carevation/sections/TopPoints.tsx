@@ -33,11 +33,19 @@ export default function TopPoints() {
             <div className="max-w-[1400px] mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
                     {/* Left Column: Heading & Intro */}
-                    <div className="max-w-xl animate-slide-right">
-                        <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] mb-4 lg:mb-8">
+                    <div className="lg:max-w-xl animate-slide-right">
+                        <div className="w-full h-28 mb-10 flex justify-center lg:justify-start">
+                            <img
+                                src="/images/carevation.png"
+                                alt="logo"
+                                className="h-full object-contain"
+                            />
+                        </div>
+
+                        <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] mb-4 text-center lg:text-left">
                             From Idea to <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Launch</span>
                         </h2>
-                        <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-8 lg:max-w-[500px]">
+                        <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-8 lg:max-w-[500px] text-center lg:text-left">
                             At Fornex, our core pillars guide everything we do. They shape our protocols, decisions, and the way we build our safety solutions.
                         </p>
                     </div>
