@@ -59,7 +59,7 @@ export default function KeyLearnings() {
 
             <div className="max-w-[1400px] mx-auto px-4">
                 {/* Header Section */}
-                <div className="flex flex-col items-center text-center mb-12">
+                <div className="flex flex-col items-center text-center mb-15">
                     <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                         <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                         <span>Key Learnings</span>
@@ -69,7 +69,7 @@ export default function KeyLearnings() {
                     </h2>
                 </div>
 
-                <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-24">
+                <div className="flex flex-col lg:flex-row items-center justify-between gap-2 lg:gap-24">
                     {/* Left Side: Interactive Diagnostic Hub */}
                     <div className="relative w-[300px] h-[300px] sm:w-[340px] sm:h-[340px] lg:w-[540px] lg:h-[540px] flex-shrink-0 scale-90 sm:scale-100 mb-12 lg:mb-0">
 
