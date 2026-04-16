@@ -158,15 +158,15 @@ export default function TechStack() {
                                 </table>
 
                                 {/* Mobile List View */}
-                                <div className="md:hidden divide-y divide-slate-50">
+                                <div className="md:hidden divide-y divide-slate-100">
                                     {section.rows.map((row, rIdx) => (
-                                        <div key={rIdx} className="p-6 space-y-3">
+                                        <div key={rIdx} className="py-5 space-y-5">
                                             {row.map((cell, cIdx) => (
                                                 <div key={cIdx}>
-                                                    <span className="text-[10px] font-bold uppercase tracking-widest text-[#90c7e5]/60 block mb-1">
+                                                    <span className="text-[12px] font-semibold uppercase text-gray-400 block mb-1">
                                                         {section.headers[cIdx]}
                                                     </span>
-                                                    <p className={`text-sm ${cIdx === 0 ? 'font-bold text-[#1a2b3c]' : cIdx === 1 ? 'font-semibold text-[#60C6B1]' : 'text-gray-500'}`}>
+                                                    <p className={`text-base ${cIdx === 0 ? 'font-medium text-[#1a2b3c]' : cIdx === 1 ? 'text-gray-500 font-regular leading-relaxed' : 'text-gray-500 font-regular leading-relaxed'}`}>
                                                         {cell}
                                                     </p>
                                                 </div>
