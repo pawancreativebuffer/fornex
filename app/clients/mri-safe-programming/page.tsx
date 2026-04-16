@@ -12,6 +12,7 @@ import ProjectTimeline from './sections/ProjectTimeline';
 import Ecosystem from './sections/Ecosystem';
 import Collage from './sections/Collage';
 import TechStack from './sections/TechStack';
+import BusinessProcess from './sections/BusinessProcess';
 
 export default async function MriSafeProgrammingPage() {
     return (
@@ -40,6 +41,7 @@ export default async function MriSafeProgrammingPage() {
 
             <Ecosystem />
             <TechStack />
+            <BusinessProcess />
             <Footer />
         </>
     );

@@ -6,14 +6,6 @@ import {
     Server,
     ShieldCheck,
     Zap,
-    Cpu,
-    Database,
-    Cloud,
-    Lock,
-    Bell,
-    Share2,
-    Activity,
-    SmartphoneNfc
 } from 'lucide-react';
 
 const techData = [
