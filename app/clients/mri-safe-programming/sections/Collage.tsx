@@ -13,61 +13,47 @@ const THEME_COLORS = [
 
 const STORY_PAGES = [
     {
-        title: "The Vision",
-        description: "It all started with a simple vision to transform healthcare accessibility.",
-        image: "/images/project_start.png",
+        title: "Paper Medication Log",
+        description: "Handwritten medicine schedules tracked doses, timings, and refill notes daily.",
+        image: "/images/project1.jpg",
         color: THEME_COLORS[0].gradient,
         accent: THEME_COLORS[0].hex
     },
     {
-        title: "Engineering Excellence",
-        description: "It all started with a simple vision to transform healthcare accessibility.",
-        image: "/images/project_development.png",
+        title: "Printable Caregiver Logs",
+        description: "Printed sheets recorded appointments, symptoms, routines, and caregiving tasks.",
+        image: "/images/project2.png",
         color: THEME_COLORS[1].gradient,
         accent: THEME_COLORS[1].hex
     },
     {
-        title: "Extraordinary Result",
-        description: "It all started with a simple vision to transform healthcare accessibility.",
-        image: "/images/extraordinary_final.png",
+        title: "Caregiver Binders",
+        description: "Organized folders stored reports, contacts, prescriptions, and care notes.",
+        image: "/images/project3.jpg",
         color: THEME_COLORS[2].gradient,
         accent: THEME_COLORS[2].hex
     },
     {
-        title: "Global Connectivity",
-        description: "It all started with a simple vision to transform healthcare accessibility.",
-        image: "/images/project_start.png",
+        title: "Physical Medication Organizers",
+        description: "Pill boxes separated medicines by day and dosage timing.",
+        image: "/images/project4.jpg",
         color: THEME_COLORS[3].gradient,
         accent: THEME_COLORS[3].hex
     },
     {
-        title: "Advanced Analytics",
-        description: "It all started with a simple vision to transform healthcare accessibility.",
-        image: "/images/extraordinary_final.png",
+        title: "Spreadsheet Manual Tracking",
+        description: "Spreadsheets managed medications, expenses, appointments, and progress updates manually.",
+        image: "/images/project5.jpg",
         color: THEME_COLORS[4].gradient,
         accent: THEME_COLORS[4].hex
     },
     {
-        title: "Futuristic Core",
-        description: "It all started with a simple vision to transform healthcare accessibility.",
-        image: "/images/project_development.png",
+        title: "Phone Messaging Coordination",
+        description: "Calls and chats handled reminders, updates, and family coordination.",
+        image: "/images/project6.png",
         color: THEME_COLORS[0].gradient,
         accent: THEME_COLORS[0].hex
     },
-    {
-        title: "Standardized Care",
-        description: "It all started with a simple vision to transform healthcare accessibility.",
-        image: "/images/project_start.png",
-        color: THEME_COLORS[1].gradient,
-        accent: THEME_COLORS[1].hex
-    },
-    {
-        title: "Beyond Boundaries",
-        description: "It all started with a simple vision to transform healthcare accessibility.",
-        image: "/images/extraordinary_final.png",
-        color: THEME_COLORS[2].gradient,
-        accent: THEME_COLORS[2].hex
-    }
 ];
 
 export default function Collage() {
