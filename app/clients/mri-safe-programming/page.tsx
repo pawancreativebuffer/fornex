@@ -11,6 +11,7 @@ import OnePlatform from './sections/OnePlatform';
 import ProjectTimeline from './sections/ProjectTimeline';
 import Ecosystem from './sections/Ecosystem';
 import Collage from './sections/Collage';
+import TechStack from './sections/TechStack';
 
 export default async function MriSafeProgrammingPage() {
     return (
@@ -38,6 +39,7 @@ export default async function MriSafeProgrammingPage() {
             <ProjectTimeline />
 
             <Ecosystem />
+            <TechStack />
             <Footer />
         </>
     );
