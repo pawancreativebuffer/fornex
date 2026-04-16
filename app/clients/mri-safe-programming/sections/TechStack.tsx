@@ -101,53 +101,53 @@ export default function TechStack() {
 
 
                 {/* Content Grid */}
-                <div className="w-full">
+                <div className="w-full flex flex-col gap-5">
                     {techData.map((section, idx) => (
                         <div
                             key={idx}
-                            className="bg-white rounded-[2.5rem] border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden transition-all duration-500 hover:shadow-[0_20px_60px_rgb(0,0,0,0.08)] group"
+                            className="bg-white rounded-[2rem] border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden transition-all duration-500 hover:shadow-[0_20px_60px_rgb(0,0,0,0.08)] group"
                         >
                             {/* Section Header */}
-                            <div className="p-8 lg:p-10 border-b border-slate-50 flex items-center justify-between bg-slate-50/30">
+                            <div className="p-5 border-b border-slate-100 flex items-center justify-between bg-slate-80/50">
                                 <div className="flex items-center gap-5">
                                     <div
-                                        className="w-14 h-14 rounded-2xl flex items-center justify-center shadow-lg transition-transform duration-500 group-hover:scale-110"
+                                        className="w-12 h-12 rounded-[12px] flex items-center justify-center shadow-lg transition-transform duration-500 group-hover:scale-110"
                                         style={{ backgroundColor: section.color, color: '#fff' }}
                                     >
                                         {section.icon}
                                     </div>
-                                    <h3 className="text-2xl lg:text-3xl font-bold text-[#1a2b3c] uppercase tracking-tight">
+                                    <h3 className="text-3xl font-bold text-[#2D2D2D] leading-[1.2]">
                                         {section.category}
                                     </h3>
                                 </div>
                                 <div className="hidden lg:block">
-                                    <div className="text-xs font-bold uppercase tracking-[0.2em] text-slate-300">Section 0{idx + 1}</div>
+                                    <div className="text-sm font-medium uppercase tracking-[0.1em] text-slate-400">Section 0{idx + 1}</div>
                                 </div>
                             </div>
 
                             {/* Section Content */}
-                            <div className="p-0 overflow-x-auto">
+                            <div className="p-5 overflow-x-auto">
                                 {/* Desktop Table View */}
                                 <table className="w-full text-left border-collapse hidden md:table">
                                     <thead>
-                                        <tr className="bg-white">
+                                        <tr className="bg-[#1a2b3c]">
                                             {section.headers.map((header, hIdx) => (
                                                 <th
                                                     key={hIdx}
-                                                    className="px-8 lg:px-10 py-6 text-xs font-bold uppercase tracking-widest text-[#90c7e5]/80 border-b border-slate-50"
+                                                    className="p-4 text-[14px] font-medium uppercase text-white"
                                                 >
                                                     {header}
                                                 </th>
                                             ))}
                                         </tr>
                                     </thead>
-                                    <tbody className="divide-y divide-slate-50">
+                                    <tbody className="divide-y divide-slate-100">
                                         {section.rows.map((row, rIdx) => (
                                             <tr key={rIdx} className="hover:bg-slate-50/50 transition-colors duration-200">
                                                 {row.map((cell, cIdx) => (
                                                     <td
                                                         key={cIdx}
-                                                        className={`px-8 lg:px-10 py-6 text-base ${cIdx === 0 ? 'font-bold text-[#1a2b3c] w-1/4' : cIdx === 1 ? 'font-medium text-[#60C6B1] w-1/4' : 'text-gray-500 font-regular leading-relaxed'}`}
+                                                        className={`p-2 px-4 text-base ${cIdx === 0 ? 'font-medium text-[#1a2b3c] w-1/4' : cIdx === 1 ? 'text-gray-500 font-regular leading-relaxed w-1/4' : 'text-gray-500 font-regular leading-relaxed'}`}
                                                     >
                                                         {cell}
                                                     </td>
