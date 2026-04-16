@@ -134,7 +134,7 @@ export default function TechStack() {
                                             {section.headers.map((header, hIdx) => (
                                                 <th
                                                     key={hIdx}
-                                                    className="p-4 text-[14px] font-medium uppercase text-white"
+                                                    className="p-3 px-4 text-[14px] font-medium uppercase text-white first:rounded-l-[7px] last:rounded-r-[7px]"
                                                 >
                                                     {header}
                                                 </th>
