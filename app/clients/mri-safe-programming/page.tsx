@@ -14,6 +14,7 @@ import Collage from './sections/Collage';
 import TechStack from './sections/TechStack';
 import BusinessProcess from './sections/BusinessProcess';
 import Results from './sections/Results';
+import KeyLearnings from './sections/KeyLearning';
 
 export default async function MriSafeProgrammingPage() {
     return (
@@ -44,6 +45,7 @@ export default async function MriSafeProgrammingPage() {
             <TechStack />
             <BusinessProcess />
             <Results />
+            <KeyLearnings />
             <Footer />
         </>
     );
