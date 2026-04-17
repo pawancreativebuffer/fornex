@@ -27,10 +27,10 @@ export default function ContactDetails() {
                                 <h4 className="text-[22px] font-bold text-[#1a2b3c] mb-4">Call Center</h4>
                                 <div className="space-y-1">
                                     <p className="text-[#60C6B1] text-base">
-                                        800 100 975 20 54
+                                        +91-8528835744
                                     </p>
                                     <p className="text-gray-500 text-base">
-                                        + (123) 1800-234-5678
+                                        +91-8528835744
                                     </p>
                                 </div>
                             </div>

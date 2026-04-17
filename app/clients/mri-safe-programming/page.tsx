@@ -18,7 +18,7 @@ import KeyLearnings from './sections/KeyLearning';
 import Ideal from './sections/Ideal';
 import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 
-export default async function CarevationPage() {
+export default async function MriSafeProgrammingPage() {
     return (
         <>
             <section className="relative overflow-hidden flex justify-between flex-col bg-[#1a2b3c]">
