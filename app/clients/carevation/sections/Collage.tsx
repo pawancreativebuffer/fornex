@@ -37,12 +37,28 @@ const STORY_PAGES = [
         info: 'before'
     },
     {
+        title: "Printable Caregiver Logs",
+        description: "Printed sheets recorded appointments, symptoms, routines, and caregiving tasks.",
+        image: "/images/shot2.png",
+        color: THEME_COLORS[1].gradient,
+        accent: THEME_COLORS[1].hex,
+        info: 'after'
+    },
+    {
         title: "Caregiver Binders",
         description: "Organized folders stored reports, contacts, prescriptions, and care notes.",
         image: "/images/project3.jpg",
         color: THEME_COLORS[2].gradient,
         accent: THEME_COLORS[2].hex,
         info: 'before'
+    },
+    {
+        title: "Caregiver Binders",
+        description: "Organized folders stored reports, contacts, prescriptions, and care notes.",
+        image: "/images/shot3.png",
+        color: THEME_COLORS[2].gradient,
+        accent: THEME_COLORS[2].hex,
+        info: 'after'
     },
     {
         title: "Physical Medication Organizers",
@@ -53,6 +69,14 @@ const STORY_PAGES = [
         info: 'before'
     },
     {
+        title: "Physical Medication Organizers",
+        description: "Pill boxes separated medicines by day and dosage timing.",
+        image: "/images/shot4.png",
+        color: THEME_COLORS[3].gradient,
+        accent: THEME_COLORS[3].hex,
+        info: 'after'
+    },
+    {
         title: "Spreadsheet Manual Tracking",
         description: "Spreadsheets managed medications, expenses, appointments, and progress updates manually.",
         image: "/images/project5.jpg",
@@ -61,12 +85,28 @@ const STORY_PAGES = [
         info: 'before'
     },
     {
+        title: "Spreadsheet Manual Tracking",
+        description: "Spreadsheets managed medications, expenses, appointments, and progress updates manually.",
+        image: "/images/shot5.png",
+        color: THEME_COLORS[4].gradient,
+        accent: THEME_COLORS[4].hex,
+        info: 'after'
+    },
+    {
         title: "Phone Messaging Coordination",
         description: "Calls and chats handled reminders, updates, and family coordination.",
         image: "/images/project6.png",
         color: THEME_COLORS[0].gradient,
         accent: THEME_COLORS[0].hex,
         info: 'before'
+    },
+    {
+        title: "Phone Messaging Coordination",
+        description: "Calls and chats handled reminders, updates, and family coordination.",
+        image: "/images/shot6.png",
+        color: THEME_COLORS[0].gradient,
+        accent: THEME_COLORS[0].hex,
+        info: 'after'
     },
 ];
 
