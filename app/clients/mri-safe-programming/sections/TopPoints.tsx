@@ -1,29 +1,29 @@
-import { Activity, Stethoscope, Microscope, HeartPulse } from 'lucide-react';
+import { TvMinimal, Stethoscope, Shield, TabletSmartphone } from 'lucide-react';
 
 export default function TopPoints() {
     const points = [
         {
-            title: "12 Months",
-            description: "Zero to beta launch",
-            icon: Activity,
+            title: "26",
+            description: "Screens delivered",
+            icon: TvMinimal,
             featured: true
         },
         {
-            title: "5 Modules",
-            description: "Built & delivered",
+            title: "10",
+            description: "Functional modules",
             icon: Stethoscope,
             featured: false
         },
         {
-            title: "2 Platforms",
-            description: "iOS & Android",
-            icon: Microscope,
+            title: "2",
+            description: "Platforms - iOS & Android",
+            icon: TabletSmartphone,
             featured: false
         },
         {
-            title: "1 CareSpace",
-            description: "Unified care workspace",
-            icon: HeartPulse,
+            title: "<10s",
+            description: "MRI safety check time",
+            icon: Shield,
             featured: false
         }
     ];
@@ -36,7 +36,7 @@ export default function TopPoints() {
                     <div className="lg:max-w-xl animate-slide-right">
                         <div className="w-full h-28 mb-10 flex justify-center lg:justify-start">
                             <img
-                                src="/images/carevation.png"
+                                src="/images/mri.png"
                                 alt="logo"
                                 className="h-full object-contain"
                             />

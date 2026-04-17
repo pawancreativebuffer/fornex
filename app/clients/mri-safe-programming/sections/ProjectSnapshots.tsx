@@ -13,14 +13,14 @@ import {
 export default function ProjectSnapshots() {
 
     const flow = [
-        { icon: User, title: "Client", value: "Carevation" },
-        { icon: User, title: "Founder", value: "Adrian Chung" },
-        { icon: Layers, title: "Industry", value: "Digital Health" },
-        { icon: Smartphone, title: "Project Type", value: "Mobile App" },
-        { icon: Rocket, title: "Stage", value: "Early Access / Beta" },
-        { icon: MapPin, title: "Geography", value: "United States" },
-        { icon: DollarSign, title: "Business Model", value: "Freemium" },
-        { icon: Cpu, title: "Platforms", value: "React Native + Kotlin" },
+        { icon: User, title: "Client", value: "MRI Safe Mode · mrisafemode.com" },
+        { icon: User, title: "Founder", value: "Martin Kloosterman, MD — Cardiac Electrophysiologist" },
+        { icon: Layers, title: "Industry", value: "Cardiac Imaging & Electrophysiology" },
+        { icon: Smartphone, title: "Project Type", value: "Clinical Mobile Application (iOS & Android)" },
+        { icon: Rocket, title: "Stage", value: "Phase 1 & 2 Delivered · Phase 3 In Progress" },
+        { icon: MapPin, title: "Geography", value: "United States (National)" },
+        { icon: DollarSign, title: "Business Model", value: "Premium" },
+        { icon: Cpu, title: "Platforms", value: "React Native · .NET · MS SQL Server · Groq AI" },
     ]
 
     return (
@@ -34,10 +34,10 @@ export default function ProjectSnapshots() {
                             <span>Project Snapshot</span>
                         </div>
                         <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] mb-4">
-                            Carevation
+                            MRI Safe Mode
                         </h2>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Digital Health & Caregiving Technology — Consumer mobile application redefining care coordination.
+                            A specialized healthcare solution designed to ensure safe MRI procedures for patients with pacemakers.
                         </p>
                     </div>
 

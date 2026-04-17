@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Heart, Award, Stethoscope, Quote, GraduationCap, Briefcase } from "lucide-react";
+import { Heart, Award, Quote, User } from "lucide-react";
 
 export default function BeforeDev() {
     return (
@@ -19,11 +19,14 @@ export default function BeforeDev() {
                             <span>The Background</span>
                         </div>
                         <h1 className="text-shadow-lg/20 font-[700] text-4xl lg:text-6xl text-[#fff] leading-[1.1]">
-                            A Healthcare Veteran Who <span className="text-[#60C6B1]">Lived the Problem</span> Before He Built the Solution
+                            A Cardiologist Who Built the Infrastructure First - <span className="text-[#60C6B1]">Then Saw What Was Still Missing</span>
                         </h1>
 
                         <p className="text-white/70 text-base leading-relaxed">
-                            Carevation is a digital health startup built at the intersection of caregiving, consumer technology, and human-centered design. Its name is a deliberate fusion of <span className="text-white font-medium">"care"</span> and <span className="text-white font-medium">"innovation"</span> — a reflection of its mission to bring modern digital product thinking to one of the most emotionally complex areas of life.
+                            Dr. Martin Kloosterman is a specialist in cardiac electrophysiology with deep clinical expertise in cardiac implantable electronic devices (CIEDs) — pacemakers, ICDs, loop recorders, and leadless devices. Over his career, he personally witnessed the coordination failures that occur when a CIED patient is scheduled for an MRI without device compatibility having been verified in advance.
+                        </p>
+                        <p className="text-white/70 text-base leading-relaxed">
+                            To solve this at the coordination level, Dr. Kloosterman built Smart-Praxis — a multi-role healthcare SaaS platform at mrisafemode.com — now serving 243 registered users across hospitals, MRI centers, device manufacturers, and clinical experts. The platform digitizes the full MRI Konditionierung (MK) workflow: pre-scan device programming, multi-party coordination, and post-scan reprogramming.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -32,30 +35,30 @@ export default function BeforeDev() {
                                     <Award size={24} />
                                 </div>
                                 <div>
-                                    <h4 className="text-white font-semibold text-[20px] mb-1">15+ Year Veteran</h4>
-                                    <p className="text-white/70 text-sm leading-relaxed">Clinical genomics, diagnostics, and consumer health tools.</p>
+                                    <h4 className="text-white font-semibold text-[20px] mb-1">Built Smart-Praxis</h4>
+                                    <p className="text-white/70 text-sm leading-relaxed">SaaS platform for MRI workflow management</p>
                                 </div>
                             </div>
 
                             <div className="flex gap-4 p-4 rounded-[20px] bg-white/5 border border-white/10 hover:border-[#60C6B1]/30 transition-colors group">
                                 <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[#60C6B1]/10 flex items-center justify-center text-[#60C6B1] group-hover:scale-110 transition-transform">
-                                    <GraduationCap size={24} />
+                                    <User size={24} />
                                 </div>
                                 <div>
-                                    <h4 className="text-white font-semibold text-[20px] mb-1">MBA Kellogg</h4>
-                                    <p className="text-white/70 text-sm leading-relaxed">Northwestern University's School of Management.</p>
+                                    <h4 className="text-white font-semibold text-[20px] mb-1">243+ Active Users</h4>
+                                    <p className="text-white/70 text-sm leading-relaxed">Used across hospitals, MRI centers, and experts</p>
                                 </div>
                             </div>
                         </div>
 
                         <p className="text-white/70 text-base leading-relaxed">
-                            But what drove Carevation wasn't a gap in a market model — it was a decade spent caring for his own mother after her arthritis diagnosis. Despite his deep background in healthtech, he found himself stitching together spreadsheets and text threads, constantly afraid of missing something critical.
+                            But one critical gap remained. While Smart-Praxis handled institutional coordination, clinicians at the bedside still had no fast, reliable tool to answer the foundational question before scheduling began: Is this specific cardiac device system actually MRI-conditional? That gap became MRI Logic.
                         </p>
                     </div>
 
                     {/* Right Column: Image & Personal Note */}
                     <div className="lg:col-span-5 relative">
-                        <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden group">
+                        <div className="relative aspect-[4/6] rounded-[2rem] overflow-hidden group">
                             <Image
                                 src="/healthcare_founder_adrian_chung_1776171833373.png"
                                 alt="Adrian Chung, Founder of Carevation"
@@ -71,8 +74,8 @@ export default function BeforeDev() {
                                         <Heart size={24} fill="currentColor" />
                                     </div>
                                     <div>
-                                        <p className="text-[#1a2b3c] font-bold text-lg">Foundation of Empathy</p>
-                                        <p className="text-[#1a2b3c] text-sm">Built from 10 years of caregiving experience.</p>
+                                        <p className="text-[#1a2b3c] font-bold text-lg">Cardiac Electrophysiology Expert</p>
+                                        <p className="text-[#1a2b3c] text-sm">CIEDs, pacemakers, ICDs, and leadless devices</p>
                                     </div>
                                 </div>
                             </div>
@@ -91,13 +94,13 @@ export default function BeforeDev() {
 
                         <div className="max-w-[900px] mx-auto text-center space-y-8">
                             <p className="text-[18px] font-regular leading-relaxed italic text-white">
-                                "After a decade as a caregiver and 15 years in healthcare technology, I knew the gap was real. I brought Carevation to ForNex because I needed a team that understood both the human complexity and the product precision required to serve real families."
+                                "The manual process for checking MRI conditionality was slow, fragmented, and completely dependent on the individual clinician's knowledge. I needed a tool that gave any clinician the right answer in seconds — regardless of their familiarity with specific device models."
                             </p>
 
                             <div className="flex flex-col items-center">
                                 <div className="w-12 h-1 bg-[#60C6B1] rounded-full mb-6" />
-                                <h4 className="text-xl font-semibold text-white uppercase mb-1">Adrian Chung</h4>
-                                <p className="text-[#60C6B1] font-medium">Founder & CEO, Carevation</p>
+                                <h4 className="text-xl font-semibold text-white uppercase mb-1">Martin Kloosterman, MD</h4>
+                                <p className="text-[#60C6B1] font-medium">Founder, MRI Safe Mode</p>
                             </div>
                         </div>
                     </div>
