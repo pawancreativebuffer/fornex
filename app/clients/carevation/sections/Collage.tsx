@@ -85,7 +85,7 @@ const STORY_PAGES = [
         info: 'before'
     },
     {
-        title: "Centralized Care Dashboard",
+        title: "Centralized Care Calendar",
         description: "Manage tasks, expenses, schedules, and updates in one place.",
         image: "/images/shot5.png",
         color: THEME_COLORS[4].gradient,
