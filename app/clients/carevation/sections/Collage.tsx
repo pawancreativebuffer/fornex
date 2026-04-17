@@ -21,8 +21,8 @@ const STORY_PAGES = [
         info: 'before'
     },
     {
-        title: "Paper Medication Log",
-        description: "Handwritten medicine schedules tracked doses, timings, and refill notes daily.",
+        title: "Smart Medication Tracking",
+        description: "Automatic reminders, dosage schedules, refill alerts, and shared updates.",
         image: "/images/shot1.png",
         color: THEME_COLORS[0].gradient,
         accent: THEME_COLORS[0].hex,
@@ -37,8 +37,8 @@ const STORY_PAGES = [
         info: 'before'
     },
     {
-        title: "Printable Caregiver Logs",
-        description: "Printed sheets recorded appointments, symptoms, routines, and caregiving tasks.",
+        title: "Digital Care Logs",
+        description: "Track appointments, symptoms, tasks, and daily notes instantly.",
         image: "/images/shot2.png",
         color: THEME_COLORS[1].gradient,
         accent: THEME_COLORS[1].hex,
@@ -53,8 +53,8 @@ const STORY_PAGES = [
         info: 'before'
     },
     {
-        title: "Caregiver Binders",
-        description: "Organized folders stored reports, contacts, prescriptions, and care notes.",
+        title: "Secure Document Vault",
+        description: "Store reports, prescriptions, contacts, and records digitally.",
         image: "/images/shot3.png",
         color: THEME_COLORS[2].gradient,
         accent: THEME_COLORS[2].hex,
@@ -69,8 +69,8 @@ const STORY_PAGES = [
         info: 'before'
     },
     {
-        title: "Physical Medication Organizers",
-        description: "Pill boxes separated medicines by day and dosage timing.",
+        title: "Guided Medication Management",
+        description: "Organize medicines with reminders, instructions, and adherence tracking.",
         image: "/images/shot4.png",
         color: THEME_COLORS[3].gradient,
         accent: THEME_COLORS[3].hex,
@@ -85,8 +85,8 @@ const STORY_PAGES = [
         info: 'before'
     },
     {
-        title: "Spreadsheet Manual Tracking",
-        description: "Spreadsheets managed medications, expenses, appointments, and progress updates manually.",
+        title: "Centralized Care Dashboard",
+        description: "Manage tasks, expenses, schedules, and updates in one place.",
         image: "/images/shot5.png",
         color: THEME_COLORS[4].gradient,
         accent: THEME_COLORS[4].hex,
@@ -101,8 +101,8 @@ const STORY_PAGES = [
         info: 'before'
     },
     {
-        title: "Phone Messaging Coordination",
-        description: "Calls and chats handled reminders, updates, and family coordination.",
+        title: "Shared Collaboration",
+        description: "Assign tasks, share updates, and coordinate caregivers easily.",
         image: "/images/shot6.png",
         color: THEME_COLORS[0].gradient,
         accent: THEME_COLORS[0].hex,
