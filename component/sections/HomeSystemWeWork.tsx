@@ -97,7 +97,7 @@ export default function HomeSystemWeWork() {
 
                     <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-8 lg:max-w-[500px]">
                         ForNex Health connects natively with the industry's leading EHR and
-                        practice management platforms — no rip-and-replace required.
+                        practice management platforms - no rip-and-replace required.
                     </p>
 
                     <div className="flex flex-wrap gap-3 mb-6 lg:mb-8">

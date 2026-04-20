@@ -67,7 +67,7 @@ const coreModules = [
         bullets: [
             "Manufacturer dropdown: Medtronic, Abbott, Boston Scientific, Biotronik",
             "Dynamic lead count detection based on device type (1, 2, or 3 leads)",
-            "Autocomplete for device model names and numbers — blocks invalid entries",
+            "Autocomplete for device model names and numbers - blocks invalid entries",
             "Fields turn green on valid match, red on unrecognized entry"
         ]
     },
@@ -79,7 +79,7 @@ const coreModules = [
         bullets: [
             "Combined view of all entered device and MRI machine details before submitting",
             "Prevents errors from reaching the conditionality logic engine",
-            "Full edit capability — nothing is locked until the clinician confirms",
+            "Full edit capability - nothing is locked until the clinician confirms",
             "Clean, distraction-free layout built for clinical decision moments"
         ]
     },
@@ -90,7 +90,7 @@ const coreModules = [
         icon: <Ratio className="w-12 h-12" />,
         color: "#60C6B1",
         bullets: [
-            "Color-coded result: Green, Yellow, Orange, or Red — visible in one glance",
+            "Color-coded result: Green, Yellow, Orange, or Red - visible in one glance",
             "Body region restrictions, exclusion zones, and manufacturer-specific warnings",
             "Detailed analysis: SAR limits, B1+RMS values, field strength (1.5T / 3T)",
             "'Read More' screen provides full technical breakdown for complex cases"
@@ -143,7 +143,7 @@ const coreModules = [
             "About page, clinical disclaimer, and version information always accessible",
             "Notification preferences, language options, and profile settings",
             "Contact support built in for issue reporting and clinical queries",
-            "Guest / logged-in mode toggle — all preferences stored locally on device"
+            "Guest / logged-in mode toggle - all preferences stored locally on device"
         ]
     }
 ];

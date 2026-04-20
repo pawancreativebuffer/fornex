@@ -60,7 +60,7 @@ const CLIENTS_DATA = [
         id: "06",
         name: "Carevation",
         category: "Caregiving Platform",
-        description: "A unified caregiving platform designed to simplify and coordinate care journeys. It empowers caregivers and families with tools for communication, scheduling, and real-time updates—ensuring seamless collaboration and better care outcomes.",
+        description: "A unified caregiving platform designed to simplify and coordinate care journeys. It empowers caregivers and families with tools for communication, scheduling, and real-time updates-ensuring seamless collaboration and better care outcomes.",
         impact: "Better coordination, less stress",
         image: "/images/one.jpg",
         icon: '/images/carevation.png',

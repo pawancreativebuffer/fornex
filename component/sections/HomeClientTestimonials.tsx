@@ -64,7 +64,7 @@ export default function HomeClientTestimonials() {
                                 Trusted by Healthcare Leaders Across the Industry
                             </h2>
                             <p className="text-white/70 text-base font-regular leading-relaxed max-w-[500px]">
-                                From private practices to enterprise health systems — here's what our clients say after going live.
+                                From private practices to enterprise health systems - here's what our clients say after going live.
                             </p>
                         </div>
                     </div>

@@ -28,11 +28,11 @@ const techData = [
         lightColor: "rgba(144, 199, 229, 0.1)",
         headers: ["Layer", "Technology", "Why"],
         rows: [
-            ["Backend API", ".NET (ASP.NET)", "Enterprise-grade, type-safe backend with robust data validation for clinical logic"],
+            ["Backend API", ".NET (ASP.NET)", "Enterprise grade, type-safe backend with robust data validation for clinical logic"],
             ["Database", "MS SQL Server", "Structured relational database ideal for complex device dataset queries and conditionality rule mapping"],
             ["Server", "Windows Server", "Consistent with existing Smart-Praxis infrastructure; enterprise hosting reliability"],
             ["AI Layer", "Groq AI", "High-speed AI inference; foundation for Phase 3 intelligent chatbot assistant"],
-            ["OCR Engine", "Camera OCR Integration", "Automated device card scanning — extracts model numbers and lead info without manual input"],
+            ["OCR Engine", "Camera OCR Integration", "Automated device card scanning - extracts model numbers and lead info without manual input"],
             ["PDF Generator", "Structured Report Engine", "Clinical-grade PDF generation with patient data, device details, result, and timestamp"]
         ]
     },
@@ -66,7 +66,7 @@ export default function TechStack() {
                         <span>Technology Stack</span>
                     </div>
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] mb-7 max-w-6xl">
-                        Enterprise-Grade Clinical Technology <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Built for Mobile-First Deployment</span>
+                        Enterprise Grade Clinical Technology <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Built for Mobile First Deployment</span>
                     </h2>
                     <p className="text-gray-500 text-base leading-relaxed max-w-3xl">
                         A stack selected for OCR accuracy, offline capability, structured data integrity, and logic engine performance the non-negotiables for clinical environments.

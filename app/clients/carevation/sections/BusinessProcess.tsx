@@ -42,7 +42,7 @@ const processData = [
         after: "Simple, structured symptom logging with tracking over time. Patterns surface naturally. Shareable records ready for any medical visit."
     },
     {
-        title: "Caregiver Wellbeing: From Afterthought to First-Class Feature",
+        title: "Caregiver Wellbeing: From Afterthought to First Class Feature",
         icon: <HeartPulse className="w-10 h-10" />,
         color: "#c66060",
         before: "Every tool ignored the emotional dimension of caregiving entirely. Burnout was treated as inevitable.",

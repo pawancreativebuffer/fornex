@@ -39,7 +39,7 @@ const coreModules = [
         icon: <Pill className="w-12 h-12" />,
         color: "#90c7e5",
         bullets: [
-            "Comprehensive medication tracking — dosage, instructions, refill schedules, and prescribing provider",
+            "Comprehensive medication tracking - dosage, instructions, refill schedules, and prescribing provider",
             "A complete medication history is always available for specialist visits",
             "Smart reminders ensure no dose is ever missed",
             "Designed to eliminate one of the highest-risk areas in home-based care"
@@ -47,14 +47,14 @@ const coreModules = [
     },
     {
         id: "3",
-        title: "CareSpace — Shared Collaborative Workspace",
+        title: "CareSpace Shared Collaborative Workspace",
         icon: <Users2 className="w-12 h-12" />,
         color: "#ff9900",
         bullets: [
             "The central hub where all care information lives",
             "Shared task assignments with clear ownership",
             "Role-based invitations with configurable permissions for every family member",
-            "Real-time synchronization across all devices — replaces fragmented group text threads entirely"
+            "Real-time synchronization across all devices - replaces fragmented group text threads entirely"
         ]
     },
     {
@@ -71,14 +71,14 @@ const coreModules = [
     },
     {
         id: "5",
-        title: "Caregiver Wellness & Self-Care",
+        title: "Caregiver Wellness & Self Care",
         icon: <Heart className="w-12 h-12" />,
         color: "#c66060",
         bullets: [
             "Built-in mood and stress check-ins",
             "Energy tracking over time",
             "Reflection tools and journaling prompts",
-            "The feature category every competitor has overlooked — because caregiver health is inseparable from care quality"
+            "The feature category every competitor has overlooked - because caregiver health is inseparable from care quality"
         ]
     }
 ];
@@ -97,10 +97,10 @@ export default function OnePlatform() {
                                 <span>The Solution</span>
                             </div>
                             <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#1a2b3c] mb-4 lg:mb-6">
-                                A Mobile-First Care Command Center - <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Designed for Real Families</span>
+                                A Mobile First Care Command Center <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Designed for Real Families</span>
                             </h2>
                             <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-6 lg:max-w-[500px]">
-                                ForNex Health designed and developed Carevation as a native mobile application for iOS and Android, built around a central concept: the <span className="font-semibold text-[#1a2b3c]">CareSpace</span> — a shared, role-based digital workspace where all of a loved one's care information lives, every family member stays synchronized.
+                                ForNex Health designed and developed Carevation as a native mobile application for iOS and Android, built around a central concept: the <span className="font-semibold text-[#1a2b3c]">CareSpace</span> - a shared, role-based digital workspace where all of a loved one's care information lives, every family member stays synchronized.
                             </p>
                         </div>
 

@@ -23,7 +23,7 @@ export default function BeforeDev() {
                         </h1>
 
                         <p className="text-white/70 text-base leading-relaxed">
-                            Carevation is a digital health startup built at the intersection of caregiving, consumer technology, and human-centered design. Its name is a deliberate fusion of <span className="text-white font-medium">"care"</span> and <span className="text-white font-medium">"innovation"</span> — a reflection of its mission to bring modern digital product thinking to one of the most emotionally complex areas of life.
+                            Carevation is a digital health startup built at the intersection of caregiving, consumer technology, and human-centered design. Its name is a deliberate fusion of <span className="text-white font-medium">"care"</span> and <span className="text-white font-medium">"innovation"</span> - a reflection of its mission to bring modern digital product thinking to one of the most emotionally complex areas of life.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -49,7 +49,7 @@ export default function BeforeDev() {
                         </div>
 
                         <p className="text-white/70 text-base leading-relaxed">
-                            But what drove Carevation wasn't a gap in a market model — it was a decade spent caring for his own mother after her arthritis diagnosis. Despite his deep background in healthtech, he found himself stitching together spreadsheets and text threads, constantly afraid of missing something critical.
+                            But what drove Carevation wasn't a gap in a market model - it was a decade spent caring for his own mother after her arthritis diagnosis. Despite his deep background in healthtech, he found himself stitching together spreadsheets and text threads, constantly afraid of missing something critical.
                         </p>
                     </div>
 

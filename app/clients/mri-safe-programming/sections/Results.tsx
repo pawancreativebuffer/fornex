@@ -8,7 +8,7 @@ export default function Results() {
         "MRI center staff describe the compatibility check as faster and more reliable than any manual method they had previously used",
         "The OCR scanning feature is consistently rated the highest-value interaction - eliminating the most error-prone step in the workflow",
         "Having a formal PDF report generated automatically is described as the single biggest improvement to the documentation process",
-        "The color-coded result system is immediately intuitive — no training required to interpret and act on the result with confidence"
+        "The color-coded result system is immediately intuitive - no training required to interpret and act on the result with confidence"
     ]
 
     const potential = [
@@ -21,7 +21,7 @@ export default function Results() {
         },
         {
             title: "FOR CARDIAC PATIENTS",
-            desc: "Faster access to MRI imaging they previously waited weeks for — simply because device compatibility could not be confirmed quickly enough",
+            desc: "Faster access to MRI imaging they previously waited weeks for - simply because device compatibility could not be confirmed quickly enough",
             color: "#90c7e5",
             icon: HeartPulse,
             num: "02"

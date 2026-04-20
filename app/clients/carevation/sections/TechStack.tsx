@@ -30,11 +30,11 @@ const techData = [
         rows: [
             ["Backend API", "Node.js + TypeScript", "Type-safe, scalable, fast development velocity"],
             ["Database", "PostgreSQL", "Granular access control per CareSpace user role with row-level security"],
-            ["Cloud", "AWS (ECS, RDS, S3)", "Enterprise-grade reliability, scalable infrastructure"],
+            ["Cloud", "AWS (ECS, RDS, S3)", "Enterprise grade reliability, scalable infrastructure"],
             ["Authentication", "OAuth 2.0 + MFA", "Secure multi-factor authentication for all accounts"],
             ["Real-time Sync", "WebSocket + AWS API Gateway", "Live CareSpace updates across all family members instantly"],
             ["Push Notifications", "FCM + APNs", "Cross-platform medication and appointment reminders"],
-            ["AI Care Insights", "Integrated ML pipeline", "Proactive care recommendations — live in current build"]
+            ["AI Care Insights", "Integrated ML pipeline", "Proactive care recommendations - live in current build"]
         ]
     },
     {
@@ -48,8 +48,8 @@ const techData = [
             ["Data in transit", "TLS 1.3 across all API endpoints"],
             ["Authentication", "OAuth 2.0 with multi-factor authentication"],
             ["Access control", "Role-based CareSpace permissions per family member"],
-            ["Privacy", "Personal care coordination data only — no PHI involved"],
-            ["Data policy", "Zero data-selling — user data is never shared or monetized"],
+            ["Privacy", "Personal care coordination data only - no PHI involved"],
+            ["Data policy", "Zero data-selling - user data is never shared or monetized"],
             ["Sessions", "Auto-expiring tokens with secure refresh flows"]
         ]
     },
@@ -84,7 +84,7 @@ export default function TechStack() {
                         <span>Technology Stack</span>
                     </div>
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] mb-7 max-w-6xl">
-                        Enterprise-Grade <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Healthcare Technology</span>, Built for Consumer Scale
+                        Enterprise Grade <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Healthcare Technology</span>, Built for Consumer Scale
                     </h2>
                     <p className="text-gray-500 text-base leading-relaxed max-w-3xl">
                         Our architecture is designed for security, scalability, and seamless user experiences across all devices and platforms.

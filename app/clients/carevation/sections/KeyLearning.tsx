@@ -11,40 +11,40 @@ import {
 
 const processData = [
     {
-        title: "Founder - market fit is a competitive moat no research can replicate.",
+        title: "Founder market fit is a competitive moat no research can replicate.",
         icon: <Users className="w-10 h-10" />,
         color: "#60C6B1",
-        before: "Adrian's decade of lived caregiving experience provided product intuition that would have taken years of user research to approximate. The best digital health products are built by people who've experienced the gap themselves — and who bring a technical partner who can execute on that vision with precision.",
+        before: "Adrian's decade of lived caregiving experience provided product intuition that would have taken years of user research to approximate. The best digital health products are built by people who've experienced the gap themselves - and who bring a technical partner who can execute on that vision with precision.",
     },
     {
-        title: "Multi-generational UX demands accessibility discipline from the very first wireframe.",
+        title: "Multi generational UX demands accessibility discipline from the very first wireframe.",
         icon: <Activity className="w-10 h-10" />,
         color: "#90c7e5",
         before: "Carevation's users range from 30-something professionals to 70-something retirees. Designing for this range means eliminating all unnecessary friction so the platform's value is obvious within the first two minutes of use, regardless of technical familiarity.",
     },
     {
-        title: "Community-first building creates a warmer, faster product launch.",
+        title: "Community first building creates a warmer, faster product launch.",
         icon: <HeartPulse className="w-10 h-10" />,
         color: "#ff9900",
-        before: "The blog and newsletter strategy built an engaged, mission-aligned audience before the app launched. Early access sign-ups came from people who already believed in the mission — not cold conversions needing convincing.",
+        before: "The blog and newsletter strategy built an engaged, mission-aligned audience before the app launched. Early access sign-ups came from people who already believed in the mission - not cold conversions needing convincing.",
     },
     {
-        title: "In consumer health, security is brand value — not just a technical checkbox.",
+        title: "In consumer health, security is brand value not just a technical checkbox.",
         icon: <FileText className="w-10 h-10" />,
         color: "#E3ACC8",
-        before: "Caregivers are handling sensitive information about their families. Positioning data ethics and the no-data-selling commitment as core brand values — not just privacy policy footnotes — drove trust in ways that feature lists alone never could.",
+        before: "Caregivers are handling sensitive information about their families. Positioning data ethics and the no-data-selling commitment as core brand values - not just privacy policy footnotes - drove trust in ways that feature lists alone never could.",
     },
     {
         title: "Scope discipline in MVP definition is a competitive advantage.",
         icon: <CheckCircle2 className="w-10 h-10" />,
         color: "#c66060",
-        before: "The caregiving problem space is enormous. Building a focused, high-quality platform for the five highest-impact use cases rather than a sprawling one that does twenty things adequately — is what created the product quality beta users immediately noticed.",
+        before: "The caregiving problem space is enormous. Building a focused, high-quality platform for the five highest-impact use cases rather than a sprawling one that does twenty things adequately - is what created the product quality beta users immediately noticed.",
     },
     {
         title: "The wellness feature was the biggest insight.",
         icon: <Activity className="w-10 h-10" />,
         color: "#60C6B1",
-        before: "Every competitor ignored caregiver emotional wellbeing. Building mood tracking and self-care support into the same workflow as appointment management wasn't just a differentiator — it told caregivers that this platform was built by someone who truly understood what caregiving feels like.",
+        before: "Every competitor ignored caregiver emotional wellbeing. Building mood tracking and self-care support into the same workflow as appointment management wasn't just a differentiator - it told caregivers that this platform was built by someone who truly understood what caregiving feels like.",
     }
 ];
 

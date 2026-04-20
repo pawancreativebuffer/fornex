@@ -50,7 +50,7 @@ const problems = [
     {
         id: "apps",
         title: "Multiple disconnected apps",
-        description: "A separate app for reminders, notes, and documents — with zero integration between them.",
+        description: "A separate app for reminders, notes, and documents - with zero integration between them.",
         icon: Layers,
         accent: "#90c7e5"
     }
@@ -129,7 +129,7 @@ export default function CoreProblem() {
                                 Millions of caregivers rely on <span className="text-[#60C6B1]">disconnected tools</span> not built for care.
                             </h1>
                             <p className="text-white/70 text-base leading-relaxed">
-                                Family caregiving is one of the most demanding and emotionally complex responsibilities a person can take on — yet the tools available to caregivers have always been generic consumer apps never designed for coordinating medical care.
+                                Family caregiving is one of the most demanding and emotionally complex responsibilities a person can take on - yet the tools available to caregivers have always been generic consumer apps never designed for coordinating medical care.
                             </p>
                         </div>
 

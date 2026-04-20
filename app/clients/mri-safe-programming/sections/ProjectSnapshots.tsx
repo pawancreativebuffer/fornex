@@ -14,7 +14,7 @@ export default function ProjectSnapshots() {
 
     const flow = [
         { icon: User, title: "Client", value: "MRI Safe Mode · mrisafemode.com" },
-        { icon: User, title: "Founder", value: "Martin Kloosterman, MD — Cardiac Electrophysiologist" },
+        { icon: User, title: "Founder", value: "Martin Kloosterman, MD - Cardiac Electrophysiologist" },
         { icon: Layers, title: "Industry", value: "Cardiac Imaging & Electrophysiology" },
         { icon: Smartphone, title: "Project Type", value: "Clinical Mobile Application (iOS & Android)" },
         { icon: Rocket, title: "Stage", value: "Phase 1 & 2 Delivered · Phase 3 In Progress" },

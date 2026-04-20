@@ -21,7 +21,7 @@ const services = [
     {
         id: 1,
         title: "Apollo 360 Health",
-        description: "Needed a HIPAA-compliant telehealth platform and EHR integration from scratch. 6-month launch deadline. ForNex developed a custom patient portal, video consultation module, and FHIR R4 integration with Athenahealth — deployed on AWS HIPAA architecture.",
+        description: "Needed a HIPAA-compliant telehealth platform and EHR integration from scratch. 6-month launch deadline. ForNex developed a custom patient portal, video consultation module, and FHIR R4 integration with Athenahealth - deployed on AWS HIPAA architecture.",
         image: "/images/four.jpg",
         link: '#'
     },

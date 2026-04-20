@@ -37,7 +37,7 @@ export default function ProjectSnapshots() {
                             Carevation
                         </h2>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Digital Health & Caregiving Technology — Consumer mobile application redefining care coordination.
+                            Digital Health & Caregiving Technology - Consumer mobile application redefining care coordination.
                         </p>
                     </div>
 

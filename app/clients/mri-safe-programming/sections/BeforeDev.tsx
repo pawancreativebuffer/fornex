@@ -19,14 +19,14 @@ export default function BeforeDev() {
                             <span>The Background</span>
                         </div>
                         <h1 className="text-shadow-lg/20 font-[700] text-4xl lg:text-6xl text-[#fff] leading-[1.1]">
-                            A Cardiologist Who Built the Infrastructure First - <span className="text-[#60C6B1]">Then Saw What Was Still Missing</span>
+                            A Cardiologist Who Built the Infrastructure First <span className="text-[#60C6B1]">Then Saw What Was Still Missing</span>
                         </h1>
 
                         <p className="text-white/70 text-base leading-relaxed">
-                            Dr. Martin Kloosterman is a specialist in cardiac electrophysiology with deep clinical expertise in cardiac implantable electronic devices (CIEDs) — pacemakers, ICDs, loop recorders, and leadless devices. Over his career, he personally witnessed the coordination failures that occur when a CIED patient is scheduled for an MRI without device compatibility having been verified in advance.
+                            Dr. Martin Kloosterman is a specialist in cardiac electrophysiology with deep clinical expertise in cardiac implantable electronic devices (CIEDs) - pacemakers, ICDs, loop recorders, and leadless devices. Over his career, he personally witnessed the coordination failures that occur when a CIED patient is scheduled for an MRI without device compatibility having been verified in advance.
                         </p>
                         <p className="text-white/70 text-base leading-relaxed">
-                            To solve this at the coordination level, Dr. Kloosterman built Smart-Praxis — a multi-role healthcare SaaS platform at mrisafemode.com — now serving 243 registered users across hospitals, MRI centers, device manufacturers, and clinical experts. The platform digitizes the full MRI Konditionierung (MK) workflow: pre-scan device programming, multi-party coordination, and post-scan reprogramming.
+                            To solve this at the coordination level, Dr. Kloosterman built Smart-Praxis - a multi-role healthcare SaaS platform at mrisafemode.com - now serving 243 registered users across hospitals, MRI centers, device manufacturers, and clinical experts. The platform digitizes the full MRI Konditionierung (MK) workflow: pre-scan device programming, multi-party coordination, and post-scan reprogramming.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -94,7 +94,7 @@ export default function BeforeDev() {
 
                         <div className="max-w-[900px] mx-auto text-center space-y-8">
                             <p className="text-[18px] font-regular leading-relaxed italic text-white">
-                                "The manual process for checking MRI conditionality was slow, fragmented, and completely dependent on the individual clinician's knowledge. I needed a tool that gave any clinician the right answer in seconds — regardless of their familiarity with specific device models."
+                                "The manual process for checking MRI conditionality was slow, fragmented, and completely dependent on the individual clinician's knowledge. I needed a tool that gave any clinician the right answer in seconds - regardless of their familiarity with specific device models."
                             </p>
 
                             <div className="flex flex-col items-center">

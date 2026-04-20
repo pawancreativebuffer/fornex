@@ -14,22 +14,22 @@ const processData = [
         title: "Medical logic engines require domain first thinking, not technology first.",
         icon: <Users className="w-10 h-10" />,
         color: "#60C6B1",
-        before: "The conditionality rules engine is the entire value of this product. Investing heavily in understanding the clinical logic — manufacturer rules, cross-device combinations, SAR limits, exclusion zones — before writing a single line of code was the prerequisite for everything else being trustworthy.",
+        before: "The conditionality rules engine is the entire value of this product. Investing heavily in understanding the clinical logic - manufacturer rules, cross-device combinations, SAR limits, exclusion zones - before writing a single line of code was the prerequisite for everything else being trustworthy.",
     },
     {
         title: "OCR in clinical settings demands graceful degradation, not just raw accuracy.",
         icon: <Activity className="w-10 h-10" />,
         color: "#90c7e5",
-        before: "Camera quality, lighting, and device ID card formats vary enormously in real clinical environments. Designing the OCR module to always surface an editable confirmation screen — rather than auto-populating incorrect data - was a critical product decision that protects clinical accuracy when hardware conditions are imperfect.",
+        before: "Camera quality, lighting, and device ID card formats vary enormously in real clinical environments. Designing the OCR module to always surface an editable confirmation screen - rather than auto-populating incorrect data - was a critical product decision that protects clinical accuracy when hardware conditions are imperfect.",
     },
     {
-        title: "Cross-manufacturer combinations needed a dedicated result state - the Orange result.",
+        title: "Cross-manufacturer combinations needed a dedicated result state the Orange result.",
         icon: <HeartPulse className="w-10 h-10" />,
         color: "#ff9900",
         before: "A significant portion of real-world cardiac device systems involve a generator and leads from different manufacturers - technically not MRI-conditional as a system, but which many centers proceed with under special protocols. The Orange result state was a clinical insight from Dr. Kloosterman that significantly increased the real-world utility of the app.",
     },
     {
-        title: "PDF generation is not a feature - it is a clinical compliance requirement.",
+        title: "PDF generation is not a feature it is a clinical compliance requirement.",
         icon: <FileText className="w-10 h-10" />,
         color: "#E3ACC8",
         before: "Without a formal, shareable PDF output, the app could not replace existing manual workflows. Clinicians need documentation, not just a result on screen. Keeping PDF generation firmly in Phase 1 scope - not deferring it - was the right clinical and product decision.",
@@ -38,7 +38,7 @@ const processData = [
         title: "Architecting for Phase 2 from day one avoids expensive rebuilds.",
         icon: <CheckCircle2 className="w-10 h-10" />,
         color: "#c66060",
-        before: "The .NET + MS SQL Server backend was designed with category-agnostic schemas from the start. Adding the MRI Centers module in Phase 2 was a feature build, not a rebuild. Phase 3's AI and booking infrastructure builds on the same foundation — not alongside it.",
+        before: "The .NET + MS SQL Server backend was designed with category-agnostic schemas from the start. Adding the MRI Centers module in Phase 2 was a feature build, not a rebuild. Phase 3's AI and booking infrastructure builds on the same foundation - not alongside it.",
     }
 ];
 

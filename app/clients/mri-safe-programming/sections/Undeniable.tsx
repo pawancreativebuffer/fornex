@@ -34,7 +34,7 @@ export default function Undeniable() {
                         </div>
                         <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Scans Were Being Cancelled at the Last Minute</h4>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            MRI centers routinely discovered too late that a patient's cardiac device was not MRI-conditional — after the patient had already been scheduled, prepped, and brought to the suite. A 10-second check before scheduling would prevent hours of wasted clinical time and unnecessary patient distress.
+                            MRI centers routinely discovered too late that a patient's cardiac device was not MRI-conditional - after the patient had already been scheduled, prepped, and brought to the suite. A 10-second check before scheduling would prevent hours of wasted clinical time and unnecessary patient distress.
                         </p>
 
                         {/* Connector 1-2 (Desktop Only) */}
@@ -57,7 +57,7 @@ export default function Undeniable() {
                         </div>
                         <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Manual Multi-Source Lookups Were Creating Accuracy Risks</h4>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Staff relied on manual checks across four separate manufacturer portals — each with different formats and update cadences. Accuracy depended entirely on individual knowledge, not a standardized system. For a life-critical clinical decision, that was not acceptable.
+                            Staff relied on manual checks across four separate manufacturer portals - each with different formats and update cadences. Accuracy depended entirely on individual knowledge, not a standardized system. For a life-critical clinical decision, that was not acceptable.
                         </p>
 
                         {/* Connector 2-3 (Desktop Only) */}
@@ -78,9 +78,9 @@ export default function Undeniable() {
                         <div className="flex justify-center mb-6">
                             <Flag className="w-10 h-10" style={{ color: '#ff9900' }} />
                         </div>
-                        <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Smart-Praxis Had the Infrastructure - But Not the Point-of-Care Tool</h4>
+                        <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Smart Praxis Had the Infrastructure But Not the Point of Care Tool</h4>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            The Smart-Praxis web platform could coordinate the MRI workflow between institutions — but it couldn't answer the pre-scheduling compatibility question that triggered the whole process. MRI Logic was designed as the mobile front door: the instant check that feeds into the broader Smart-Praxis ecosystem.
+                            The Smart-Praxis web platform could coordinate the MRI workflow between institutions - but it couldn't answer the pre-scheduling compatibility question that triggered the whole process. MRI Logic was designed as the mobile front door: the instant check that feeds into the broader Smart-Praxis ecosystem.
                         </p>
                     </div>
                 </div>

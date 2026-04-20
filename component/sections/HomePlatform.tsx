@@ -41,7 +41,7 @@ export default function HomePlatform() {
                         <span>Product Showcase</span>
                     </div>
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] max-w-[1100px]">
-                        See Our Healthcare Software Platform -<span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">EHR, Billing & Beyond</span>
+                        See Our Healthcare Software Platform <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">EHR, Billing & Beyond</span>
                     </h2>
                 </div>
 

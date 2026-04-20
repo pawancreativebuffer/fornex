@@ -6,27 +6,27 @@ import { useState } from "react";
 const faqData = [
     {
         question: "What industries within healthcare do you specialize in?",
-        answer: "ForNex Health works with a wide range of healthcare organizations including hospitals, private clinics, telehealth providers, healthcare startups, medical billing companies, digital health platforms, and healthcare SaaS providers — delivering HIPAA-compliant technology solutions tailored to each organization's specific workflows and compliance requirements."
+        answer: "ForNex Health works with a wide range of healthcare organizations including hospitals, private clinics, telehealth providers, healthcare startups, medical billing companies, digital health platforms, and healthcare SaaS providers - delivering HIPAA-compliant technology solutions tailored to each organization's specific workflows and compliance requirements."
     },
     {
         question: "How much does healthcare software development cost?",
-        answer: "The cost depends on the complexity of the solution, number of integrations required, and compliance depth. A focused healthcare MVP typically starts around $40,000–$80,000. Enterprise EHR platforms, full RCM systems, or multi-integration telehealth platforms range significantly higher depending on scope. We provide a detailed cost breakdown after our discovery session — so you have full transparency before committing to anything."
+        answer: "The cost depends on the complexity of the solution, number of integrations required, and compliance depth. A focused healthcare MVP typically starts around $40,000–$80,000. Enterprise EHR platforms, full RCM systems, or multi-integration telehealth platforms range significantly higher depending on scope. We provide a detailed cost breakdown after our discovery session - so you have full transparency before committing to anything."
     },
     {
         question: "Do you work with healthcare startups?",
-        answer: "Absolutely. We work extensively with healthcare startups — helping them design, build, and launch HIPAA-compliant MVP platforms in 3–4 months. Our team supports everything from product architecture and UI/UX design to EHR integrations, PHI-secure cloud infrastructure, and investor-ready technical documentation."
+        answer: "Absolutely. We work extensively with healthcare startups - helping them design, build, and launch HIPAA-compliant MVP platforms in 3–4 months. Our team supports everything from product architecture and UI/UX design to EHR integrations, PHI-secure cloud infrastructure, and investor-ready technical documentation."
     },
     {
         question: "Do you sign Business Associate Agreements (BAA)?",
-        answer: "Yes. We sign Business Associate Agreements with all our healthcare clients before any PHI-related work begins. This ensures full HIPAA compliance and clearly defines both parties' responsibilities for handling protected health information — a non-negotiable requirement for any serious healthcare software engagement."
+        answer: "Yes. We sign Business Associate Agreements with all our healthcare clients before any PHI-related work begins. This ensures full HIPAA compliance and clearly defines both parties' responsibilities for handling protected health information - a non-negotiable requirement for any serious healthcare software engagement."
     },
     {
         question: "What healthcare interoperability standards do you support?",
-        answer: "We support all major healthcare interoperability standards including FHIR R4, HL7 v2/v3, and SMART on FHIR. These standards allow healthcare systems to exchange patient data securely and seamlessly across platforms — including Epic, Cerner, Athenahealth, eClinicalWorks, and other leading EHR systems."
+        answer: "We support all major healthcare interoperability standards including FHIR R4, HL7 v2/v3, and SMART on FHIR. These standards allow healthcare systems to exchange patient data securely and seamlessly across platforms - including Epic, Cerner, Athenahealth, eClinicalWorks, and other leading EHR systems."
     },
     {
         question: "What makes ForNex Health different from other healthcare software development companies?",
-        answer: "ForNex Health focuses exclusively on healthcare technology. Our team has deep expertise in EHR integrations, HIPAA compliance engineering, AI healthcare solutions, and interoperability standards — built over 10+ years working only in healthcare. This allows us to deliver scalable, compliant digital health platforms significantly faster and more reliably than general software development companies."
+        answer: "ForNex Health focuses exclusively on healthcare technology. Our team has deep expertise in EHR integrations, HIPAA compliance engineering, AI healthcare solutions, and interoperability standards - built over 10+ years working only in healthcare. This allows us to deliver scalable, compliant digital health platforms significantly faster and more reliably than general software development companies."
     },
     {
         question: "What technologies do you use to build healthcare software?",
@@ -34,7 +34,7 @@ const faqData = [
     },
     {
         question: "Can you upgrade or modernize our existing legacy healthcare system?",
-        answer: "Yes. We help healthcare organizations modernize outdated systems by migrating to secure HIPAA-compliant cloud environments, rebuilding integrations to FHIR R4 standards, enhancing security architecture, and adding AI and automation layers — without disrupting your current clinical operations during the transition."
+        answer: "Yes. We help healthcare organizations modernize outdated systems by migrating to secure HIPAA-compliant cloud environments, rebuilding integrations to FHIR R4 standards, enhancing security architecture, and adding AI and automation layers - without disrupting your current clinical operations during the transition."
     },
     {
         question: "How long does healthcare software development take?",

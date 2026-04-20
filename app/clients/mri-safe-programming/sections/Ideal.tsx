@@ -5,7 +5,7 @@ import { User, Network, Smartphone, Rocket, Zap, CheckCircle2 } from "lucide-rea
 
 const IDEAL_CARDS = [
     {
-        title: "You're a physician-founder with deep domain expertise and a defined product vision.",
+        title: "You're a physician founder with deep domain expertise and a defined product vision.",
         description: "The most impactful clinical tools are built by people who have experienced the problem firsthand. If you have the clinical knowledge, ForNex provides the full technical execution - from architecture to app store - with a team that understands healthcare at a clinical level, not just a technical one.",
         color: "#60C6B1",
         icon: User,
@@ -18,7 +18,7 @@ const IDEAL_CARDS = [
         icon: Network
     },
     {
-        title: "You need a mobile-first product on both platforms with an enterprise-grade backend.",
+        title: "You need a mobile first product on both platforms with an enterprise grade backend.",
         description: "MRI Logic was built in React Native for cross-platform mobile with a .NET + MS SQL Server backend on Windows Server - selected specifically for clinical-grade reliability, structured data integrity, and compatibility with existing healthcare IT environments.",
         color: "#ff9900",
         icon: Smartphone

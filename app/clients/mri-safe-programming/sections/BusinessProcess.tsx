@@ -22,17 +22,17 @@ const processData = [
         icon: <FileText className="w-10 h-10" />,
         color: "#90c7e5",
         before: "No structured documentation of the compatibility decision. Manual notes, if made at all. Audit trails incomplete. Patient records without any formal evidence of the check having been performed.",
-        after: "Every check generates a formal PDF report — patient details, device models, result, restrictions, and timestamp. Shareable in seconds. Added directly to the patient file with one tap."
+        after: "Every check generates a formal PDF report - patient details, device models, result, restrictions, and timestamp. Shareable in seconds. Added directly to the patient file with one tap."
     },
     {
-        title: "Finding MRI Centers: From Google Searches to In-App Discovery",
+        title: "Finding MRI Centers: From Google Searches to In App Discovery",
         icon: <LocateFixed className="w-10 h-10" />,
         color: "#ff9900",
         before: "Patients and referring clinicians searched Google, called hospital switchboards, or relied on word of mouth to find nearby MRI centers. No way to filter by machine type or verify center details quickly.",
-        after: "Full US MRI center database searchable directly in the app. Filter by location, machine type, and distance. Complete center profiles with directions, hours, website, and contact info — all in one place."
+        after: "Full US MRI center database searchable directly in the app. Filter by location, machine type, and distance. Complete center profiles with directions, hours, website, and contact info - all in one place."
     },
     {
-        title: "Scan Cancellations: From Last-Minute Discovery to Pre-Scheduling Prevention",
+        title: "Scan Cancellations: From Last Minute Discovery to Pre Scheduling Prevention",
         icon: <Radar className="w-10 h-10" />,
         color: "#E3ACC8",
         before: "Incompatibility discovered after the patient was already scheduled, prepped, and in the MRI unit. Wasted clinical time, distressed patients, and disrupted scan schedules.",
