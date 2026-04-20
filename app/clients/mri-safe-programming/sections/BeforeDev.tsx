@@ -60,7 +60,7 @@ export default function BeforeDev() {
                     <div className="lg:col-span-5 relative">
                         <div className="relative aspect-[4/6] rounded-[2rem] overflow-hidden group">
                             <Image
-                                src="/healthcare_founder_adrian_chung_1776171833373.png"
+                                src="/dr-2.jpg"
                                 alt="Adrian Chung, Founder of Carevation"
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
