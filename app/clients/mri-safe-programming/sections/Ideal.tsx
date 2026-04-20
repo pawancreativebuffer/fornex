@@ -37,7 +37,7 @@ const IDEAL_CARDS = [
     }
 ];
 
-function InteractiveCard({ card, isTall }: { card: typeof IDEAL_CARDS[0], isTall?: boolean }) {
+function InteractiveCard({ card }: { card: typeof IDEAL_CARDS[0] }) {
     const cardRef = React.useRef<HTMLDivElement>(null);
     const [mousePos, setMousePos] = React.useState({ x: 0, y: 0 });
 
@@ -69,14 +69,14 @@ function InteractiveCard({ card, isTall }: { card: typeof IDEAL_CARDS[0], isTall
             <div className={`flex flex-col gap-6 lg:gap-8 relative z-10 h-full`}>
                 {/* Icon Container */}
                 <div
-                    className={`${isTall ? 'w-20 h-20' : 'w-16 h-16'} rounded-2xl flex items-center justify-center border-2 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6`}
+                    className="w-16 h-16 rounded-2xl flex items-center justify-center border-2 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6"
                     style={{
                         borderColor: `${card.color}30`,
                         backgroundColor: `${card.color}05`,
                         color: card.color
                     }}
                 >
-                    <card.icon className={isTall ? "w-10 h-10" : "w-8 h-8"} strokeWidth={1.5} />
+                    <card.icon className="w-8 h-8" strokeWidth={1.5} />
                 </div>
 
                 <div className="flex-1 space-y-5">
@@ -117,21 +117,22 @@ export default function Ideal() {
                         </h2>
                     </div>
 
-                    {/* NEW GRID LAYOUT: 1 Large Left, 4 Small Right */}
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 w-full max-w-7xl relative z-10 items-stretch">
+                    {/* NEW GRID LAYOUT: 3 blocks first row, 2 blocks last row */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 w-full max-w-7xl relative z-10 items-stretch">
+                        {/* First Row: 3 Blocks */}
+                        {IDEAL_CARDS.slice(0, 3).map((card, index) => (
+                            <div key={index} className="lg:col-span-2">
+                                <InteractiveCard card={card} />
+                            </div>
+                        ))}
 
-                        {/* LEFT: Tall Block */}
-                        <div className="lg:col-span-1 h-full">
-                            <InteractiveCard card={IDEAL_CARDS[0]} isTall />
+                        {/* Second Row: 2 Blocks (50/50 Width on LG) */}
+                        <div className="lg:col-span-3">
+                            <InteractiveCard card={IDEAL_CARDS[3]} />
                         </div>
-
-                        {/* RIGHT: 2x2 Grid */}
-                        <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-8">
-                            {IDEAL_CARDS.slice(1).map((card, index) => (
-                                <InteractiveCard key={index} card={card} />
-                            ))}
+                        <div className="lg:col-span-3">
+                            <InteractiveCard card={IDEAL_CARDS[4]} />
                         </div>
-
                     </div>
 
                 </div>
