@@ -36,8 +36,8 @@ export default async function MriSafeProgrammingPage() {
 
             <Collage />
             <CoreProblem />
-
             <Undeniable />
+
             <Fragmentation />
 
             <OnePlatform />

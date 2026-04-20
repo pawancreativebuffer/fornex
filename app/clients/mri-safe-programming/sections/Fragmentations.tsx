@@ -1,44 +1,44 @@
 "use client";
 
-import { Users, Share2, Brain, UserMinus, FileWarning, AlertCircle } from "lucide-react";
+import { CloudBackup, CircleX, MonitorSmartphone, FileText, Component } from "lucide-react";
 
 const consequences = [
     {
-        icon: Users,
+        icon: CloudBackup,
         id: "01",
-        title: "Coordination Failures",
-        description: "Leading to missed appointments and medication errors.",
+        title: "Instant MRI Safety Answers",
+        description: "Get accurate color coded MRI safety results in under 10 seconds from any device",
         color: "#60C6B1"
     },
     {
-        icon: Share2,
+        icon: CircleX,
         id: "02",
-        title: "Communication Gaps",
-        description: "When multiple family members share care responsibilities across different cities.",
+        title: "Zero Manual Lookup Errors",
+        description: "Remove human error by combining all manufacturer rules into one logic system",
         color: "#90c7e5"
     },
     {
-        icon: Brain,
+        icon: MonitorSmartphone,
         id: "03",
-        title: "Caregiver Burnout",
-        description: "Compounded by organizational chaos and a complete absence of support tools.",
+        title: "OCR Based Device Entry",
+        description: "Scan device cards to auto fill data and avoid manual input errors",
         color: "#ff9900"
     },
     {
-        icon: UserMinus,
+        icon: FileText,
         id: "04",
-        title: "Isolation",
-        description: "Long-distance caregivers cut off from meaningful involvement in a loved one's care.",
+        title: "Automated PDF Reports",
+        description: "Create structured reports for every check that can be shared and stored easily",
         color: "#E3ACC8"
     },
     {
-        icon: FileWarning,
+        icon: Component,
         id: "05",
-        title: "Advocacy Deficit",
-        description: "Caregivers arriving at medical appointments unprepared, unable to confidently represent their loved one's full history.",
+        title: "Scalable System Design",
+        description: "Built to expand into advanced features without rebuilding the core system",
         color: "#c66060"
     }
-];
+]
 
 export default function Fragmentation() {
     return (
@@ -49,16 +49,16 @@ export default function Fragmentation() {
                 <div className="flex flex-col items-center text-center mb-5">
                     <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                         <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
-                        <span>The Impact</span>
+                        <span>Objectives & Goals</span>
                     </div>
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] max-w-[900px] mx-auto">
-                        The Real Consequences of <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">This Fragmentation</span>
+                        Five Clear Outcomes. <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">One Clinical Tool.</span>
                     </h2>
                 </div>
 
 
                 {/* Desktop Horizontal Timeline */}
-                <div className="hidden lg:flex items-center justify-between relative mt-28 mb-22 h-[350px]">
+                <div className="hidden lg:flex items-center justify-between relative mt-28 mb-22 h-[340px]">
                     {/* Connecting line */}
                     <div className="absolute top-1/2 left-0 w-full h-[2px] bg-slate-100 -translate-y-1/2 z-0">
                         <div className="h-full w-full bg-gradient-to-r from-transparent via-slate-200 to-transparent"></div>
