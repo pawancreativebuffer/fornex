@@ -1,6 +1,6 @@
 "use client";
 
-import { Search, Briefcase, Flag } from 'lucide-react';
+import { Search, Flag, FileSpreadsheet } from 'lucide-react';
 
 export default function Undeniable() {
     return (
@@ -17,24 +17,24 @@ export default function Undeniable() {
                     </h2>
                 </div>
                 <p className="text-gray-500 text-base font-regular leading-relaxed text-center">
-                    Three forces converged to make Carevation both urgent and necessary:
+                    Three clinical realities converged to make MRI Logic both urgent and necessary:
                 </p>
 
 
                 {/* Infographic - Carbon Copy of the Zig-Zag Layout */}
-                <div className="flex flex-col lg:flex-row items-stretch justify-center gap-5 lg:gap-16 relative my-10 lg:my-15">
+                <div className="flex flex-col lg:flex-row items-stretch justify-center gap-5 lg:gap-16 relative mt-10 lg:mt-15">
 
                     {/* Card 1 */}
                     <div
-                        className="relative w-full lg:w-[320px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
+                        className="relative w-full lg:w-[400px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
                         style={{ borderColor: '#60c6b1' }}
                     >
                         <div className="flex justify-center mb-6">
                             <Search className="w-10 h-10" style={{ color: '#60c6b1' }} />
                         </div>
-                        <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">The Founder's Breaking Point</h4>
+                        <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Scans Were Being Cancelled at the Last Minute</h4>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Despite his professional background, Adrian's own caregiving experience was chaotic and unsupported by technology. He found nothing comparable existed for him.
+                            MRI centers routinely discovered too late that a patient's cardiac device was not MRI-conditional — after the patient had already been scheduled, prepped, and brought to the suite. A 10-second check before scheduling would prevent hours of wasted clinical time and unnecessary patient distress.
                         </p>
 
                         {/* Connector 1-2 (Desktop Only) */}
@@ -49,15 +49,15 @@ export default function Undeniable() {
 
                     {/* Card 2 */}
                     <div
-                        className="relative w-full lg:w-[320px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
+                        className="relative w-full lg:w-[400px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
                         style={{ borderColor: '#90c7e5' }}
                     >
                         <div className="flex justify-center mb-6">
-                            <Briefcase className="w-10 h-10" style={{ color: '#90c7e5' }} />
+                            <FileSpreadsheet className="w-10 h-10" style={{ color: '#90c7e5' }} />
                         </div>
-                        <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">A Demographic Reality</h4>
+                        <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Manual Multi-Source Lookups Were Creating Accuracy Risks</h4>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            America's aging population is creating unprecedented demand for family-based care support, yet they receive zero digital infrastructure.
+                            Staff relied on manual checks across four separate manufacturer portals — each with different formats and update cadences. Accuracy depended entirely on individual knowledge, not a standardized system. For a life-critical clinical decision, that was not acceptable.
                         </p>
 
                         {/* Connector 2-3 (Desktop Only) */}
@@ -72,24 +72,17 @@ export default function Undeniable() {
 
                     {/* Card 3 */}
                     <div
-                        className="relative w-full lg:w-[320px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
+                        className="relative w-full lg:w-[400px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
                         style={{ borderColor: '#ff9900' }}
                     >
                         <div className="flex justify-center mb-6">
                             <Flag className="w-10 h-10" style={{ color: '#ff9900' }} />
                         </div>
-                        <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">A Market With No Credible Solution</h4>
+                        <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Smart-Praxis Had the Infrastructure - But Not the Point-of-Care Tool</h4>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Post-pandemic digital health adoption accelerated, but no purpose-built platform existed to support active family caregivers.
+                            The Smart-Praxis web platform could coordinate the MRI workflow between institutions — but it couldn't answer the pre-scheduling compatibility question that triggered the whole process. MRI Logic was designed as the mobile front door: the instant check that feeds into the broader Smart-Praxis ecosystem.
                         </p>
                     </div>
-                </div>
-
-                {/* Footer Section */}
-                <div className="text-center">
-                    <p className="text-[#1a2b3c] font-[600] text-center text-lg leading-tight max-w-[800px] mx-auto">
-                        Adrian brought Carevation to ForNex Health with a clear mandate: build the platform that caregivers don't know they're waiting for.
-                    </p>
                 </div>
             </div>
         </section>
