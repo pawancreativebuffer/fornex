@@ -11,24 +11,20 @@ import {
 export default function Ecosystem() {
     const data = [
         {
-            title: "Primary Caregivers",
+            title: "MRI Center Staff & Radiographers",
             icon: User
         },
         {
-            title: "Long-Distance Caregivers",
+            title: "Cardiologists & EP Specialists",
             icon: Globe
         },
         {
-            title: "Co-Caregiving Family",
+            title: "Device Company Technicians",
             icon: Users
         },
         {
-            title: "Sandwich Generation",
+            title: "Referring Physicians & Hospital Specialists",
             icon: Home
-        },
-        {
-            title: "Casual Helpers",
-            icon: HeartHandshake
         }
     ];
 
@@ -41,12 +37,13 @@ export default function Ecosystem() {
     ];
 
     const integrations = [
-        "FElderly care and aging-in-place",
-        "Chronic illness coordination (arthritis, diabetes, heart disease)",
-        "Post-surgical recovery",
-        "Disability and long-term care",
-        "Pediatric and special needs caregiving",
-        "Non-traditional family care structures"
+        "Pre-scan compatibility screening",
+        "Emergency MRI triage decisions",
+        "Cross-manufacturer device system checks",
+        "Pacemaker & ICD conditionality",
+        "Loop recorder & leadless device checks",
+        "Outpatient MRI referral planning",
+        "MRI center search & discovery"
     ];
 
     return (
@@ -55,21 +52,21 @@ export default function Ecosystem() {
                 <div className="bg-white rounded-[40px] p-6 lg:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50 flex flex-col items-center gap-8 overflow-hidden relative">
 
                     {/* HEADER */}
-                    <div className="flex flex-col items-center text-center">
+                    <div className="flex flex-col items-center text-center mb-4">
                         <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                             <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                             <span>Organizational Structure - Who Uses It</span>
                         </div>
 
                         <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] mb-7">
-                            Not One Person.{" "}
+                            Not One Type of User.{" "}
                             <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">
-                                A Whole Care Ecosystem.
+                                An Entire Clinical Ecosystem.
                             </span>
                         </h2>
 
-                        <p className="text-gray-500 text-base leading-relaxed mb-5 max-w-3xl">
-                            Unlike most apps designed for a single user, Carevation is built around the reality that caregiving is a team effort.
+                        <p className="text-gray-500 text-base leading-relaxed mb-5 max-w-4xl">
+                            MRI Logic is designed for clinical professionals across the full cardiac imaging and referral workflow from the MRI center scheduling the scan to the device company technician programming the pacemaker.
                         </p>
                     </div>
 
@@ -104,7 +101,7 @@ export default function Ecosystem() {
 
 
                     <h2 className="text-3xl font-bold text-[#2D2D2D] leading-[1.2] md:mt-10 text-center">
-                        Care Scenarios the Platform Supports
+                        Clinical scenarios the app supports:
                     </h2>
 
                     <div className="flex flex-wrap gap-3 justify-center">

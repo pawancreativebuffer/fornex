@@ -2,83 +2,148 @@
 
 import React from 'react';
 import {
-    Pill,
-    Calendar,
-    Users2,
     FileText,
-    Heart,
-    ArrowRight,
     Check,
-    Activity
+    Lock,
+    House,
+    Radar,
+    Pencil,
+    ListCheck,
+    Ratio,
+    ClipboardClock,
+    Pin,
+    Cog
 } from 'lucide-react';
 
 const strategicPoints = [
-    { title: "Simplify Medication Management" },
-    { title: "Never Miss a Care Visit" },
-    { title: "Enable Coordinated Family Caregiving" },
-    { title: "Track Symptoms and Conditions Over Time" },
-    { title: "Build for Scale From Day One" }
+    { title: "Fully MRI Safe" },
+    { title: "Safe with Restrictions" },
+    { title: "Special Protocol" },
+    { title: "Not MRI Conditional" },
 ];
 
 const coreModules = [
     {
         id: "1",
-        title: "Appointment & Task Management",
-        icon: <Calendar className="w-12 h-12" />,
+        title: "Splash & Authentication",
+        icon: <Lock className="w-12 h-12" />,
         color: "#60C6B1",
         bullets: [
-            "Real-time visibility into upcoming appointments, overdue tasks, and follow-up items across the entire care team",
-            "Calendar integration prevents scheduling conflicts",
-            "Structured pre-visit planning prepares caregivers for every medical conversation",
-            "Nothing falls through the cracks"
+            "Full email-based login, signup, and forgot password flow",
+            "Guest Mode allows immediate use without account creation",
+            "OTP verification for secure account access",
+            "Critical for time-sensitive clinical environments where speed matters"
         ]
     },
     {
         id: "2",
-        title: "Medication Management",
-        icon: <Pill className="w-12 h-12" />,
+        title: "Home Dashboard",
+        icon: <House className="w-12 h-12" />,
         color: "#90c7e5",
         bullets: [
-            "Comprehensive medication tracking — dosage, instructions, refill schedules, and prescribing provider",
-            "A complete medication history is always available for specialist visits",
-            "Smart reminders ensure no dose is ever missed",
-            "Designed to eliminate one of the highest-risk areas in home-based care"
+            "Central hub with single-tap 'Start New Device Check' action",
+            "Designed for one-handed use with minimum taps to core functions",
+            "Recent scans list visible immediately on load",
+            "Quick access to history, manual entry, and OCR scanning"
         ]
     },
     {
         id: "3",
-        title: "CareSpace — Shared Collaborative Workspace",
-        icon: <Users2 className="w-12 h-12" />,
+        title: "OCR Device Scanning",
+        icon: <Radar className="w-12 h-12" />,
         color: "#ff9900",
         bullets: [
-            "The central hub where all care information lives",
-            "Shared task assignments with clear ownership",
-            "Role-based invitations with configurable permissions for every family member",
-            "Real-time synchronization across all devices — replaces fragmented group text threads entirely"
+            "Camera opens with guided rectangular overlay for card alignment",
+            "Confirmation screen lets the clinician review and correct extracted data",
+            "Automatically extracts device name, model number, lead info, and manufacturer",
+            "Eliminates manual typing errors in high-pressure clinical settings"
         ]
     },
     {
         id: "4",
-        title: "Document & Records Storage",
-        icon: <FileText className="w-12 h-12" />,
+        title: "Manual Entry Module",
+        icon: <Pencil className="w-12 h-12" />,
         color: "#E3ACC8",
         bullets: [
-            "Secure storage for medical records, test results, insurance documents, and care plans",
-            "Shareable with providers in seconds",
-            "Organized by category for fast retrieval",
-            "Accessible from any device"
+            "Manufacturer dropdown: Medtronic, Abbott, Boston Scientific, Biotronik",
+            "Dynamic lead count detection based on device type (1, 2, or 3 leads)",
+            "Autocomplete for device model names and numbers — blocks invalid entries",
+            "Fields turn green on valid match, red on unrecognized entry"
         ]
     },
     {
         id: "5",
-        title: "Caregiver Wellness & Self-Care",
-        icon: <Heart className="w-12 h-12" />,
+        title: "Final Review",
+        icon: <ListCheck className="w-12 h-12" />,
         color: "#c66060",
         bullets: [
-            "Built-in mood and stress check-ins",
-            "Energy tracking over time",
-            "Reflection tools and journaling prompts",
-            "The feature category every competitor has overlooked — because caregiver health is inseparable from care quality"
+            "Combined view of all entered device and MRI machine details before submitting",
+            "Prevents errors from reaching the conditionality logic engine",
+            "Full edit capability — nothing is locked until the clinician confirms",
+            "Clean, distraction-free layout built for clinical decision moments"
+        ]
+    },
+
+    {
+        id: "6",
+        title: "MRI Conditionality Result Engine",
+        icon: <Ratio className="w-12 h-12" />,
+        color: "#60C6B1",
+        bullets: [
+            "Color-coded result: Green, Yellow, Orange, or Red — visible in one glance",
+            "Body region restrictions, exclusion zones, and manufacturer-specific warnings",
+            "Detailed analysis: SAR limits, B1+RMS values, field strength (1.5T / 3T)",
+            "'Read More' screen provides full technical breakdown for complex cases"
+        ]
+    },
+    {
+        id: "7",
+        title: "PDF Report Generation",
+        icon: <FileText className="w-12 h-12" />,
+        color: "#90c7e5",
+        bullets: [
+            "Generates structured clinical report: patient details, device models, and result",
+            "Shareable via email or exportable directly into patient records",
+            "Includes restrictions, special notes, timestamp, and doctor/MRI center info",
+            "Built to satisfy clinical audit and formal documentation requirements"
+        ]
+    },
+    {
+        id: "8",
+        title: "History Module",
+        icon: <ClipboardClock className="w-12 h-12" />,
+        color: "#ff9900",
+        bullets: [
+            "Searchable log of all previous MRI checks in one place",
+            "Filter by patient name or device model for fast retrieval",
+            "Detail view for each past check with stored result and PDF access",
+            "Supports ongoing case tracking across multiple patients"
+        ]
+    },
+    {
+        id: "9",
+        title: "MRI Centers Near You",
+        icon: <Pin className="w-12 h-12" />,
+        color: "#E3ACC8",
+        bullets: [
+            "Search and filter all MRI centers and hospitals across the entire United States",
+            "List view and map view with center pins and distance markers",
+            "Website, map directions, and social media info for every listed center",
+            "GPS-based location detection or manual city / ZIP code entry",
+            "Full center profiles: address, machine type (1.5T / 3T), working hours",
+            "Future Phase 3: direct appointment booking and center contact / chat"
+        ]
+    },
+    {
+        id: "10",
+        title: "Support, Information & Settings",
+        icon: <Cog className="w-12 h-12" />,
+        color: "#c66060",
+        bullets: [
+            "About page, clinical disclaimer, and version information always accessible",
+            "Notification preferences, language options, and profile settings",
+            "Contact support built in for issue reporting and clinical queries",
+            "Guest / logged-in mode toggle — all preferences stored locally on device"
         ]
     }
 ];
@@ -94,13 +159,13 @@ export default function OnePlatform() {
                         <div className="mb-10">
                             <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                                 <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
-                                <span>The Solution</span>
+                                <span>The Build</span>
                             </div>
                             <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#1a2b3c] mb-4 lg:mb-6">
-                                A Mobile-First Care Command Center - <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Designed for Real Families</span>
+                                A 26 Screen Clinical Mobile App <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Designed for Real Clinicians</span>
                             </h2>
                             <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-6 lg:max-w-[500px]">
-                                ForNex Health designed and developed Carevation as a native mobile application for iOS and Android, built around a central concept: the <span className="font-semibold text-[#1a2b3c]">CareSpace</span> — a shared, role-based digital workspace where all of a loved one's care information lives, every family member stays synchronized.
+                                ForNex Health designed and developed MRI Logic end-to-end 10 fully functional modules across iOS and Android, built around a central conditionality rules engine. The four-color result system gives every clinician an unambiguous, actionable answer.
                             </p>
                         </div>
 

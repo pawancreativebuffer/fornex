@@ -11,40 +11,34 @@ import {
 
 const processData = [
     {
-        title: "Founder - market fit is a competitive moat no research can replicate.",
+        title: "Medical logic engines require domain first thinking, not technology first.",
         icon: <Users className="w-10 h-10" />,
         color: "#60C6B1",
-        before: "Adrian's decade of lived caregiving experience provided product intuition that would have taken years of user research to approximate. The best digital health products are built by people who've experienced the gap themselves — and who bring a technical partner who can execute on that vision with precision.",
+        before: "The conditionality rules engine is the entire value of this product. Investing heavily in understanding the clinical logic — manufacturer rules, cross-device combinations, SAR limits, exclusion zones — before writing a single line of code was the prerequisite for everything else being trustworthy.",
     },
     {
-        title: "Multi-generational UX demands accessibility discipline from the very first wireframe.",
+        title: "OCR in clinical settings demands graceful degradation, not just raw accuracy.",
         icon: <Activity className="w-10 h-10" />,
         color: "#90c7e5",
-        before: "Carevation's users range from 30-something professionals to 70-something retirees. Designing for this range means eliminating all unnecessary friction so the platform's value is obvious within the first two minutes of use, regardless of technical familiarity.",
+        before: "Camera quality, lighting, and device ID card formats vary enormously in real clinical environments. Designing the OCR module to always surface an editable confirmation screen — rather than auto-populating incorrect data - was a critical product decision that protects clinical accuracy when hardware conditions are imperfect.",
     },
     {
-        title: "Community-first building creates a warmer, faster product launch.",
+        title: "Cross-manufacturer combinations needed a dedicated result state - the Orange result.",
         icon: <HeartPulse className="w-10 h-10" />,
         color: "#ff9900",
-        before: "The blog and newsletter strategy built an engaged, mission-aligned audience before the app launched. Early access sign-ups came from people who already believed in the mission — not cold conversions needing convincing.",
+        before: "A significant portion of real-world cardiac device systems involve a generator and leads from different manufacturers - technically not MRI-conditional as a system, but which many centers proceed with under special protocols. The Orange result state was a clinical insight from Dr. Kloosterman that significantly increased the real-world utility of the app.",
     },
     {
-        title: "In consumer health, security is brand value — not just a technical checkbox.",
+        title: "PDF generation is not a feature - it is a clinical compliance requirement.",
         icon: <FileText className="w-10 h-10" />,
         color: "#E3ACC8",
-        before: "Caregivers are handling sensitive information about their families. Positioning data ethics and the no-data-selling commitment as core brand values — not just privacy policy footnotes — drove trust in ways that feature lists alone never could.",
+        before: "Without a formal, shareable PDF output, the app could not replace existing manual workflows. Clinicians need documentation, not just a result on screen. Keeping PDF generation firmly in Phase 1 scope - not deferring it - was the right clinical and product decision.",
     },
     {
-        title: "Scope discipline in MVP definition is a competitive advantage.",
+        title: "Architecting for Phase 2 from day one avoids expensive rebuilds.",
         icon: <CheckCircle2 className="w-10 h-10" />,
         color: "#c66060",
-        before: "The caregiving problem space is enormous. Building a focused, high-quality platform for the five highest-impact use cases rather than a sprawling one that does twenty things adequately — is what created the product quality beta users immediately noticed.",
-    },
-    {
-        title: "The wellness feature was the biggest insight.",
-        icon: <Activity className="w-10 h-10" />,
-        color: "#60C6B1",
-        before: "Every competitor ignored caregiver emotional wellbeing. Building mood tracking and self-care support into the same workflow as appointment management wasn't just a differentiator — it told caregivers that this platform was built by someone who truly understood what caregiving feels like.",
+        before: "The .NET + MS SQL Server backend was designed with category-agnostic schemas from the start. Adding the MRI Centers module in Phase 2 was a feature build, not a rebuild. Phase 3's AI and booking infrastructure builds on the same foundation — not alongside it.",
     }
 ];
 
@@ -65,7 +59,7 @@ export default function KeyLearnings() {
                         <span>Key Learnings</span>
                     </div>
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] max-w-5xl">
-                        What Building Carevation Taught the <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent"> ForNex Health</span> Team
+                        What Building MRI Logic Taught the <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent"> ForNex Health</span> Team
                     </h2>
                 </div>
 

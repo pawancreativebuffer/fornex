@@ -1,59 +1,42 @@
 "use client";
 
-import React from 'react';
 import {
-    Pill,
-    Calendar,
-    Users,
-    Activity,
-    HeartPulse,
     FileText,
     CheckCircle2,
-    XCircle
+    XCircle,
+    Timer,
+    LocateFixed,
+    Radar
 } from 'lucide-react';
 
 const processData = [
     {
-        title: "Medication Management: From Risk to Reliability",
-        icon: <Pill className="w-10 h-10" />,
+        title: "MRI Compatibility Check: From 45 Minutes to 10 Seconds",
+        icon: <Timer className="w-10 h-10" />,
         color: "#60C6B1",
-        before: "Paper lists that became outdated. Generic reminder apps with no medical context. No tracking of prescribing providers or refill schedules. Medication history reconstructed from memory at every appointment.",
-        after: "A centralized medication module tracks every drug, dose, instruction, and refill date. Smart reminders fire at the right time. Complete history always ready to share."
+        before: "Manual lookup across four separate manufacturer websites. 20-45 minutes per patient. Accuracy entirely dependent on the individual clinician's knowledge of specific device model generations and manufacturer update cycles.",
+        after: "OCR scan or manual entry in the app. Standardized logic engine delivers a color-coded result in under 10 seconds. Consistent, accurate, and independent of who is performing the check."
     },
     {
-        title: "Visit Coordination: From Reactive to Proactive",
-        icon: <Calendar className="w-10 h-10" />,
-        color: "#90c7e5",
-        before: "Caregivers arrived at appointments without a complete picture of the care history. Providers re-asked the same questions every visit. Follow-up items forgotten or lost in a notes app.",
-        after: "Structured pre-visit planning prepares caregivers before every appointment. Follow-up items are captured and tracked. The right provider contact is always one tap away."
-    },
-    {
-        title: "Family Collaboration: From Text Thread Chaos to Structured Teamwork",
-        icon: <Users className="w-10 h-10" />,
-        color: "#ff9900",
-        before: "Group texts as the coordination layer for complex medical decisions. Messages buried under noise. No task tracking, no file sharing, no accountability.",
-        after: "The CareSpace replaces the text thread entirely. Each family member has a clear role. Tasks are assigned explicitly. Progress is visible to everyone in real time."
-    },
-    {
-        title: "Symptom & Condition Tracking: From Memory to Data",
-        icon: <Activity className="w-10 h-10" />,
-        color: "#E3ACC8",
-        before: "Symptoms described from memory at appointments. No longitudinal record. No ability to identify patterns or share structured information with providers.",
-        after: "Simple, structured symptom logging with tracking over time. Patterns surface naturally. Shareable records ready for any medical visit."
-    },
-    {
-        title: "Caregiver Wellbeing: From Afterthought to First-Class Feature",
-        icon: <HeartPulse className="w-10 h-10" />,
-        color: "#c66060",
-        before: "Every tool ignored the emotional dimension of caregiving entirely. Burnout was treated as inevitable.",
-        after: "Daily wellness check-ins integrated into the same workflow as care logistics. Mood tracking. Personalized self-care recommendations. The platform acknowledges that a burned-out caregiver cannot sustain quality care."
-    },
-    {
-        title: "Document Management: From Paper Crisis to Digital Access",
+        title: "Documentation: From No Audit Trail to Instant PDF",
         icon: <FileText className="w-10 h-10" />,
-        color: "#60C6B1",
-        before: "Medical records in binders. PDFs scattered across email. Insurance documents on different devices. Nothing findable in an emergency.",
-        after: "Secure, categorized document storage organized by type. Searchable, accessible from any device, shareable with providers in seconds."
+        color: "#90c7e5",
+        before: "No structured documentation of the compatibility decision. Manual notes, if made at all. Audit trails incomplete. Patient records without any formal evidence of the check having been performed.",
+        after: "Every check generates a formal PDF report — patient details, device models, result, restrictions, and timestamp. Shareable in seconds. Added directly to the patient file with one tap."
+    },
+    {
+        title: "Finding MRI Centers: From Google Searches to In-App Discovery",
+        icon: <LocateFixed className="w-10 h-10" />,
+        color: "#ff9900",
+        before: "Patients and referring clinicians searched Google, called hospital switchboards, or relied on word of mouth to find nearby MRI centers. No way to filter by machine type or verify center details quickly.",
+        after: "Full US MRI center database searchable directly in the app. Filter by location, machine type, and distance. Complete center profiles with directions, hours, website, and contact info — all in one place."
+    },
+    {
+        title: "Scan Cancellations: From Last-Minute Discovery to Pre-Scheduling Prevention",
+        icon: <Radar className="w-10 h-10" />,
+        color: "#E3ACC8",
+        before: "Incompatibility discovered after the patient was already scheduled, prepped, and in the MRI unit. Wasted clinical time, distressed patients, and disrupted scan schedules.",
+        after: "Compatibility checked before scheduling begins. Only MRI-conditional patients enter the queue. Scan cancellations due to device incompatibility are eliminated at the source."
     }
 ];
 
@@ -72,7 +55,7 @@ export default function BusinessProcess() {
                         <span> Business Process Reengineering</span>
                     </div>
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] mb-7 max-w-6xl">
-                        We Didn't Digitize the Old Way of Caregiving. <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">We Replaced It.</span>
+                        We Didn't Digitize the Old Process. <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">We Replaced It.</span>
                     </h2>
                 </div>
 

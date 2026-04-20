@@ -39,14 +39,14 @@ export default async function MriSafeProgrammingPage() {
             <Undeniable />
 
             <Fragmentation />
-
             <OnePlatform />
             <ProjectTimeline />
-
             <Ecosystem />
             <TechStack />
             <BusinessProcess />
+
             <Results />
+
             <KeyLearnings />
             <Ideal />
             <HomeClientTestimonials />

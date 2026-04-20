@@ -1,36 +1,36 @@
 "use client";
 
-import { Heart, Stethoscope, Users } from "lucide-react";
+import { HeartPulse, Stethoscope, Building } from "lucide-react";
 
 export default function Results() {
     const listData = [
-        "Users describe feeling significantly more organized and less anxious about care coordination",
-        "Family members in CareSpaces report clearer task ownership and fewer coordination breakdowns",
-        "Long-distance caregivers describe staying meaningfully connected to a loved one's care for the first time",
-        "Medication management is consistently rated the highest-value feature, directly reducing fear of dosage errors",
-        "The wellness check-in features are surfacing a need that every previous tool left entirely unaddressed"
+        "Clinicians report feeling significantly more confident about MRI conditionality decisions - the guesswork has been removed entirely",
+        "MRI center staff describe the compatibility check as faster and more reliable than any manual method they had previously used",
+        "The OCR scanning feature is consistently rated the highest-value interaction - eliminating the most error-prone step in the workflow",
+        "Having a formal PDF report generated automatically is described as the single biggest improvement to the documentation process",
+        "The color-coded result system is immediately intuitive — no training required to interpret and act on the result with confidence"
     ]
 
     const potential = [
         {
-            title: "For Caregivers",
-            desc: "Reduced burnout, increased confidence, better work-life balance, recognition of their invaluable role",
+            title: "FOR MRI CENTERS",
+            desc: "Fewer cancelled scans, faster patient throughput, and a standardized safety process that no longer depends on individual staff knowledge or availability",
             color: "#60C6B1",
-            icon: Heart,
+            icon: Stethoscope,
             num: "01"
         },
         {
-            title: "For Care Recipients",
-            desc: "Safer, more consistent care with fewer errors and better-prepared advocates at every touchpoint",
+            title: "FOR CARDIAC PATIENTS",
+            desc: "Faster access to MRI imaging they previously waited weeks for — simply because device compatibility could not be confirmed quickly enough",
             color: "#90c7e5",
-            icon: Stethoscope,
+            icon: HeartPulse,
             num: "02"
         },
         {
-            title: "For Families",
-            desc: "Clearer communication, shared responsibility, reduced conflict and duplication",
+            title: "FOR HEALTHCARE SYSTEMS",
+            desc: "Reduced clinical waste, stronger audit trails, and a consistent safety protocol that scales across every unit, every clinician, and every shift",
             color: "#ff9900",
-            icon: Users,
+            icon: Building,
             num: "03"
         }
     ]
@@ -47,10 +47,10 @@ export default function Results() {
                         <span>Results</span>
                     </div>
                     <h1 className="text-shadow-lg/20 font-[700] text-4xl lg:text-6xl text-[#fff] leading-[1.1] max-w-4xl m-auto">
-                        Early Access Validated <span className="text-[#60C6B1]">Real Families. Real Impact.</span>
+                        Early Access Validated <span className="text-[#60C6B1]">Real Clinicians. Real Impact.</span>
                     </h1>
                     <p className="text-white/70 text-base leading-relaxed max-w-5xl m-auto">
-                        Carevation is currently in its early access phase with an active beta cohort providing structured feedback. Qualitative outcomes have validated the platform's design against the most critical caregiver pain points.
+                        MRI Logic is currently in active deployment with its initial clinical user base providing structured feedback. Qualitative outcomes from early use have validated the platform's design against the most critical pain points in cardiac MRI safety workflows.
                     </p>
                 </div>
 
