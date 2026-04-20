@@ -5,33 +5,33 @@ import { User, Network, Smartphone, Rocket, Zap, CheckCircle2 } from "lucide-rea
 
 const IDEAL_CARDS = [
     {
-        title: "You're a founder with a problem you've lived yourself.",
-        description: "The most powerful digital health products are built by people who've experienced the gap firsthand. If you have deep domain knowledge and a clear vision, ForNex provides the technical execution to bring it to life with precision.",
+        title: "You're a physician-founder with deep domain expertise and a defined product vision.",
+        description: "The most impactful clinical tools are built by people who have experienced the problem firsthand. If you have the clinical knowledge, ForNex provides the full technical execution - from architecture to app store - with a team that understands healthcare at a clinical level, not just a technical one.",
         color: "#60C6B1",
         icon: User,
         large: true
     },
     {
-        title: "Consumer health focus.",
-        description: "Complex multi-user coordination and role-based access for family synchronization.",
+        title: "You're building a clinical decision support tool that requires a complex logic engine, not just a UI.",
+        description: "MRI Logic's conditionality rules engine - encoding four manufacturers' datasets into a precise, clinically validated decision system - is exactly the kind of rule-based medical architecture ForNex specializes in. Clinical logic applications demand a fundamentally different level of accuracy than standard consumer apps.",
         color: "#90c7e5",
         icon: Network
     },
     {
-        title: "Mobile-first approach.",
-        description: "High-quality React Native apps for iOS and Android from a single development cycle.",
+        title: "You need a mobile-first product on both platforms with an enterprise-grade backend.",
+        description: "MRI Logic was built in React Native for cross-platform mobile with a .NET + MS SQL Server backend on Windows Server - selected specifically for clinical-grade reliability, structured data integrity, and compatibility with existing healthcare IT environments.",
         color: "#ff9900",
         icon: Smartphone
     },
     {
-        title: "AI-ready roadmap.",
-        description: "Architected foundations for AI insights and web expansion without future rebuilds.",
+        title: "You're building an MVP with a roadmap that expands significantly in subsequent phases.",
+        description: "We architected MRI Logic's database schema and API contracts to be category - agnostic from day one. Adding the MRI Centers module in Phase 2 required no rebuild. Phase 3's AI chatbot and booking system build on the same foundation - not alongside it.",
         color: "#E3ACC8",
         icon: Rocket
     },
     {
-        title: "Timeline pressure.",
-        description: "Rapid delivery from discovery to launch within 2025 without sacrificing quality.",
+        title: "You're integrating AI into a clinical workflow where speed and accuracy both matter.",
+        description: "MRI Logic uses Groq AI as its intelligence layer - and Phase 3 will introduce an AI chatbot assistant for clinical queries. ForNex Health integrates AI into medical workflows with accuracy as the non-negotiable constraint, not an afterthought.",
         color: "#c66060",
         icon: Zap
     }
