@@ -87,7 +87,7 @@ export default function KeyLearnings() {
                             {/* Main Diagnostic Scanner Frame */}
                             <div
                                 className="absolute w-[78%] h-[78%] transition-all duration-[1200ms] cubic-bezier(0.16, 1, 0.3, 1)"
-                                style={{ transform: `rotate(${activeIndex * 60}deg)` }}
+                                style={{ transform: `rotate(${activeIndex * 72}deg)` }}
                             >
                                 <svg viewBox="0 0 100 100" className="w-full h-full drop-shadow-[0_0_30px_rgba(0,0,0,0.05)]">
                                     <defs>
@@ -110,10 +110,10 @@ export default function KeyLearnings() {
                                         mask="url(#ringMask)"
                                     />
 
-                                    {/* Corrected 6 Scan Markers (Synced with Items) */}
+                                    {/* Corrected 5 Scan Markers (Synced with Items) */}
                                     <g>
                                         {processData.map((item, index) => {
-                                            const angle = index * 60 - 90;
+                                            const angle = index * 72 - 90;
                                             const rx = 50 + 44 * Math.cos((angle * Math.PI) / 180);
                                             const ry = 50 + 44 * Math.sin((angle * Math.PI) / 180);
                                             return (
@@ -136,7 +136,7 @@ export default function KeyLearnings() {
                             {/* Strategic Target Marker (The Arrow Replacement) */}
                             <div
                                 className="absolute w-[45%] h-[45%] flex items-center justify-center transition-all duration-[800ms] cubic-bezier(0.34, 1.56, 0.64, 1) z-10"
-                                style={{ transform: `rotate(${activeIndex * 60}deg)` }}
+                                style={{ transform: `rotate(${activeIndex * 72}deg)` }}
                             >
                                 <div className="relative w-full h-full flex items-center justify-center">
                                     {/* The Scan Beam */}
@@ -178,7 +178,7 @@ export default function KeyLearnings() {
 
                             {/* Point Buttons */}
                             {processData.map((item, index) => {
-                                const angle = index * 60 - 90;
+                                const angle = index * 72 - 90;
                                 const radius = 45;
                                 const x = 50 + radius * Math.cos((angle * Math.PI) / 180);
                                 const y = 50 + radius * Math.sin((angle * Math.PI) / 180);
@@ -232,7 +232,7 @@ export default function KeyLearnings() {
                                     <div className="h-1 w-24 rounded-full bg-gray-100 overflow-hidden mx-auto lg:mx-0">
                                         <div
                                             className="h-full transition-all duration-1000 ease-out"
-                                            style={{ width: `${(activeIndex + 1) * 16.6}%`, backgroundColor: processData[activeIndex].color }}
+                                            style={{ width: `${(activeIndex + 1) * 20}%`, backgroundColor: processData[activeIndex].color }}
                                         />
                                     </div>
                                 </div>
