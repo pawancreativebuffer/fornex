@@ -2,59 +2,46 @@
 
 import React, { useState } from 'react';
 import {
-    Book,
-    Table,
-    Calendar,
     MessageSquare,
-    FileText,
-    Layers,
-    ChevronRight
+    ChevronRight,
+    Globe,
+    Phone,
+    Folder,
+    X
 } from 'lucide-react';
 
 const problems = [
     {
-        id: "notebooks",
-        title: "Paper notebooks & binders",
-        description: "Physical records that couldn't be shared, were easily lost, and were inaccessible in emergencies.",
-        icon: Book,
+        id: "Manufacturer",
+        title: "Manufacturer Websites",
+        description: "Four separate portals, different formats, no cross-reference capability",
+        icon: Globe,
         accent: "#F87171"
     },
     {
-        id: "excel",
-        title: "Excel spreadsheets",
-        description: "Manual, non-collaborative, and had no alerts or reminders.",
-        icon: Table,
+        id: "Device",
+        title: "Device Rep Phone Calls",
+        description: "Slow, unavailable after hours, no documentation generated",
+        icon: Phone,
         accent: "#60C6B1"
     },
     {
-        id: "calendar",
-        title: "Consumer calendar apps",
-        description: "No medical context and no medication tracking.",
-        icon: Calendar,
-        accent: "#90c7e5"
-    },
-    {
-        id: "texts",
-        title: "Group text threads",
-        description: "Chaotic, disorganized, and impossible to search through.",
-        icon: MessageSquare,
-        accent: "#F87171"
-    },
-    {
-        id: "notes",
-        title: "Generic note-taking apps",
-        description: "No structure for care data and no sharing permissions.",
-        icon: FileText,
-        accent: "#60C6B1"
-    },
-    {
-        id: "apps",
-        title: "Multiple disconnected apps",
-        description: "A separate app for reminders, notes, and documents — with zero integration between them.",
-        icon: Layers,
+        id: "Printed",
+        title: "Printed Reference Binders",
+        description: "Quickly outdated, not searchable, inconsistently updated",
+        icon: Folder,
         accent: "#90c7e5"
     }
 ];
+
+
+const realCons = [
+    "Last-minute scan cancellations after patient prep - wasted clinical time every single day",
+    "Incomplete audit trails - no formal documentation of compatibility decisions",
+    "Knowledge-dependent accuracy - no standardized logic across different clinicians",
+    "Cross-manufacturer combinations handled inconsistently with no defined protocol",
+    "Delayed diagnosis for patients genuinely needing MRI imaging"
+]
 
 export default function CoreProblem() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -78,7 +65,7 @@ export default function CoreProblem() {
                             The Old Reality
                         </h3>
                         <p className="text-white/70 text-base leading-relaxed">
-                            What caregivers were actually using before Carevation:
+                            What clinicians were actually using before MRI Logic:
                         </p>
 
                         <div className="flex flex-col gap-3 mt-5">
@@ -119,6 +106,23 @@ export default function CoreProblem() {
                                 );
                             })}
                         </div>
+
+
+                        <h3 className="text-white text-[22px] lg:text-[24px] font-bold mb-2 mt-8">
+                            The real consequences of this fragmentation:
+                        </h3>
+                        <div className="flex flex-col gap-4 mt-6">
+                            {realCons.map((text, i) => (
+                                <div key={i} className="flex items-start gap-4 group">
+                                    <div className="flex-shrink-0 mt-1 w-6 h-6 flex items-center justify-center bg-[#F87171] rounded-full shadow-[0_2px_10px_rgba(239,68,68,0.3)] transition-transform group-hover:scale-110">
+                                        <X size={14} className="text-white" strokeWidth={3} />
+                                    </div>
+                                    <p className="text-white/70 text-base leading-relaxed group-hover:text-white transition-colors">
+                                        {text}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
                     </div>
 
                     {/* Right Column: Main Content + Dynamic Info */}
@@ -126,10 +130,10 @@ export default function CoreProblem() {
                         {/* Persistent Main Content */}
                         <div className="mt-12 lg:mt-0 lg:mb-12 order-1 lg:order-0">
                             <h1 className="text-shadow-lg/20 font-[700] text-4xl lg:text-6xl text-[#fff] leading-[1.1] mb-5">
-                                Millions of caregivers rely on <span className="text-[#60C6B1]">disconnected tools</span> not built for care.
+                                MRI Safety Checks Were Slow, Manual, <span className="text-[#60C6B1]">and Clinically Fragmented</span>
                             </h1>
                             <p className="text-white/70 text-base leading-relaxed">
-                                Family caregiving is one of the most demanding and emotionally complex responsibilities a person can take on — yet the tools available to caregivers have always been generic consumer apps never designed for coordinating medical care.
+                                Before MRI Logic, there was no single tool to verify cardiac device MRI compatibility at the point of care. The consequences were not minor inconveniences they were clinical risks and significant operational waste happening daily across every MRI center in the country.
                             </p>
                         </div>
 
@@ -168,14 +172,33 @@ export default function CoreProblem() {
                                 </div>
                             </div>
 
-                            {/* New Bottom Section: The Impact Quote */}
-                            <div className="mt-6 p-5 rounded-[20px] bg-gradient-to-br from-white/5 to-transparent border border-white/10 relative overflow-hidden group">
-                                <div className="flex flex-col lg:flex-row items-center gap-6 relative z-10">
-                                    <div className="p-3 rounded-[10px] bg-[#60C6B1]/10 text-[#60C6B1]">
-                                        <MessageSquare size={24} />
-                                    </div>
-                                    <p className="text-white/80 text-[16px] font-medium leading-relaxed italic text-center lg:text-left uppercase">
-                                        "The result is a fragmented, stressful experience stitched together from tools that were never meant to work together."
+                        </div>
+
+
+                        <div className='mt-8'>
+                            <h1 className="text-shadow-lg/20 font-[700] text-2xl lg:text-3xl text-[#fff] leading-[1.1] mb-5">
+                                MRI Compatibility Check: <span className="text-[#60C6B1]">Before vs. After</span> MRI Logic
+                            </h1>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mt-8">
+                                {/* Before Section */}
+                                <div className="bg-white/5 p-8 rounded-2xl border border-white/10 relative overflow-hidden shadow-xl">
+                                    <div className="absolute top-0 left-0 w-1.5 h-full bg-[#F87171]" />
+                                    <span className="text-[#F87171] font-bold text-[18px] mb-4 block uppercase font-mono">
+                                        Before
+                                    </span>
+                                    <p className="text-white/70 text-base leading-relaxed">
+                                        Manual website lookups across four manufacturer portals. 20-45 minutes per patient. No structured documentation. Scans cancelled after patient prep. Accuracy entirely dependent on individual knowledge. Cross-manufacturer cases handled with no defined process.
+                                    </p>
+                                </div>
+
+                                {/* After Section */}
+                                <div className="bg-white/5 p-8 rounded-2xl border border-white/10 relative overflow-hidden shadow-xl">
+                                    <div className="absolute top-0 left-0 w-1.5 h-full bg-[#60C6B1]" />
+                                    <span className="text-[#60C6B1] font-bold text-[18px] mb-4 block uppercase font-mono">
+                                        After
+                                    </span>
+                                    <p className="text-white/70 text-base leading-relaxed">
+                                        Single OCR scan or manual entry in the app. Color-coded result in under 10 seconds. Instant PDF report generated automatically. Compatibility confirmed before scheduling begins. Standardized logic ensures consistent decisions regardless of who performs the check.
                                     </p>
                                 </div>
                             </div>

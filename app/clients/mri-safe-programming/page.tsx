@@ -32,8 +32,8 @@ export default async function MriSafeProgrammingPage() {
 
             <TopPoints />
             <ProjectSnapshots />
-
             <BeforeDev />
+
             <Collage />
             <CoreProblem />
 
