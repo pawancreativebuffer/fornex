@@ -25,7 +25,7 @@ export default function ServiceReady() {
                     </h2>
 
                     <p className="text-white text-base font-regular leading-relaxed lg:max-w-[700px] mx-auto text-center">
-                        Join 100+ healthcare organizations across the US who trust TurboMed to power their clinical and financial workflows.
+                        Join 100+ healthcare organizations across the US who trust ForNex Health to power their clinical and financial workflows.
                     </p>
 
                     <div className="flex justify-center mt-10">
