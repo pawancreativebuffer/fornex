@@ -22,7 +22,7 @@ export default function ProjectSnapshots() {
                     <div className="flex flex-col items-center text-center mb-10">
                         <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                             <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
-                            <span>Why Choose</span>
+                            <span>Why Choose Us</span>
                         </div>
                         <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D]">
                             Why Healthcare Organizations Choose <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">ForNex Health</span>
