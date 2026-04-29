@@ -14,7 +14,7 @@ export default function HomeServices() {
         },
         {
             title: "Secure & Compliant Systems",
-            subtitle: "HIPPA, GDPR, ONC and SOC2 compliant from day one no patches, no shortcuts.",
+            subtitle: "HIPAA, GDPR, ONC and SOC2 compliant from day one no patches, no shortcuts.",
             icon: ShieldCheck,
             bgColor: "bg-[#60C6B1]",    // Green
             textColor: "text-[#000]",
