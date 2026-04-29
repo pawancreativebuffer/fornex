@@ -21,7 +21,7 @@ const services = [
         color: "from-[#60C6B1] to-[#4fa996]",
         size: "lg", // Large card
         highlights: ["Custom Patient Portals", "Clinical Workflow Tools"],
-        slug: "healthcare-software-development"
+        slug: "/healthcare-software-development"
     },
     {
         id: 2,
@@ -31,7 +31,7 @@ const services = [
         color: "from-[#90c7e5] to-[#6d9fbb]",
         size: "sm",
         highlights: ["FHIR R4 / HL7", "Interoperability"],
-        slug: "ehr-emr-integration"
+        slug: "/ehr-emr-integration"
     },
     {
         id: 3,
@@ -41,7 +41,7 @@ const services = [
         color: "from-[#ff9900] to-[#ffcc00]",
         size: "sm",
         highlights: ["Telehealth Web", "Native Mobile"],
-        slug: "website-mobile-app-development",
+        slug: "/website-mobile-app-development",
     },
     {
         id: 4,
@@ -51,7 +51,7 @@ const services = [
         color: "from-[#E3ACC8] to-[#D393B3]",
         size: "sm",
         highlights: ["Denial Management", "Claims Processing"],
-        slug: "medical-billing-rcm"
+        slug: "/medical-billing-rcm"
     },
     {
         id: 5,
@@ -61,7 +61,7 @@ const services = [
         color: "from-[#c66060] to-[#9b4b4b]",
         size: "sm", // Medium card
         highlights: ["Patient Acquisition", "Brand Strategy"],
-        slug: "healthcare-digital-marketing",
+        slug: "/healthcare-digital-marketing",
     }
 ];
 
