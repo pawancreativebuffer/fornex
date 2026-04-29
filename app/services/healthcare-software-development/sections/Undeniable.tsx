@@ -29,7 +29,7 @@ export default function Undeniable() {
                         </div>
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Custom Patient & Provider Portals</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            We design and build patient-facing portals and clinician dashboards that are intuitive, HIPAA-compliant, and deeply integrated with your existing workflows. Patients can schedule appointments, access lab results, communicate securely with providers, and manage care plans — all from a single interface. Clinicians get a unified view of patient history, real-time alerts, and documentation tools that reduce charting time by up to 40%.
+                            We design and build patient-facing portals and clinician dashboards that are intuitive, HIPAA-compliant, and deeply integrated with your existing workflows. Patients can schedule appointments, access lab results, communicate securely with providers, and manage care plans - all from a single interface. Clinicians get a unified view of patient history, real-time alerts, and documentation tools that reduce charting time by up to 40%.
                         </p>
 
                         {/* Connector 1-2 (Desktop Only) */}
@@ -52,7 +52,7 @@ export default function Undeniable() {
                         </div>
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Clinical Workflow Automation</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Manual administrative tasks are one of the biggest drains on clinical staff time. We automate intake processes, referral management, care coordination workflows, prior authorization requests, and documentation tasks — using intelligent automation built on AI and machine learning models trained specifically on healthcare data. Our clients consistently report 30 to 50 percent reductions in administrative workload within the first 90 days.
+                            Manual administrative tasks are one of the biggest drains on clinical staff time. We automate intake processes, referral management, care coordination workflows, prior authorization requests, and documentation tasks - using intelligent automation built on AI and machine learning models trained specifically on healthcare data. Our clients consistently report 30 to 50 percent reductions in administrative workload within the first 90 days.
                         </p>
 
                         {/* Connector 2-3 (Desktop Only) */}
@@ -75,7 +75,7 @@ export default function Undeniable() {
                         </div>
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">AI-Powered Healthcare Applications</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Artificial intelligence is no longer a future possibility in healthcare — it is a present competitive advantage. Our team builds AI and machine learning solutions specifically for clinical environments. This includes predictive analytics for patient deterioration, NLP-based clinical documentation assistants, automated medical coding, intelligent denial management, and real-time clinical decision support tools. All built on HIPAA-compliant infrastructure using TensorFlow, PyTorch, and OpenAI APIs.
+                            Artificial intelligence is no longer a future possibility in healthcare - it is a present competitive advantage. Our team builds AI and machine learning solutions specifically for clinical environments. This includes predictive analytics for patient deterioration, NLP-based clinical documentation assistants, automated medical coding, intelligent denial management, and real-time clinical decision support tools. All built on HIPAA-compliant infrastructure using TensorFlow, PyTorch, and OpenAI APIs.
                         </p>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ export default function Undeniable() {
                         </div>
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">HIPAA-Compliant Cloud Platforms</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            All software we build is hosted on AWS HIPAA-eligible infrastructure or Google Cloud Healthcare API — never on shared infrastructure that creates PHI exposure risk. We implement end-to-end encryption, role-based access controls, audit logging, and automated threat detection from day one. Our cloud architecture is built to scale — from a 10-provider practice to a 500-provider health system — without architectural rework.
+                            All software we build is hosted on AWS HIPAA-eligible infrastructure or Google Cloud Healthcare API - never on shared infrastructure that creates PHI exposure risk. We implement end-to-end encryption, role-based access controls, audit logging, and automated threat detection from day one. Our cloud architecture is built to scale - from a 10-provider practice to a 500-provider health system - without architectural rework.
                         </p>
 
                         {/* Connector 1-2 (Desktop Only) */}
@@ -114,7 +114,7 @@ export default function Undeniable() {
                         </div>
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Telehealth & Virtual Care Platforms</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            The demand for virtual care has permanently changed patient expectations. We build end-to-end telehealth platforms with secure video consultation, e-prescribing, remote patient monitoring, and EHR integration. Our telehealth solutions are built to comply with US state telehealth regulations, CMS billing requirements, and HIPAA technical safeguard rules — so you can launch and scale without legal uncertainty.
+                            The demand for virtual care has permanently changed patient expectations. We build end-to-end telehealth platforms with secure video consultation, e-prescribing, remote patient monitoring, and EHR integration. Our telehealth solutions are built to comply with US state telehealth regulations, CMS billing requirements, and HIPAA technical safeguard rules - so you can launch and scale without legal uncertainty.
                         </p>
 
                         {/* Connector 2-3 (Desktop Only) */}

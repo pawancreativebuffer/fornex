@@ -5,9 +5,9 @@ export default function Results() {
         "HIPAA (Health Insurance Portability and Accountability Act) including all Technical, Administrative, and Physical Safeguard requirements",
         "SOC 2 Type II - independently audited system and organization controls",
         "GDPR: for healthcare organizations serving patients in the European Union",
-        "ONC Health IT Certification — for EHR systems requiring federal certification",
-        "FDA Software as a Medical Device (SaMD) guidelines — for applicable clinical tools",
-        "HL7 FHIR R4 and SMART on FHIR — for interoperability with Epic, Cerner, Athenahealth, and other leading EHR platforms",
+        "ONC Health IT Certification - for EHR systems requiring federal certification",
+        "FDA Software as a Medical Device (SaMD) guidelines - for applicable clinical tools",
+        "HL7 FHIR R4 and SMART on FHIR - for interoperability with Epic, Cerner, Athenahealth, and other leading EHR platforms",
         "21st Century Cures Act information blocking rules"
     ]
 
@@ -51,7 +51,7 @@ export default function Results() {
                     </div>
                 </div>
 
-                <p className="text-white/70 text-base leading-relaxed m-auto text-center">
+                <p className="text-[#60C6B1] text-[24px] font-semibold leading-relaxed m-auto text-center max-w-[1100px]">
                     We sign Business Associate Agreements (BAAs) with every healthcare client before any PHI-related development begins. No exceptions.
                 </p>
             </div>

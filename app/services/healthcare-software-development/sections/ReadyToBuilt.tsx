@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function ReadyToBuilt() {
     return (
-        <section className="w-full relative py-10 lg:py-20 overflow-hidden bg-[#000]">
+        <section className="w-full relative pt-10 lg:pt-20 overflow-hidden bg-[#000]">
             <video
                 src="/images/banner.mp4"
                 autoPlay
@@ -25,13 +25,24 @@ export default function ReadyToBuilt() {
                     </h2>
 
                     <p className="text-white text-base font-regular leading-relaxed lg:max-w-[1100px] mx-auto text-center mb-4">
-                        Tell us about your project. Our healthcare technology consultants will review your requirements and provide an honest assessment of scope, timeline, and investment — with no sales pressure and no obligation.
+                        Tell us about your project. Our healthcare technology consultants will review your requirements and provide an honest assessment of scope, timeline, and investment - with no sales pressure and no obligation.
                     </p>
-                    <p className="text-white text-base font-regular leading-relaxed lg:max-w-[1100px] mx-auto text-center">
-                        Book a free 30-minute consultation at fornexhealth.com/contact<br />
-                        Email us at <a href="mailto:info@fornexhealth.com">info@fornexhealth.com</a> | Call <a href="tel:+91-8528835744">+91-8528835744</a> for inquiries
+                    <div className=" bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] mt-10 rounded-t-3xl px-6 py-8 text-white text-center max-w-[700px] mx-auto">
+                        <p className="text-xl lg:text-3xl font-medium mb-5">
+                            Book a free 30-minute consultation at fornexhealth.com/contact
+                        </p>
 
-                    </p>
+                        <div className="flex text-medium items-center justify-center gap-6 text-lg lg:text-xl">
+                            <a href="mailto:info@fornexhealth.com" className="hover:underline">
+                                info@fornexhealth.com
+                            </a>
+                            {/* Divider */}
+                            <div className="h-6 w-[2px] bg-white opacity-70"></div>
+                            <a href="tel:+918528835744" className="hover:underline">
+                                +91-8528835744
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

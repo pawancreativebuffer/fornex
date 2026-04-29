@@ -5,12 +5,12 @@ import { CheckCircle2 } from "lucide-react";
 export default function ProjectSnapshots() {
 
     const flow = [
-        { value: "10+ years of exclusive healthcare technology experience — no generalist agency learning curve" },
+        { value: "10+ years of exclusive healthcare technology experience - no generalist agency learning curve" },
         { value: "100+ healthcare organizations served across the US, UK, Canada, and the Middle East" },
-        { value: "Dedicated healthcare compliance team — not shared with non-healthcare projects" },
+        { value: "Dedicated healthcare compliance team - not shared with non-healthcare projects" },
         { value: "Native integration capability with Epic, Cerner, Athenahealth, eClinicalWorks, NextGen, and Kareo" },
         { value: "Full AI/ML capability purpose-built for healthcare data and clinical workflows" },
-        { value: "Fixed-price project options available — no surprise overruns" },
+        { value: "Fixed-price project options available - no surprise overruns" },
         { value: "US-based project management with offshore development efficiency" },
     ];
 

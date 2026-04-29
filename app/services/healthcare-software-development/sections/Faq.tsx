@@ -10,7 +10,7 @@ const faqData = [
     },
     {
         question: "Do you work with early-stage healthcare startups?",
-        answer: "Yes. We work with healthcare startups from the earliest stage — helping with product architecture, technical co-founder advisory, HIPAA-compliant MVP development, and investor-ready technical documentation. Many of our startup clients have gone on to raise Series A and B rounds after launching their ForNex-built platforms."
+        answer: "Yes. We work with healthcare startups from the earliest stage - helping with product architecture, technical co-founder advisory, HIPAA-compliant MVP development, and investor-ready technical documentation. Many of our startup clients have gone on to raise Series A and B rounds after launching their ForNex-built platforms."
     },
     {
         question: "Can you integrate with our existing EHR system?",

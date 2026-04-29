@@ -15,31 +15,31 @@ const processData = [
         title: "Discovery and Requirements Analysis",
         icon: <Microscope className="w-10 h-10" />,
         color: "#60C6B1",
-        before: "We begin every engagement with a deep-dive into your clinical workflows, existing technology stack, compliance posture, and business objectives. This phase produces a detailed solution blueprint, compliance gap analysis, integration map, and phased project plan — before a single line of code is written.",
+        before: "We begin every engagement with a deep-dive into your clinical workflows, existing technology stack, compliance posture, and business objectives. This phase produces a detailed solution blueprint, compliance gap analysis, integration map, and phased project plan - before a single line of code is written.",
     },
     {
         title: "Solution Architecture and UI/UX Design",
         icon: <Layers className="w-10 h-10" />,
         color: "#90c7e5",
-        before: "Our architects design scalable, modular systems using microservices architecture for healthcare — ensuring that your platform can grow without requiring expensive re-architecture. Our clinical UX designers create interfaces validated with actual clinicians and patients, not just internal assumptions.",
+        before: "Our architects design scalable, modular systems using microservices architecture for healthcare - ensuring that your platform can grow without requiring expensive re-architecture. Our clinical UX designers create interfaces validated with actual clinicians and patients, not just internal assumptions.",
     },
     {
         title: "Agile Development and Integration",
         icon: <Workflow className="w-10 h-10" />,
         color: "#ff9900",
-        before: "We build in two-week sprints with continuous integration and deployment pipelines. Stakeholders see working software every two weeks — not a finished product six months later. Integration with Epic, Cerner, Athenahealth, eClinicalWorks, and other EHR systems is handled by our dedicated interoperability team using FHIR R4 APIs and HL7 messaging.",
+        before: "We build in two-week sprints with continuous integration and deployment pipelines. Stakeholders see working software every two weeks - not a finished product six months later. Integration with Epic, Cerner, Athenahealth, eClinicalWorks, and other EHR systems is handled by our dedicated interoperability team using FHIR R4 APIs and HL7 messaging.",
     },
     {
         title: "Compliance Validation and Security Testing",
         icon: <ShieldCheck className="w-10 h-10" />,
         color: "#E3ACC8",
-        before: "Before any release, our compliance team conducts HIPAA technical safeguard reviews, penetration testing, PHI data flow audits, and disaster recovery testing. We document everything — giving you the audit trail and compliance evidence you need for regulatory reviews.",
+        before: "Before any release, our compliance team conducts HIPAA technical safeguard reviews, penetration testing, PHI data flow audits, and disaster recovery testing. We document everything - giving you the audit trail and compliance evidence you need for regulatory reviews.",
     },
     {
         title: "Deployment, Training, and Ongoing Support",
         icon: <Rocket className="w-10 h-10" />,
         color: "#c66060",
-        before: "Go-live is just the beginning. We provide comprehensive staff training, 24/7 technical support, proactive monitoring, and continuous improvement cycles based on usage analytics and clinical feedback. Our average client relationship is over three years — because we stay engaged long after launch.",
+        before: "Go-live is just the beginning. We provide comprehensive staff training, 24/7 technical support, proactive monitoring, and continuous improvement cycles based on usage analytics and clinical feedback. Our average client relationship is over three years - because we stay engaged long after launch.",
     }
 ];
 
