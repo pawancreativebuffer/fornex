@@ -4,7 +4,7 @@ export default function Collage() {
     return (
         <section className="relative w-full py-10 lg:py-15 overflow-hidden bg-[#f7fbfe]">
             <div
-                className="absolute inset-0 bg-no-repeat bg-right"
+                className="hidden md:block absolute inset-0 bg-no-repeat bg-right"
                 style={{
                     backgroundImage: "url('/images/med.jpg')",
                     backgroundSize: "cover",
