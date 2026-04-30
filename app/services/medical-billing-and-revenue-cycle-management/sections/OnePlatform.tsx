@@ -1,15 +1,15 @@
 "use client";
 
 import {
-    Hospital,
     Activity,
+    DollarSign,
 } from 'lucide-react';
 
 const coreModules = [
     {
         id: "1",
         title: "Revenue Impact",
-        icon: <Hospital className="w-12 h-12" />,
+        icon: <DollarSign className="w-12 h-12" />,
         color: "#60C6B1",
         bullets: [
             "40 % average increase in net collections",
