@@ -51,7 +51,7 @@ const services = [
         color: "from-[#E3ACC8] to-[#D393B3]",
         size: "sm",
         highlights: ["Denial Management", "Claims Processing"],
-        slug: "/medical-billing-rcm"
+        slug: "/medical-billing-and-revenue-cycle-management"
     },
     {
         id: 5,

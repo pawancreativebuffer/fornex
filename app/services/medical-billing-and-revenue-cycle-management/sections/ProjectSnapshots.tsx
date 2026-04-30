@@ -5,11 +5,11 @@ import { CheckCircle2 } from "lucide-react";
 export default function ProjectSnapshots() {
 
     const flow = [
-        { value: "Clinical workflow expertise built over 10 years - we understand how nurses, physicians, and billers actually work" },
-        { value: "Dedicated QA team with healthcare-specific testing protocols including PHI data flow testing and penetration testing" },
-        { value: "App Store submission support - we handle the healthcare-specific review process for both Apple and Google" },
-        { value: "Post-launch analytics and optimization - we monitor engagement metrics, crash rates, and UX friction points and iterate continuously" },
-        { value: "Regulatory pathway support for teams pursuing FDA clearance for Software as a Medical Device (SaMD)" }
+        { value: "HIPAA Security Rule compliance for all PHI transmitted and stored in our billing operations" },
+        { value: "OIG Compliance Program policies governing billing audit and monitoring" },
+        { value: "CMS Conditions of Participation billing requirements for hospital and facility billing" },
+        { value: "Stark Law and Anti-Kickback Statute awareness in all coding and billing recommendations" },
+        { value: "Business Associate Agreement signed before any client PHI is accessed" },
     ];
 
     return (
@@ -20,10 +20,10 @@ export default function ProjectSnapshots() {
                     <div className="flex flex-col items-center text-center mb-10">
                         <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                             <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
-                            <span>Why Choose Us</span>
+                            <span>Compliance</span>
                         </div>
-                        <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] max-w-5xl">
-                            What Sets Our <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Healthcare App</span> Development Apart
+                        <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D]">
+                            Compliance at <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Every Step</span>
                         </h2>
                     </div>
 

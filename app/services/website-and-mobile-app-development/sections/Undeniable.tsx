@@ -30,7 +30,7 @@ export default function Undeniable() {
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Medical Practice and Hospital Websites</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
                             Your website is the front door to your practice. We build medically credible, SEO-optimized websites that convert visitors into booked appointments. Every site we build includes online appointment scheduling integrated with your practice management system, provider profiles designed to rank in local search results, patient education content frameworks, insurance and billing information pages, and ADA-compliant accessibility design that meets WCAG 2.1 AA standards.<br /><br />
-                            We build on platforms that give your team full content control — including custom WordPress builds, headless CMS implementations, and proprietary web applications — depending on your operational needs and growth plans.
+                            We build on platforms that give your team full content control - including custom WordPress builds, headless CMS implementations, and proprietary web applications - depending on your operational needs and growth plans.
                         </p>
 
                         {/* Connector 1-2 (Desktop Only) */}
@@ -53,7 +53,7 @@ export default function Undeniable() {
                         </div>
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Patient Portal Development</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            A patient portal is one of the highest-impact digital investments a healthcare organization can make. Patients who use portals have higher engagement rates, better medication adherence, fewer avoidable readmissions, and consistently higher satisfaction scores. We build custom patient portals that go beyond the basics — secure messaging, lab result access, appointment scheduling, care plan management, prescription refill requests, and billing — fully integrated with your EHR and practice management system through FHIR R4 APIs.
+                            A patient portal is one of the highest-impact digital investments a healthcare organization can make. Patients who use portals have higher engagement rates, better medication adherence, fewer avoidable readmissions, and consistently higher satisfaction scores. We build custom patient portals that go beyond the basics - secure messaging, lab result access, appointment scheduling, care plan management, prescription refill requests, and billing - fully integrated with your EHR and practice management system through FHIR R4 APIs.
                         </p>
 
                         {/* Connector 2-3 (Desktop Only) */}
@@ -76,7 +76,7 @@ export default function Undeniable() {
                         </div>
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Healthcare Landing Pages and Lead Generation</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            For healthcare organizations running paid advertising, specialty service lines, or clinical trial recruitment campaigns, we build high-converting landing pages with integrated CRM capture, HIPAA-compliant lead management, and analytics tracking. Our landing pages are built to load in under 2 seconds on mobile — a critical factor for Google Quality Score and patient conversion rates.
+                            For healthcare organizations running paid advertising, specialty service lines, or clinical trial recruitment campaigns, we build high-converting landing pages with integrated CRM capture, HIPAA-compliant lead management, and analytics tracking. Our landing pages are built to load in under 2 seconds on mobile - a critical factor for Google Quality Score and patient conversion rates.
                         </p>
                     </div>
                 </div>

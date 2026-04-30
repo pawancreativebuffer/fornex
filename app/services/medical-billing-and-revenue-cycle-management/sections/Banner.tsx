@@ -8,9 +8,9 @@ const Tile = ({ left, top, width, height }: { left: number, top: number, width: 
             style={{ left: `${left}%`, top: `${top}%`, width: `${width}%`, height: `${height}%` }}
         >
             <img
-                src="/images/web-and-mobile.jpg"
+                src="/images/medical-biling.jpg"
                 alt="Healthcare Software"
-                className="absolute max-w-none object-cover object-left"
+                className="absolute max-w-none object-cover"
                 style={{
                     width: `${100 / (width / 100)}%`,
                     height: `${100 / (height / 100)}%`,
@@ -77,23 +77,23 @@ export default function Banner() {
                 {/* Right Column: Title, Content, Buttons */}
                 <div className="flex flex-col gap-6 lg:gap-8 animate-slide-left order-1 lg:order-2">
                     <h1 className="text-shadow-lg/20 font-[700] text-[40px] lg:text-[56px] text-[#fff] leading-[1.1] text-center lg:text-left">
-                        Healthcare <span className="text-[#60C6B1]">Website and Mobile App Development</span> Built for How Patients and Providers Actually Work
+                        <span className="text-[#60C6B1]">Medical Billing and Revenue Cycle Management:</span> Stop Leaving Money on the Table
                     </h1>
 
                     <div className="flex flex-col">
                         <p className="text-white/70 text-base font-regular leading-relaxed mb-4 lg:mb-6 text-center lg:text-left">
-                            Today's patients choose healthcare providers the same way they choose restaurants and hotels - they search online, read reviews, explore the website, and make a judgment in under 10 seconds. If your digital presence does not inspire confidence, they go elsewhere. And for clinicians and staff, a poorly designed mobile app is not just frustrating - it directly impacts patient safety and care quality.
+                            Medical billing in the United States is one of the most complex, regulation-dense administrative systems in any industry. ICD-10 codes. CPT codes. HCPCS codes. Payer-specific billing rules that change quarterly. Prior authorization requirements that vary by payer, plan, and state. Timely filing deadlines that differ across hundreds of insurance contracts. Coordination of benefits for dual-eligible patients. The list of ways a claim can be denied - and revenue lost - is almost endless.
                         </p>
                         <p className="text-white/70 text-base font-regular leading-relaxed mb-4 lg:mb-6 text-center lg:text-left">
-                            ForNex Health designs and develops healthcare websites and mobile applications that perform in both dimensions. Patient-facing interfaces that build trust, drive appointments, and make care access easy. Clinician tools that reduce documentation burden, surface the right information at the right moment, and work the way real healthcare workflows work - not the way software engineers imagined they do.
+                            Most healthcare organizations are not losing money because of poor clinical care. They are losing it in the billing office - through claim errors, slow follow-up, inadequate denial management, and RCM processes that were designed for a simpler time.
                         </p>
                         <p className="text-white/70 text-base font-regular leading-relaxed text-center lg:text-left">
-                            With 10+ years of healthcare-exclusive development experience, our team has built web and mobile solutions for hospitals, specialty practices, telehealth platforms, mental health services, pharmacy chains, and digital health startups across the United States and internationally.
+                            ForNex Health provides end-to-end medical billing and revenue cycle management services powered by AI-driven automation, 10+ years of billing expertise, and a dedicated team of certified medical billers and coders. Our clients consistently see denial rates drop below 5 percent, days in accounts receivable shrink by 30 to 45 days, and net collections increase by an average of 40 percent within the first six months.
                         </p>
                     </div>
                 </div>
 
             </div>
-        </div >
+        </div>
     )
 }

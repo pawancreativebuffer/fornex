@@ -16,7 +16,7 @@ const services = [
     {
         id: 1,
         title: "Native iOS and Android Development",
-        detail: "We build native iOS and Android applications using Swift and Kotlin respectively — delivering the performance, offline capability, and device-level feature access (camera, biometrics, push notifications, Bluetooth for medical devices) that cross-platform frameworks cannot reliably match for clinical use cases. Our native apps are built to Apple App Store and Google Play Store healthcare application guidelines.",
+        detail: "We build native iOS and Android applications using Swift and Kotlin respectively - delivering the performance, offline capability, and device-level feature access (camera, biometrics, push notifications, Bluetooth for medical devices) that cross-platform frameworks cannot reliably match for clinical use cases. Our native apps are built to Apple App Store and Google Play Store healthcare application guidelines.",
         points: [],
         icon: Smartphone,
         largeIcon: Smartphone,
@@ -25,7 +25,7 @@ const services = [
     {
         id: 2,
         title: "Cross-Platform Healthcare Apps",
-        detail: "For organizations that need to reach iOS and Android simultaneously with a faster development cycle, we build cross-platform applications using React Native — our preferred framework for healthcare apps that require native-quality performance without maintaining two separate codebases. React Native gives us access to native APIs including HealthKit (Apple) and Google Fit for health data integration.",
+        detail: "For organizations that need to reach iOS and Android simultaneously with a faster development cycle, we build cross-platform applications using React Native - our preferred framework for healthcare apps that require native-quality performance without maintaining two separate codebases. React Native gives us access to native APIs including HealthKit (Apple) and Google Fit for health data integration.",
         points: [],
         icon: TabletSmartphone,
         largeIcon: TabletSmartphone,
@@ -34,7 +34,7 @@ const services = [
     {
         id: 3,
         title: "Telehealth Mobile Applications",
-        detail: "We build telehealth applications with HIPAA-compliant video consultation built on WebRTC infrastructure, secure in-app messaging, e-prescribing workflows, insurance verification, and EHR documentation that writes back directly to the patient record. Our telehealth apps are built to CMS billing requirements for synchronous and asynchronous telehealth services — including documentation of the originating site, service duration, and provider credentials required for proper reimbursement.",
+        detail: "We build telehealth applications with HIPAA-compliant video consultation built on WebRTC infrastructure, secure in-app messaging, e-prescribing workflows, insurance verification, and EHR documentation that writes back directly to the patient record. Our telehealth apps are built to CMS billing requirements for synchronous and asynchronous telehealth services - including documentation of the originating site, service duration, and provider credentials required for proper reimbursement.",
         points: [],
         icon: Video,
         largeIcon: Video,
@@ -43,7 +43,7 @@ const services = [
     {
         id: 4,
         title: "Remote Patient Monitoring Applications",
-        detail: "RPM is one of the fastest-growing reimbursable services in US healthcare — and our RPM applications are built to capture that opportunity. We build patient-facing apps that connect to FDA-cleared Bluetooth medical devices (blood pressure cuffs, glucometers, pulse oximeters, weight scales), transmit readings to clinical dashboards in real time, trigger automated alerts for out-of-range values, and generate the CPT 99454 and 99457 documentation required for CMS reimbursement.",
+        detail: "RPM is one of the fastest-growing reimbursable services in US healthcare - and our RPM applications are built to capture that opportunity. We build patient-facing apps that connect to FDA-cleared Bluetooth medical devices (blood pressure cuffs, glucometers, pulse oximeters, weight scales), transmit readings to clinical dashboards in real time, trigger automated alerts for out-of-range values, and generate the CPT 99454 and 99457 documentation required for CMS reimbursement.",
         points: [],
         icon: Activity,
         largeIcon: Activity,
@@ -52,7 +52,7 @@ const services = [
     {
         id: 5,
         title: "Mental Health and Behavioral Health Apps",
-        detail: "Mental health app development requires specific expertise in privacy-sensitive data handling, crisis intervention workflows, and the regulatory landscape for digital therapeutics. We have built secure messaging platforms for therapy practices, mood tracking and symptom monitoring apps for behavioral health organizations, and FDA-regulated software for clinical mental health interventions — all with extra layers of data minimization and encryption appropriate for the sensitivity of behavioral health data.",
+        detail: "Mental health app development requires specific expertise in privacy-sensitive data handling, crisis intervention workflows, and the regulatory landscape for digital therapeutics. We have built secure messaging platforms for therapy practices, mood tracking and symptom monitoring apps for behavioral health organizations, and FDA-regulated software for clinical mental health interventions - all with extra layers of data minimization and encryption appropriate for the sensitivity of behavioral health data.",
         points: [],
         icon: Brain,
         largeIcon: Brain,
