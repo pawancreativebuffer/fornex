@@ -1,13 +1,12 @@
 import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
-import TopPoints from './sections/TopPoints';
 import Banner from './sections/Banner';
 import Undeniable from './sections/Undeniable';
 import OnePlatform from './sections/OnePlatform';
 import WhyInfo from './sections/WhyInfo';
 import Results from './sections/Results';
-import KeyLearnings from './sections/KeyLearning';
 import ReadyToBuilt from './sections/ReadyToBuilt';
+import ProvenDevelopment from './sections/ProvenDevelopment';
 
 
 export const metadata = {
@@ -40,12 +39,11 @@ export default async function MriSafeProgrammingPage() {
                 <Banner />
             </section>
 
-            <TopPoints />
             <WhyInfo />
             <Undeniable />
             <OnePlatform />
             <Results />
-            <KeyLearnings />
+            <ProvenDevelopment />
             <ReadyToBuilt />
             <Footer />
         </>
