@@ -2,44 +2,44 @@
 
 import React from 'react';
 import {
-    Microscope,
-    Layers,
-    Workflow,
-    ShieldCheck,
-    Rocket,
+    ClipboardList,
+    Network,
+    TestTubes,
+    Activity,
+    Settings,
     HeartPulse,
 } from 'lucide-react';
 
 const processData = [
     {
-        title: "Discovery and Requirements Analysis",
-        icon: <Microscope className="w-10 h-10" />,
+        title: "Integration Assessment",
+        icon: <ClipboardList className="w-10 h-10" />,
         color: "#60C6B1",
-        before: "We begin every engagement with a deep-dive into your clinical workflows, existing technology stack, compliance posture, and business objectives. This phase produces a detailed solution blueprint, compliance gap analysis, integration map, and phased project plan - before a single line of code is written.",
+        before: "We audit your current systems, document existing data flows, identify integration gaps, and map out the complete interoperability architecture needed to meet your clinical and operational goals.",
     },
     {
-        title: "Solution Architecture and UI/UX Design",
-        icon: <Layers className="w-10 h-10" />,
+        title: "Architecture Design",
+        icon: <Network className="w-10 h-10" />,
         color: "#90c7e5",
-        before: "Our architects design scalable, modular systems using microservices architecture for healthcare - ensuring that your platform can grow without requiring expensive re-architecture. Our clinical UX designers create interfaces validated with actual clinicians and patients, not just internal assumptions.",
+        before: "We design a scalable integration architecture using an HL7 FHIR server, API gateway, message transformation engine, and monitoring layer - built on HIPAA-compliant cloud infrastructure.",
     },
     {
-        title: "Agile Development and Integration",
-        icon: <Workflow className="w-10 h-10" />,
+        title: "Development and Testing",
+        icon: <TestTubes className="w-10 h-10" />,
         color: "#ff9900",
-        before: "We build in two-week sprints with continuous integration and deployment pipelines. Stakeholders see working software every two weeks - not a finished product six months later. Integration with Epic, Cerner, Athenahealth, eClinicalWorks, and other EHR systems is handled by our dedicated interoperability team using FHIR R4 APIs and HL7 messaging.",
+        before: "Integration development follows a strict test-driven process - unit testing every message transformation, integration testing against sandbox EHR environments, and end-to-end testing with synthetic patient data before any PHI is ever involved.",
     },
     {
-        title: "Compliance Validation and Security Testing",
-        icon: <ShieldCheck className="w-10 h-10" />,
+        title: "Go-Live and Monitoring",
+        icon: <Activity className="w-10 h-10" />,
         color: "#E3ACC8",
-        before: "Before any release, our compliance team conducts HIPAA technical safeguard reviews, penetration testing, PHI data flow audits, and disaster recovery testing. We document everything - giving you the audit trail and compliance evidence you need for regulatory reviews.",
+        before: "We manage go-live in coordination with your EHR vendor and IT team, provide 24/7 monitoring during the critical first 30 days, and deliver comprehensive logging and alerting so issues are caught in seconds, not hours.",
     },
     {
-        title: "Deployment, Training, and Ongoing Support",
-        icon: <Rocket className="w-10 h-10" />,
+        title: "Ongoing Maintenance",
+        icon: <Settings className="w-10 h-10" />,
         color: "#c66060",
-        before: "Go-live is just the beginning. We provide comprehensive staff training, 24/7 technical support, proactive monitoring, and continuous improvement cycles based on usage analytics and clinical feedback. Our average client relationship is over three years - because we stay engaged long after launch.",
+        before: "EHR systems update constantly - and those updates can break integrations. We provide ongoing integration maintenance, version compatibility management, and proactive monitoring to keep your data flowing reliably year-round.",
     }
 ];
 
@@ -57,10 +57,10 @@ export default function KeyLearnings() {
                 <div className="flex flex-col items-center text-center mb-15">
                     <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                         <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
-                        <span>Development</span>
+                        <span>Delivery</span>
                     </div>
-                    <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] max-w-5xl">
-                        Our Proven <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Development</span> Process
+                    <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] max-w-2xl">
+                        Our Integration <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Delivery</span> Process
                     </h2>
                 </div>
 

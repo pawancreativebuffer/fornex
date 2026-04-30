@@ -1,37 +1,35 @@
 "use client";
 
 import {
-    Hospital,
-    Activity,
+    Network,
+    ShieldCheck,
 } from 'lucide-react';
 
 const coreModules = [
     {
         id: "1",
-        title: "Healthcare Organizations",
-        icon: <Hospital className="w-12 h-12" />,
+        title: "Interoperability Standards",
+        icon: <Network className="w-12 h-12" />,
         color: "#60C6B1",
         bullets: [
-            "Hospitals and Health Systems",
-            "Independent Physician Practices",
-            "Federally Qualified Health Centers (FQHCs)",
-            "Specialty Clinics and Ambulatory Centers",
-            "Telehealth Providers",
-            "Behavioral Health Organizations"
+            "FHIR R4 (HL7 FHIR Release 4)",
+            "HL7 v2.x (ADT, ORM, ORU, MDM, DFT, SIU)",
+            "HL7 v3 and CDA / C-CDA",
+            "SMART on FHIR Authorization Framework",
+            "Direct Secure Messaging (DirectTrust)"
         ]
     },
     {
         id: "2",
-        title: "Healthtech and Payor Organizations",
-        icon: <Activity className="w-12 h-12" />,
+        title: "API and Security Standards",
+        icon: <ShieldCheck className="w-12 h-12" />,
         color: "#90c7e5",
         bullets: [
-            "Digital Health Startups",
-            "Healthcare SaaS Companies",
-            "Medical Device Manufacturers",
-            "Health Insurance Companies",
-            "Pharmacy Benefit Managers",
-            "Revenue Cycle Management Companies",
+            "REST APIs and SOAP Web Services",
+            "OAuth 2.0 and OpenID Connect",
+            "TLS 1.2 / 1.3 Encryption",
+            "HIPAA-Compliant Data Transport",
+            "CMS Interoperability Rule Compliance"
         ]
     }
 ];
@@ -48,8 +46,8 @@ export default function OnePlatform() {
                             <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                             <span>Expertise</span>
                         </div>
-                        <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#1a2b3c] max-w-[900px]">
-                            Industries and Specialties <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">We Serve</span>
+                        <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#1a2b3c] max-w-[700px]">
+                            Integration Standards  <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">We Master</span>
                         </h2>
                     </div>
 
@@ -79,7 +77,7 @@ export default function OnePlatform() {
                                                 </div>
                                             </div>
                                             <div>
-                                                <span className="text-sm font-semibold tracking-[0.1em] uppercase opacity-60 block mb-2">We Serve {module.id}</span>
+                                                <span className="text-sm font-semibold tracking-[0.1em] uppercase opacity-60 block mb-2">We Master {module.id}</span>
                                                 <h4 className="text-4xl font-bold leading-tight">
                                                     {module.title}
                                                 </h4>

@@ -2,14 +2,11 @@ import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
 import TopPoints from './sections/TopPoints';
 import Banner from './sections/Banner';
-import ProjectSnapshots from './sections/ProjectSnapshots';
 import Undeniable from './sections/Undeniable';
 import OnePlatform from './sections/OnePlatform';
 import WhyInfo from './sections/WhyInfo';
 import Results from './sections/Results';
-import ResultsData from './sections/ResultsData';
 import KeyLearnings from './sections/KeyLearning';
-import FaqSection from './sections/Faq';
 import ReadyToBuilt from './sections/ReadyToBuilt';
 
 
@@ -46,14 +43,10 @@ export default async function MriSafeProgrammingPage() {
             <TopPoints />
             <WhyInfo />
             <Undeniable />
+            <OnePlatform />
             <Results />
             <KeyLearnings />
-            <OnePlatform />
-            <ResultsData />
-            <ProjectSnapshots />
-            <FaqSection />
             <ReadyToBuilt />
-
             <Footer />
         </>
     );

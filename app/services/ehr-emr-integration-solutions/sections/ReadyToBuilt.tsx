@@ -21,15 +21,15 @@ export default function ReadyToBuilt() {
                     </div>
 
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#fff] mb-4 lg:mb-8 text-center max-w-[1100px] mx-auto">
-                        Ready to Build Healthcare Software That Actually Works?
+                        Ready to Connect Your Healthcare Systems?
                     </h2>
 
                     <p className="text-white text-base font-regular leading-relaxed lg:max-w-[1100px] mx-auto text-center mb-4">
-                        Tell us about your project. Our healthcare technology consultants will review your requirements and provide an honest assessment of scope, timeline, and investment - with no sales pressure and no obligation.
+                        Tell us which systems you need to integrate and what clinical or operational problem you are trying to solve. Our interoperability engineers will assess your environment and provide a clear integration roadmap - no jargon, no vendor lock-in.
                     </p>
                     <div className=" bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] mt-10 rounded-t-3xl px-6 py-8 text-white text-center max-w-[700px] mx-auto">
                         <p className="text-xl lg:text-3xl font-medium mb-5">
-                            Book a free 30-minute consultation at fornexhealth.com/contact
+                            Book a free integration assessment at fornexhealth.com/contact
                         </p>
 
                         <div className="flex text-medium items-center justify-center gap-6 text-lg lg:text-xl">

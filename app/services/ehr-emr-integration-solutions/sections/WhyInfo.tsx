@@ -18,7 +18,7 @@ export default function Collage() {
 
                     <div className="lg:col-span-8 animate-slide-left">
                         <p className="text-white/70 text-base font-regular leading-relaxed mb-4 lg:mb-8">
-                            A 2023 CAQH Index report estimated that the US healthcare industry wastes over $25 billion annually on administrative inefficiencies caused by non-interoperable systems. These are not abstract numbers — they show up in your operations every day:
+                            A 2023 CAQH Index report estimated that the US healthcare industry wastes over $25 billion annually on administrative inefficiencies caused by non-interoperable systems. These are not abstract numbers - they show up in your operations every day:
                         </p>
                         <ul className="space-y-3 text-white/70 text-base font-regular leading-relaxed mb-4 lg:mb-8">
                             <li className="flex items-start gap-3">

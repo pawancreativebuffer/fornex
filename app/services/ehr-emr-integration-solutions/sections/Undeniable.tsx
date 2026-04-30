@@ -1,6 +1,6 @@
 "use client";
 
-import { MonitorSmartphone, ClipboardList, BrainCircuit, ShieldCheck, Video, RefreshCcw } from 'lucide-react';
+import { Network, MessageSquare, Blocks, Hospital, Database, Cloud, Files, Share2 } from 'lucide-react';
 
 export default function Undeniable() {
     return (
@@ -25,11 +25,13 @@ export default function Undeniable() {
                         style={{ borderColor: '#60c6b1' }}
                     >
                         <div className="flex justify-center mb-6">
-                            <MonitorSmartphone className="w-10 h-10" style={{ color: '#60c6b1' }} />
+                            <Network className="w-10 h-10" style={{ color: '#60c6b1' }} />
                         </div>
-                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Custom Patient & Provider Portals</h3>
+                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">FHIR R4 API Integration</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            We design and build patient-facing portals and clinician dashboards that are intuitive, HIPAA-compliant, and deeply integrated with your existing workflows. Patients can schedule appointments, access lab results, communicate securely with providers, and manage care plans - all from a single interface. Clinicians get a unified view of patient history, real-time alerts, and documentation tools that reduce charting time by up to 40%.
+                            Fast Healthcare Interoperability Resources (FHIR) R4 is the gold standard for modern healthcare data exchange - mandated by CMS for payors and increasingly required by health systems for vendor connectivity. Our team has deep expertise implementing FHIR R4 APIs across all major EHR platforms, enabling real-time bidirectional data exchange for clinical data, scheduling, patient demographics, lab results, medications, and claims.
+                            <br /><br />
+                            We handle FHIR server configuration, resource mapping, authentication flows, and ongoing maintenance - so your development team does not need to become FHIR experts to benefit from interoperability.
                         </p>
 
                         {/* Connector 1-2 (Desktop Only) */}
@@ -48,11 +50,13 @@ export default function Undeniable() {
                         style={{ borderColor: '#90c7e5' }}
                     >
                         <div className="flex justify-center mb-6">
-                            <ClipboardList className="w-10 h-10" style={{ color: '#90c7e5' }} />
+                            <MessageSquare className="w-10 h-10" style={{ color: '#90c7e5' }} />
                         </div>
-                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Clinical Workflow Automation</h3>
+                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">HL7 v2 and v3 Messaging Integration</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Manual administrative tasks are one of the biggest drains on clinical staff time. We automate intake processes, referral management, care coordination workflows, prior authorization requests, and documentation tasks - using intelligent automation built on AI and machine learning models trained specifically on healthcare data. Our clients consistently report 30 to 50 percent reductions in administrative workload within the first 90 days.
+                            HL7 v2 remains the most widely deployed healthcare messaging standard in the United States - powering ADT notifications, lab result delivery, radiology reports, and referral workflows in thousands of hospitals and health systems. Our integration engineers are fluent in HL7 v2 message types including ADT, ORM, ORU, MDM, DFT, and SIU.
+                            <br /><br />
+                            We build and maintain HL7 integration engines, design message transformation pipelines, and implement error handling and delivery confirmation workflows - ensuring that every clinical message reaches its destination reliably and on time.
                         </p>
 
                         {/* Connector 2-3 (Desktop Only) */}
@@ -71,30 +75,31 @@ export default function Undeniable() {
                         style={{ borderColor: '#ff9900' }}
                     >
                         <div className="flex justify-center mb-6">
-                            <BrainCircuit className="w-10 h-10" style={{ color: '#ff9900' }} />
+                            <Blocks className="w-10 h-10" style={{ color: '#ff9900' }} />
                         </div>
-                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">AI-Powered Healthcare Applications</h3>
+                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">SMART on FHIR Application Integration</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Artificial intelligence is no longer a future possibility in healthcare - it is a present competitive advantage. Our team builds AI and machine learning solutions specifically for clinical environments. This includes predictive analytics for patient deterioration, NLP-based clinical documentation assistants, automated medical coding, intelligent denial management, and real-time clinical decision support tools. All built on HIPAA-compliant infrastructure using TensorFlow, PyTorch, and OpenAI APIs.
+                            SMART on FHIR is the standard that allows third-party applications to launch securely within an EHR context - giving clinicians access to specialized tools without leaving their primary workflow. We build SMART on FHIR apps that launch inside Epic, Cerner, and other major EHR platforms, as well as SMART authorization servers for organizations building their own app ecosystems.
                         </p>
                     </div>
                 </div>
 
+                {/* Row 2 */}
                 <div className="flex flex-col lg:flex-row items-stretch justify-center gap-5 lg:gap-16 relative mt-5 lg:mt-10">
-                    {/* Card 1 */}
+                    {/* Card 4 */}
                     <div
                         className="relative w-full lg:w-[400px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
                         style={{ borderColor: '#ff9900' }}
                     >
                         <div className="flex justify-center mb-6">
-                            <ShieldCheck className="w-10 h-10" style={{ color: '#ff9900' }} />
+                            <Hospital className="w-10 h-10" style={{ color: '#ff9900' }} />
                         </div>
-                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">HIPAA-Compliant Cloud Platforms</h3>
+                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Epic Integration</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            All software we build is hosted on AWS HIPAA-eligible infrastructure or Google Cloud Healthcare API - never on shared infrastructure that creates PHI exposure risk. We implement end-to-end encryption, role-based access controls, audit logging, and automated threat detection from day one. Our cloud architecture is built to scale - from a 10-provider practice to a 500-provider health system - without architectural rework.
+                            Epic holds the largest market share among US hospital EHR systems. Our team has completed multiple Epic integrations using Epic's web services, FHIR R4 APIs, and MyChart APIs. We navigate Epic's strict vetting process, manage the App Orchard listing where applicable, and build integrations that pass Epic's technical and security review requirements.
                         </p>
 
-                        {/* Connector 1-2 (Desktop Only) */}
+                        {/* Connector 4-5 (Desktop Only) */}
                         <div className="hidden lg:block absolute top-1/2 -right-16 w-16 h-12 translate-y-2 pointer-events-none">
                             <svg className="w-full h-full overflow-visible" viewBox="0 0 64 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="4" cy="24" r="4" stroke="#ff9900" strokeWidth="3" fill="white" />
@@ -104,20 +109,20 @@ export default function Undeniable() {
                         </div>
                     </div>
 
-                    {/* Card 2 */}
+                    {/* Card 5 */}
                     <div
                         className="relative w-full lg:w-[400px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
                         style={{ borderColor: '#60c6b1' }}
                     >
                         <div className="flex justify-center mb-6">
-                            <Video className="w-10 h-10" style={{ color: '#60c6b1' }} />
+                            <Database className="w-10 h-10" style={{ color: '#60c6b1' }} />
                         </div>
-                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Telehealth & Virtual Care Platforms</h3>
+                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Cerner and Oracle Health Integration</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            The demand for virtual care has permanently changed patient expectations. We build end-to-end telehealth platforms with secure video consultation, e-prescribing, remote patient monitoring, and EHR integration. Our telehealth solutions are built to comply with US state telehealth regulations, CMS billing requirements, and HIPAA technical safeguard rules - so you can launch and scale without legal uncertainty.
+                            Cerner (now Oracle Health) is deployed across hundreds of US health systems. We integrate with Cerner's Millennium platform using both HL7 messaging and FHIR R4 APIs - handling everything from patient data synchronization to clinical decision support alerts and revenue cycle integration.
                         </p>
 
-                        {/* Connector 2-3 (Desktop Only) */}
+                        {/* Connector 5-6 (Desktop Only) */}
                         <div className="hidden lg:block absolute top-1/2 -right-16 w-16 h-12 translate-y-2 pointer-events-none">
                             <svg className="w-full h-full overflow-visible" viewBox="0 0 64 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="4" cy="24" r="4" stroke="#60c6b1" strokeWidth="3" fill="white" />
@@ -127,17 +132,57 @@ export default function Undeniable() {
                         </div>
                     </div>
 
-                    {/* Card 3 */}
+                    {/* Card 6 */}
                     <div
                         className="relative w-full lg:w-[400px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
                         style={{ borderColor: '#90c7e5' }}
                     >
                         <div className="flex justify-center mb-6">
-                            <RefreshCcw className="w-10 h-10" style={{ color: '#90c7e5' }} />
+                            <Cloud className="w-10 h-10" style={{ color: '#90c7e5' }} />
                         </div>
-                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Legacy System Modernization</h3>
+                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Athenahealth Integration</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Replacing a legacy healthcare system does not have to mean months of downtime and disrupted clinical operations. ForNex Health has a proven methodology for modernizing outdated EHR systems, billing platforms, and practice management tools  migrating data securely, rebuilding integrations to FHIR R4 standards, and transitioning staff incrementally. We have completed legacy modernization projects for organizations ranging from independent specialty practices to regional hospital networks.
+                            Athenahealth is the leading cloud-based EHR for ambulatory care practices. We build integrations with the Athenahealth API platform for patient data access, appointment scheduling, clinical document exchange, and billing workflow automation - enabling independent practices and specialty groups to connect their entire ecosystem around Athenahealth's core.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Row 3 */}
+                <div className="flex flex-col lg:flex-row items-stretch justify-center gap-5 lg:gap-16 relative mt-5 lg:mt-10">
+                    {/* Card 7 */}
+                    <div
+                        className="relative w-full lg:w-[400px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
+                        style={{ borderColor: '#90c7e5' }}
+                    >
+                        <div className="flex justify-center mb-6">
+                            <Files className="w-10 h-10" style={{ color: '#90c7e5' }} />
+                        </div>
+                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">CDA and C-CDA Document Exchange</h3>
+                        <p className="text-gray-500 text-base font-regular leading-relaxed">
+                            Clinical Document Architecture (CDA) and Consolidated CDA (C-CDA) documents are the standard format for exchanging clinical summaries, referral notes, discharge summaries, and care transition records. We build C-CDA generation, parsing, and exchange workflows that work across all major health information exchanges and direct messaging networks.
+                        </p>
+
+                        {/* Connector 7-8 (Desktop Only) */}
+                        <div className="hidden lg:block absolute top-1/2 -right-16 w-16 h-12 translate-y-2 pointer-events-none">
+                            <svg className="w-full h-full overflow-visible" viewBox="0 0 64 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="4" cy="24" r="4" stroke="#90c7e5" strokeWidth="3" fill="white" />
+                                <path d="M8 24 H 36 V 4 Q 36 0 40 0 H 60" stroke="#90c7e5" strokeWidth="3" fill="none" />
+                                <path d="M58 -4 L 64 0 L 58 4" stroke="#90c7e5" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    {/* Card 8 */}
+                    <div
+                        className="relative w-full lg:w-[400px] bg-white border-[3px] rounded-[40px] p-8 py-12 text-center shadow-[20px_20px_60px_-10px_rgba(0,0,0,0.08)] z-10"
+                        style={{ borderColor: '#60c6b1' }}
+                    >
+                        <div className="flex justify-center mb-6">
+                            <Share2 className="w-10 h-10" style={{ color: '#60c6b1' }} />
+                        </div>
+                        <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Health Information Exchange (HIE) Connectivity</h3>
+                        <p className="text-gray-500 text-base font-regular leading-relaxed">
+                            State and regional Health Information Exchanges carry critical patient data from emergency visits, specialist consultations, and imaging studies. We connect your systems to relevant HIE networks - including CommonWell, Carequality, and state-specific HIEs - giving your clinicians a more complete picture of every patient's history.
                         </p>
                     </div>
                 </div>
