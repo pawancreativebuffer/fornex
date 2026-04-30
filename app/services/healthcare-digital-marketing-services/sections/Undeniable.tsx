@@ -29,7 +29,7 @@ export default function Undeniable() {
                         </div>
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Local Search Optimization</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            When a patient in Chicago searches 'cardiologist near me' or 'urgent care open now Chicago,' Google returns a local pack of three results above the organic listings. Getting into that local pack — and showing up on the first page for local service searches — is the single highest-ROI digital marketing investment most US healthcare practices can make.<br /><br />
+                            When a patient in Chicago searches 'cardiologist near me' or 'urgent care open now Chicago,' Google returns a local pack of three results above the organic listings. Getting into that local pack - and showing up on the first page for local service searches - is the single highest-ROI digital marketing investment most US healthcare practices can make.<br /><br />
                             We optimize your Google Business Profile, build your local citation profile across health-specific directories (Healthgrades, Zocdoc, Vitals, US News Health, WebMD), manage your online review strategy, and optimize your website's local landing pages for every service and location you operate. Our local SEO clients typically see a 40 to 80 percent increase in local search visibility within 90 days.
                         </p>
 
@@ -53,8 +53,8 @@ export default function Undeniable() {
                         </div>
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Medical Content Marketing and SEO</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Patients now research symptoms, conditions, and treatment options online before they ever call a provider's office. If your website provides authoritative, clinically accurate answers to the questions your patients are asking, you earn their trust before they even walk through the door. And Google rewards healthcare content that demonstrates genuine medical expertise — following its E-E-A-T guidelines (Experience, Expertise, Authoritativeness, Trustworthiness) for health-related search results.<br /><br />
-                            We build healthcare content strategies around the specific conditions, procedures, and services your organization offers — creating physician-reviewed blog posts, condition explainer pages, FAQ content, and procedure guides that rank for the terms your target patients are actually searching. Our content team includes medical writers with clinical backgrounds, not general freelancers who research conditions on Wikipedia.
+                            Patients now research symptoms, conditions, and treatment options online before they ever call a provider's office. If your website provides authoritative, clinically accurate answers to the questions your patients are asking, you earn their trust before they even walk through the door. And Google rewards healthcare content that demonstrates genuine medical expertise - following its E-E-A-T guidelines (Experience, Expertise, Authoritativeness, Trustworthiness) for health-related search results.<br /><br />
+                            We build healthcare content strategies around the specific conditions, procedures, and services your organization offers - creating physician-reviewed blog posts, condition explainer pages, FAQ content, and procedure guides that rank for the terms your target patients are actually searching. Our content team includes medical writers with clinical backgrounds, not general freelancers who research conditions on Wikipedia.
                         </p>
 
                         {/* Connector 2-3 (Desktop Only) */}
@@ -77,7 +77,7 @@ export default function Undeniable() {
                         </div>
                         <h3 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">Technical Healthcare SEO</h3>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Beyond content, the technical foundation of your website has a significant impact on search ranking — particularly for healthcare sites, where Google applies extra scrutiny. We audit and optimize site speed (critical for mobile healthcare searches), crawlability, schema markup implementation for medical practices and healthcare services, HTTPS security, Core Web Vitals performance, and structured data for physician profiles and locations.
+                            Beyond content, the technical foundation of your website has a significant impact on search ranking - particularly for healthcare sites, where Google applies extra scrutiny. We audit and optimize site speed (critical for mobile healthcare searches), crawlability, schema markup implementation for medical practices and healthcare services, HTTPS security, Core Web Vitals performance, and structured data for physician profiles and locations.
                         </p>
                     </div>
                 </div>

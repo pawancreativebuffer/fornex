@@ -33,7 +33,7 @@ export default function Results() {
                 <div className="my-10">
                     <div className="relative group overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.03] backdrop-blur-sm p-8 transition-all duration-500 hover:border-[#60C6B1]/30 hover:bg-white/[0.05]">
                         <div className="absolute top-0 left-0 w-1 h-full bg-[#60C6B1]" />
-                        <h2 className="text-2xl lg:text-3xl font-bold text-white mb-7">We track what actually matters for healthcare marketing — not vanity metrics:</h2>
+                        <h2 className="text-2xl lg:text-3xl font-bold text-white mb-7">We track what actually matters for healthcare marketing - not vanity metrics:</h2>
 
                         <div className="space-y-2">
                             {listData.map((text, index) => (

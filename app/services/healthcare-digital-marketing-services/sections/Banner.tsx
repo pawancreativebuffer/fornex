@@ -82,13 +82,13 @@ export default function Banner() {
 
                     <div className="flex flex-col">
                         <p className="text-white/70 text-base font-regular leading-relaxed mb-4 lg:mb-6 text-center lg:text-left">
-                            Healthcare marketing is unlike marketing in any other industry. You are not selling a product — you are earning a patient's trust at some of the most vulnerable moments in their life. The marketing strategies that work for retail, hospitality, or e-commerce do not translate directly to healthcare, and the compliance risks of getting it wrong are significant.
+                            Healthcare marketing is unlike marketing in any other industry. You are not selling a product - you are earning a patient's trust at some of the most vulnerable moments in their life. The marketing strategies that work for retail, hospitality, or e-commerce do not translate directly to healthcare, and the compliance risks of getting it wrong are significant.
                         </p>
                         <p className="text-white/70 text-base font-regular leading-relaxed mb-4 lg:mb-6 text-center lg:text-left">
                             HIPAA has specific, often misunderstood implications for digital marketing. Using Meta Pixel or Google Analytics tags on patient portal pages can create PHI exposure that constitutes a HIPAA breach. Retargeting campaigns based on health condition searches may violate HHS guidance. Testimonials and before-and-after photographs in certain specialties carry FTC and state medical board compliance risk.
                         </p>
                         <p className="text-white/70 text-base font-regular leading-relaxed text-center lg:text-left">
-                            ForNex Health provides digital marketing services built exclusively for healthcare — growth strategies that are aggressive enough to actually move the needle, and compliant enough to keep your organization protected. Our marketing team combines deep healthcare domain knowledge with technical digital marketing expertise to deliver patient acquisition campaigns that perform.
+                            ForNex Health provides digital marketing services built exclusively for healthcare - growth strategies that are aggressive enough to actually move the needle, and compliant enough to keep your organization protected. Our marketing team combines deep healthcare domain knowledge with technical digital marketing expertise to deliver patient acquisition campaigns that perform.
                         </p>
                     </div>
                 </div>

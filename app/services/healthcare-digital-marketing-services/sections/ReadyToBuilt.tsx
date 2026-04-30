@@ -25,7 +25,7 @@ export default function ReadyToBuilt() {
                     </h2>
 
                     <p className="text-white text-base font-regular leading-relaxed lg:max-w-[1100px] mx-auto text-center mb-4">
-                        We will audit your current digital marketing performance — including your SEO rankings, Google Ads Quality Score, review profile, and website conversion rates — and provide a specific, actionable growth strategy for your organization. No boilerplate recommendations. No agency templates.
+                        We will audit your current digital marketing performance - including your SEO rankings, Google Ads Quality Score, review profile, and website conversion rates - and provide a specific, actionable growth strategy for your organization. No boilerplate recommendations. No agency templates.
                     </p>
                     <div className=" bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] mt-10 rounded-t-3xl px-6 py-8 text-white text-center max-w-[700px] mx-auto">
                         <p className="text-xl lg:text-3xl font-medium mb-5">

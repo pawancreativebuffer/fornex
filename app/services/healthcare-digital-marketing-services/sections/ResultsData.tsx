@@ -12,9 +12,9 @@ const coreModules = [
         icon: <Megaphone className="w-12 h-12" />,
         color: "#E3ACC8",
         bullets: [
-            "Google Ads for healthcare providers comes with specific policies that limit what you can advertise and how — particularly for sensitive health conditions, addiction treatment services, and certain pharmaceutical categories. Navigating these restrictions requires healthcare-specific PPC expertise, not just Google Ads certification.",
-            "We build and manage Google Search, Performance Max, and Display campaigns for healthcare providers — with HIPAA-compliant conversion tracking that does not expose PHI through your analytics tags, audiences built on non-PHI behavioral signals, and ad copy that complies with medical advertising regulations while still being compelling enough to drive clicks.",
-            "Our healthcare PPC campaigns target high-intent search terms that indicate active care-seeking — not just condition curiosity — which is the key to driving actual appointment bookings rather than website traffic.",
+            "Google Ads for healthcare providers comes with specific policies that limit what you can advertise and how - particularly for sensitive health conditions, addiction treatment services, and certain pharmaceutical categories. Navigating these restrictions requires healthcare-specific PPC expertise, not just Google Ads certification.",
+            "We build and manage Google Search, Performance Max, and Display campaigns for healthcare providers - with HIPAA-compliant conversion tracking that does not expose PHI through your analytics tags, audiences built on non-PHI behavioral signals, and ad copy that complies with medical advertising regulations while still being compelling enough to drive clicks.",
+            "Our healthcare PPC campaigns target high-intent search terms that indicate active care-seeking - not just condition curiosity - which is the key to driving actual appointment bookings rather than website traffic.",
         ]
     },
     {
@@ -23,8 +23,8 @@ const coreModules = [
         icon: <BetweenHorizontalEnd className="w-12 h-12" />,
         color: "#FF9900",
         bullets: [
-            "Meta's advertising platform offers powerful patient acquisition capabilities for healthcare — particularly for elective and specialty services where patients have more choice and longer consideration periods. Cosmetic dermatology, elective orthopedic procedures, fertility services, concierge medicine, and behavioral health services are all excellent candidates for Meta advertising.",
-            "We implement Meta campaigns in full compliance with HHS guidance on tracking technologies — using server-side conversion APIs rather than pixel-based tracking, and carefully configured audiences that do not rely on health condition targeting that Meta has restricted for healthcare advertisers."
+            "Meta's advertising platform offers powerful patient acquisition capabilities for healthcare - particularly for elective and specialty services where patients have more choice and longer consideration periods. Cosmetic dermatology, elective orthopedic procedures, fertility services, concierge medicine, and behavioral health services are all excellent candidates for Meta advertising.",
+            "We implement Meta campaigns in full compliance with HHS guidance on tracking technologies - using server-side conversion APIs rather than pixel-based tracking, and carefully configured audiences that do not rely on health condition targeting that Meta has restricted for healthcare advertisers."
         ]
     }
 ];
