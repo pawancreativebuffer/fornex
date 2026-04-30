@@ -41,7 +41,7 @@ const services = [
         color: "from-[#ff9900] to-[#ffcc00]",
         size: "sm",
         highlights: ["Telehealth Web", "Native Mobile"],
-        slug: "/website-mobile-app-development",
+        slug: "/website-and-mobile-app-development",
     },
     {
         id: 4,
