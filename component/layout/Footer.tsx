@@ -19,10 +19,10 @@ export default function Footer() {
         ],
         services: [
             { name: "Healthcare Softwares", href: "/services/healthcare-software-development" },
-            { name: "EHR & EMR Integration", href: "/services/ehr-emr-integration" },
-            { name: "Website & Mobile Apps", href: "/services/website-mobile-app-development" },
-            { name: "Billing Management", href: "/services/medical-billing-rcm" },
-            { name: "Healthcare Digital Marketing", href: "/services/healthcare-digital-marketing" }
+            { name: "EHR & EMR Integration", href: "/services/ehr-emr-integration-solutions" },
+            { name: "Website & Mobile Apps", href: "/services/website-and-mobile-app-development" },
+            { name: "Billing Management", href: "/services/medical-billing-and-revenue-cycle-management" },
+            { name: "Healthcare Digital Marketing", href: "/services/healthcare-digital-marketing-services" }
         ],
     };
 

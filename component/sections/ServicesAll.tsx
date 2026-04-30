@@ -61,7 +61,7 @@ const services = [
         color: "from-[#c66060] to-[#9b4b4b]",
         size: "sm", // Medium card
         highlights: ["Patient Acquisition", "Brand Strategy"],
-        slug: "/healthcare-digital-marketing",
+        slug: "/healthcare-digital-marketing-services",
     }
 ];
 
