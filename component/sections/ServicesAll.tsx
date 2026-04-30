@@ -31,7 +31,7 @@ const services = [
         color: "from-[#90c7e5] to-[#6d9fbb]",
         size: "sm",
         highlights: ["FHIR R4 / HL7", "Interoperability"],
-        slug: "/ehr-emr-integration"
+        slug: "/ehr-emr-integration-solutions"
     },
     {
         id: 3,
