@@ -131,7 +131,7 @@ export default function BlogPost() {
                         </div>
 
                         {/* Sidebar */}
-                        <div className="lg:col-span-4 space-y-8">
+                        <div className="lg:col-span-4 space-y-8 lg:sticky lg:top-10 h-fit">
                             {/* CTA Card */}
                             <div className="bg-[#60C6B1] rounded-3xl p-8 text-white relative overflow-hidden group">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/20 rounded-full -mr-16 -mt-16 transition-transform group-hover:scale-110 duration-500"></div>
