@@ -24,7 +24,7 @@ export default function BlogPost() {
                             <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
                             Back to Insights
                         </Link>
-                        <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-[1.1] max-w-4xl mx-auto">
+                        <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-[1.1] max-w-5xl mx-auto">
                             Why Healthcare Software <span className="text-[#60C6B1]">Fails</span> in the First 90 Days
                         </h1>
 
