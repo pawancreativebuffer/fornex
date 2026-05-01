@@ -10,10 +10,10 @@ export default function BlogPage() {
     const blogs = [
         {
             id: 1,
-            title: "The Future of Healthcare Technology",
-            desc: "Digital innovation is transforming the healthcare industry with smarter systems and connected data.",
-            image: "/images/one.jpg",
-            link: '#'
+            title: "Why Healthcare Software Fails in the First 90 Days",
+            desc: "The first 90 days of a new healthcare software rollout are where everything either clicks or collapses. Excitement gives way to staff frustration. Adoption flatlines. The operations team is fielding complaints they weren't prepared for.",
+            image: "/images/blog-header-1.png",
+            link: '/blogs/why-healthcare-software-fails-in-the-first-90-days'
         },
         {
             id: 2,
