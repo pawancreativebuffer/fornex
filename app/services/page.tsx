@@ -1,0 +1,32 @@
+import Header from '@/component/layout/Header'
+import Footer from '@/component/layout/Footer';
+import ServicesBanner from '@/component/sections/ServicesBanner';
+import ServicesAll from '@/component/sections/ServicesAll';
+import ServiceHowWeDeliver from '@/component/sections/ServicesHowWeDeliver';
+import ServiceInfo from '@/component/sections/ServicesInfo';
+import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
+import HomeFaq from '@/component/sections/HomeFaq';
+import ServiceReady from '@/component/sections/ServicesReady';
+
+export default function ServicePage() {
+    return (
+        <>
+            <section className="relative overflow-hidden flex justify-between flex-col bg-[#1a2b3c]">
+                {/* Background Decorative Element */}
+                <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#60C6B1] rounded-full blur-[150px] opacity-70 pointer-events-none"></div>
+                <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-500 rounded-full blur-[150px] opacity-70 pointer-events-none"></div>
+
+                <Header />
+                <ServicesBanner />
+            </section>
+
+            <ServicesAll />
+            <ServiceHowWeDeliver />
+            <ServiceInfo />
+            <HomeClientTestimonials />
+            <HomeFaq />
+            <ServiceReady />
+            <Footer />
+        </>
+    )
+}
