@@ -20,7 +20,7 @@ export default function AboutPage() {
                 <Header />
                 <ServicesBanner />
             </section>
-            
+
             <WhoWeAre />
 
             <Footer />

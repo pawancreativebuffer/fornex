@@ -15,6 +15,13 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 7,
+            title: "What Most Hospitals Get Wrong When Deploying AI Agents in Revenue Cycle",
+            desc: "U.S. healthcare organizations lose over $262 billion annually due to revenue cycle inefficiencies. What gets cited less often is why AI deployments meant to fix this keep failing in practice.",
+            image: "/images/hospital_ai_rcm.png",
+            link: '/blogs/what-most-hospitals-get-wrong-when-deploying-ai-agents-in-revenue-cycle'
+        },
+        {
             id: 6,
             title: "Remote Patient Monitoring in 2026: How to Build a Program That Actually Reduces Readmissions",
             desc: "The readmission numbers for remote patient monitoring programs look remarkable on paper. Here is how to build a program that actually delivers on the readmission reduction promise.",
