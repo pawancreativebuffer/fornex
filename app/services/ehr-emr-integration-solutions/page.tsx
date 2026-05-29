@@ -12,7 +12,7 @@ import ProvenDevelopment from './sections/ProvenDevelopment';
 export const metadata = {
     title: "EHR & EMR Integration Services | FHIR R4 | HL7 | Epic, Cerner, Athenahealth | ForNex Health",
     description:
-        "ForNex Health provides expert EHR and EMR integration services using FHIR R4, HL7, and SMART on FHIR. Connect Epic, Cerner, Athenahealth, and 20+ systems. HIPAA-compliant. Trusted by 100+ US healthcare organizations.",
+        "ForNex Health provides expert EHR and EMR integration services using FHIR R4, HL7, and SMART on FHIR. Connect Epic, Cerner, Athenahealth, and 20+ systems. HIPAA-compliant. Trusted by 50+ US healthcare organizations.",
     keywords: [
         "EHR integration services",
         "EMR integration",

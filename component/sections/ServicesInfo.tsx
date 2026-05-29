@@ -1,7 +1,7 @@
 export default function ServiceInfo() {
     const stats = [
         {
-            value: "100+",
+            value: "50+",
             label: "Healthcare Clients Served",
             color: "#60C6B1",
         },

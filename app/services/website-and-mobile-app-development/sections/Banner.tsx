@@ -46,7 +46,7 @@ export default function Banner() {
                     {/* Floating Card 1 (Top Left) */}
                     <div className="absolute top-[20%] -right-[2%] lg:-right-[5%] bg-[#60C6B1]/90 backdrop-blur-md border border-white/20 p-4 rounded-2xl shadow-2xl flex items-center gap-4 z-10 hover:scale-105 transition-transform duration-300">
                         <div>
-                            <h3 className="text-[#1a2b3c] font-bold text-xl leading-tight">100+</h3>
+                            <h3 className="text-[#1a2b3c] font-bold text-xl leading-tight">50+</h3>
                             <p className="text-[#1a2b3c]/80 text-xs font-medium">Hospital's</p>
                         </div>
                         <div className="bg-[#1a2b3c] p-2 rounded-xl">
@@ -59,7 +59,7 @@ export default function Banner() {
                         <div className="h-1 w-full bg-gradient-to-r from-[#60C6B1] to-blue-500"></div>
                         <div className="p-4 grid grid-cols-3 gap-2 divide-x divide-white/10">
                             <div className="flex flex-col items-center justify-center text-center">
-                                <span className="text-[#60C6B1] font-bold text-lg leading-tight">100+</span>
+                                <span className="text-[#60C6B1] font-bold text-lg leading-tight">50+</span>
                                 <span className="text-gray-400 text-[9px] uppercase tracking-wider mt-1">Clients</span>
                             </div>
                             <div className="flex flex-col items-center justify-center text-center pl-2">

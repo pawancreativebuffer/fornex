@@ -1,7 +1,7 @@
 export default function HomeSmartHealthcare() {
     const stats = [
         {
-            number: "100+",
+            number: "50+",
             description: "Hospital's & Clinic's Served",
         },
         {
