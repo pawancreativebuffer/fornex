@@ -1,6 +1,7 @@
 import Header from '@/component/layout/Header'
 import Footer from '@/component/layout/Footer';
 import ServicesBanner from './sections/ServicesBanner';
+import WhoWeAre from './sections/WhoWeAre';
 
 export const metadata = {
     title: "About Us | Fornex Health - Healthcare Technology Built Different",
@@ -19,6 +20,8 @@ export default function AboutPage() {
                 <Header />
                 <ServicesBanner />
             </section>
+            
+            <WhoWeAre />
 
             <Footer />
         </>
