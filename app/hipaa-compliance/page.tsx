@@ -30,7 +30,7 @@ export default function HipaaCompliance() {
             HIPAA Compliance at <span className="text-[#60C6B1]">Fornex Health</span>
           </h1>
           <p className="text-white/70 text-base font-regular leading-relaxed max-w-3xl mx-auto mb-8">
-            Every system we build. Every integration we deploy. Every line of code we write — designed with HIPAA compliance at its core, not as an afterthought.
+            Every system we build. Every integration we deploy. Every line of code we write - designed with HIPAA compliance at its core, not as an afterthought.
           </p>
 
           <Link
@@ -56,10 +56,10 @@ export default function HipaaCompliance() {
                 HIPAA is not a checkbox for us. It is the foundation of how we operate.
               </p>
               <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 mx-auto">
-                Fornex Health is a SOC 2 Type II certified healthcare technology company. We work exclusively with healthcare organizations — hospitals, clinics, telehealth providers, healthtech startups — and every engagement we take on begins and ends with one non-negotiable requirement: your patients' data is protected.
+                Fornex Health is a SOC 2 Type II certified healthcare technology company. We work exclusively with healthcare organizations - hospitals, clinics, telehealth providers, healthtech startups - and every engagement we take on begins and ends with one non-negotiable requirement: your patients' data is protected.
               </p>
               <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 mx-auto">
-                From the architecture decisions we make on day one, to the infrastructure we deploy, to the Business Associate Agreements we sign before a single line of code is written — compliance is built in, not bolted on.
+                From the architecture decisions we make on day one, to the infrastructure we deploy, to the Business Associate Agreements we sign before a single line of code is written - compliance is built in, not bolted on.
               </p>
             </div>
 
@@ -74,7 +74,7 @@ export default function HipaaCompliance() {
                   Under HIPAA, any vendor that handles Protected Health Information (PHI) on behalf of a covered entity is classified as a Business Associate. That means a signed Business Associate Agreement (BAA) is legally required before any PHI-related work begins.
                 </p>
                 <p className="text-gray-500 text-base font-regular leading-relaxed">
-                  At Fornex Health, we sign a BAA with every healthcare client — no exceptions. The agreement clearly defines:
+                  At Fornex Health, we sign a BAA with every healthcare client - no exceptions. The agreement clearly defines:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-slate-600 mt-4 mb-6">
                   <li>How PHI will be used and protected throughout the engagement</li>
@@ -114,25 +114,25 @@ export default function HipaaCompliance() {
                     icon: <ShieldCheck className="w-8 h-8 text-[#60C6B1]" />,
                     title: "HIPAA Certified",
                     subtitle: "Health Insurance Portability and Accountability Act",
-                    desc: "We adhere to all applicable HIPAA rules — the Privacy Rule, the Security Rule, and the Breach Notification Rule. Our internal policies, staff training, and technical safeguards are aligned to HIPAA standards and reviewed regularly."
+                    desc: "We adhere to all applicable HIPAA rules - the Privacy Rule, the Security Rule, and the Breach Notification Rule. Our internal policies, staff training, and technical safeguards are aligned to HIPAA standards and reviewed regularly."
                   },
                   {
                     icon: <Lock className="w-8 h-8 text-[#60C6B1]" />,
                     title: "SOC 2 Type II Certified",
-                    subtitle: "System and Organization Controls — Independently Audited",
-                    desc: "SOC 2 Type II is one of the most rigorous independent security audits available. Unlike a one-time snapshot, Type II certification validates that our security controls have been operating effectively over an extended period. This means you are not just trusting our word — you are trusting the findings of an independent third-party auditor."
+                    subtitle: "System and Organization Controls - Independently Audited",
+                    desc: "SOC 2 Type II is one of the most rigorous independent security audits available. Unlike a one-time snapshot, Type II certification validates that our security controls have been operating effectively over an extended period. This means you are not just trusting our word - you are trusting the findings of an independent third-party auditor."
                   },
                   {
                     icon: <FileText className="w-8 h-8 text-[#60C6B1]" />,
                     title: "PHI Secure",
-                    subtitle: "Protected Health Information — Handled Per Federal Standards",
+                    subtitle: "Protected Health Information - Handled Per Federal Standards",
                     desc: "All Protected Health Information processed, stored, or transmitted through our systems is handled in strict accordance with federal PHI security standards. Access controls, encryption, and audit logging are applied at every level."
                   },
                   {
                     icon: <Server className="w-8 h-8 text-[#60C6B1]" />,
                     title: "AWS HIPAA-Eligible Architecture",
-                    subtitle: "Amazon Web Services — HIPAA-Eligible Cloud Infrastructure",
-                    desc: "Our cloud infrastructure runs on AWS HIPAA-eligible services. We sign an AWS Business Associate Addendum and architect every healthcare deployment within AWS's HIPAA-eligible service boundaries — including EC2, RDS, S3, Lambda, and CloudWatch for audit logging."
+                    subtitle: "Amazon Web Services - HIPAA-Eligible Cloud Infrastructure",
+                    desc: "Our cloud infrastructure runs on AWS HIPAA-eligible services. We sign an AWS Business Associate Addendum and architect every healthcare deployment within AWS's HIPAA-eligible service boundaries - including EC2, RDS, S3, Lambda, and CloudWatch for audit logging."
                   },
                   {
                     icon: <Cloud className="w-8 h-8 text-[#60C6B1]" />,
@@ -144,7 +144,7 @@ export default function HipaaCompliance() {
                     icon: <Activity className="w-8 h-8 text-[#60C6B1]" />,
                     title: "FDA Software Guidelines",
                     subtitle: "Applicable Medical Device Software Compliance",
-                    desc: "For solutions that fall under FDA oversight as Software as a Medical Device (SaMD), we apply the applicable FDA guidelines throughout the development lifecycle — including design controls, risk management, and validation protocols."
+                    desc: "For solutions that fall under FDA oversight as Software as a Medical Device (SaMD), we apply the applicable FDA guidelines throughout the development lifecycle - including design controls, risk management, and validation protocols."
                   }
                 ].map((cert, index) => (
                   <div key={index} className="bg-white rounded-2xl p-8 border border-slate-200 hover:border-[#60C6B1]/50 transition-colors">
@@ -175,7 +175,7 @@ export default function HipaaCompliance() {
               <div className="grid md:grid-cols-2 gap-x-8 gap-y-10 relative z-10">
                 {[
                   { title: "Encryption", icon: <Lock className="w-6 h-6" />, desc: "All ePHI is encrypted in transit using TLS 1.2 or higher and at rest using AES-256 encryption. This applies to databases, file storage, API communications, and backup systems." },
-                  { title: "Access Controls", icon: <Key className="w-6 h-6" />, desc: "Role-based access control (RBAC) ensures that only authorized personnel can access PHI — and only to the extent necessary for their function. Least-privilege principles are enforced across all systems." },
+                  { title: "Access Controls", icon: <Key className="w-6 h-6" />, desc: "Role-based access control (RBAC) ensures that only authorized personnel can access PHI - and only to the extent necessary for their function. Least-privilege principles are enforced across all systems." },
                   { title: "Audit Logging", icon: <FileText className="w-6 h-6" />, desc: "Every access, modification, and transmission of PHI is logged with timestamps, user identifiers, and action types. Audit logs are tamper-resistant and retained per HIPAA requirements to support breach investigation and compliance audits." },
                   { title: "Automatic Session Timeouts", icon: <Clock className="w-6 h-6" />, desc: "All systems handling PHI implement automatic session timeouts to prevent unauthorized access from unattended workstations or devices." },
                   { title: "Multi-Factor Authentication (MFA)", icon: <Smartphone className="w-6 h-6" />, desc: "MFA is enforced for all administrative access to systems that process or store PHI." },
@@ -205,7 +205,7 @@ export default function HipaaCompliance() {
 
               <div className="bg-white rounded-3xl p-8 border border-slate-200">
                 <p className="text-gray-500 text-base font-regular leading-relaxed mb-6">
-                  Technical controls alone do not make a company HIPAA-compliant. HIPAA requires robust administrative safeguards — the policies, procedures, and training that govern how people handle PHI.
+                  Technical controls alone do not make a company HIPAA-compliant. HIPAA requires robust administrative safeguards - the policies, procedures, and training that govern how people handle PHI.
                 </p>
 
                 <h4 className="text-xl font-bold text-[#1a2b3c] mb-6">At Fornex Health:</h4>
@@ -243,7 +243,7 @@ export default function HipaaCompliance() {
                 <ul className="space-y-2">
                   <li className="flex gap-4">
                     <div className="flex-shrink-0 mt-1"><ShieldAlert className="w-5 h-5 text-rose-500" /></div>
-                    <p className="text-slate-600 text-base">We will notify you of a discovered breach involving your PHI <strong className="text-[#1a2b3c]">within 72 hours of discovery</strong> — often faster</p>
+                    <p className="text-slate-600 text-base">We will notify you of a discovered breach involving your PHI <strong className="text-[#1a2b3c]">within 72 hours of discovery</strong> - often faster</p>
                   </li>
                   <li className="flex gap-4">
                     <div className="flex-shrink-0 mt-1"><ShieldAlert className="w-5 h-5 text-rose-500" /></div>
@@ -270,14 +270,14 @@ export default function HipaaCompliance() {
               <h2 className="text-[#60C6B1] font-semibold tracking-wider uppercase mb-3 text-sm text-center">Interoperability Standards</h2>
               <h3 className="text-3xl md:text-4xl font-bold text-[#1a2b3c] mb-4 text-center">Built on the Standards Healthcare Runs On</h3>
               <p className="text-gray-500 text-base font-regular leading-relaxed mb-10 mx-auto max-w-6xl text-center">
-                HIPAA compliance in 2026 cannot be separated from interoperability. CMS and ONC regulations now require healthcare organizations to exchange data using standardized APIs — and our platforms are built for exactly that.
+                HIPAA compliance in 2026 cannot be separated from interoperability. CMS and ONC regulations now require healthcare organizations to exchange data using standardized APIs - and our platforms are built for exactly that.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6">
                 {[
-                  { title: "FHIR R4", desc: "We build all new integrations using HL7 FHIR R4 — the current gold standard for healthcare data exchange. FHIR R4 enables secure, structured sharing of patient data across EHR platforms, payer systems, and patient-facing applications." },
+                  { title: "FHIR R4", desc: "We build all new integrations using HL7 FHIR R4 - the current gold standard for healthcare data exchange. FHIR R4 enables secure, structured sharing of patient data across EHR platforms, payer systems, and patient-facing applications." },
                   { title: "HL7 v2 & v3", desc: "For healthcare organizations still operating on legacy HL7 v2 or v3 messaging standards, we build compliant integrations that bridge existing systems without requiring a rip-and-replace." },
-                  { title: "SMART on FHIR", desc: "For applications requiring delegated authorization — such as patient portals and third-party apps — we implement SMART on FHIR, which provides a secure OAuth 2.0-based authorization layer on top of FHIR APIs." },
+                  { title: "SMART on FHIR", desc: "For applications requiring delegated authorization - such as patient portals and third-party apps - we implement SMART on FHIR, which provides a secure OAuth 2.0-based authorization layer on top of FHIR APIs." },
                   { title: "CDA / C-CDA", desc: "We support Clinical Document Architecture (CDA) and Consolidated CDA (C-CDA) for structured clinical document exchange, including continuity of care documents, discharge summaries, and referral notes." },
                   { title: "ONC & CMS Compliance", desc: "Our EHR integration and data exchange work is aligned with ONC's information blocking rules and CMS interoperability mandates, including the upcoming FHIR Prior Auth API requirements effective January 1, 2027." }
                 ].map((item, idx) => (
@@ -294,7 +294,7 @@ export default function HipaaCompliance() {
               <h2 className="text-[#60C6B1] font-semibold tracking-wider uppercase mb-3 text-sm text-center">Who We Serve</h2>
               <h3 className="text-3xl md:text-4xl font-bold text-[#1a2b3c] mb-6 text-center">Built for Every Type of Healthcare Organization</h3>
               <p className="text-gray-500 text-base font-regular leading-relaxed mx-auto max-w-4xl text-center">
-                Our HIPAA compliance framework is designed to scale — from early-stage healthtech startups building their first MVP to enterprise health systems managing millions of patient records.
+                Our HIPAA compliance framework is designed to scale - from early-stage healthtech startups building their first MVP to enterprise health systems managing millions of patient records.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mt-10">
@@ -330,12 +330,12 @@ export default function HipaaCompliance() {
 
               <div className="space-y-4">
                 {[
-                  { q: "Do you sign a Business Associate Agreement (BAA)?", a: "Yes — always, and always before any PHI-related work begins. Our BAA clearly defines the rights and obligations of both parties under HIPAA. We can provide a draft BAA for your legal team's review during our initial discovery conversation." },
-                  { q: "Are you SOC 2 Type II certified?", a: "Yes. Fornex Health's parent company, Creative Buffer Consultancy Private Limited, holds SOC 2 Type II certification — independently audited by a third party. This certification validates that our security controls are not just documented but have been operating effectively over time." },
+                  { q: "Do you sign a Business Associate Agreement (BAA)?", a: "Yes - always, and always before any PHI-related work begins. Our BAA clearly defines the rights and obligations of both parties under HIPAA. We can provide a draft BAA for your legal team's review during our initial discovery conversation." },
+                  { q: "Are you SOC 2 Type II certified?", a: "Yes. Fornex Health's parent company, Creative Buffer Consultancy Private Limited, holds SOC 2 Type II certification - independently audited by a third party. This certification validates that our security controls are not just documented but have been operating effectively over time." },
                   { q: "What cloud infrastructure do you use for healthcare projects?", a: "We build on AWS HIPAA-eligible infrastructure as our primary platform, with Google Cloud Healthcare API used where applicable. All deployments within these environments are governed by signed Business Associate Addendums (BAAs) with AWS and Google." },
                   { q: "How do you handle a data breach?", a: "We notify you within 72 hours of discovering any breach involving your PHI. Our incident response plan covers detection, containment, notification, remediation, and post-incident review. We cooperate fully with any regulatory investigation." },
                   { q: "Can you help us pass a HIPAA audit?", a: "Yes. We provide technical documentation, architecture diagrams, security control evidence, and audit trail exports that support your organization's HIPAA audit processes. Our team has experience supporting clients through OCR inquiries and third-party compliance audits." },
-                  { q: "Do you work with healthcare startups that don't yet have a compliance team?", a: "Absolutely. We regularly help startups build HIPAA-compliant platforms from the ground up — including helping founders understand their compliance obligations, setting up the right infrastructure, and producing the technical documentation investors and enterprise clients expect to see." },
+                  { q: "Do you work with healthcare startups that don't yet have a compliance team?", a: "Absolutely. We regularly help startups build HIPAA-compliant platforms from the ground up - including helping founders understand their compliance obligations, setting up the right infrastructure, and producing the technical documentation investors and enterprise clients expect to see." },
                   { q: "What happens to PHI when a project ends?", a: "Our BAA specifies PHI destruction and return procedures at project end. Data is securely destroyed using methods that meet HIPAA's media disposal requirements, and we provide written confirmation upon completion." }
                 ].map((faq, idx) => (
                   <div key={idx} className="bg-white rounded-2xl p-6 border border-slate-200">
@@ -355,7 +355,7 @@ export default function HipaaCompliance() {
               <div className="relative z-10">
                 <h2 className="text-3xl md:text-5xl font-bold mb-6">Ready to Build Something Compliant?</h2>
                 <p className="text-base text-slate-300 max-w-4xl mx-auto mb-10 leading-relaxed">
-                  Every project starts with a conversation. Tell us what you are building and we will walk you through exactly how we approach compliance for your specific use case — no sales pitch, just clarity.
+                  Every project starts with a conversation. Tell us what you are building and we will walk you through exactly how we approach compliance for your specific use case - no sales pitch, just clarity.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link
