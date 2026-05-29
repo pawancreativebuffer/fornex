@@ -16,6 +16,7 @@ export default function Header() {
 
     const navLinks = [
         { name: "Home", href: "/" },
+        { name: "About Us", href: "/about-us" },
         { name: "Services", href: "/services" },
         { name: "Clients & Case Studies", href: "/clients" },
         { name: "Blogs", href: "/blogs" },
@@ -40,7 +41,7 @@ export default function Header() {
 
                 {/* Desktop Navigation */}
                 <nav className="hidden lg:flex items-center gap-7 text-[#2B2E34] text-[16px] font-medium">
-                    <nav className="hidden lg:flex items-center gap-7 text-[#2B2E34] text-[16px] font-medium">
+                    <nav className="hidden lg:flex items-center gap-6 text-[#2B2E34] text-[16px] font-medium">
                         {navLinks.map((link) => {
                             const isActive = pathname === link.href;
 
@@ -63,8 +64,8 @@ export default function Header() {
                 {/* Desktop Buttons & Mobile Toggle */}
                 <div className="flex items-center gap-3">
                     <div className="hidden lg:flex items-center gap-3">
-                        <Link href="/contact" className="px-8 py-3 rounded-full border border-[#60C6B1] text-[#60C6B1] hover:bg-[#60C6B1] hover:text-[#fff] cursor-pointer transition font-medium">
-                            Contact us
+                        <Link href="/contact" className="px-5 py-3 rounded-full border border-[#60C6B1] text-[#60C6B1] hover:bg-[#60C6B1] hover:text-[#fff] cursor-pointer transition font-medium">
+                            Contact Us
                         </Link>
 
                         <Link href='https://calendly.com/pawan_panwar/letstalk?embed_domain=creativebuffer.com&embed_type=Inline&month=2026-04' target="_blank" className="px-5 py-3 rounded-full border border-[#6896af] text-[#fff] bg-[#6896af] hover:bg-[#fff] hover:text-[#6896af] cursor-pointer transition flex items-center gap-2 font-medium">

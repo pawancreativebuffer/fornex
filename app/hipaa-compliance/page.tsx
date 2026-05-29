@@ -10,6 +10,7 @@ import {
 export const metadata: Metadata = {
   title: 'HIPAA Compliance | Fornex Health',
   description: "Fornex Health is fully HIPAA-compliant. We sign BAAs, handle PHI securely, and build every healthcare platform on HIPAA-eligible infrastructure. Learn how we protect your patients' data.",
+  keywords: ["Fornex", "HIPAA", "Fornex Health", "HIPAA Compliance", "Healthcare", "Healthcare HIPAA", "Fornex Guidelines"],
 };
 
 export default function HipaaCompliance() {
@@ -23,9 +24,10 @@ export default function HipaaCompliance() {
         <Header />
 
         <div className="max-w-[1400px] mx-auto px-4 w-full pt-20 pb-24 text-center relative z-10">
-          <div className="inline-block px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-[#60C6B1] font-medium text-sm mb-6 backdrop-blur-sm">
+          <div className="inline-block gap-2 mx-auto lg:mx-0 lg:mb-5 font-[500] text-[18px] text-[#fff] bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-5 py-2 w-fit">
             Compliance & Security
           </div>
+
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4 max-w-4xl mx-auto">
             HIPAA Compliance at <span className="text-[#60C6B1]">Fornex Health</span>
           </h1>
@@ -359,7 +361,8 @@ export default function HipaaCompliance() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link
-                    href="https://calendly.com/"
+                    href="https://calendly.com/pawan_panwar/letstalk?embed_domain=creativebuffer.com&embed_type=Inline&month=2026-04"
+                    target='_blank'
                     className="inline-flex items-center justify-center px-5 py-3 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[#fff] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium"
                   >
                     Book a Free Consultation
