@@ -94,7 +94,7 @@ export default function ContactDetails() {
                 <div className="mt-15 lg:mt-15 w-full animate-slide-up" style={{ animationDelay: '500ms' }}>
                     <div className="w-full h-[400px] lg:h-[500px] rounded-[30px] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 shadow-xl border border-gray-100">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19868.2163484831!2d-0.12999554999999998!3d51.503324000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2suk!4v1712563200000!5m2!1sen!2suk"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d857.5470494148086!2d76.70927190146945!3d30.713109246809722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fefe4c82d8383%3A0xfa3a2c35ce35a0db!2sCreative%20Buffer%20Consultancy%20Private%20Limited!5e0!3m2!1sen!2sin!4v1780033375580!5m2!1sen!2sin"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
