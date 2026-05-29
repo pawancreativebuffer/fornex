@@ -30,10 +30,10 @@ export default function ClientsBanner() {
 
                     {/* Bottom Left Circle - Shifted up and right for more overlap */}
                     <div className="absolute top-1/2 left-1/2 -translate-x-[calc(100%-25px)] -translate-y-[15px] w-48 h-48 rounded-full bg-white/5 backdrop-blur-xl border border-white/20 flex flex-col items-center justify-center text-center p-6 transition-all duration-500 hover:scale-110 hover:bg-white/10 hover:border-white/40 z-20 group shadow-[0_0_50px_rgba(0,0,0,0.3)] overflow-hidden">
-                        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                        <Award className="w-12 h-12 text-[#60C6B1] mb-2 group-hover:-rotate-12 transition-transform" />
-                        <h3 className="text-white font-[600] text-sm group-hover:text-blue-300 transition-colors uppercase tracking-widest leading-none">Awarded</h3>
-                        <p className="text-white/40 text-[11px] mt-2 leading-tight px-2">#1 Health-Tech Solution 2024</p>
+                        <div className="absolute inset-0 bg-gradient-to-br from-[#60C6B1]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        <Star className="w-12 h-12 text-[#60C6B1] mb-2 group-hover:-rotate-12 transition-transform" />
+                        <h3 className="text-white font-[600] text-sm group-hover:text-[#60C6B1] transition-colors uppercase tracking-widest leading-none">Trusted</h3>
+                        <p className="text-white/40 text-[11px] mt-2 leading-tight px-2">By Leading Providers</p>
                     </div>
 
                     {/* Bottom Right Circle - Shifted up and left for more overlap */}
