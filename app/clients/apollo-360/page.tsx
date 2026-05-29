@@ -19,6 +19,12 @@ import Ideal from './sections/Ideal';
 import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 import Coming from './sections/Coming';
 
+export const metadata = {
+    title: "Apollo 360 - Healthcare SaaS Platform",
+    description: "Apollo 360 is a complete healthcare SaaS platform that helps healthcare providers to manage their operations more efficiently.",
+    keywords: ["Apollo 360", "Fornex", "Fornex Health", "Fornex", "Apollo 360", "Fornex Health", "Fornex", "Apollo 360", "Fornex Health", "Fornex", "Apollo 360", "Fornex Health", "Fornex", "Apollo 360", "Fornex Health"],
+};
+
 export default async function CarevationPage() {
     return (
         <>

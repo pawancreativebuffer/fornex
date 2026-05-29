@@ -16,6 +16,12 @@ import HomeBlog from '@/component/sections/HomeBlog';
 import Footer from '@/component/layout/Footer';
 import HomeBannerImages from '@/component/sections/HomeBannerImages';
 
+export const metadata = {
+  title: "Fornex Health | Healthcare Software Development & EHR Integration",
+  description: "Fornex Health provides cutting-edge healthcare software development, EHR integration, medical billing, and smart healthcare solutions.",
+  keywords: ["Fornex", "Healthcare Software", "EHR Integration", "Medical Billing", "Smart Healthcare", "Medical Software Development"],
+};
+
 export default function Home() {
   return (
     <>

@@ -1,9 +1,13 @@
-'use client';
-
 import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
 import { Calendar, User, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
+
+export const metadata = {
+    title: "The 2026 Executive Guide: What Is an EHR System, Why Implementations Fail and How to Optimize - Fornex",
+    description: "The 2026 Executive Guide: What Is an EHR System, Why Implementations Fail and How to Optimize - Fornex",
+    keywords: ["The 2026 Executive Guide: What Is an EHR System, Why Implementations Fail and How to Optimize", "Fornex", "Fornex Health", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs"],
+};
 
 export default function BlogPost() {
     return (

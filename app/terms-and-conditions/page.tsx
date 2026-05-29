@@ -1,7 +1,11 @@
-'use client';
-
 import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
+
+export const metadata = {
+  title: "Terms & Conditions | Fornex Health",
+  description: "Read Fornex Health's Terms and Conditions to understand the terms of service, privacy policy, and guidelines for using our healthcare solutions.",
+  keywords: ["Fornex", "Terms & Conditions", "Fornex Health", "Terms of Service", "Privacy Policy", "Healthcare Terms", "Fornex Guidelines"],
+};
 
 export default function BlogPost() {
   return (

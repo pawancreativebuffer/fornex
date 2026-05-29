@@ -1,9 +1,13 @@
-'use client';
-
 import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
 import { Calendar, User, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
+
+export const metadata = {
+    title: "Ambient AI Scribes Are Everywhere. Here's How to Actually Choose One - Fornex",
+    description: "Ambient AI Scribes Are Everywhere. Here's How to Actually Choose One - Fornex",
+    keywords: ["Ambient AI Scribes Are Everywhere. Here's How to Actually Choose One", "Fornex", "Fornex Health", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs"],
+};
 
 export default function BlogPost() {
     return (

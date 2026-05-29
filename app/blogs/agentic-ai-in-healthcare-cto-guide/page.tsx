@@ -1,9 +1,13 @@
-'use client';
-
 import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
 import { Calendar, User, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
+
+export const metadata = {
+    title: "Agentic AI in Healthcare: What Hospital CTOs Need to Know Before They Pilot Anything - Fornex",
+    description: "Agentic AI in Healthcare: What Hospital CTOs Need to Know Before They Pilot Anything - Fornex",
+    keywords: ["Agentic AI in Healthcare: What Hospital CTOs Need to Know Before They Pilot Anything", "Fornex", "Fornex Health", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs"],
+};
 
 export default function BlogPost() {
     return (

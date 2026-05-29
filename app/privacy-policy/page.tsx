@@ -1,9 +1,11 @@
-'use client';
-
 import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
-import { Calendar, User, ArrowLeft } from 'lucide-react';
-import Link from 'next/link';
+
+export const metadata = {
+  title: "Privacy Policy | Fornex Health",
+  description: "Protecting your privacy is our priority. Learn how Fornex Health collects, uses, and secures your information through our Privacy Policy.",
+  keywords: ["Fornex", "Privacy Policy", "Fornex Health", "Fornex", "Privacy Policy", "Fornex Health", "Fornex", "Privacy Policy", "Fornex Health", "Fornex", "Privacy Policy", "Fornex Health", "Fornex", "Privacy Policy", "Fornex Health"],
+};
 
 export default function BlogPost() {
   return (

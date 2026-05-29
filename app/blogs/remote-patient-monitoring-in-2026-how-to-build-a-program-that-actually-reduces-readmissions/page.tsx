@@ -1,9 +1,13 @@
-'use client';
-
 import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
 import { Calendar, User, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
+
+export const metadata = {
+    title: "Remote Patient Monitoring in 2026: How to Build a Program That Actually Reduces Readmissions - Fornex",
+    description: "Remote Patient Monitoring in 2026: How to Build a Program That Actually Reduces Readmissions - Fornex",
+    keywords: ["Remote Patient Monitoring in 2026: How to Build a Program That Actually Reduces Readmissions", "Fornex", "Fornex Health", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs"],
+};
 
 export default function BlogPost() {
     return (

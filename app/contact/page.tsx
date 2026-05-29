@@ -3,6 +3,12 @@ import Footer from '@/component/layout/Footer';
 import ContactBanner from '@/component/sections/ContactBanner';
 import ContactDetails from '@/component/sections/ContactDetails';
 
+export const metadata = {
+    title: "Contact Us | Fornex Healthcare",
+    description: "Connect with Fornex Health for expert healthcare solutions. Contact us for software development, EHR integration, medical billing, and digital marketing services.",
+    keywords: ["Fornex", "Contact", "Fornex Health", "Fornex", "Contact", "Fornex Health", "Fornex", "Contact", "Fornex Health", "Fornex", "Contact", "Fornex Health", "Fornex", "Contact", "Fornex Health"],
+};
+
 export default function ServicePage() {
     return (
         <>

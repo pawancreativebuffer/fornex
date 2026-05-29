@@ -1,10 +1,16 @@
-'use client';
-
 import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
 import { ArrowRight } from 'lucide-react';
 import BlogBanner from '@/component/sections/BlogBanner';
 import Link from 'next/link';
+
+
+export const metadata = {
+    title: "Blogs - Fornex",
+    description: "Blogs - Fornex",
+    keywords: ["Blogs", "Fornex", "Fornex Health", "Fornex Health Blog", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs"],
+};
+
 
 export default function BlogPage() {
     const blogs = [

@@ -8,6 +8,12 @@ import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials'
 import HomeFaq from '@/component/sections/HomeFaq';
 import ServiceReady from '@/component/sections/ServicesReady';
 
+export const metadata = {
+    title: "Fornex Health | Services",
+    description: "Explore comprehensive healthcare solutions at Fornex Health, including EHR integration, medical billing, software development, and IT infrastructure services.",
+    keywords: ["Fornex", "Healthcare", "Technology", "Software", "Solutions", "EHR Integration", "Medical Billing", "Smart Healthcare", "Medical Software Development"],
+};
+
 export default function ServicePage() {
     return (
         <>

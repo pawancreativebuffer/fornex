@@ -18,6 +18,13 @@ import KeyLearnings from './sections/KeyLearning';
 import Ideal from './sections/Ideal';
 import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 
+export const metadata = {
+    title: "Super School - Complete School Management Solution",
+    description: "Super School is a complete school management solution that helps schools to manage their operations more efficiently.",
+    keywords: ["Fornex", "Super School", "Fornex Health", "Fornex", "Super School", "Fornex Health", "Fornex", "Super School", "Fornex Health", "Fornex", "Super School", "Fornex Health", "Fornex", "Super School", "Fornex Health"],
+};
+
+
 export default async function CarevationPage() {
     return (
         <>

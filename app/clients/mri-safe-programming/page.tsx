@@ -18,6 +18,12 @@ import KeyLearnings from './sections/KeyLearning';
 import Ideal from './sections/Ideal';
 import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 
+export const metadata = {
+    title: "MRI Safe Programming - Patient Safety Monitoring System",
+    description: "MRI Safe Programming is a leading healthcare technology company that provides innovative solutions for the medical industry.",
+    keywords: ["MRI Safe Programming", "Fornex", "Fornex Health", "Fornex", "Fornex Health", "Fornex", "Fornex Health", "Fornex", "Fornex Health", "Fornex", "Fornex Health", "Fornex", "Fornex Health"],
+};
+
 export default async function MriSafeProgrammingPage() {
     return (
         <>

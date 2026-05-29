@@ -18,6 +18,12 @@ import KeyLearnings from './sections/KeyLearning';
 import Ideal from './sections/Ideal';
 import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 
+export const metadata = {
+    title: "Carevation - Healthcare SaaS Platform",
+    description: "Carevation is a complete healthcare SaaS platform that helps healthcare providers to manage their operations more efficiently.",
+    keywords: ["Carevation", "Fornex", "Fornex Health", "Fornex", "Carevation", "Fornex Health", "Fornex", "Carevation", "Fornex Health", "Fornex", "Carevation", "Fornex Health", "Fornex", "Carevation", "Fornex Health"],
+};
+
 export default async function CarevationPage() {
     return (
         <>

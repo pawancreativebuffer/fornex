@@ -1,9 +1,13 @@
-'use client';
-
 import Header from '@/component/layout/Header';
 import Footer from '@/component/layout/Footer';
 import { Calendar, Clock, User, ArrowLeft, Share2, Facebook, Twitter, Linkedin } from 'lucide-react';
 import Link from 'next/link';
+
+export const metadata = {
+    title: "The FHIR Prior Auth Deadline Is January 2027. Is Your Hospital Ready? - Fornex",
+    description: "The FHIR Prior Auth Deadline Is January 2027. Is Your Hospital Ready? - Fornex",
+    keywords: ["The FHIR Prior Auth Deadline Is January 2027. Is Your Hospital Ready?", "Fornex", "Fornex Health", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs", "Fornex Blogs", "Fornex Health Blogs"],
+};
 
 export default function BlogPost() {
     return (

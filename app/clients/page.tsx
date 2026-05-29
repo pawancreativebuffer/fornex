@@ -3,6 +3,13 @@ import Footer from '@/component/layout/Footer';
 import ClientsBanner from '@/component/sections/ClientsBanner';
 import ClientList from '@/component/sections/ClientsList';
 
+
+export const metadata = {
+    title: "Our Clients | Fornex Healthcare",
+    description: "See the trusted partners and clients who rely on Fornex Healthcare for their technological needs.",
+    keywords: ["Fornex", "Clients", "Fornex Health", "Fornex", "Clients", "Fornex Health", "Fornex", "Clients", "Fornex Health", "Fornex", "Clients", "Fornex Health", "Fornex", "Clients", "Fornex Health"],
+};
+
 export default function ClientsPage() {
     return (
         <>
