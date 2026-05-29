@@ -5,16 +5,10 @@ import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 const services = [
-    // {
-    //     id: 0,
-    //     title: "Carevation",
-    //     description: "Caregivers struggled to manage appointments, medications, and medical records across scattered tools, causing coordination challenges. ForNex Health built a centralized caregiving platform to organize health records, appointments, medications, and daily care tasks.",
-    //     image: "/images/one.jpg",
-    // },
     {
         id: 0,
-        title: "Manhattan Cardiovascular Associates",
-        description: "High claim denial rate (22%) causing $180,000/month in revenue loss. Outdated EHR with no patient portal integration. ForNex implemented denial management workflows, automated claim scrubbing, and a patient-facing portal integrated with their existing eClinicalWorks EHR.",
+        title: "Ones",
+        description: "Ones is a personalized wellness platform that uses health data, biomarkers, and lifestyle insights to create tailored daily supplement formulas. The platform combines science-backed nutrition, premium ingredients, and a seamless digital experience to help users optimize their overall health and performance.",
         image: "/images/three.jpg",
         link: '#'
     },

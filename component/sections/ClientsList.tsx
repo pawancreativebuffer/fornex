@@ -7,14 +7,13 @@ import Link from 'next/link';
 const CLIENTS_DATA = [
     {
         id: "01",
-        name: "Manhattan Cardiovascular Associates",
-        category: "Patient Management System",
-        description: "Manhattan Cardiovascular Associates leverages an advanced EHR system designed to improve patient care and streamline practice management. This system integrates clinical, operational, and administrative workflows to enhance both patient care and practice efficiency.",
-        impact: "Reduced patient wait times",
+        name: "Ones",
+        category: "Personalized Supplement Platform",
+        description: "Ones is a personalized wellness platform that uses health data, biomarkers, and lifestyle insights to create tailored daily supplement formulas. The platform combines science-backed nutrition, premium ingredients, and a seamless digital experience to help users optimize their overall health and performance.",
+        impact: "Personalized wellness optimization",
         image: "/images/three.jpg",
-        icon: '/images/manhattan.webp',
+        icon: '/images/ones.svg',
         link: '/clients'
-
     },
     {
         id: "02",
