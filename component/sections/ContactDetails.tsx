@@ -25,14 +25,14 @@ export default function ContactDetails() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12 mt-4">
                             {/* Call Center */}
                             <div className="animate-slide-up" style={{ animationDelay: '100ms' }}>
-                                <h4 className="text-[22px] font-bold text-[#1a2b3c] mb-4">Call Center</h4>
+                                <h4 className="text-[22px] font-bold text-[#1a2b3c] mb-4">Call</h4>
                                 <div className="space-y-1">
                                     <p className="text-[#60C6B1] text-base">
                                         +91-8528835744
                                     </p>
-                                    <p className="text-gray-500 text-base">
+                                    {/* <p className="text-gray-500 text-base">
                                         +91-8528835744
-                                    </p>
+                                    </p> */}
                                 </div>
                             </div>
 
