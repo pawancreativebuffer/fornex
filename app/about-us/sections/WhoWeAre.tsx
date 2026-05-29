@@ -23,7 +23,7 @@ export default function WhoWeAre() {
 
                     {/* Right Column: Body Content */}
                     <div className="flex flex-col text-lg text-gray-600 leading-relaxed justify-center">
-                        <p className="text-gray-500 text-base font-regular leading-relaxed mb-4"><strong className="text-[#1a2b3c] font-semibold">Fornex Health</strong> is the technology arm of Creative Buffer Consultancy Private Limited — a SOC 2 Type II certified company headquartered in Mohali, India, serving healthcare clients across the United States, New Zealand, and globally.</p>
+                        <p className="text-gray-500 text-base font-regular leading-relaxed mb-4"><strong className="text-[#1a2b3c] font-semibold">Fornex Health</strong> is the technology arm of Creative Buffer Consultancy Private Limited - a SOC 2 Type II certified company headquartered in Mohali, India, serving healthcare clients across the United States, New Zealand, and globally.</p>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">We were built on a simple observation: healthcare organizations were being failed by technology vendors who did not understand their world. General software companies would take on healthcare projects, underestimate the compliance requirements, misunderstand clinical workflows, and deliver systems that looked good in demos but broke down in practice.</p>
 
                         <div className="p-8 my-8 bg-white border border-gray-100 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border-l-4 border-l-[#60C6B1] relative overflow-hidden">
