@@ -9,14 +9,14 @@ import {
 
 const processData = [
     {
-        title: "HIPAA compliance architecture is the foundation — not a layer you add later.",
+        title: "HIPAA compliance architecture is the foundation - not a layer you add later.",
         subtitle: "Product Insights",
         icon: Shield,
         color: "#60C6B1",
         before: "Every data model, API contract, and third-party service selection must treat PHI handling as the primary constraint from the first line of planning. The temptation to build fast and patch compliance later fails in healthcare without exception.",
     },
     {
-        title: "Care workflows must drive technology decisions — not the other way around.",
+        title: "Care workflows must drive technology decisions - not the other way around.",
         subtitle: "Product Insights",
         icon: Activity,
         color: "#90c7e5",
@@ -27,7 +27,7 @@ const processData = [
         subtitle: "Product Insights",
         icon: CreditCard,
         color: "#ff9900",
-        before: "Billing and documentation workflows for chronic care management codes are specific and non-negotiable. Building them into the platform from the first design sprint — not as a post-launch operational problem — was the decision that made the commercial model viable.",
+        before: "Billing and documentation workflows for chronic care management codes are specific and non-negotiable. Building them into the platform from the first design sprint - not as a post-launch operational problem - was the decision that made the commercial model viable.",
     },
 ];
 

@@ -8,7 +8,7 @@ export default function Banner() {
                 How ForNex Health Built a <span className="text-[#60C6B1]">HIPAA-Compliant</span> Telehealth Platform for Chronic Care Patients
             </h1>
             <p className="text-gray-400 max-w-[1200px] text-[16px] font-regular leading-relaxed text-center">
-                Apollo 360 Health needed more than a development team — they needed a clinical technology partner who understood medically supervised digital care and could deliver a compliant, scalable telehealth platform from the ground up. ForNex Health designed and delivered the full product, from discovery to live deployment, in 2025.
+                Apollo 360 Health needed more than a development team - they needed a clinical technology partner who understood medically supervised digital care and could deliver a compliant, scalable telehealth platform from the ground up. ForNex Health designed and delivered the full product, from discovery to live deployment, in 2025.
             </p>
             <div className="flex w-full justify-center">
                 <Link href='/contact' className="px-5 py-3 mx-auto rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[transparent] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">

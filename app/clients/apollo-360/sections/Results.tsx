@@ -4,11 +4,11 @@ import { Scan, Stethoscope, Layers } from "lucide-react";
 
 export default function Results() {
     const listData = [
-        "Patients report feeling significantly more supported between clinical visits — describing daily care team contact as the critical difference from any prior program they had participated in.",
+        "Patients report feeling significantly more supported between clinical visits - describing daily care team contact as the critical difference from any prior program they had participated in.",
         "Care coaches report the dashboard gives them the visibility to manage meaningful patient panels without losing sight of individuals who need immediate attention.",
         "Referring physicians note that the FHIR integration provides unprecedented visibility into their patients' care journey between clinic visits.",
-        "Insurance coverage confirmation workflows allowed Apollo to enroll patients who previously assumed digital chronic care was a self - pay service — expanding the accessible patient population significantly.",
-        "The protocol status system is immediately intuitive — no training required for care teams to interpret and act on flagged patients with confidence."
+        "Insurance coverage confirmation workflows allowed Apollo to enroll patients who previously assumed digital chronic care was a self - pay service - expanding the accessible patient population significantly.",
+        "The protocol status system is immediately intuitive - no training required for care teams to interpret and act on flagged patients with confidence."
     ]
 
     const potential = [
@@ -21,7 +21,7 @@ export default function Results() {
         },
         {
             title: "For Chronic Patients",
-            desc: "Faster access to care they previously waited weeks for — simply because compatibility and enrollment could not be confirmed quickly enough under the old model.",
+            desc: "Faster access to care they previously waited weeks for - simply because compatibility and enrollment could not be confirmed quickly enough under the old model.",
             color: "#90c7e5",
             icon: Stethoscope,
             num: "02"

@@ -43,7 +43,7 @@ export default function CoreProblem() {
                                 MRI Safety Checks Were Slow, Manual, <span className="text-[#60C6B1]">and Clinically Fragmented</span>
                             </h1>
                             <p className="text-white/70 text-base leading-relaxed text-center mb-4">
-                                Before Apollo, patients managing chronic conditions faced a broken care journey. Their interaction with healthcare was limited to scheduled clinic visits — quarterly or annually for conditions like diabetes or cardiovascular disease — with little or no structured support in between.
+                                Before Apollo, patients managing chronic conditions faced a broken care journey. Their interaction with healthcare was limited to scheduled clinic visits - quarterly or annually for conditions like diabetes or cardiovascular disease - with little or no structured support in between.
                             </p>
                             <p className="text-white/70 text-base leading-relaxed text-center">
                                 When problems arose between appointments, patients were left without guidance. When lifestyle changes were needed, there was no infrastructure to support or monitor them.
@@ -95,7 +95,7 @@ export default function CoreProblem() {
                                 Most Affected Population
                             </span>
                             <p className="text-white/70 text-base leading-relaxed">
-                                Patients over 65 with multiple chronic conditions, adults managing obesity-related comorbidities, and individuals with complex cardiovascular risk profiles — precisely the population that accounts for the largest share of preventable healthcare spending in the United States.
+                                Patients over 65 with multiple chronic conditions, adults managing obesity-related comorbidities, and individuals with complex cardiovascular risk profiles - precisely the population that accounts for the largest share of preventable healthcare spending in the United States.
                             </p>
                         </div>
                     </div>

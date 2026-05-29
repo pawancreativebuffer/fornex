@@ -23,7 +23,7 @@ export default function BeforeDev() {
                         </h1>
 
                         <p className="text-white/70 text-base leading-relaxed">
-                            Dr. Michael Ghalchi, MD, FACC, is a board-certified cardiologist and founder of Manhattan Cardiovascular Associates — one of New York City's leading cardiology practices. Over his career, Dr. Ghalchi witnessed daily how fragmented chronic disease management between patients, care teams, and referring physicians created dangerous gaps in ongoing patient support.
+                            Dr. Michael Ghalchi, MD, FACC, is a board-certified cardiologist and founder of Manhattan Cardiovascular Associates - one of New York City's leading cardiology practices. Over his career, Dr. Ghalchi witnessed daily how fragmented chronic disease management between patients, care teams, and referring physicians created dangerous gaps in ongoing patient support.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -49,10 +49,10 @@ export default function BeforeDev() {
                         </div>
 
                         <p className="text-white/70 text-base leading-relaxed">
-                            Chronic care relies on meticulous continuous management — medication tracking, behavioral coaching, nutrition guidance, wearable data monitoring, and structured documentation. Managing all of that across quarterly appointments, disconnected EHR notes, and manual follow-up calls was not just inefficient; it was putting patients at risk of falling through the cracks between visits.
+                            Chronic care relies on meticulous continuous management - medication tracking, behavioral coaching, nutrition guidance, wearable data monitoring, and structured documentation. Managing all of that across quarterly appointments, disconnected EHR notes, and manual follow-up calls was not just inefficient; it was putting patients at risk of falling through the cracks between visits.
                         </p>
                         <p className="text-white/70 text-base leading-relaxed">
-                            Dr. Ghalchi founded Apollo 360 Health to solve this at the care coordination level — building a medically supervised digital platform that covers cardiovascular disease, obesity, hypertension, high cholesterol, diabetes, and depression, with insurance coverage through Medicare and major plans.
+                            Dr. Ghalchi founded Apollo 360 Health to solve this at the care coordination level - building a medically supervised digital platform that covers cardiovascular disease, obesity, hypertension, high cholesterol, diabetes, and depression, with insurance coverage through Medicare and major plans.
                         </p>
                     </div>
 
@@ -77,7 +77,7 @@ export default function BeforeDev() {
                                         <p className="text-[#1a2b3c] font-bold text-lg">Dr. Michael Ghalchi, MD, FACC</p>
                                         <p className="text-[#1a2b3c] text-sm">Founder & Medical Director</p>
                                         <p className="text-[#1a2b3c]/70 text-sm leading-relaxed mt-4">
-                                            Apollo 360 Health specializes in medically supervised chronic care — cardiovascular disease, obesity, hypertension, and diabetes — utilizing a team-based approach with insurance coverage through Medicare and major plans.
+                                            Apollo 360 Health specializes in medically supervised chronic care - cardiovascular disease, obesity, hypertension, and diabetes - utilizing a team-based approach with insurance coverage through Medicare and major plans.
                                         </p>
                                     </div>
                                 </div>

@@ -82,7 +82,7 @@ const coreModules = [
             "Automated time-tracking for CMS chronic care management codes",
             "Documentation workflows satisfying Medicare and major insurer requirements",
             "Previously inaccessible reimbursement pathways made viable at scale",
-            "Built in from the first design sprint — not retrofitted post-launch"
+            "Built in from the first design sprint - not retrofitted post-launch"
         ]
     },
     {

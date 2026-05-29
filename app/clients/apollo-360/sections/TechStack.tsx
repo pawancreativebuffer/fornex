@@ -32,7 +32,7 @@ const techData = [
             ["Backend API", "Node.js", "High-throughput API layer for care team dashboards and real-time patient data feeds"],
             ["Database", "PostgreSQL (Relational)", "Structured queries for care protocol management and audit-compliant PHI retention"],
             ["Cloud Infrastructure", "AWS HIPAA-eligible", "Established BAA, healthcare-grade security services, national scale without architectural changes"],
-            ["Data Encryption", "AES-256 at rest · TLS 1.2+ in transit", "PHI protection across all storage and transmission surfaces — non-negotiable from day one"],
+            ["Data Encryption", "AES-256 at rest · TLS 1.2+ in transit", "PHI protection across all storage and transmission surfaces - non-negotiable from day one"],
             ["AI Layer (Phase 2)", "Groq AI", "High-speed inference for protocol recommendation assistance and predictive risk flagging"]
         ]
     },
@@ -43,9 +43,9 @@ const techData = [
         lightColor: "rgba(255, 153, 0, 0.1)",
         headers: ["Integration", "Standard", "Coverage"],
         rows: [
-            ["Athenahealth", "FHIR R4", "Bidirectional data exchange, CMS interoperability compliance — Encoded Phase 1"],
-            ["Legacy Clinical Systems", "HL7 v2", "Backward-compatible integration layer for hospital systems not yet on FHIR — Encoded Phase 1"],
-            ["Wearable Devices", "Device API Layer", "Blood pressure, glucose monitors, activity trackers — real-time data feed to care dashboard"]
+            ["Athenahealth", "FHIR R4", "Bidirectional data exchange, CMS interoperability compliance - Encoded Phase 1"],
+            ["Legacy Clinical Systems", "HL7 v2", "Backward-compatible integration layer for hospital systems not yet on FHIR - Encoded Phase 1"],
+            ["Wearable Devices", "Device API Layer", "Blood pressure, glucose monitors, activity trackers - real-time data feed to care dashboard"]
         ]
     },
 ];
@@ -68,7 +68,7 @@ export default function TechStack() {
                         Enterprise-Grade Clinical Technology <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Built for HIPAA-First Deployment</span>
                     </h2>
                     <p className="text-gray-500 text-base leading-relaxed max-w-4xl">
-                        A stack selected for HIPAA compliance, clinical performance, EHR integration capability, and long-term scalability — the non-negotiables for a national digital health platform.
+                        A stack selected for HIPAA compliance, clinical performance, EHR integration capability, and long-term scalability - the non-negotiables for a national digital health platform.
                     </p>
                 </div>
 

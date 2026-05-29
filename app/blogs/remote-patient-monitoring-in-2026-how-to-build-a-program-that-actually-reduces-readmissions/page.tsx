@@ -117,7 +117,7 @@ export default function BlogPost() {
                                         When you give a clinical team 200 patients generating continuous data streams, the alert volume becomes unmanageable inside the first few weeks. Nurses start ignoring low-priority alerts. Then medium-priority alerts. Then they stop trusting the system at all. Then the devices stop getting checked. Then the program loses clinical support.
                                     </p>
                                     <p className="mb-6">
-                                        The largest points of failure in RPM programs are workflow fragmentation, eligibility breakdowns, poor patient engagement, along with administrative complexity — not sensor technology.
+                                        The largest points of failure in RPM programs are workflow fragmentation, eligibility breakdowns, poor patient engagement, along with administrative complexity - not sensor technology.
                                     </p>
                                     <p className="mb-6">
                                         The fix is a tiered escalation model before you go live. Define exactly which thresholds trigger which response. A blood pressure reading of 145/90 in a heart failure patient should not generate the same alert as a reading of 180/110. A single elevated reading should not generate the same response as three consecutive elevated readings.
@@ -170,7 +170,7 @@ export default function BlogPost() {
 
                                     <h2 className="text-3xl font-bold mb-6 text-[#60C6B1]">What Good Actually Looks Like</h2>
                                     <p className="mb-6">
-                                        One ACO that built a structured RPM program saw its readmission rate drop to 14 percent over 12 months. The program saved approximately $800,000 in avoided hospital costs while generating $240,000 in direct Medicare reimbursement — more than covering the $120,000 cost of the platform and devices.
+                                        One ACO that built a structured RPM program saw its readmission rate drop to 14 percent over 12 months. The program saved approximately $800,000 in avoided hospital costs while generating $240,000 in direct Medicare reimbursement - more than covering the $120,000 cost of the platform and devices.
                                     </p>
                                     <p className="mb-6">
                                         That outcome did not happen because of the devices. It happened because of the workflow built around the devices. Tiered alerts, defined clinical responsibility, consistent patient engagement, proper billing infrastructure.

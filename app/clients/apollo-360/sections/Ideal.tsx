@@ -5,26 +5,26 @@ import { Shield, Database, Smartphone, Brain } from "lucide-react";
 
 const IDEAL_CARDS = [
     {
-        title: "You are building a digital health platform that requires genuine HIPAA compliance from day one — not patched on after launch.",
-        description: "The most impactful clinical tools are built by people who understand the regulatory environment before they write the first line of code. ForNex provides full technical execution — from architecture to app store — with a team that understands healthcare at a clinical level.",
+        title: "You are building a digital health platform that requires genuine HIPAA compliance from day one - not patched on after launch.",
+        description: "The most impactful clinical tools are built by people who understand the regulatory environment before they write the first line of code. ForNex provides full technical execution - from architecture to app store - with a team that understands healthcare at a clinical level.",
         color: "#90c7e5",
         icon: Shield
     },
     {
         title: "You need FHIR R4 integration with major EHR systems and understand that interoperability is not optional in modern healthcare.",
-        description: "Apollo's conditionality rules engine — encoding multiple EHR datasets into a precise, clinically validated decision system — is exactly the kind of rule-based medical architecture ForNex specializes in.",
+        description: "Apollo's conditionality rules engine - encoding multiple EHR datasets into a precise, clinically validated decision system - is exactly the kind of rule-based medical architecture ForNex specializes in.",
         color: "#ff9900",
         icon: Database
     },
     {
         title: "You need a mobile-first product on both platforms with an enterprise-grade backend built for clinical reliability.",
-        description: "Apollo was built in React Native for cross-platform mobile with a Node.js backend on AWS HIPAA architecture — selected specifically for clinical-grade reliability, structured data integrity, and compatibility with existing healthcare IT environments.",
+        description: "Apollo was built in React Native for cross-platform mobile with a Node.js backend on AWS HIPAA architecture - selected specifically for clinical-grade reliability, structured data integrity, and compatibility with existing healthcare IT environments.",
         color: "#E3ACC8",
         icon: Smartphone
     },
     {
         title: "You are integrating AI into a clinical workflow where speed and accuracy are both non-negotiable constraints.",
-        description: "Apollo's Phase 2 uses Groq AI as its intelligence layer. ForNex integrates AI into medical workflows with accuracy as the non-negotiable constraint — not an afterthought bolted on after the core product ships.",
+        description: "Apollo's Phase 2 uses Groq AI as its intelligence layer. ForNex integrates AI into medical workflows with accuracy as the non-negotiable constraint - not an afterthought bolted on after the core product ships.",
         color: "#c66060",
         icon: Brain
     }

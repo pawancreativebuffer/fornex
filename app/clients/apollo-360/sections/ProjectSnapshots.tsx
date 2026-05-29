@@ -17,7 +17,7 @@ export default function ProjectSnapshots() {
         { icon: User, title: "Client", value: "Apollo 360 Health · apollo360health.com" },
         { icon: Layers, title: "Industry", value: "Digital Health / Chronic Disease Management / Telehealth" },
         { icon: Smartphone, title: "Project Type", value: "HIPAA-Compliant Telehealth Platform with EHR Integration" },
-        { icon: Rocket, title: "Stage", value: "Growth — Active Deployment with Real Patient Population" },
+        { icon: Rocket, title: "Stage", value: "Growth - Active Deployment with Real Patient Population" },
         { icon: MapPin, title: "Geography", value: "United States (National)" },
         { icon: DollarSign, title: "Business Model", value: "Insurance-Covered Digital Care (Medicare + Major Insurers)" },
         { icon: Cpu, title: "Platforms", value: "Web · iOS · Android" },
@@ -38,7 +38,7 @@ export default function ProjectSnapshots() {
                             Apollo 360 Health
                         </h2>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            A specialized digital health platform delivering medically supervised chronic care — covering cardiovascular disease, obesity, diabetes, hypertension, high cholesterol, and depression — built on HIPAA-compliant infrastructure and integrated with Athenahealth via FHIR R4.
+                            A specialized digital health platform delivering medically supervised chronic care - covering cardiovascular disease, obesity, diabetes, hypertension, high cholesterol, and depression - built on HIPAA-compliant infrastructure and integrated with Athenahealth via FHIR R4.
                         </p>
                     </div>
 

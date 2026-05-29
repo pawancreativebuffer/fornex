@@ -11,7 +11,7 @@ export default function Ecosystem() {
     const data = [
         {
             title: "Patients",
-            desc: "Adults managing chronic conditions — cardiovascular disease, obesity, diabetes, hypertension. Typically Medicare-eligible or major insurance covered.",
+            desc: "Adults managing chronic conditions - cardiovascular disease, obesity, diabetes, hypertension. Typically Medicare-eligible or major insurance covered.",
             icon: User
         },
         {
@@ -59,7 +59,7 @@ export default function Ecosystem() {
                         </h2>
 
                         <p className="text-gray-500 text-base leading-relaxed mb-5 max-w-5xl">
-                            Apollo 360 Health is designed for clinical professionals across the full chronic care and referral workflow — from the patient managing daily health metrics to the referring physician monitoring progress from their own EHR.
+                            Apollo 360 Health is designed for clinical professionals across the full chronic care and referral workflow - from the patient managing daily health metrics to the referring physician monitoring progress from their own EHR.
                         </p>
                     </div>
 

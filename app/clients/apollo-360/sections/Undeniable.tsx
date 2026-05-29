@@ -34,7 +34,7 @@ export default function Undeniable() {
                         </div>
                         <h4 className="text-[22px] lg:text-[24px] font-bold text-[#1a2b3c] mb-4">No Integrated Care Platform Existed</h4>
                         <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            The market was saturated with point solutions — apps for steps, apps for meals, apps for video visits — but nothing that brought all of these elements under medically supervised, insurance-covered care.
+                            The market was saturated with point solutions - apps for steps, apps for meals, apps for video visits - but nothing that brought all of these elements under medically supervised, insurance-covered care.
                         </p>
 
                         {/* Connector 1-2 (Desktop Only) */}

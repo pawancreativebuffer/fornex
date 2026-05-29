@@ -18,7 +18,7 @@ export default function ContactDetails() {
                                 We are always ready to help you and <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">answer your questions </span>
                             </h2>
                             <p className="text-gray-500 text-base font-regular leading-relaxed">
-                                Pacific hake false trevally queen parrotfish black prickleback mosshead warbonnet sweeper! Greenling sleeper.
+                                Helping businesses and individuals connect through reliable support, quick responses, and personalized solutions. Reach out to our team anytime - we're here to answer your questions and assist you every step of the way.
                             </p>
                         </div>
 

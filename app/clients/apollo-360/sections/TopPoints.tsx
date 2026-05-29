@@ -4,7 +4,7 @@ export default function TopPoints() {
     const points = [
         {
             title: "6",
-            description: "Months — Discovery to Launch",
+            description: "Months - Discovery to Launch",
             icon: Clock,
             featured: true
         },
@@ -16,7 +16,7 @@ export default function TopPoints() {
         },
         {
             title: "2",
-            description: "Platforms — iOS & Android",
+            description: "Platforms - iOS & Android",
             icon: Smartphone,
             featured: false
         },

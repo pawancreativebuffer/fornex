@@ -22,7 +22,7 @@ const roadmapItems = {
         phase: "PHASE 4",
         title: "Referring Physician Enrollment Module",
         description:
-            "Direct patient enrollment into Apollo's care program from existing physician workflows — eliminating the friction between a referral decision and the patient's first care team interaction.",
+            "Direct patient enrollment into Apollo's care program from existing physician workflows - eliminating the friction between a referral decision and the patient's first care team interaction.",
         color: "#5b8dc9",
     },
     bottomRight: {
@@ -30,7 +30,7 @@ const roadmapItems = {
         phase: "PHASE 3",
         title: "B2B Enterprise Channel",
         description:
-            "Health systems, employer health programs, and insurance plan chronic disease management programs deploy Apollo's care model within their existing patient populations at scale — no white-label rebuild required.",
+            "Health systems, employer health programs, and insurance plan chronic disease management programs deploy Apollo's care model within their existing patient populations at scale - no white-label rebuild required.",
         color: "#f5a623",
     },
 };
@@ -108,13 +108,13 @@ export default function Coming() {
                         </span>
                     </h2>
                     <p className="text-gray-500 text-base leading-relaxed max-w-6xl">
-                        The platform architecture was designed to be category-agnostic from day one — adding new
+                        The platform architecture was designed to be category-agnostic from day one - adding new
                         modules requires no rebuild of the core system. The database schema and API contracts are
                         forward-compatible with everything planned in Phase 2 and Phase 3.
                     </p>
                 </div>
 
-                {/* ═══════ FOUR BLOCKS — Desktop ═══════ */}
+                {/* ═══════ FOUR BLOCKS - Desktop ═══════ */}
                 <div className="hidden lg:flex flex-col items-center mt-12">
                     {/* Row 1 */}
                     <div className="flex justify-center w-full items-stretch">
@@ -149,7 +149,7 @@ export default function Coming() {
                     </div>
                 </div>
 
-                {/* ═══════ FOUR BLOCKS — Mobile ═══════ */}
+                {/* ═══════ FOUR BLOCKS - Mobile ═══════ */}
                 <div className="lg:hidden grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 px-4">
                     {Object.values(roadmapItems).map((item) => (
                         <div
