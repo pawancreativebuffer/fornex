@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function ServiceReady() {
     return (
@@ -29,10 +30,10 @@ export default function ServiceReady() {
                     </p>
 
                     <div className="flex justify-center mt-10">
-                        <button className="px-5 py-3 rounded-full border border-[#fff] text-[#fff] hover:bg-[#fff] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
+                        <Link href="/contact" className="px-5 py-3 rounded-full border border-[#fff] text-[#fff] hover:bg-[#fff] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium">
                             Talk to an Expert
                             <ArrowRight size={20} />
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>
