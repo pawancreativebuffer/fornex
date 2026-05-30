@@ -16,6 +16,15 @@ export default function WhoWeAre() {
                             <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                             <span>Who We Are</span>
                         </div>
+
+                        <div className="flex flex-col justify-start mb-8">
+                            <img
+                                src="/images/cbc.svg"
+                                alt="logo"
+                                className="w-100"
+                            />
+                        </div>
+
                         <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D]">
                             The Technology Partner <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Healthcare Organizations</span> Actually Need
                         </h2>
