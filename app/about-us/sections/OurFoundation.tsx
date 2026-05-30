@@ -4,7 +4,7 @@ export default function OurFoundation() {
     const sections = [
         {
             title: "Our Mission",
-            text: "Fornex Health was founded by Pawan Panwar, CEO and Managing Director, with one mission: to build technology that actually works for the people who depend on it in healthcare — the providers, the administrators, the billing teams, and ultimately, the patients.",
+            text: "Fornex Health was founded by Pawan Panwar, CEO and Managing Director, with one mission: to build technology that actually works for the people who depend on it in healthcare - the providers, the administrators, the billing teams, and ultimately, the patients.",
             image: "/images/about-us/our_mission_health_tech.png",
             imagePosition: "left"
         },

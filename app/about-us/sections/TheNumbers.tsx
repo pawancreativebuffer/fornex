@@ -36,7 +36,7 @@ export default function TheNumbers() {
             icon: <Users className="w-7 h-7 text-[#90c7e5]" />,
             value: "40+",
             title: "Professionals on Our Team",
-            description: "Developers, architects, healthcare domain experts, designers, and marketing specialists — all focused on healthcare."
+            description: "Developers, architects, healthcare domain experts, designers, and marketing specialists - all focused on healthcare."
         }
     ];
 
