@@ -7,6 +7,7 @@ import OurFoundation from './sections/OurFoundation';
 import Difference from './sections/Difference';
 import MissionVision from './sections/MissionVision';
 import Certifications from './sections/Certifications';
+import Founder from './sections/Founder';
 
 export const metadata = {
     title: "About Us | Fornex Health - Healthcare Technology Built Different",
@@ -32,6 +33,7 @@ export default function AboutPage() {
             <Difference />
             <MissionVision />
             <Certifications />
+            <Founder />
             <Footer />
         </>
     )
