@@ -27,7 +27,7 @@ export default function MissionVision() {
                     </h2>
 
                     <p className="text-gray-200 mt-6 text-base leading-relaxed">
-                        Every delay in care, every denied claim, every missed appointment, every fragmented patient record — these are technology failures with human consequences. Our vision is a healthcare system where technology is invisible because it works, where providers trust their software, and where patients receive the care they need without friction.
+                        Every delay in care, every denied claim, every missed appointment, every fragmented patient record - these are technology failures with human consequences. Our vision is a healthcare system where technology is invisible because it works, where providers trust their software, and where patients receive the care they need without friction.
                     </p>
 
                     <div className="mt-10 lg:mt-auto self-end">
@@ -52,7 +52,7 @@ export default function MissionVision() {
                     </h2>
 
                     <p className="text-gray-200 mt-6 text-base leading-relaxed">
-                        Providers should not spend their days fighting software. Billing teams should not manually process claims that a system should handle automatically. Patients should not wait longer because a software problem slowed down the people caring for them. We build technology that removes these obstacles — so everyone in the healthcare ecosystem can focus on what they are actually there to do.
+                        Providers should not spend their days fighting software. Billing teams should not manually process claims that a system should handle automatically. Patients should not wait longer because a software problem slowed down the people caring for them. We build technology that removes these obstacles - so everyone in the healthcare ecosystem can focus on what they are actually there to do.
                     </p>
 
                     <div className="mt-10 lg:mt-auto self-end">
