@@ -5,31 +5,31 @@ export default function OurFoundation() {
         {
             title: "Our Mission",
             text: "Fornex Health was founded by Pawan Panwar, CEO and Managing Director, with one mission: to build technology that actually works for the people who depend on it in healthcare — the providers, the administrators, the billing teams, and ultimately, the patients.",
-            image: "https://images.unsplash.com/photo-1576091160550-2173ff9e5eb3?q=80&w=2069&auto=format&fit=crop",
+            image: "/images/about-us/our_mission_health_tech.png",
             imagePosition: "left"
         },
         {
             title: "A Foundation of Expertise",
             text: "With a background spanning software development, AI solutions, healthcare technology, and business strategy, Pawan built Creative Buffer Consultancy into a globally recognized technology company before channeling that expertise specifically into healthcare through Fornex Health.",
-            image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=2070&auto=format&fit=crop",
+            image: "/images/about-us/expertise_ai_healthcare.png",
             imagePosition: "right"
         },
         {
             title: "Healthcare-Exclusive by Design",
             text: "The decision to go healthcare-exclusive was deliberate. Healthcare is not like other industries. The stakes are higher. The compliance requirements are real and consequential. The workflows are deeply specialized. The people using these systems are often under enormous pressure. Getting the software right matters in ways it simply does not in other sectors.",
-            image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2072&auto=format&fit=crop",
+            image: "/images/about-us/healthcare_exclusive_compliance.png",
             imagePosition: "left"
         },
         {
             title: "Proven Track Record",
             text: "We have built EMR systems used by US hospitals. We have reduced claim denial rates for cardiovascular practices losing hundreds of thousands of dollars per month. We have launched telehealth platforms from zero to production in six months. We have helped healthtech startups get their first compliant MVP in front of investors and enterprise clients. Every one of those engagements taught us something. And every lesson made our next project better.",
-            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+            image: "/images/dashboard.png",
             imagePosition: "right"
         }
     ];
 
     return (
-        <section className="py-10 lg:py-15 bg-white relative overflow-hidden">
+        <section className="py-10 lg:py-15 bg-white relative">
             <div className="max-w-[1400px] mx-auto px-4 relative z-10">
 
                 {/* Section Header */}
@@ -38,8 +38,8 @@ export default function OurFoundation() {
                         <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                         <span>Our Foundation</span>
                     </div>
-                    <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D]">
-                        Built by People Who Understand <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] block bg-clip-text text-transparent">Healthcare & Technology</span>
+                    <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] max-w-5xl">
+                        Built by People Who Understand <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Healthcare & Technology</span>
                     </h2>
                 </div>
 
