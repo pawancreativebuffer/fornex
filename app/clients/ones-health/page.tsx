@@ -16,6 +16,7 @@ import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials'
 import ThreePortal from './sections/ThreePortal';
 import SideBySide from './sections/SideBySide';
 import WhatNext from './sections/WhatNext';
+import Tailored from './sections/Tailored';
 
 export const metadata = {
     title: "Carevation - Healthcare SaaS Platform",
@@ -49,6 +50,8 @@ export default async function CarevationPage() {
             <ThreePortal />
 
             <Fragmentation />
+            <Tailored />
+
             <TechStack />
             <SideBySide />
 
