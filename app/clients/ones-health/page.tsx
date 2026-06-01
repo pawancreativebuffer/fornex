@@ -8,16 +8,14 @@ import Undeniable from './sections/Undeniable';
 import CoreProblem from './sections/CoreProblem';
 import Fragmentation from './sections/Fragmentations';
 import OnePlatform from './sections/OnePlatform';
-import ProjectTimeline from './sections/ProjectTimeline';
 import Ecosystem from './sections/Ecosystem';
 import Collage from './sections/Collage';
 import TechStack from './sections/TechStack';
-import BusinessProcess from './sections/BusinessProcess';
 import Results from './sections/Results';
-import KeyLearnings from './sections/KeyLearning';
-import Ideal from './sections/Ideal';
 import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
 import ThreePortal from './sections/ThreePortal';
+import SideBySide from './sections/SideBySide';
+import WhatNext from './sections/WhatNext';
 
 export const metadata = {
     title: "Carevation - Healthcare SaaS Platform",
@@ -51,14 +49,13 @@ export default async function CarevationPage() {
             <ThreePortal />
 
             <Fragmentation />
-            <ProjectTimeline />
+            <TechStack />
+            <SideBySide />
 
 
             <Ecosystem />
-            <TechStack />
-            <BusinessProcess />
-            <KeyLearnings />
-            <Ideal />
+            <WhatNext />
+
             <HomeClientTestimonials />
             <Footer />
         </>

@@ -1,58 +1,58 @@
 "use client";
 
-import { Users, Share2, Brain, UserMinus, FileWarning, AlertCircle } from "lucide-react";
+import { HeartPulse, Bot, Database, Users, TrendingUp } from "lucide-react";
 
 const consequences = [
     {
-        icon: Users,
+        icon: HeartPulse,
         id: "01",
-        title: "Coordination Failures",
-        description: "Leading to missed appointments and medication errors.",
+        title: "Personalized Health Journeys",
+        description: "",
         color: "#60C6B1"
     },
     {
-        icon: Share2,
+        icon: Bot,
         id: "02",
-        title: "Communication Gaps",
-        description: "When multiple family members share care responsibilities across different cities.",
+        title: "AI-Powered Recommendations",
+        description: "",
         color: "#90c7e5"
     },
     {
-        icon: Brain,
+        icon: Database,
         id: "03",
-        title: "Caregiver Burnout",
-        description: "Compounded by organizational chaos and a complete absence of support tools.",
+        title: "Centralized Health Data",
+        description: "",
         color: "#ff9900"
     },
     {
-        icon: UserMinus,
+        icon: Users,
         id: "04",
-        title: "Isolation",
-        description: "Long-distance caregivers cut off from meaningful involvement in a loved one's care.",
+        title: "Scalable Coaching Operations",
+        description: "",
         color: "#E3ACC8"
     },
     {
-        icon: FileWarning,
+        icon: TrendingUp,
         id: "05",
-        title: "Advocacy Deficit",
-        description: "Caregivers arriving at medical appointments unprepared, unable to confidently represent their loved one's full history.",
+        title: "Continuous Health Optimization",
+        description: "",
         color: "#c66060"
     }
 ];
 
 export default function Fragmentation() {
     return (
-        <section className="relative w-full py-10 lg:py-15 bg-white overflow-hidden border-t border-gray-100">
+        <section className="relative w-full pt-10 lg:pt-15 pb-10 lg:pb-8 bg-white overflow-hidden border-t border-gray-100">
             <div className="max-w-[1400px] mx-auto px-4 relative z-10">
 
 
                 <div className="flex flex-col items-center text-center mb-5">
                     <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                         <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
-                        <span>The Impact</span>
+                        <span>Five Outcomes</span>
                     </div>
                     <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] max-w-[900px] mx-auto">
-                        The Real Consequences of <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">This Fragmentation</span>
+                        What The Platform <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Delivered</span>
                     </h2>
                 </div>
 

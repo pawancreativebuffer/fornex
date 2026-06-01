@@ -1,77 +1,28 @@
 "use client";
 
-import React from 'react';
 import {
-    Smartphone,
-    Server,
-    ShieldCheck,
-    Zap,
+    MonitorCheck,
 } from 'lucide-react';
 
 const techData = [
     {
-        category: "Frontend / Mobile",
-        icon: <Smartphone className="w-6 h-6" />,
+        category: "Web App",
+        icon: <MonitorCheck className="w-6 h-6" />,
         color: "#60C6B1",
         lightColor: "rgba(96, 198, 177, 0.1)",
         headers: ["Layer", "Technology", "Why"],
         rows: [
-            ["iOS App", "React Native", "Cross-platform consistency, shared codebase with Android, faster iteration"],
-            ["Android App", "React Native / Kotlin", "React Native for UI with Kotlin modules for native device capabilities"],
-            ["State Management", "Redux-style architecture", "Predictable state across complex multi-user CareSpace workflows"]
+            ["Web App", "React js", "Build interactive user interfaces with a rich ecosystem of libraries"],
+            ["Backend", "Node.js", "Ensure high performance and scalability for real-time data processing"],
+            ["Database", "PostgreSQL", "Ensure data integrity and scalability for complex healthcare workflows"],
+            ["Other", "AWS, OpenAI, REST APIs, OAuth, Analytics", "Provides AI-powered insights, secure authentication, seamless integrations, and data-driven analytics to optimize healthcare operations"],
         ]
     },
-    {
-        category: "Backend & Infrastructure",
-        icon: <Server className="w-6 h-6" />,
-        color: "#90c7e5",
-        lightColor: "rgba(144, 199, 229, 0.1)",
-        headers: ["Layer", "Technology", "Why"],
-        rows: [
-            ["Backend API", "Node.js + TypeScript", "Type-safe, scalable, fast development velocity"],
-            ["Database", "PostgreSQL", "Granular access control per CareSpace user role with row-level security"],
-            ["Cloud", "AWS (ECS, RDS, S3)", "Enterprise grade reliability, scalable infrastructure"],
-            ["Authentication", "OAuth 2.0 + MFA", "Secure multi-factor authentication for all accounts"],
-            ["Real-time Sync", "WebSocket + AWS API Gateway", "Live CareSpace updates across all family members instantly"],
-            ["Push Notifications", "FCM + APNs", "Cross-platform medication and appointment reminders"],
-            ["AI Care Insights", "Integrated ML pipeline", "Proactive care recommendations - live in current build"]
-        ]
-    },
-    {
-        category: "Security & Data Protection",
-        icon: <ShieldCheck className="w-6 h-6" />,
-        color: "#ff9900",
-        lightColor: "rgba(255, 153, 0, 0.1)",
-        headers: ["Requirement", "Implementation"],
-        rows: [
-            ["Data at rest", "AES-256 encryption on all sensitive user data"],
-            ["Data in transit", "TLS 1.3 across all API endpoints"],
-            ["Authentication", "OAuth 2.0 with multi-factor authentication"],
-            ["Access control", "Role-based CareSpace permissions per family member"],
-            ["Privacy", "Personal care coordination data only - no PHI involved"],
-            ["Data policy", "Zero data-selling - user data is never shared or monetized"],
-            ["Sessions", "Auto-expiring tokens with secure refresh flows"]
-        ]
-    },
-    {
-        category: "Third-Party Integrations",
-        icon: <Zap className="w-6 h-6" />,
-        color: "#E3ACC8",
-        lightColor: "rgba(227, 172, 200, 0.1)",
-        headers: ["Service", "Purpose"],
-        rows: [
-            ["Twilio", "SMS reminders for medications and appointments"],
-            ["Firebase", "Push notifications across Android and iOS"],
-            ["RevenueCat", "Freemium to subscription model management"],
-            ["Sentry", "Crash reporting and error monitoring"],
-            ["Mixpanel", "Privacy-respecting product analytics"]
-        ]
-    }
 ];
 
 export default function TechStack() {
     return (
-        <section className="relative w-full py-10 lg:py-15 overflow-hidden bg-[#f7fbfe] mt-10 lg:mt-15">
+        <section className="relative w-full py-10 lg:py-15 overflow-hidden bg-[#f7fbfe]">
             {/* Background Decorative Elements */}
             <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-[#60C6B1]/5 rounded-full blur-[120px] -z-10" />
             <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-[#90c7e5]/5 rounded-full blur-[120px] -z-10" />
@@ -83,12 +34,9 @@ export default function TechStack() {
                         <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
                         <span>Technology Stack</span>
                     </div>
-                    <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] mb-7 max-w-6xl">
-                        Enterprise Grade <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Healthcare Technology</span>, Built for Consumer Scale
+                    <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] max-w-6xl">
+                        Built on a <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Modern Foundation</span>
                     </h2>
-                    <p className="text-gray-500 text-base leading-relaxed max-w-3xl">
-                        Our architecture is designed for security, scalability, and seamless user experiences across all devices and platforms.
-                    </p>
                 </div>
 
 
