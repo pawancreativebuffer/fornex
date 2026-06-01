@@ -16,40 +16,23 @@ export default function BeforeDev() {
                     <div className="lg:col-span-7 space-y-5">
                         <div className="flex items-center gap-2 text-[#60C6B1] font-medium text-sm lg:text-base">
                             <div className="w-2.5 h-2.5 bg-[#60C6B1] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
-                            <span>The Background</span>
+                            <span>The Founder</span>
                         </div>
                         <h1 className="text-shadow-lg/20 font-[700] text-4xl lg:text-6xl text-[#fff] leading-[1.1]">
-                            A Healthcare Veteran Who <span className="text-[#60C6B1]">Lived the Problem</span> Before He Built the Solution
+                            Determined to make healthcare <span className="text-[#60C6B1]">proactive</span>, not reactive
                         </h1>
 
                         <p className="text-white/70 text-base leading-relaxed">
-                            Carevation is a digital health startup built at the intersection of caregiving, consumer technology, and human-centered design. Its name is a deliberate fusion of <span className="text-white font-medium">"care"</span> and <span className="text-white font-medium">"innovation"</span> - a reflection of its mission to bring modern digital product thinking to one of the most emotionally complex areas of life.
+                            The idea behind Ones Health began with a simple observation: people have more health data than ever before, yet very little clarity about what to do with it.
                         </p>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="flex gap-4 p-4 rounded-[20px] bg-white/5 border border-white/10 hover:border-[#60C6B1]/30 transition-colors group">
-                                <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[#60C6B1]/10 flex items-center justify-center text-[#60C6B1] group-hover:scale-110 transition-transform">
-                                    <Award size={24} />
-                                </div>
-                                <div>
-                                    <h4 className="text-white font-semibold text-[20px] mb-1">15+ Year Veteran</h4>
-                                    <p className="text-white/70 text-sm leading-relaxed">Clinical genomics, diagnostics, and consumer health tools.</p>
-                                </div>
-                            </div>
-
-                            <div className="flex gap-4 p-4 rounded-[20px] bg-white/5 border border-white/10 hover:border-[#60C6B1]/30 transition-colors group">
-                                <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[#60C6B1]/10 flex items-center justify-center text-[#60C6B1] group-hover:scale-110 transition-transform">
-                                    <GraduationCap size={24} />
-                                </div>
-                                <div>
-                                    <h4 className="text-white font-semibold text-[20px] mb-1">MBA Kellogg</h4>
-                                    <p className="text-white/70 text-sm leading-relaxed">Northwestern University's School of Management.</p>
-                                </div>
-                            </div>
-                        </div>
-
                         <p className="text-white/70 text-base leading-relaxed">
-                            But what drove Carevation wasn't a gap in a market model - it was a decade spent caring for his own mother after her arthritis diagnosis. Despite his deep background in healthtech, he found himself stitching together spreadsheets and text threads, constantly afraid of missing something critical.
+                            Blood tests, wearable devices, health assessments, and lifestyle tracking tools generate valuable information every day. However, most individuals are left to interpret that data on their own or receive generalized recommendations that fail to reflect their unique biology.
+                        </p>
+                        <p className="text-white/70 text-base leading-relaxed">
+                            The founder of Ones Health believed there had to be a better approach—one that combined science, technology, and personalized guidance to help people make informed decisions about their health before problems arise.
+                        </p>
+                        <p className="text-white/70 text-base leading-relaxed">
+                            Rather than waiting for illness to occur, the vision was to create a platform focused on prevention, optimization, and longevity. A platform capable of transforming complex health information into practical actions that individuals could follow with confidence.
                         </p>
                     </div>
 
@@ -57,8 +40,8 @@ export default function BeforeDev() {
                     <div className="lg:col-span-5 relative">
                         <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden group">
                             <Image
-                                src="/healthcare_founder_adrian_chung_1776171833373.png"
-                                alt="Adrian Chung, Founder of Carevation"
+                                src="/images/peter.jpg"
+                                alt="Founder & CEO"
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                             />
@@ -71,8 +54,8 @@ export default function BeforeDev() {
                                         <Heart size={24} fill="currentColor" />
                                     </div>
                                     <div>
-                                        <p className="text-[#1a2b3c] font-bold text-lg">Foundation of Empathy</p>
-                                        <p className="text-[#1a2b3c] text-sm">Built from 10 years of caregiving experience.</p>
+                                        <p className="text-[#1a2b3c] font-bold text-lg">Founder & CEO</p>
+                                        <p className="text-[#1a2b3c] text-sm">Ones Health</p>
                                     </div>
                                 </div>
                             </div>
@@ -91,13 +74,13 @@ export default function BeforeDev() {
 
                         <div className="max-w-[900px] mx-auto text-center space-y-8">
                             <p className="text-[18px] font-regular leading-relaxed italic text-white">
-                                "After a decade as a caregiver and 15 years in healthcare technology, I knew the gap was real. I brought Carevation to ForNex because I needed a team that understood both the human complexity and the product precision required to serve real families."
+                                "The future of healthcare isn't about collecting more data—it's about helping people understand what that data means and empowering them to take action. Ones Health was created to bridge the gap between information and meaningful health outcomes."
                             </p>
 
                             <div className="flex flex-col items-center">
                                 <div className="w-12 h-1 bg-[#60C6B1] rounded-full mb-6" />
-                                <h4 className="text-xl font-semibold text-white uppercase mb-1">Adrian Chung</h4>
-                                <p className="text-[#60C6B1] font-medium">Founder & CEO, Carevation</p>
+                                <h4 className="text-xl font-semibold text-white uppercase mb-1">Peter S.</h4>
+                                <p className="text-[#60C6B1] font-medium">Founder & CEO, Ones Health</p>
                             </div>
                         </div>
                     </div>

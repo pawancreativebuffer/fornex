@@ -13,14 +13,14 @@ import {
 export default function ProjectSnapshots() {
 
     const flow = [
-        { icon: User, title: "Client", value: "Carevation" },
-        { icon: User, title: "Founder", value: "Adrian Chung" },
-        { icon: Layers, title: "Industry", value: "Digital Health" },
-        { icon: Smartphone, title: "Project Type", value: "Mobile App" },
-        { icon: Rocket, title: "Stage", value: "Early Access / Beta" },
+        { icon: User, title: "Client", value: "Ones Health" },
+        { icon: User, title: "Founder", value: "Peter S." },
+        { icon: Layers, title: "Industry", value: "HealthTech" },
+        { icon: Smartphone, title: "Project Type", value: "Web App" },
+        { icon: Rocket, title: "Stage", value: "Live" },
         { icon: MapPin, title: "Geography", value: "United States" },
-        { icon: DollarSign, title: "Business Model", value: "Freemium" },
-        { icon: Cpu, title: "Platforms", value: "React Native + Kotlin" },
+        { icon: DollarSign, title: "Business Model", value: "Subscription Based" },
+        { icon: Cpu, title: "Platforms", value: "React + Node.js + Postgres" },
     ]
 
     return (
@@ -34,10 +34,10 @@ export default function ProjectSnapshots() {
                             <span>Project Snapshot</span>
                         </div>
                         <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#2D2D2D] mb-4">
-                            Carevation
+                            Ones Health
                         </h2>
-                        <p className="text-gray-500 text-base font-regular leading-relaxed">
-                            Digital Health & Caregiving Technology - Consumer mobile application redefining care coordination.
+                        <p className="text-gray-500 text-base font-regular leading-relaxed max-w-[1200px]">
+                            A vision to make personalized healthcare accessible
                         </p>
                     </div>
 
