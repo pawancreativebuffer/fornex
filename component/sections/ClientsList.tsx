@@ -13,7 +13,7 @@ const CLIENTS_DATA = [
         impact: "Personalized wellness optimization",
         image: "/images/three.jpg",
         icon: '/images/ones.svg',
-        link: '/clients'
+        link: '/clients/ones-health'
     },
     {
         id: "02",

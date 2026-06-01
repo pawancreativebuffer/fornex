@@ -10,7 +10,7 @@ const services = [
         title: "Ones",
         description: "Ones is a personalized wellness platform that uses health data, biomarkers, and lifestyle insights to create tailored daily supplement formulas. The platform combines science-backed nutrition, premium ingredients, and a seamless digital experience to help users optimize their overall health and performance.",
         image: "/images/three.jpg",
-        link: '#'
+        link: 'clients/ones-health'
     },
     {
         id: 1,
