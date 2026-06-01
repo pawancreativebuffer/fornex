@@ -13,74 +13,62 @@ import {
 } from 'lucide-react';
 
 const strategicPoints = [
-    { title: "Simplify Medication Management" },
-    { title: "Never Miss a Care Visit" },
-    { title: "Enable Coordinated Family Caregiving" },
-    { title: "Track Symptoms and Conditions Over Time" },
-    { title: "Build for Scale From Day One" }
+    { title: "Unified health profile creation and onboarding" },
+    { title: "Biomarker analysis and risk identification" },
+    { title: "AI-powered personalized wellness recommendations" },
+    { title: "Nutrition, lifestyle, and supplement guidance" },
+    { title: "Goal setting and continuous progress monitoring" }
 ];
 
 const coreModules = [
     {
         id: "1",
-        title: "Appointment & Task Management",
+        title: "Health Profile Engine",
         icon: <Calendar className="w-12 h-12" />,
         color: "#60C6B1",
         bullets: [
-            "Real-time visibility into upcoming appointments, overdue tasks, and follow-up items across the entire care team",
-            "Calendar integration prevents scheduling conflicts",
-            "Structured pre-visit planning prepares caregivers for every medical conversation",
-            "Nothing falls through the cracks"
+            "Comprehensive onboarding",
+            "Medical history collection",
+            "Lifestyle assessments",
+            "Goal setting"
         ]
     },
     {
         id: "2",
-        title: "Medication Management",
+        title: "Biomarker Intelligence Layer",
         icon: <Pill className="w-12 h-12" />,
         color: "#90c7e5",
         bullets: [
-            "Comprehensive medication tracking - dosage, instructions, refill schedules, and prescribing provider",
-            "A complete medication history is always available for specialist visits",
-            "Smart reminders ensure no dose is ever missed",
-            "Designed to eliminate one of the highest-risk areas in home-based care"
+            "Lab report management",
+            "Biomarker interpretation",
+            "Trend monitoring",
+            "Risk identification"
         ]
     },
     {
         id: "3",
-        title: "CareSpace Shared Collaborative Workspace",
+        title: "AI Recommendation Engine",
         icon: <Users2 className="w-12 h-12" />,
         color: "#ff9900",
         bullets: [
-            "The central hub where all care information lives",
-            "Shared task assignments with clear ownership",
-            "Role-based invitations with configurable permissions for every family member",
-            "Real-time synchronization across all devices - replaces fragmented group text threads entirely"
+            "Personalized wellness plans",
+            "Nutrition recommendations",
+            "Supplement guidance",
+            "Lifestyle interventions"
         ]
     },
     {
         id: "4",
-        title: "Document & Records Storage",
+        title: "Progress Tracking System",
         icon: <FileText className="w-12 h-12" />,
         color: "#E3ACC8",
         bullets: [
-            "Secure storage for medical records, test results, insurance documents, and care plans",
-            "Shareable with providers in seconds",
-            "Organized by category for fast retrieval",
-            "Accessible from any device"
+            "Goal monitoring",
+            "Health score tracking",
+            "Milestone reporting",
+            "Longitudinal insights"
         ]
     },
-    {
-        id: "5",
-        title: "Caregiver Wellness & Self Care",
-        icon: <Heart className="w-12 h-12" />,
-        color: "#c66060",
-        bullets: [
-            "Built-in mood and stress check-ins",
-            "Energy tracking over time",
-            "Reflection tools and journaling prompts",
-            "The feature category every competitor has overlooked - because caregiver health is inseparable from care quality"
-        ]
-    }
 ];
 
 export default function OnePlatform() {
@@ -94,13 +82,13 @@ export default function OnePlatform() {
                         <div className="mb-10">
                             <div className="flex items-center gap-2 text-[#90c7e5] font-medium text-sm lg:text-base mb-4">
                                 <div className="w-2.5 h-2.5 bg-[#90c7e5] rounded-full shadow-[0_0_10px_rgba(144,199,229,0.5)]" />
-                                <span>The Solution</span>
+                                <span>What We Built</span>
                             </div>
                             <h2 className="text-4xl lg:text-6xl font-bold leading-[1.1] text-[#1a2b3c] mb-4 lg:mb-6">
-                                A Mobile First Care Command Center <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Designed for Real Families</span>
+                                Intelligent Health <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Optimization Platform</span>
                             </h2>
-                            <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-6 lg:max-w-[500px]">
-                                ForNex Health designed and developed Carevation as a native mobile application for iOS and Android, built around a central concept: the <span className="font-semibold text-[#1a2b3c]">CareSpace</span> - a shared, role-based digital workspace where all of a loved one's care information lives, every family member stays synchronized.
+                            <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-6 lg:max-w-[900px]">
+                                Our platform brings together health data, biomarker intelligence, AI-driven recommendations, and continuous progress tracking into a single ecosystem. Designed to support preventive healthcare and longevity, it transforms complex health information into personalized actions, empowering members and care teams to make smarter decisions at every stage of the wellness journey.
                             </p>
                         </div>
 
@@ -156,7 +144,7 @@ export default function OnePlatform() {
                                         </div>
 
                                         {/* Module Content - Single Line Points */}
-                                        <div className="space-y-4 max-w-[800px] mt-8">
+                                        <div className="space-y-2 max-w-[800px] mt-8">
                                             {module.bullets.map((bullet, i) => (
                                                 <div key={i} className="flex items-start gap-5 group/item">
                                                     <div className="w-2 h-2 rounded-full mt-2.5 shrink-0 bg-white/40 group-hover/item:bg-white group-hover/item:scale-150 transition-all duration-300" />

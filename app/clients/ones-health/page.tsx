@@ -17,6 +17,7 @@ import Results from './sections/Results';
 import KeyLearnings from './sections/KeyLearning';
 import Ideal from './sections/Ideal';
 import HomeClientTestimonials from '@/component/sections/HomeClientTestimonials';
+import ThreePortal from './sections/ThreePortal';
 
 export const metadata = {
     title: "Carevation - Healthcare SaaS Platform",
@@ -44,15 +45,18 @@ export default async function CarevationPage() {
             <CoreProblem />
 
             <Undeniable />
-            <Fragmentation />
+            <Results />
 
             <OnePlatform />
+            <ThreePortal />
+
+            <Fragmentation />
             <ProjectTimeline />
+
 
             <Ecosystem />
             <TechStack />
             <BusinessProcess />
-            <Results />
             <KeyLearnings />
             <Ideal />
             <HomeClientTestimonials />
