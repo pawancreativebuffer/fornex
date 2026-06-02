@@ -40,7 +40,7 @@ export default function BeforeDev() {
                     <div className="lg:col-span-5 relative">
                         <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden group">
                             <Image
-                                src="/images/peter.jpg"
+                                src="/images/peter.webp"
                                 alt="Founder & CEO"
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
