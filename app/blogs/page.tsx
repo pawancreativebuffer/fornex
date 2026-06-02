@@ -15,6 +15,13 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 8,
+            title: "AI Governance in Healthcare Is No Longer Optional. Here Is What Your Vendor Should Be Able to Prove",
+            desc: "Healthcare organizations are deploying AI faster than they are building the governance infrastructure to support it. Here is what proper governance actually looks like — along with the specific questions your vendors should be able to answer before you sign anything.",
+            image: "/images/ai_governance_blog.png",
+            link: '/blogs/ai-governance-in-healthcare-is-no-longer-optional'
+        },
+        {
             id: 7,
             title: "What Most Hospitals Get Wrong When Deploying AI Agents in Revenue Cycle",
             desc: "U.S. healthcare organizations lose over $262 billion annually due to revenue cycle inefficiencies. What gets cited less often is why AI deployments meant to fix this keep failing in practice.",
