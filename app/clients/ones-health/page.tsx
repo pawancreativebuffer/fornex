@@ -17,6 +17,8 @@ import ThreePortal from './sections/ThreePortal';
 import SideBySide from './sections/SideBySide';
 import WhatNext from './sections/WhatNext';
 import Tailored from './sections/Tailored';
+import Ideal from './sections/Ideal';
+import KeyLearnings from './sections/KeyLearning';
 
 export const metadata = {
     title: "Carevation - Healthcare SaaS Platform",
@@ -55,10 +57,11 @@ export default async function CarevationPage() {
             <TechStack />
             <SideBySide />
 
-
             <Ecosystem />
             <WhatNext />
 
+            <KeyLearnings />
+            <Ideal />
             <HomeClientTestimonials />
             <Footer />
         </>

@@ -69,6 +69,18 @@ const coreModules = [
             "Longitudinal insights"
         ]
     },
+    {
+        id: "5",
+        title: "Wearable Integrations",
+        icon: <Activity className="w-12 h-12" />,
+        color: "#c66060",
+        bullets: [
+            "Seamless device connectivity",
+            "Continuous biometric tracking",
+            "Activity & recovery insights",
+            "Unified health data dashboard"
+        ]
+    },
 ];
 
 export default function OnePlatform() {
