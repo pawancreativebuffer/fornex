@@ -15,6 +15,13 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 9,
+            title: "The Hospital-at-Home Shift: What It Means for Your Healthcare IT Stack in 2026",
+            desc: "In February 2026, Congress extended the Acute Hospital Care at Home program through the end of 2030. The program provides waivers to hospitals to provide inpatient-level care at home to qualified Medicare beneficiaries.",
+            image: "/images/hospital_at_home.png",
+            link: '/blogs/the-hospital-at-home-shift-what-it-means-for-your-healthcare-it-stack-in-2026'
+        },
+        {
             id: 8,
             title: "AI Governance in Healthcare Is No Longer Optional. Here Is What Your Vendor Should Be Able to Prove",
             desc: "Healthcare organizations are deploying AI faster than they are building the governance infrastructure to support it. Here is what proper governance actually looks like — along with the specific questions your vendors should be able to answer before you sign anything.",
