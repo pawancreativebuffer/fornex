@@ -21,8 +21,8 @@ export default function TopPoints() {
             featured: false
         },
         {
-            title: "3 Personas",
-            description: "Members · Coaches · Admins",
+            title: "Total 2 Personas",
+            description: "Members · Admins",
             icon: Users,
             featured: false
         }

@@ -11,37 +11,26 @@ export default function ThreePortal() {
                 "Lab uploads",
                 "AI recommendations",
                 "Progress tracking",
-                "Health goals"
+                "Health goals",
+                "Secure messaging"
             ],
             color: "#60C6B1",
             icon: Heart,
             num: "01"
         },
         {
-            title: "Health Coach Portal",
-            listings: [
-                "Client management",
-                "Health profile review",
-                "Biomarker analysis",
-                "Plan adjustments",
-                "Communication tools"
-            ],
-            color: "#90c7e5",
-            icon: Stethoscope,
-            num: "02"
-        },
-        {
             title: "Admin Platform",
             listings: [
                 "User management",
-                "Subscription oversight",
-                "Reporting",
-                "Analytics",
+                "Client management",
+                "Health profile review",
+                "Biomarker analysis",
+                "Reporting & analytics",
                 "Content administration"
             ],
             color: "#ff9900",
             icon: Users,
-            num: "03"
+            num: "02"
         }
     ]
 
@@ -57,11 +46,11 @@ export default function ThreePortal() {
                         <span>User Ecosystem</span>
                     </div>
                     <h1 className="text-shadow-lg/20 font-[700] text-4xl lg:text-6xl text-[#fff] leading-[1.1] max-w-5xl m-auto">
-                        Three Portals, <span className="text-[#60C6B1]">One Platform</span>
+                        Two Portals, <span className="text-[#60C6B1]">One Platform</span>
                     </h1>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-8 pb-15">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-8 pb-15">
                     {potential.map((card, index) => (
                         <div key={index} className="relative flex flex-col items-center group">
                             {/* Card Content inspired by Ref Image 2 */}
@@ -74,7 +63,7 @@ export default function ThreePortal() {
                                     <div className="absolute -right-4 top-1/2 w-8 h-[2px] opacity-30" style={{ backgroundColor: card.color }}></div>
                                     <h3 className="text-[22px] font-bold uppercase" style={{ color: card.color }}>{card.title}</h3>
                                 </div>
-                                <ul className="flex flex-col gap-2 text-white/70 text-base leading-relaxed group-hover:text-white transition-colors duration-300 text-left">
+                                <ul className="grid grid-cols-1 lg:grid-cols-2 gap-x-4 gap-y-3 text-white/70 text-base leading-relaxed group-hover:text-white transition-colors duration-300 text-left">
                                     {card.listings.map((item, i) => (
                                         <li key={i} className="flex items-center gap-3">
                                             <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: card.color }}></div>

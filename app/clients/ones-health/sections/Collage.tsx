@@ -13,101 +13,85 @@ const THEME_COLORS = [
 
 const STORY_PAGES = [
     {
-        title: "Paper Medication Log",
-        description: "Handwritten medicine schedules tracked doses, timings, and refill notes daily.",
-        image: "/images/project1.jpg",
+        title: "Generic Supplement Shelf",
+        description: "Hundreds of off-the-shelf vitamins marketed to everyone, with no understanding of what your body actually needs.",
+        image: "/images/ones1.png",
         color: THEME_COLORS[0].gradient,
         accent: THEME_COLORS[0].hex,
         info: 'before'
     },
     {
-        title: "Smart Medication Tracking",
-        description: "Automatic reminders, dosage schedules, refill alerts, and shared updates.",
-        image: "/images/shot1.png",
+        title: "Your AI-Generated Formula",
+        description: "A personalized supplement formula built from your biomarkers and wearable data, tailored specifically to your biology.",
+        image: "/images/ones2.png",
         color: THEME_COLORS[0].gradient,
         accent: THEME_COLORS[0].hex,
         info: 'after'
     },
     {
-        title: "Printable Caregiver Logs",
-        description: "Printed sheets recorded appointments, symptoms, routines, and caregiving tasks.",
-        image: "/images/project2.png",
+        title: "The Lifestyle Quiz",
+        description: "Generic health questionnaires produced the same recommendations for thousands of people regardless of their biology.",
+        image: "/images/ones3.png",
         color: THEME_COLORS[1].gradient,
         accent: THEME_COLORS[1].hex,
         info: 'before'
     },
     {
-        title: "Digital Care Logs",
-        description: "Track appointments, symptoms, tasks, and daily notes instantly.",
-        image: "/images/shot2.png",
+        title: "Real Data. Real Formula.",
+        description: "Blood work and wearable data drive every recommendation, creating a formula unique to your health profile.",
+        image: "/images/ones4.png",
         color: THEME_COLORS[1].gradient,
         accent: THEME_COLORS[1].hex,
         info: 'after'
     },
     {
-        title: "Caregiver Binders",
-        description: "Organized folders stored reports, contacts, prescriptions, and care notes.",
-        image: "/images/project3.jpg",
+        title: "Fragmented Supply Chain",
+        description: "Orders moved through emails, spreadsheets, and manual handoffs, creating delays and visibility gaps.",
+        image: "/images/ones5.png",
         color: THEME_COLORS[2].gradient,
         accent: THEME_COLORS[2].hex,
         info: 'before'
     },
     {
-        title: "Secure Document Vault",
-        description: "Store reports, prescriptions, contacts, and records digitally.",
-        image: "/images/shot3.png",
+        title: "Automated Production Pipeline",
+        description: "Formula approval instantly triggers manufacturing and fulfillment with real-time status tracking.",
+        image: "/images/ones6.png",
         color: THEME_COLORS[2].gradient,
         accent: THEME_COLORS[2].hex,
         info: 'after'
     },
     {
-        title: "Physical Medication Organizers",
-        description: "Pill boxes separated medicines by day and dosage timing.",
-        image: "/images/project4.jpg",
+        title: "Disconnected Health Records",
+        description: "Lab reports, wearable metrics, and supplement plans lived in separate systems with no unified view.",
+        image: "/images/ones7.png",
         color: THEME_COLORS[3].gradient,
         accent: THEME_COLORS[3].hex,
         info: 'before'
     },
     {
-        title: "Guided Medication Management",
-        description: "Organize medicines with reminders, instructions, and adherence tracking.",
-        image: "/images/shot4.png",
+        title: "Unified Health Profile",
+        description: "All health data is consolidated into a single platform that continuously informs recommendations.",
+        image: "/images/ones8.png",
         color: THEME_COLORS[3].gradient,
         accent: THEME_COLORS[3].hex,
         info: 'after'
     },
     {
-        title: "Spreadsheet Manual Tracking",
-        description: "Spreadsheets managed medications, expenses, appointments, and progress updates manually.",
-        image: "/images/project5.jpg",
+        title: "Black-Box Recommendations",
+        description: "Customers received supplement suggestions without understanding why specific ingredients were included.",
+        image: "/images/ones9.png",
         color: THEME_COLORS[4].gradient,
         accent: THEME_COLORS[4].hex,
         info: 'before'
     },
     {
-        title: "Centralized Care Calendar",
-        description: "Manage tasks, expenses, schedules, and updates in one place.",
-        image: "/images/shot5.png",
+        title: "Transparent Health Intelligence",
+        description: "Every ingredient is linked to a measurable biomarker, providing complete visibility into each recommendation.",
+        image: "/images/ones10.png",
         color: THEME_COLORS[4].gradient,
         accent: THEME_COLORS[4].hex,
         info: 'after'
-    },
-    {
-        title: "Phone Messaging Coordination",
-        description: "Calls and chats handled reminders, updates, and family coordination.",
-        image: "/images/project6.png",
-        color: THEME_COLORS[0].gradient,
-        accent: THEME_COLORS[0].hex,
-        info: 'before'
-    },
-    {
-        title: "Shared Collaboration",
-        description: "Assign tasks, share updates, and coordinate caregivers easily.",
-        image: "/images/shot6.png",
-        color: THEME_COLORS[0].gradient,
-        accent: THEME_COLORS[0].hex,
-        info: 'after'
-    },
+    }
 ];
 
 export default function Collage() {
