@@ -15,6 +15,13 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 10,
+            title: "Why 80% of Healthcare Executives Believe AI Will Transform Care, But Most Have Not Deployed It Yet",
+            desc: "Healthcare is enthusiastic about AI. Healthcare is not particularly good at shipping it. The gap between those two facts is the most important operational challenge in health IT right now.",
+            image: "/images/agentic-ai-healthcare.png",
+            link: '/blogs/why-80-percent-of-healthcare-executives-believe-ai-will-transform-care-but-most-have-not-deployed-it-yet'
+        },
+        {
             id: 9,
             title: "The Hospital-at-Home Shift: What It Means for Your Healthcare IT Stack in 2026",
             desc: "In February 2026, Congress extended the Acute Hospital Care at Home program through the end of 2030. The program provides waivers to hospitals to provide inpatient-level care at home to qualified Medicare beneficiaries.",
