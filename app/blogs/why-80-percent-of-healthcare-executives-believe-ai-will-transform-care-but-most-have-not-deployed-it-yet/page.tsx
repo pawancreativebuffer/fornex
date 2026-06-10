@@ -192,6 +192,9 @@ export default function BlogPost() {
                                     <p className="mb-10">
                                         The belief that AI will transform healthcare is almost universal now. The willingness to do the unglamorous infrastructure work that makes transformation possible is much rarer. That gap is where the competitive advantage actually lives in 2026.
                                     </p>
+                                    <p className="mb-10">
+                                        For a practical view of what AI agent deployment looks like in the revenue cycle context specifically, our blog on what hospitals get wrong when deploying AI agents in revenue cycle covers the most common mistakes along with how to avoid them.
+                                    </p>
 
                                     <div className="mt-12 pt-10 border-t border-slate-100">
                                         <p className="text-lg font-medium text-slate-500 mb-8">
