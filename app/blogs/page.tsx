@@ -15,6 +15,13 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 11,
+            title: "How to Choose a Healthcare Software Development Company",
+            desc: "The wrong vendor does not just waste money. It creates compliance exposure, delays your go-live, puts patient data at risk along with leaves your clinical staff with a system nobody actually uses.",
+            image: "/images/project_development.png",
+            link: '/blogs/how-to-choose-a-healthcare-software-development-company'
+        },
+        {
             id: 10,
             title: "Why 80% of Healthcare Executives Believe AI Will Transform Care, But Most Have Not Deployed It Yet",
             desc: "Healthcare is enthusiastic about AI. Healthcare is not particularly good at shipping it. The gap between those two facts is the most important operational challenge in health IT right now.",
