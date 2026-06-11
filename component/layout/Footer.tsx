@@ -102,7 +102,7 @@ export default function Footer() {
                             <p className="text-[14px] text-gray-400 mb-6 leading-relaxed">
                                 Sign up for our latest news & articles. We won't give you spam mails.
                             </p>
-                            <form className="space-y-4">
+                            <form className="space-y-4" method="post">
                                 <input
                                     type="email"
                                     placeholder="Email Address *"

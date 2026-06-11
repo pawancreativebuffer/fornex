@@ -34,7 +34,7 @@ export default function ContactForm() {
             </div>
 
             <div className="pt-4">
-                <button className="px-5 py-3 rounded-full border border-[#60c6b1] text-[#fff] bg-[#60c6b1] hover:bg-transparent hover:text-[#60c6b1] cursor-pointer transition flex items-center gap-2 font-medium">
+                <button type="submit" className="px-5 py-3 rounded-full border border-[#60c6b1] text-[#fff] bg-[#60c6b1] hover:bg-transparent hover:text-[#60c6b1] cursor-pointer transition flex items-center gap-2 font-medium">
                     Get Free Consultation
                     <ChevronRight size={20} />
                 </button>
