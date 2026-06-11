@@ -18,7 +18,7 @@ interface BlogListProps {
 
 export default function BlogList({ blogs }: BlogListProps) {
     const [currentPage, setCurrentPage] = useState(1);
-    const blogsPerPage = 9;
+    const blogsPerPage = 12;
 
     const indexOfLastBlog = currentPage * blogsPerPage;
     const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
