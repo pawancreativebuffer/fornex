@@ -48,7 +48,7 @@ export default function BlogPost() {
                                 </div>
                                 <div>
                                     <p className="text-xs uppercase tracking-wider text-white/50 font-medium text-left">Published</p>
-                                    <p className="font-medium text-white">June 11, 2026</p>
+                                    <p className="font-medium text-white">May 7, 2025</p>
                                 </div>
                             </div>
                         </div>
