@@ -16,7 +16,7 @@ export default function Ready() {
                     </h2>
 
                     <p className="text-gray-500 text-base font-regular leading-relaxed max-w-5xl mx-auto text-center">
-                        Whether you are a hospital modernizing legacy systems, a startup building your first compliant platform, or a billing company looking to automate your revenue cycle — we have done it before, and we can do it for you.
+                        Whether you are a hospital modernizing legacy systems, a startup building your first compliant platform, or a billing company looking to automate your revenue cycle - we have done it before, and we can do it for you.
                     </p>
 
                     <div className="flex justify-center mt-10">

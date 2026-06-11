@@ -23,7 +23,7 @@ export default function Results() {
                         Data existed. <span className="text-[#60C6B1]">Insights did not.</span>
                     </h1>
                     <p className="text-white/70 text-base leading-relaxed max-w-6xl m-auto">
-                        Users could access blood work, lifestyle information, wearable metrics, and health goals — but no centralized platform could transform those inputs into meaningful, personalized recommendations. That became the foundation of Ones Health.
+                        Users could access blood work, lifestyle information, wearable metrics, and health goals - but no centralized platform could transform those inputs into meaningful, personalized recommendations. That became the foundation of Ones Health.
                     </p>
                 </div>
 

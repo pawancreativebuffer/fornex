@@ -75,11 +75,11 @@ export default function BlogPost() {
                                     </p>
 
                                     <p className="mb-6">
-                                        <a href="https://www.tactionsoft.com/blog/how-to-choose-healthcare-software-development-company/" target='_blank' className='text-[#60C6B1]'>The difference between a successful healthcare software project along with a failed one is almost always the development partner — not the technology, not the budget, not the timeline. General-purpose agencies consistently underestimate healthcare complexity, leading to budget overruns, compliance gaps along with missed deadlines.</a>
+                                        <a href="https://www.tactionsoft.com/blog/how-to-choose-healthcare-software-development-company/" target='_blank' className='text-[#60C6B1]'>The difference between a successful healthcare software project along with a failed one is almost always the development partner - not the technology, not the budget, not the timeline. General-purpose agencies consistently underestimate healthcare complexity, leading to budget overruns, compliance gaps along with missed deadlines.</a>
                                     </p>
 
                                     <p className="mb-6">
-                                        Healthcare software development is not like building a retail app. Every decision — from data architecture to third-party integrations to testing protocols — carries regulatory weight. A vendor that has built five hundred mobile apps but zero healthcare applications is not qualified to build your EHR integration, your patient portal along with your telehealth platform.
+                                        Healthcare software development is not like building a retail app. Every decision - from data architecture to third-party integrations to testing protocols - carries regulatory weight. A vendor that has built five hundred mobile apps but zero healthcare applications is not qualified to build your EHR integration, your patient portal along with your telehealth platform.
                                     </p>
 
                                     <p className="mb-10">
@@ -186,12 +186,12 @@ export default function BlogPost() {
                                     <div className="mt-10 pt-8 border-t border-slate-100 bg-[#1a2b3c] p-6 rounded-2xl">
                                         <h4 className="text-xl font-bold text-[#fff] mb-5">References</h4>
                                         <ul className="space-y-2 text-sm break-all">
-                                            <li><a href="https://www.tactionsoft.com/blog/how-to-choose-healthcare-software-development-company/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">TactionSoft — How to Choose a Healthcare Software Development Company</a></li>
-                                            <li><a href="https://nonstopio.com/knowledge-base/healthcare-software-development-company-selection-guide" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">NonstopIO — How to Choose a Healthcare Software Development Company: Selection Guide</a></li>
-                                            <li><a href="https://saga-it.com/blog/how-to-choose-healthcare-software-development-company" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Saga IT — How to Choose a Healthcare Software Development Company</a></li>
-                                            <li><a href="https://www.themomentum.ai/blog/top-10-healthcare-software-development-companies-in-2026" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Momentum — Top Healthcare Software Development Companies: Evaluation Framework</a></li>
-                                            <li><a href="https://hyscaler.com/insights/healthcare-software-development-company-guide/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HyScaler — How to Choose the Right Healthcare Software Development Company</a></li>
-                                            <li><a href="https://www.clarity-ventures.com/hipaa-ecommerce/custom-healthcare-software-development-company" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Clarity Ventures — How to Find the Right Custom Healthcare Development Company</a></li>
+                                            <li><a href="https://www.tactionsoft.com/blog/how-to-choose-healthcare-software-development-company/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">TactionSoft - How to Choose a Healthcare Software Development Company</a></li>
+                                            <li><a href="https://nonstopio.com/knowledge-base/healthcare-software-development-company-selection-guide" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">NonstopIO - How to Choose a Healthcare Software Development Company: Selection Guide</a></li>
+                                            <li><a href="https://saga-it.com/blog/how-to-choose-healthcare-software-development-company" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Saga IT - How to Choose a Healthcare Software Development Company</a></li>
+                                            <li><a href="https://www.themomentum.ai/blog/top-10-healthcare-software-development-companies-in-2026" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Momentum - Top Healthcare Software Development Companies: Evaluation Framework</a></li>
+                                            <li><a href="https://hyscaler.com/insights/healthcare-software-development-company-guide/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HyScaler - How to Choose the Right Healthcare Software Development Company</a></li>
+                                            <li><a href="https://www.clarity-ventures.com/hipaa-ecommerce/custom-healthcare-software-development-company" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Clarity Ventures - How to Find the Right Custom Healthcare Development Company</a></li>
                                         </ul>
                                     </div>
                                 </div>

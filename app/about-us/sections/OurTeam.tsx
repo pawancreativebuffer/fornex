@@ -38,7 +38,7 @@ export default function OurTeam() {
                         40+ Healthcare Technology Professionals, <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">One Focus</span>
                     </h2>
                     <p className="text-gray-500 text-base font-regular leading-relaxed text-center max-w-5xl">
-                        Our team spans software development, healthcare domain expertise, compliance engineering, AI and machine learning, UI/UX design, project management, and digital marketing — all organized around healthcare as our single vertical.
+                        Our team spans software development, healthcare domain expertise, compliance engineering, AI and machine learning, UI/UX design, project management, and digital marketing - all organized around healthcare as our single vertical.
                     </p>
                 </div>
 

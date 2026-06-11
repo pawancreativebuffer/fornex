@@ -46,7 +46,7 @@ export default function TopPoints() {
                             From Idea to <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">Launch</span>
                         </h2>
                         <p className="text-gray-500 text-base font-regular leading-relaxed mb-4 lg:mb-8 lg:max-w-[700px] text-center lg:text-left">
-                            Most wellness platforms provide generalized recommendations. Ones Health wanted something different — a system that could understand health data, interpret biomarkers, and continuously optimize outcomes for every individual.
+                            Most wellness platforms provide generalized recommendations. Ones Health wanted something different - a system that could understand health data, interpret biomarkers, and continuously optimize outcomes for every individual.
                         </p>
                     </div>
 

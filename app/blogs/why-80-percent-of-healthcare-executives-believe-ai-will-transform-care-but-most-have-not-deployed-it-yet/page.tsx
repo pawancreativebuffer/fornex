@@ -121,7 +121,7 @@ export default function BlogPost() {
                                     </p>
 
                                     <p className="mb-6">
-                                        Administrative workflows dominate. Prior authorization processing. Eligibility verification. Appointment scheduling. Denial management. These are areas where the data is relatively structured, the payer rules are defined, along with the cost of an AI error — while not trivial — is recoverable through appeals processes.
+                                        Administrative workflows dominate. Prior authorization processing. Eligibility verification. Appointment scheduling. Denial management. These are areas where the data is relatively structured, the payer rules are defined, along with the cost of an AI error - while not trivial - is recoverable through appeals processes.
                                     </p>
 
                                     <p className="mb-6">
@@ -148,7 +148,7 @@ export default function BlogPost() {
                                                     Those two statistics are related. Organizations without governance frameworks cannot safely deploy AI in production. They know it. So they keep things in pilot indefinitely. The pilot becomes the permanent state. The board presentation says "AI strategy in progress." The clinical operations look the same as they did two years ago.
                                                 </p>
                                                 <p className="text-white/70 mb-4">
-                                                    Governance is not the obstacle to AI deployment. The absence of governance is the obstacle to AI deployment. Building a real governance framework — BAAs with every AI vendor, audit trails for AI outputs, local validation protocols, staff training on appropriate AI use is what unlocks the ability to move from pilot to production.
+                                                    Governance is not the obstacle to AI deployment. The absence of governance is the obstacle to AI deployment. Building a real governance framework - BAAs with every AI vendor, audit trails for AI outputs, local validation protocols, staff training on appropriate AI use is what unlocks the ability to move from pilot to production.
                                                 </p>
                                                 <p className="text-white/70">
                                                     The organizations that are moving fastest on AI in 2026 are not the ones with the most AI enthusiasm at the executive level. They are the ones that invested in governance infrastructure 12 to 18 months ago along with are now reaping the ability to deploy with confidence.
@@ -171,7 +171,7 @@ export default function BlogPost() {
                                             <strong>Piloting without a production pathway.</strong> A pilot without a defined success criteria along with a clear production decision process is not a pilot. It is a delay mechanism with better optics. Before you start any AI pilot, define the metrics that would trigger a production decision along with the metrics that would trigger a decision to stop.
                                         </li>
                                         <li>
-                                            <strong>Underinvesting in data infrastructure.</strong> Organizations will abandon 60% of AI projects unsupported by AI-ready data. The AI project budget should include a data infrastructure line item. Cleaning patient records, building FHIR-compliant API connections, establishing real-time data feeds between clinical systems — these are not separate from AI deployment. They are prerequisites for it. <a href='https://www.mexc.com/news/788431' target='_blank' className='text-[#60C6B1]'>mexc</a>
+                                            <strong>Underinvesting in data infrastructure.</strong> Organizations will abandon 60% of AI projects unsupported by AI-ready data. The AI project budget should include a data infrastructure line item. Cleaning patient records, building FHIR-compliant API connections, establishing real-time data feeds between clinical systems - these are not separate from AI deployment. They are prerequisites for it. <a href='https://www.mexc.com/news/788431' target='_blank' className='text-[#60C6B1]'>mexc</a>
                                         </li>
                                     </ul>
 
@@ -198,7 +198,7 @@ export default function BlogPost() {
 
                                     <div className="mt-12 pt-10 border-t border-slate-100">
                                         <p className="text-lg font-medium text-slate-500 mb-8">
-                                            Fornex Health helps healthcare organizations move from AI pilot to production — with data infrastructure, governance frameworks, along with workflow integration built for clinical environments. Talk to our team.
+                                            Fornex Health helps healthcare organizations move from AI pilot to production - with data infrastructure, governance frameworks, along with workflow integration built for clinical environments. Talk to our team.
                                         </p>
                                     </div>
                                 </div>

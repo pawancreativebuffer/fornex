@@ -49,7 +49,7 @@ export default function Founder() {
                         </div>
 
                         <p className="text-white/70 text-base leading-relaxed">
-                            His focus has always been the same: build technology that solves real problems for real people, and build it the right way — compliant, scalable, and built to last.
+                            His focus has always been the same: build technology that solves real problems for real people, and build it the right way - compliant, scalable, and built to last.
                         </p>
                     </div>
 

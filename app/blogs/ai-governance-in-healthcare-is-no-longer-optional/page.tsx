@@ -84,7 +84,7 @@ export default function BlogPost() {
                                         Only about 20% of organizations report mature frameworks for managing AI agents. In healthcare, where those agents are touching protected health information at every step, that gap is a serious exposure. <a href='https://www.healthcareittoday.com/2026/01/13/healthcare-governance-regulations-and-compliance-2026-health-it-predictions/' target='_blank' className="text-[#60C6B1]">Healthcare IT Today</a>
                                     </p>
                                     <p className="mb-10 font-bold text-[#1a2b3c]">
-                                        Here is what proper governance actually looks like — along with the specific questions your vendors should be able to answer before you sign anything.
+                                        Here is what proper governance actually looks like - along with the specific questions your vendors should be able to answer before you sign anything.
                                     </p>
 
                                     <h2 className="text-3xl font-bold mb-6 text-[#1a2b3c]">What Changed in 2026 That Makes This Urgent Right Now</h2>
@@ -124,7 +124,7 @@ export default function BlogPost() {
                                     </div>
 
                                     <h2 className="text-3xl font-bold mb-6 text-[#1a2b3c]">The Five Questions Every AI Vendor Should Answer Before You Sign</h2>
-                                    <p className="mb-6 font-bold">1. How does your system handle PHI — specifically, is it used for model training?</p>
+                                    <p className="mb-6 font-bold">1. How does your system handle PHI - specifically, is it used for model training?</p>
                                     <p className="mb-6">
                                         This is the question that makes vendors squirm most often. Many AI tools improve their models using customer data. In healthcare, that means your patients' protected health information is potentially improving a model that serves other organizations. Your BAA should explicitly address whether PHI can be used for model training. If the vendor cannot give you a direct yes-or-no answer, that is a red flag.
                                     </p>

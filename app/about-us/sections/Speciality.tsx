@@ -44,7 +44,7 @@ export default function Specialties() {
                         <span className="bg-gradient-to-r from-[#60c6b1] to-[#90c7e5] bg-clip-text text-transparent">12+ Medical Specialties.</span> 100+ Healthcare Organizations.
                     </h2>
                     <p className="text-gray-500 text-base font-regular leading-relaxed text-center max-w-4xl">
-                        From cardiology to psychiatry, from solo practices to enterprise health systems — we have built compliant, scalable technology across the full spectrum of healthcare.
+                        From cardiology to psychiatry, from solo practices to enterprise health systems - we have built compliant, scalable technology across the full spectrum of healthcare.
                     </p>
                 </div>
 

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const metadata = {
     title: "Why EHR Integration Projects Fail Along With How to Fix - Fornex",
-    description: "Over 50% of EHR integrations fail to deliver expected results. Here are the real reasons healthcare IT projects stall — along with how to stop it happening.",
+    description: "Over 50% of EHR integrations fail to deliver expected results. Here are the real reasons healthcare IT projects stall - along with how to stop it happening.",
     keywords: ["EHR integration services", "EHR integration failure", "epic ehr integration", "emr integration", "healthcare interoperability", "ehr integration challenges", "Fornex"],
 };
 
@@ -79,7 +79,7 @@ export default function BlogPost() {
                                     </p>
 
                                     <p className="mb-10">
-                                        Those numbers do not reflect bad technology. EHR systems work. The failure is almost always operational. The specific reasons EHR integration projects fail are well-documented along with consistently ignored. Here they are — along with what to do about each one.
+                                        Those numbers do not reflect bad technology. EHR systems work. The failure is almost always operational. The specific reasons EHR integration projects fail are well-documented along with consistently ignored. Here they are - along with what to do about each one.
                                     </p>
 
                                     <div className="bg-[#60C6B1]/5 border-l-4 border-[#60C6B1] p-8 rounded-r-2xl mb-10">
@@ -112,7 +112,7 @@ export default function BlogPost() {
                                         The consequence is direct: critical <a href="https://www.thinkitive.com/blog/top-5-challenges-in-ehr-integration-and-how-to-overcome-them/" target='_blank' className='text-[#60C6B1]'>clinical decisions may be made using incorrect information when poor data quality propagates across the healthcare ecosystem. That is a patient safety issue, not just an IT issue.</a>
                                     </p>
                                     <p className="mb-10">
-                                        The fix: a data audit before integration begins. Map every source system. Identify duplicate MRN rates, missing required fields along with inconsistent naming conventions across departments. Build a data remediation step into the project plan along with budget for it. Organizations that treat data cleanup as an afterthought discover it in production — at the worst possible time.
+                                        The fix: a data audit before integration begins. Map every source system. Identify duplicate MRN rates, missing required fields along with inconsistent naming conventions across departments. Build a data remediation step into the project plan along with budget for it. Organizations that treat data cleanup as an afterthought discover it in production - at the worst possible time.
                                     </p>
 
                                     <div className="relative my-10 p-10 bg-[#1a2b3c] rounded-3xl overflow-hidden text-white">
@@ -124,7 +124,7 @@ export default function BlogPost() {
                                                 <a href="https://healthcareintegrations.com/why-ehr-integrations-fail-and-how-toavoid-it/" target='_blank' className='text-[#60C6B1]'>Vendor cooperation is a major obstacle. Some EHR vendors limit access to their APIs along with charge significant fees, making integrations harder to implement.</a>
                                             </p>
                                             <p className="text-white/80">
-                                                This is not a technical problem. It is a commercial problem that presents as a technical one. A project can be perfectly designed, adequately staffed along with properly resourced — and still stall because an EHR vendor restricts API access in ways not disclosed during the sales process.
+                                                This is not a technical problem. It is a commercial problem that presents as a technical one. A project can be perfectly designed, adequately staffed along with properly resourced - and still stall because an EHR vendor restricts API access in ways not disclosed during the sales process.
                                             </p>
                                             <p className="text-white/80">
                                                 Epic, Cerner, Meditech along with Athena all have different API access models. Some restrict certain data types behind additional licensing fees. Some require participation in vendor-specific developer programs. Some have rate limits that break high-volume integration designs.
@@ -146,7 +146,7 @@ export default function BlogPost() {
                                         The practical consequence: data that looks correct in one system arrives malformed in another. A medication order that transfers cleanly between two FHIR-enabled systems generates errors when it hits a legacy HL7 v2 endpoint that does not know what to do with the new data structure.
                                     </p>
                                     <p className="mb-10">
-                                        The fix: a standards audit of every system in the integration scope before design begins. Document which version of which standard each system supports. Design the integration architecture around the lowest common denominator — then plan a phased modernization path to raise that floor over time.
+                                        The fix: a standards audit of every system in the integration scope before design begins. Document which version of which standard each system supports. Design the integration architecture around the lowest common denominator - then plan a phased modernization path to raise that floor over time.
                                     </p>
 
                                     <h2 className="text-3xl font-bold mb-6">Failure Point 5: Clinicians Were Never Involved</h2>
@@ -157,7 +157,7 @@ export default function BlogPost() {
                                         <a href="https://healthcareintegrations.com/why-ehr-integrations-fail-and-how-toavoid-it/" target='_blank' className='text-[#60C6B1]'>Physicians, nurses along with billing staff should provide input into how data flows between systems. This ensures that the integration supports real-world workflows along with improves adoption across the organization.</a>
                                     </p>
                                     <p className="mb-6">
-                                        Clinical workflows are not logical from a systems perspective. A physician reviewing lab results does not think about data structures. They think about what they need to see along with in what order along with in what context to make a good clinical decision. An integration that disrupts that sequence — even while delivering technically accurate data — gets rejected.
+                                        Clinical workflows are not logical from a systems perspective. A physician reviewing lab results does not think about data structures. They think about what they need to see along with in what order along with in what context to make a good clinical decision. An integration that disrupts that sequence - even while delivering technically accurate data - gets rejected.
                                     </p>
                                     <p className="mb-10">
                                         The fix: involve clinical staff in workflow design from the start. Run usability sessions before development begins. Run pilot testing with real clinical users before go-live. Build a feedback channel for the first 90 days after launch so problems get surfaced along with fixed before they become ingrained complaints.
@@ -174,7 +174,7 @@ export default function BlogPost() {
                                         A hospital network that handles current data volumes adequately may not handle the increased load of a new integration that adds real-time data exchange across five additional systems. Performance problems that do not appear in testing appear in production when actual patient volume hits the system.
                                     </p>
                                     <p className="mb-10">
-                                        The fix: load testing before go-live. Not just functional testing to confirm the integration works. Performance testing to confirm it works under realistic patient volume conditions. Build infrastructure headroom into the design — not just enough capacity for today's volume, but enough for anticipated growth along with peak load events.
+                                        The fix: load testing before go-live. Not just functional testing to confirm the integration works. Performance testing to confirm it works under realistic patient volume conditions. Build infrastructure headroom into the design - not just enough capacity for today's volume, but enough for anticipated growth along with peak load events.
                                     </p>
 
                                     <div className="mt-10 pt-10 border-t border-slate-100">
@@ -187,12 +187,12 @@ export default function BlogPost() {
                                     <div className="mt-10 pt-8 border-t border-slate-100 bg-[#1a2b3c] p-6 rounded-2xl">
                                         <h4 className="text-xl font-bold text-[#fff] mb-5">References</h4>
                                         <ul className="space-y-2 text-sm break-all">
-                                            <li><a href="https://healthcareintegrations.com/why-ehr-integrations-fail-and-how-toavoid-it/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HealthcareIntegrations.com — Why EHR Integrations Fail Along With How to Avoid It</a></li>
-                                            <li><a href="https://www.clinicmind.com/blog/ehr-implementation-statistics" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">ClinicMind — EHR Implementation Statistics</a></li>
-                                            <li><a href="https://www.thinkitive.com/blog/top-5-challenges-in-ehr-integration-and-how-to-overcome-them/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Thinkitive — Top 5 Challenges in EHR Integration Along With How to Overcome Them</a></li>
-                                            <li><a href="https://www.ehrinpractice.com/ehr-failure-statistics.html" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">EHR In Practice — 10 EHR Failure Statistics: Why You Need to Get It Right First Time</a></li>
-                                            <li><a href="https://www.panorama-consulting.com/why-ehr-implementations-fail/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Panorama Consulting — Why EHR Implementations Fail: 6 Causes of Healthcare IT Calamities</a></li>
-                                            <li><a href="https://www.truenorthitg.com/top-5-challenges-with-ehr-integrations/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">True North IT — Solving EHR Implementation Challenges for Better Healthcare</a></li>
+                                            <li><a href="https://healthcareintegrations.com/why-ehr-integrations-fail-and-how-toavoid-it/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HealthcareIntegrations.com - Why EHR Integrations Fail Along With How to Avoid It</a></li>
+                                            <li><a href="https://www.clinicmind.com/blog/ehr-implementation-statistics" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">ClinicMind - EHR Implementation Statistics</a></li>
+                                            <li><a href="https://www.thinkitive.com/blog/top-5-challenges-in-ehr-integration-and-how-to-overcome-them/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Thinkitive - Top 5 Challenges in EHR Integration Along With How to Overcome Them</a></li>
+                                            <li><a href="https://www.ehrinpractice.com/ehr-failure-statistics.html" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">EHR In Practice - 10 EHR Failure Statistics: Why You Need to Get It Right First Time</a></li>
+                                            <li><a href="https://www.panorama-consulting.com/why-ehr-implementations-fail/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Panorama Consulting - Why EHR Implementations Fail: 6 Causes of Healthcare IT Calamities</a></li>
+                                            <li><a href="https://www.truenorthitg.com/top-5-challenges-with-ehr-integrations/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">True North IT - Solving EHR Implementation Challenges for Better Healthcare</a></li>
                                         </ul>
                                     </div>
                                 </div>

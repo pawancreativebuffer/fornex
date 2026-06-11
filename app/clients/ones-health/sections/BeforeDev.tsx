@@ -29,7 +29,7 @@ export default function BeforeDev() {
                             Blood tests, wearable devices, health assessments, and lifestyle tracking tools generate valuable information every day. However, most individuals are left to interpret that data on their own or receive generalized recommendations that fail to reflect their unique biology.
                         </p>
                         <p className="text-white/70 text-base leading-relaxed">
-                            The founder of Ones Health believed there had to be a better approach—one that combined science, technology, and personalized guidance to help people make informed decisions about their health before problems arise.
+                            The founder of Ones Health believed there had to be a better approach-one that combined science, technology, and personalized guidance to help people make informed decisions about their health before problems arise.
                         </p>
                         <p className="text-white/70 text-base leading-relaxed">
                             Rather than waiting for illness to occur, the vision was to create a platform focused on prevention, optimization, and longevity. A platform capable of transforming complex health information into practical actions that individuals could follow with confidence.
@@ -74,7 +74,7 @@ export default function BeforeDev() {
 
                         <div className="max-w-[900px] mx-auto text-center space-y-8">
                             <p className="text-[18px] font-regular leading-relaxed italic text-white">
-                                "The future of healthcare isn't about collecting more data—it's about helping people understand what that data means and empowering them to take action. Ones Health was created to bridge the gap between information and meaningful health outcomes."
+                                "The future of healthcare isn't about collecting more data-it's about helping people understand what that data means and empowering them to take action. Ones Health was created to bridge the gap between information and meaningful health outcomes."
                             </p>
 
                             <div className="flex flex-col items-center">
