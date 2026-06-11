@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight, MapPin, Phone, Mail, ArrowUp, Facebook, Instagram, Linkedin } from "lucide-react";
+import Subscribe from "./Subscribe";
 
 export default function Footer() {
     const scrollToTop = () => {
@@ -102,20 +103,7 @@ export default function Footer() {
                             <p className="text-[14px] text-gray-400 mb-6 leading-relaxed">
                                 Sign up for our latest news & articles. We won't give you spam mails.
                             </p>
-                            <form className="space-y-4" method="post">
-                                <input
-                                    type="email"
-                                    placeholder="Email Address *"
-                                    className="w-full bg-[#1a1d21] border border-gray-700 rounded-full px-4 py-3 text-sm focus:outline-none focus:border-[#64d2b1] transition-colors text-white placeholder:text-gray-600"
-                                    required
-                                />
-                                <button
-                                    type="submit"
-                                    className="w-full bg-[#64d2b1] text-[#1a1d21] font-[500] py-3 rounded-full hover:bg-[#52b396] transition-colors cursor-pointer text-sm"
-                                >
-                                    Submit
-                                </button>
-                            </form>
+                            <Subscribe />
                         </div>
                     </div>
                 </div>
