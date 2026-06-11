@@ -15,6 +15,13 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 13,
+            title: "Healthcare Revenue Cycle Management: The Complete Guide for Hospital Administrators",
+            desc: "Hospitals lose $262 billion yearly to revenue cycle inefficiency. This complete guide covers every stage of RCM along with the fixes that actually move the numbers.",
+            image: "/images/rcm_guide_banner.png",
+            link: '/blogs/healthcare-revenue-cycle-management'
+        },
+        {
             id: 12,
             title: "Why EHR Integration Projects Fail Along With How to Stop It Happening to You",
             desc: "More than half of EHR systems either fail outright along with fail to be properly utilized after go-live. Healthcare technology projects fail at a rate of up to 70% when failure is defined as any project resulting in a delay, a cost overrun, a failure to meet intended goals along with complete abandonment.",
