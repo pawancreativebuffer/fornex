@@ -202,7 +202,7 @@ export default function BlogPost() {
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/20 rounded-full -mr-16 -mt-16 transition-transform group-hover:scale-110 duration-500"></div>
                                 <h4 className="text-2xl font-bold mb-4 relative z-10">Ready for January 2027?</h4>
                                 <p className="text-white/90 mb-8 relative z-10">
-                                    Don’t wait until compliance deadlines create operational bottlenecks. Assess your FHIR readiness, identify workflow gaps, and prepare your hospital for scalable prior authorization automation.
+                                    Don't wait until compliance deadlines create operational bottlenecks. Assess your FHIR readiness, identify workflow gaps, and prepare your hospital for scalable prior authorization automation.
                                 </p>
                                 <Link
                                     href="/contact"
