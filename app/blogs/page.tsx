@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 19,
+            title: "Anthropic's Fable 5 and Mythos 5 Ban and What it Means for Healthcare IT and Resilient AI Strategies",
+            desc: "The US suspension of Anthropic's Claude Fable 5 and Mythos 5 models has rocked the technology landscape. Learn about its implications for healthcare IT and how Fornex Health develops resilient AI systems that protect against disruptions.",
+            image: "/images/ai_ban_healthcare.png",
+            link: '/blogs/anthropic-fable-5-and-mythos-5-ban-and-what-it-means-for-healthcare-it',
+            date: 'June 15, 2026'
+        },
+        {
             id: 18,
             title: "Why 80% of Healthcare Executives Believe AI Will Transform Care, But Most Have Not Deployed It Yet",
             desc: "Healthcare is enthusiastic about AI. Healthcare is not particularly good at shipping it. The gap between those two facts is the most important operational challenge in health IT right now.",
