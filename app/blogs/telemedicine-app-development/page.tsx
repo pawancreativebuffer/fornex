@@ -121,7 +121,7 @@ export default function BlogPost() {
                                             FHIR R4 is the current standard for healthcare data exchange. Any telemedicine platform built without FHIR R4 support is starting behind on interoperability from day one.
                                         </p>
                                         <p className="text-white/60 relative z-10 text-base leading-relaxed mb-4">
-                                            The EHR systems your platform will need to integrate with — Epic, Cerner, Athenahealth, Meditech — all have different API models, different rate limits along with different data access requirements. Map those relationships before you finalize your technical architecture.
+                                            The EHR systems your platform will need to integrate with - Epic, Cerner, Athenahealth, Meditech - all have different API models, different rate limits along with different data access requirements. Map those relationships before you finalize your technical architecture.
                                         </p>
                                         <p className="text-white/60 relative z-10 text-base leading-relaxed mb-0">
                                             For a detailed breakdown of why EHR integration projects fail along with how to prevent it, read: <a href="https://www.fornexhealth.com/blogs/why-ehr-integration-projects-fail" target='_blank' className='text-[#60C6B1]'>Why EHR Integration Projects Fail Along With How to Stop It Happening to You</a>
@@ -131,7 +131,7 @@ export default function BlogPost() {
                                     {/* Section: Video Infrastructure */}
                                     <h2 className="text-3xl font-bold mb-6">Video Infrastructure Is the Patient Experience</h2>
                                     <p className="mb-6">
-                                        <a href="https://averybit.com/telemedicine-app-development-challenges-2026/" target='_blank' className='text-[#60C6B1]'>A dropped call is not an inconvenience — it is a problem in a healthcare setting where trust is critical. Video infrastructure needs to handle real-world scenarios. Scalability for today&apos;s usage is not the same as scalability for tomorrow&apos;s demand.</a>
+                                        <a href="https://averybit.com/telemedicine-app-development-challenges-2026/" target='_blank' className='text-[#60C6B1]'>A dropped call is not an inconvenience - it is a problem in a healthcare setting where trust is critical. Video infrastructure needs to handle real-world scenarios. Scalability for today&apos;s usage is not the same as scalability for tomorrow&apos;s demand.</a>
                                     </p>
                                     <p className="mb-6">
                                         Most development teams build their video infrastructure for the patient load they have at launch. That model breaks when a single partnership, a media mention along with a public health event suddenly multiplies concurrent users.
@@ -210,22 +210,22 @@ export default function BlogPost() {
                                         <h4 className="text-xl font-bold text-[#fff] mb-5">References</h4>
                                         <ul className="space-y-2 text-sm break-all">
                                             <li>
-                                                <a className='text-[#60C6B1] hover:underline' href='https://sigma.software/insights/a-complete-guide-to-developing-a-telemedicine-app-in-2025' target='_blank'>Sigma Software — A Complete Guide to Developing a Telemedicine App</a>
+                                                <a className='text-[#60C6B1] hover:underline' href='https://sigma.software/insights/a-complete-guide-to-developing-a-telemedicine-app-in-2025' target='_blank'>Sigma Software - A Complete Guide to Developing a Telemedicine App</a>
                                             </li>
                                             <li>
-                                                <a className='text-[#60C6B1] hover:underline' href='https://averybit.com/telemedicine-app-development-challenges-2026/' target='_blank'>AveryBit — Telemedicine App Development Challenges: What Founders Get Wrong</a>
+                                                <a className='text-[#60C6B1] hover:underline' href='https://averybit.com/telemedicine-app-development-challenges-2026/' target='_blank'>AveryBit - Telemedicine App Development Challenges: What Founders Get Wrong</a>
                                             </li>
                                             <li>
-                                                <a className='text-[#60C6B1] hover:underline' href='https://northpennnow.com/news/2025/nov/06/telemedicine-app-development-services-and-the-rise-of-healthcare-data-security-challenges/' target='_blank'>North Penn Now — Telemedicine App Development Services Along With Healthcare Data Security Challenges</a>
+                                                <a className='text-[#60C6B1] hover:underline' href='https://northpennnow.com/news/2025/nov/06/telemedicine-app-development-services-and-the-rise-of-healthcare-data-security-challenges/' target='_blank'>North Penn Now - Telemedicine App Development Services Along With Healthcare Data Security Challenges</a>
                                             </li>
                                             <li>
-                                                <a className='text-[#60C6B1] hover:underline' href='https://www.mdpi.com/2673-8392/5/4/206' target='_blank'>MDPI — Digital Health Transformation Through Telemedicine: Barriers, Facilitators Along With Clinical Outcomes</a>
+                                                <a className='text-[#60C6B1] hover:underline' href='https://www.mdpi.com/2673-8392/5/4/206' target='_blank'>MDPI - Digital Health Transformation Through Telemedicine: Barriers, Facilitators Along With Clinical Outcomes</a>
                                             </li>
                                             <li>
-                                                <a className='text-[#60C6B1] hover:underline' href='https://www.drcare247.com/blog/telemedicine/challenges-in-telemedicine-and-their-potential-solutions/' target='_blank'>DrCare247 — Challenges in Telemedicine Along With Their Potential Solutions</a>
+                                                <a className='text-[#60C6B1] hover:underline' href='https://www.drcare247.com/blog/telemedicine/challenges-in-telemedicine-and-their-potential-solutions/' target='_blank'>DrCare247 - Challenges in Telemedicine Along With Their Potential Solutions</a>
                                             </li>
                                             <li>
-                                                <a className='text-[#60C6B1] hover:underline' href='https://www.softwaretestingmagazine.com/knowledge/common-challenges-in-telemedicine-software-testing/' target='_blank'>Software Testing Magazine — Common Challenges in Telemedicine Software Testing</a>
+                                                <a className='text-[#60C6B1] hover:underline' href='https://www.softwaretestingmagazine.com/knowledge/common-challenges-in-telemedicine-software-testing/' target='_blank'>Software Testing Magazine - Common Challenges in Telemedicine Software Testing</a>
                                             </li>
                                         </ul>
                                     </div>

@@ -226,37 +226,37 @@ export default function BlogPost() {
                                         <ul className="space-y-2 text-sm">
                                             <li>
                                                 <a href="https://www.medicaleconomics.com/view/navigating-the-digital-transformation-in-health-care-challenges-and-solutions" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">
-                                                    Medical Economics — Navigating the Digital Transformation in Healthcare: Challenges Along With Solutions
+                                                    Medical Economics - Navigating the Digital Transformation in Healthcare: Challenges Along With Solutions
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://www.tierpoint.com/blog/cloud/digital-transformation-in-healthcare/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">
-                                                    TierPoint — IT Modernization Along With Digital Transformation in Healthcare: The Ultimate Guide
+                                                    TierPoint - IT Modernization Along With Digital Transformation in Healthcare: The Ultimate Guide
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://online.northeastern.edu/resources/what-is-digital-transformation-in-healthcare/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">
-                                                    Northeastern University — What Is Digital Transformation in Healthcare Along With Why Is It Important
+                                                    Northeastern University - What Is Digital Transformation in Healthcare Along With Why Is It Important
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://www.wolterskluwer.com/en/expert-insights/the-digital-transformation-of-healthcare-organizations" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">
-                                                    Wolters Kluwer — The Digital Transformation of Healthcare Organizations
+                                                    Wolters Kluwer - The Digital Transformation of Healthcare Organizations
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://www.visualsp.com/blog/digital-transformation-in-healthcare/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">
-                                                    VisualSP — Digital Transformation in Healthcare: Practical Guide
+                                                    VisualSP - Digital Transformation in Healthcare: Practical Guide
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11107189/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">
-                                                    PMC — Digital Transformation in Healthcare: Have We Gone Off the Rails?
+                                                    PMC - Digital Transformation in Healthcare: Have We Gone Off the Rails?
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://www.sciencedirect.com/science/article/abs/pii/S0166497223000275" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">
-                                                    ScienceDirect — The Challenges of Digital Transformation in Healthcare: An Interdisciplinary Literature Review
+                                                    ScienceDirect - The Challenges of Digital Transformation in Healthcare: An Interdisciplinary Literature Review
                                                 </a>
                                             </li>
                                         </ul>
