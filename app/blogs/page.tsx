@@ -78,6 +78,14 @@ export default function BlogPage() {
             date: 'May 5, 2026'
         },
         {
+            id: 16,
+            title: "Patient Portal Development: Why 60% of Patients Never Come Back After the First Login",
+            desc: "60% of patients never return after their first login. Here is the patient portal development framework that drives real adoption instead of empty click metrics.",
+            image: "/images/patient_portal_fail.png",
+            link: '/blogs/patient-portal-development-why-most-portals-fail',
+            date: 'October 7, 2025'
+        },
+        {
             id: 7,
             title: "Telemedicine App Development: What Healthcare Organizations Get Wrong Before They Build",
             desc: "Most telemedicine apps fail before they scale. Here is the complete development guide covering HIPAA compliance, EHR integration along with adoption strategy.",
