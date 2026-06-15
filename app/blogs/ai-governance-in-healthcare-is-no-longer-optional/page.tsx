@@ -39,7 +39,7 @@ export default function BlogPost() {
                                 </div>
                                 <div>
                                     <p className="text-xs uppercase tracking-wider text-white/50 font-medium text-left">Author</p>
-                                    <p className="font-medium text-white">Jimerson Birr</p>
+                                    <p className="font-medium text-white">Fornex Health Team</p>
                                 </div>
                             </div>
                             <div className="flex gap-3">
