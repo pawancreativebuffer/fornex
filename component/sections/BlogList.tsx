@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowRight, ChevronLeft, ChevronRight, Calendar } from 'lucide-react';
 
 interface Blog {
     id: number;
@@ -10,6 +10,7 @@ interface Blog {
     desc: string;
     image: string;
     link: string;
+    date: string;
 }
 
 interface BlogListProps {
@@ -60,6 +61,13 @@ export default function BlogList({ blogs }: BlogListProps) {
                             <p className="text-base leading-relaxed text-[#64748B] line-clamp-2 flex-grow">
                                 {blog.desc}
                             </p>
+
+                            {blog.date && (
+                                <div className="flex items-center gap-2 text-[#64748B] text-sm">
+                                    <Calendar size={14} className="text-[#60C6B1]" />
+                                    <span>{blog.date}</span>
+                                </div>
+                            )}
 
                             <div className="flex items-center justify-between w-full mt-auto pt-4">
                                 <Link href={blog.link} className='flex w-full items-center justify-between'>
