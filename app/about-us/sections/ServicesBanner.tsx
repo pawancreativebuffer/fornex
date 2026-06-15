@@ -17,12 +17,12 @@ export default function ServicesBanner() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
+                {/* <Link
                     href="#"
                     className="inline-flex items-center justify-center px-8 py-3 rounded-full border border-[#60C6B1] text-[#fff] bg-[#60C6B1] hover:bg-[#fff] hover:text-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium"
                 >
                     Meet Our Team
-                </Link>
+                </Link> */}
                 <Link
                     href="/clients"
                     className="inline-flex items-center justify-center px-8 py-3 rounded-full border border-[#fff] text-[#fff] bg-transparent hover:bg-[#60C6B1] hover:text-[#fff] hover:border-[#60C6B1] cursor-pointer transition flex items-center gap-2 font-medium"
