@@ -14,7 +14,7 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
-            id: 16,
+            id: 17,
             title: "Why 80% of Healthcare Executives Believe AI Will Transform Care, But Most Have Not Deployed It Yet",
             desc: "Healthcare is enthusiastic about AI. Healthcare is not particularly good at shipping it. The gap between those two facts is the most important operational challenge in health IT right now.",
             image: "/images/agentic-ai-healthcare.png",
@@ -22,7 +22,7 @@ export default function BlogPage() {
             date: 'June 10, 2026'
         },
         {
-            id: 15,
+            id: 16,
             title: "The Hospital-at-Home Shift: What It Means for Your Healthcare IT Stack in 2026",
             desc: "In February 2026, Congress extended the Acute Hospital Care at Home program through the end of 2030. The program provides waivers to hospitals to provide inpatient-level care at home to qualified Medicare beneficiaries.",
             image: "/images/hospital_at_home.png",
@@ -30,7 +30,7 @@ export default function BlogPage() {
             date: 'Jun 8, 2026'
         },
         {
-            id: 14,
+            id: 15,
             title: "AI Governance in Healthcare Is No Longer Optional. Here Is What Your Vendor Should Be Able to Prove",
             desc: "Healthcare organizations are deploying AI faster than they are building the governance infrastructure to support it. Here is what proper governance actually looks like - along with the specific questions your vendors should be able to answer before you sign anything.",
             image: "/images/ai_governance_blog.png",
@@ -38,7 +38,7 @@ export default function BlogPage() {
             date: 'Jun 2, 2026'
         },
         {
-            id: 13,
+            id: 14,
             title: "Remote Patient Monitoring in 2026: How to Build a Program That Actually Reduces Readmissions",
             desc: "The readmission numbers for remote patient monitoring programs look remarkable on paper. Here is how to build a program that actually delivers on the readmission reduction promise.",
             image: "/images/dashboard.png",
@@ -46,7 +46,7 @@ export default function BlogPage() {
             date: 'May 26, 2026'
         },
         {
-            id: 12,
+            id: 13,
             title: "The 2026 Executive Guide: What Is an EHR System, Why Implementations Fail and How to Optimize",
             desc: "Healthcare technology is at a really important turning point. With hospital procedures getting more complicated and more rules, hospital managers and IT bosses are asking how to stop costly new software systems from collapsing.",
             image: "/images/ehr_guide_2026.png",
@@ -54,7 +54,7 @@ export default function BlogPage() {
             date: 'May 20, 2026'
         },
         {
-            id: 11,
+            id: 12,
             title: "Ambient AI Scribes Are Everywhere. Here's How to Actually Choose One",
             desc: "Every major health system has an ambient AI scribe vendor in their inbox right now. The market has exploded, but choosing wrong means support nightmares and quiet abandonment. Here is how to actually evaluate them.",
             image: "/images/ambient_scribe_1.png",
@@ -62,7 +62,7 @@ export default function BlogPage() {
             date: 'May 18, 2026'
         },
         {
-            id: 10,
+            id: 11,
             title: "Agentic AI in Healthcare: What Hospital CTOs Need to Know",
             desc: "43% of health systems are already piloting agentic AI, but only 3% have deployed it. Discover the three hard questions CTOs must answer before starting their first pilot.",
             image: "/images/agent1.png",
@@ -70,12 +70,20 @@ export default function BlogPage() {
             date: 'May 6, 2026'
         },
         {
-            id: 9,
+            id: 10,
             title: "The FHIR Prior Auth Deadline Is January 2027. Is Your Hospital Ready?",
             desc: "Eight months. That is how long hospitals have before the CMS-0057-F API compliance deadline hits on January 1, 2027. ",
             image: "/images/FHIR.png",
             link: '/blogs/the-fhir-prior-auth-deadline-is-january-2027',
             date: 'May 5, 2026'
+        },
+        {
+            id: 9,
+            title: "Medical Billing Automation: How to Stop Revenue Leakage Before It Hits Your P&L",
+            desc: "Half of providers still review claims manually despite proven automation benefits. Here is the medical billing automation guide that stops revenue walking out.",
+            image: "/images/medical_billing_automation.png",
+            link: '/blogs/medical-billing-automation-stop-revenue-leakage-now',
+            date: 'November 4, 2025'
         },
         {
             id: 8,
