@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 23,
+            title: "Healthcare Software Development in 2026: The Architecture Decisions That Determine Whether You Ship Something That Lasts",
+            desc: "Healthcare software development has new rules in 2026. AI-ready architecture, FHIR compliance along with modular design are now table stakes. Here is the guide.",
+            image: "/images/healthcare_software_2026.png",
+            link: '/blogs/healthcare-software-development-what-to-build-in-2026',
+            date: 'June 16, 2026'
+        },
+        {
             id: 22,
             title: "Anthropic's Fable 5 and Mythos 5 Ban and What it Means for Healthcare IT and Resilient AI Strategies",
             desc: "The US suspension of Anthropic's Claude Fable 5 and Mythos 5 models has rocked the technology landscape. Learn about its implications for healthcare IT and how Fornex Health develops resilient AI systems that protect against disruptions.",
