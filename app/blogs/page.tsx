@@ -14,12 +14,20 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
-            id: 19,
+            id: 20,
             title: "Anthropic's Fable 5 and Mythos 5 Ban and What it Means for Healthcare IT and Resilient AI Strategies",
             desc: "The US suspension of Anthropic's Claude Fable 5 and Mythos 5 models has rocked the technology landscape. Learn about its implications for healthcare IT and how Fornex Health develops resilient AI systems that protect against disruptions.",
             image: "/images/ai_ban_healthcare.png",
             link: '/blogs/anthropic-fable-5-and-mythos-5-ban-and-what-it-means-for-healthcare-it',
             date: 'June 15, 2026'
+        },
+        {
+            id: 19,
+            title: "Healthcare Digital Marketing Has Changed. Most Hospitals Have Not Caught Up.",
+            desc: "The way patients find healthcare providers is being rewritten right now. Google AI Overviews, AI chatbots along with voice assistants now answer patient questions directly, without sending the patient to a website at all.",
+            image: "/images/marketing.jpg",
+            link: '/blogs/healthcare-digital-marketing-what-hospitals-must-do-now',
+            date: 'June 11, 2026'
         },
         {
             id: 18,
