@@ -14,12 +14,20 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
-            id: 21,
+            id: 22,
             title: "Anthropic's Fable 5 and Mythos 5 Ban and What it Means for Healthcare IT and Resilient AI Strategies",
             desc: "The US suspension of Anthropic's Claude Fable 5 and Mythos 5 models has rocked the technology landscape. Learn about its implications for healthcare IT and how Fornex Health develops resilient AI systems that protect against disruptions.",
             image: "/images/ai_ban_healthcare.png",
             link: '/blogs/anthropic-fable-5-and-mythos-5-ban-and-what-it-means-for-healthcare-it',
             date: 'June 15, 2026'
+        },
+        {
+            id: 21,
+            title: "EHR Along With EMR Integration: Why the Modular Approach Is Replacing Everything That Came Before",
+            desc: "Traditional EHR integrations take months along with cost millions. Here is why modular FHIR-based EHR integration is the smarter path for hospitals in 2026.",
+            image: "/images/emr-ehr.jpg",
+            link: '/blogs/ehr-emr-integration-why-modular-is-replacing-monolithic',
+            date: 'June 14, 2026'
         },
         {
             id: 20,
