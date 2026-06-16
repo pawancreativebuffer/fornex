@@ -14,12 +14,20 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
-            id: 20,
+            id: 21,
             title: "Anthropic's Fable 5 and Mythos 5 Ban and What it Means for Healthcare IT and Resilient AI Strategies",
             desc: "The US suspension of Anthropic's Claude Fable 5 and Mythos 5 models has rocked the technology landscape. Learn about its implications for healthcare IT and how Fornex Health develops resilient AI systems that protect against disruptions.",
             image: "/images/ai_ban_healthcare.png",
             link: '/blogs/anthropic-fable-5-and-mythos-5-ban-and-what-it-means-for-healthcare-it',
             date: 'June 15, 2026'
+        },
+        {
+            id: 20,
+            title: "Healthcare Mobile App Development: The Gap Between Apps That Get Downloaded Along With Apps That Get Used",
+            desc: "60% of healthcare apps are uninstalled within 30 days. Here is the mobile app development framework that builds healthcare apps patients actually keep using.",
+            image: "/images/web-and-mobile.jpg",
+            link: '/blogs/healthcare-mobile-app-development-what-to-build-in-2026',
+            date: 'June 12, 2026'
         },
         {
             id: 19,
