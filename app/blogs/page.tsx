@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 25,
+            title: "GLP-1 Drugs Are Reshaping Hospital IT. Most Systems Are Not Ready.",
+            desc: "GLP-1 drugs now linked to 30% lower breast cancer risk. Here is what the explosion of Ozempic prescriptions means for your hospital IT infrastructure in 2026.",
+            image: "/images/glp_1_boom.png",
+            link: '/blogs/glp-1-boom-what-it-means-for-your-hospital-it-stack',
+            date: 'June 20, 2026'
+        },
+        {
             id: 24,
             title: "Medicaid Cuts 2026: What Hospitals Must Do Now?",
             desc: "$1 trillion in Medicaid cuts is hitting hospital margins now. Here is the technology strategy that separates hospitals that survive from the ones that close.",
