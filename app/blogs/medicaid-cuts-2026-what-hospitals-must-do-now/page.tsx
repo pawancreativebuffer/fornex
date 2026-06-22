@@ -77,7 +77,7 @@ export default function BlogPost() {
                                         A new analysis from <a href="https://www.usnews.com/news/health-news/articles/2026-04-01/hundreds-of-u-s-hospitals-at-risk-of-shutting-down-from-medicaid-cuts" target="_blank" className="text-[#60C6B1]">Public Citizen found that 446 hospitals are at high risk of closing or cutting services</a> due to planned Medicaid cuts under President Donald Trump. Medicaid covers approximately one-fifth of all hospital spending in the United States.
                                     </p>
                                     <p className="mb-6">
-                                        The "One Big Beautiful Bill" <a href="https://www.modiohealth.com/life/credentialing/with-medicaid-cuts-ahead-what-can-we-expect-to-see-in-2026" target="_blank" className="text-[#60C6B1]">is expected to cut federal Medicaid spending by $1 trillion</a> over the next 10 years. A KFF analysis confirms that rural communities will feel the hit especially hard since Medicaid covers 1 in 4 adults in rural areas — a higher share than in urban regions.
+                                        The "One Big Beautiful Bill" <a href="https://www.modiohealth.com/life/credentialing/with-medicaid-cuts-ahead-what-can-we-expect-to-see-in-2026" target="_blank" className="text-[#60C6B1]">is expected to cut federal Medicaid spending by $1 trillion</a> over the next 10 years. A KFF analysis confirms that rural communities will feel the hit especially hard since Medicaid covers 1 in 4 adults in rural areas - a higher share than in urban regions.
                                     </p>
                                     <p className="mb-6">
                                         <a href="https://www.usnews.com/news/health-news/articles/2026-04-01/hundreds-of-u-s-hospitals-at-risk-of-shutting-down-from-medicaid-cuts" target="_blank" className="text-[#60C6B1]">Trinity Health, a Michigan-based system, already expects to lose $1.5 billion</a> due to recent government policy changes. It has already cut 10.5% of its workforce.
@@ -97,7 +97,7 @@ export default function BlogPost() {
                                         The math hospitals are running like this. More patients arriving uninsured because they lost Medicaid coverage. Higher uncompensated care costs on the same fixed infrastructure. Declining reimbursement per patient on the Medicaid population that remains covered. Simultaneously rising operating costs from wage inflation along with supply chain pressure.
                                     </p>
                                     <p className="mb-6">
-                                        The only exit from that equation is structural operational efficiency. Not at the margins. The organizations that survive this cycle will be the ones that reduced their cost to deliver care per patient — not the ones that cut their way to a smaller version of the same inefficient model.
+                                        The only exit from that equation is structural operational efficiency. Not at the margins. The organizations that survive this cycle will be the ones that reduced their cost to deliver care per patient - not the ones that cut their way to a smaller version of the same inefficient model.
                                     </p>
                                     <p className="mb-10">
                                         Technology is how you do that. But not every technology investment delivers in a compressed timeline. This is where prioritization matters.
@@ -125,7 +125,7 @@ export default function BlogPost() {
                                         Hospitals building FHIR-compliant prior authorization workflows right now are not just achieving compliance. They are building the infrastructure that eliminates manual prior auth labor. In a cost-reduction environment, that labor savings is material.
                                     </p>
                                     <p className="mb-10">
-                                        Read our full breakdown: <a href="https://www.fornexhealth.com/blogs/the-fhir-prior-auth-deadline-is-january-2027" target="_blank" className="text-[#60C6B1]">The FHIR Prior Auth Deadline Is January 2027 — Is Your Hospital Ready?</a>
+                                        Read our full breakdown: <a href="https://www.fornexhealth.com/blogs/the-fhir-prior-auth-deadline-is-january-2027" target="_blank" className="text-[#60C6B1]">The FHIR Prior Auth Deadline Is January 2027 - Is Your Hospital Ready?</a>
                                     </p>
 
                                     <h2 className="text-3xl font-bold mb-6">What Separates the 446 At-Risk Hospitals From the Rest</h2>
@@ -163,11 +163,11 @@ export default function BlogPost() {
                                     </p>
 
                                     <h2 className="text-3xl font-bold mb-6">Your 12-Month Technology Roadmap Under Financial Pressure</h2>
-                                    <h3 className="text-2xl font-bold mb-4">Months 1 to 3 — Revenue Protection</h3>
+                                    <h3 className="text-2xl font-bold mb-4">Months 1 to 3 - Revenue Protection</h3>
                                     <p className="mb-6">
                                         Audit your current denial rate by payer. Identify the top three denial reason codes. Deploy AI eligibility verification if not already live. Implement automated prior auth processing for your highest-volume service lines. These are 90-day ROI items.
                                     </p>
-                                    <h3 className="text-2xl font-bold mb-4">Months 3 to 6 — Cost Structure</h3>
+                                    <h3 className="text-2xl font-bold mb-4">Months 3 to 6 - Cost Structure</h3>
                                     <p className="mb-6">
                                         <a href="https://www.hfma.org/finance-and-business-strategy/hospitals-brace-for-looming-federal-cuts-in-medicaid-and-elsewhere/" target="_blank" className="text-[#60C6B1]">Organizations are questioning how to fundamentally change their cost structure to prepare for significant reimbursement reductions.</a>
                                     </p>
@@ -175,9 +175,9 @@ export default function BlogPost() {
                                         Ambient AI documentation tools that reduce physician documentation time by 2 to 3 hours per day are a direct labor cost reduction. They also reduce burnout along with improve physician retention, which at $300,000 to $500,000 per physician replaced is itself a major cost item.
                                     </p>
                                     <p className="mb-6">
-                                        Evaluating ambient scribes for your organization? Read: <a href="https://www.fornexhealth.com/blogs/ambient-ai-scribes-are-everywhere-how-to-choose-one" target="_blank" className="text-[#60C6B1]">Ambient AI Scribes Are Everywhere — Here's How to Actually Choose One</a>.
+                                        Evaluating ambient scribes for your organization? Read: <a href="https://www.fornexhealth.com/blogs/ambient-ai-scribes-are-everywhere-how-to-choose-one" target="_blank" className="text-[#60C6B1]">Ambient AI Scribes Are Everywhere - Here's How to Actually Choose One</a>.
                                     </p>
-                                    <h3 className="text-2xl font-bold mb-4">Months 6 to 12 — Care Model Shift</h3>
+                                    <h3 className="text-2xl font-bold mb-4">Months 6 to 12 - Care Model Shift</h3>
                                     <p className="mb-6">
                                         <a href="https://www.healthcareittoday.com/2026/04/30/leading-hospital-at-home-programs/" target="_blank" className="text-[#60C6B1]">The Acute Hospital Care at Home program was extended through 2030. Mayo Clinic Arizona reported a 35% decrease in readmission rates for hospital-at-home patients.</a> The program gives hospitals five years of reimbursement certainty to justify real infrastructure investment.
                                     </p>
@@ -185,7 +185,7 @@ export default function BlogPost() {
                                         The hospital-at-home model delivers inpatient-level care in a home setting at the same DRG reimbursement rate with lower overhead. It is the only model that changes the fundamental economics of high-acuity care delivery.
                                     </p>
                                     <p className="mb-10">
-                                        Full infrastructure guide: <strong>The Hospital-at-Home Shift — What It Means for Your Healthcare IT Stack in 2026</strong>
+                                        Full infrastructure guide: <strong>The Hospital-at-Home Shift - What It Means for Your Healthcare IT Stack in 2026</strong>
                                     </p>
 
                                     <h2 className="text-3xl font-bold mb-6">Do Not Cut Your AI Governance Program</h2>
@@ -199,7 +199,7 @@ export default function BlogPost() {
                                         A HIPAA enforcement action on top of Medicaid-cut pressure is not survivable for a hospital already operating with thin margins. The governance investment is cheap relative to the enforcement exposure. Keep it.
                                     </p>
                                     <p className="mb-10">
-                                        Full guide on what your vendors need to prove: <a href="https://www.fornexhealth.com/blogs/ai-governance-in-healthcare-is-no-longer-optional" target="_blank" className="text-[#60C6B1]">AI Governance in Healthcare Is No Longer Optional — Here's What Your Vendor Should Prove</a>.
+                                        Full guide on what your vendors need to prove: <a href="https://www.fornexhealth.com/blogs/ai-governance-in-healthcare-is-no-longer-optional" target="_blank" className="text-[#60C6B1]">AI Governance in Healthcare Is No Longer Optional - Here's What Your Vendor Should Prove</a>.
                                     </p>
 
                                     <h2 className="text-3xl font-bold mb-6">The Hospitals That Will Still Be Open in 2030</h2>
@@ -213,28 +213,28 @@ export default function BlogPost() {
                                         The hospitals that make it through this cycle will have used 2026 to fix their revenue cycle operations, deploy AI in administrative workflows along with clinical documentation, shift high-acuity patients to lower-cost care settings along with build the governance infrastructure that lets them scale technology without creating new compliance risk.
                                     </p>
                                     <p className="mb-6">
-                                        None of that happens by watching. It happens by deciding that operational transformation is not optional — along with starting this quarter.
+                                        None of that happens by watching. It happens by deciding that operational transformation is not optional - along with starting this quarter.
                                     </p>
                                     <p className="mb-10">
-                                        446 hospitals are at high risk. Financial margins are shrinking. The technology decisions made in the next 90 days will define which side of that line your organization ends up on. <a href="https://www.fornexhealth.com/" target="_blank" className="text-[#60C6B1]">Fornex Health</a> helps hospitals move fast on the right things — revenue cycle automation, AI deployment along with care delivery infrastructure built for financial pressure. <a href="https://calendly.com/pawan_panwar/letstalk" target="_blank" className="text-[#60C6B1]">Book a 30-minute strategy call with our team today.</a> We will map out exactly where your organization should start.
+                                        446 hospitals are at high risk. Financial margins are shrinking. The technology decisions made in the next 90 days will define which side of that line your organization ends up on. <a href="https://www.fornexhealth.com/" target="_blank" className="text-[#60C6B1]">Fornex Health</a> helps hospitals move fast on the right things - revenue cycle automation, AI deployment along with care delivery infrastructure built for financial pressure. <a href="https://calendly.com/pawan_panwar/letstalk" target="_blank" className="text-[#60C6B1]">Book a 30-minute strategy call with our team today.</a> We will map out exactly where your organization should start.
                                     </p>
 
                                     <div className="mt-10 pt-8 border-t border-slate-100 bg-[#1a2b3c] p-6 rounded-2xl">
                                         <h3 className="text-xl font-bold text-[#fff] mb-5">References</h3>
                                         <ul className="space-y-2 text-sm">
-                                            <li><a href="https://www.usnews.com/news/health-news/articles/2026-04-01/hundreds-of-u-s-hospitals-at-risk-of-shutting-down-from-medicaid-cuts" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">U.S. News — Hundreds of U.S. Hospitals at Risk of Shutting Down From Medicaid Cuts (April 1, 2026)</a></li>
-                                            <li><a href="https://www.modiohealth.com/life/credentialing/with-medicaid-cuts-ahead-what-can-we-expect-to-see-in-2026" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Modio Health — With Medicaid Cuts Ahead, What Can We Expect to See in 2026?</a></li>
-                                            <li><a href="https://www.qventus.com/resources/blog/medicaid-cuts-2026-what-every-health-system-cfo-needs-to-know/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Qventus — Medicaid Cuts 2026: What Every Health System CFO Needs to Know</a></li>
-                                            <li><a href="https://www.fiercehealthcare.com/payers/2026-outlook-domino-effect-medicaid-cuts-and-hidden-costs-healthcare" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Fierce Healthcare — 2026 Outlook: The Domino Effect of Medicaid Cuts</a></li>
-                                            <li><a href="https://www.hfma.org/finance-and-business-strategy/hospitals-brace-for-looming-federal-cuts-in-medicaid-and-elsewhere/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HFMA — Hospitals Brace for Looming Federal Cuts in Medicaid</a></li>
-                                            <li><a href="https://www.combinehealth.ai/blog/ai-tools-for-revenue-cycle-management" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">CombineHealth AI — Top AI Solutions for Healthcare Revenue Cycle Management 2026</a></li>
-                                            <li><a href="https://healos.ai/blog/ai-revenue-cycle-management-the-complete-guide-to-transforming-healthcare-rcm-in-2026" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Healos AI — AI Revenue Cycle Management: The Complete Guide 2026</a></li>
-                                            <li><a href="https://www.pixelbrainy.com/blog/ai-adoption-statistics" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">PixelBrainy — AI Adoption Statistics 2026</a></li>
-                                            <li><a href="https://ventionteams.com/solutions/ai/adoption-statistics" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Vention Teams — AI Adoption Statistics Q1 2026</a></li>
-                                            <li><a href="https://www.healthcareittoday.com/2026/04/30/leading-hospital-at-home-programs/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Healthcare IT Today — Leading Hospital at Home Programs (April 30, 2026)</a></li>
-                                            <li><a href="https://www.epcgroup.net/ai-governance-framework-healthcare-hipaa-guide" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">EPC Group — AI Governance Framework for Healthcare: HIPAA Compliance Guide</a></li>
-                                            <li><a href="https://www.commonwealthfund.org/publications/issue-briefs/2025/may/federal-cuts-medicaid-could-end-medicaid-expansion-affect-hospitals" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Commonwealth Fund — Federal Cuts to Medicaid Could End Medicaid Expansion</a></li>
-                                            <li><a href="https://www.mckinsey.com/industries/healthcare/our-insights/agentic-ai-and-the-race-to-a-touchless-revenue-cycle" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">McKinsey — Agentic AI and the Race to a Touchless Revenue Cycle (January 2026)</a></li>
+                                            <li><a href="https://www.usnews.com/news/health-news/articles/2026-04-01/hundreds-of-u-s-hospitals-at-risk-of-shutting-down-from-medicaid-cuts" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">U.S. News - Hundreds of U.S. Hospitals at Risk of Shutting Down From Medicaid Cuts (April 1, 2026)</a></li>
+                                            <li><a href="https://www.modiohealth.com/life/credentialing/with-medicaid-cuts-ahead-what-can-we-expect-to-see-in-2026" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Modio Health - With Medicaid Cuts Ahead, What Can We Expect to See in 2026?</a></li>
+                                            <li><a href="https://www.qventus.com/resources/blog/medicaid-cuts-2026-what-every-health-system-cfo-needs-to-know/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Qventus - Medicaid Cuts 2026: What Every Health System CFO Needs to Know</a></li>
+                                            <li><a href="https://www.fiercehealthcare.com/payers/2026-outlook-domino-effect-medicaid-cuts-and-hidden-costs-healthcare" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Fierce Healthcare - 2026 Outlook: The Domino Effect of Medicaid Cuts</a></li>
+                                            <li><a href="https://www.hfma.org/finance-and-business-strategy/hospitals-brace-for-looming-federal-cuts-in-medicaid-and-elsewhere/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HFMA - Hospitals Brace for Looming Federal Cuts in Medicaid</a></li>
+                                            <li><a href="https://www.combinehealth.ai/blog/ai-tools-for-revenue-cycle-management" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">CombineHealth AI - Top AI Solutions for Healthcare Revenue Cycle Management 2026</a></li>
+                                            <li><a href="https://healos.ai/blog/ai-revenue-cycle-management-the-complete-guide-to-transforming-healthcare-rcm-in-2026" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Healos AI - AI Revenue Cycle Management: The Complete Guide 2026</a></li>
+                                            <li><a href="https://www.pixelbrainy.com/blog/ai-adoption-statistics" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">PixelBrainy - AI Adoption Statistics 2026</a></li>
+                                            <li><a href="https://ventionteams.com/solutions/ai/adoption-statistics" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Vention Teams - AI Adoption Statistics Q1 2026</a></li>
+                                            <li><a href="https://www.healthcareittoday.com/2026/04/30/leading-hospital-at-home-programs/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Healthcare IT Today - Leading Hospital at Home Programs (April 30, 2026)</a></li>
+                                            <li><a href="https://www.epcgroup.net/ai-governance-framework-healthcare-hipaa-guide" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">EPC Group - AI Governance Framework for Healthcare: HIPAA Compliance Guide</a></li>
+                                            <li><a href="https://www.commonwealthfund.org/publications/issue-briefs/2025/may/federal-cuts-medicaid-could-end-medicaid-expansion-affect-hospitals" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Commonwealth Fund - Federal Cuts to Medicaid Could End Medicaid Expansion</a></li>
+                                            <li><a href="https://www.mckinsey.com/industries/healthcare/our-insights/agentic-ai-and-the-race-to-a-touchless-revenue-cycle" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">McKinsey - Agentic AI and the Race to a Touchless Revenue Cycle (January 2026)</a></li>
                                         </ul>
                                     </div>
                                 </div>

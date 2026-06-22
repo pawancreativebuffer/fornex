@@ -158,7 +158,7 @@ export default function BlogPost() {
                                         </div>
                                         <div>
                                             <h4 className="text-xl font-bold mb-2">What features should a healthcare mobile app have?</h4>
-                                            <p>Core features for a patient-facing healthcare app include secure messaging with care teams, appointment scheduling along with reminders, lab result access, medication management, EHR data access along with telehealth video capability. Feature prioritization should be driven by what patients do most often — not by what is technically possible.</p>
+                                            <p>Core features for a patient-facing healthcare app include secure messaging with care teams, appointment scheduling along with reminders, lab result access, medication management, EHR data access along with telehealth video capability. Feature prioritization should be driven by what patients do most often - not by what is technically possible.</p>
                                         </div>
                                         <div>
                                             <h4 className="text-xl font-bold mb-2">How long does healthcare mobile app development take?</h4>
@@ -177,13 +177,13 @@ export default function BlogPost() {
                                     <div className="mt-10 pt-8 border-t border-slate-100 bg-[#1a2b3c] p-6 rounded-2xl">
                                         <h3 className="text-xl font-bold text-[#fff] mb-5">References</h3>
                                         <ul className="space-y-2 text-sm">
-                                            <li><a href="https://emorphis.health/blogs/healthcare-app-development-trends/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Emorphis Health — Healthcare App Development Trends (February 5, 2026)</a></li>
-                                            <li><a href="https://www.appclonescript.com/healthcare-app-development-2026/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">AppCloneScript — Top Healthcare Apps Along With Development Trends (June 10, 2026)</a></li>
-                                            <li><a href="https://www.mtechzilla.com/blogs/mobile-app-development-for-healthcare" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">MTechZilla — Mobile App Development for Healthcare (April 13, 2026)</a></li>
-                                            <li><a href="https://www.mobileappdaily.com/knowledge-hub/top-healthcare-software-development-trends-2026" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">MobileAppDaily — Healthcare Software Development Trends (April 21, 2026)</a></li>
-                                            <li><a href="https://solveit.dev/blog/healthcare-app-development-guide" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">SolveIt — Healthcare App Development Guide</a></li>
-                                            <li><a href="https://aimbeat.com/top-mobile-app-trends-healthcare-2026/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">AIMBeat — Top Mobile App Trends Transforming Healthcare (December 16, 2025)</a></li>
-                                            <li><a href="https://codiant.com/blog/top-development-trends-in-healthcare-mobile-applications/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Codiant — Top Development Trends in Healthcare Mobile Applications (January 21, 2026)</a></li>
+                                            <li><a href="https://emorphis.health/blogs/healthcare-app-development-trends/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Emorphis Health - Healthcare App Development Trends (February 5, 2026)</a></li>
+                                            <li><a href="https://www.appclonescript.com/healthcare-app-development-2026/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">AppCloneScript - Top Healthcare Apps Along With Development Trends (June 10, 2026)</a></li>
+                                            <li><a href="https://www.mtechzilla.com/blogs/mobile-app-development-for-healthcare" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">MTechZilla - Mobile App Development for Healthcare (April 13, 2026)</a></li>
+                                            <li><a href="https://www.mobileappdaily.com/knowledge-hub/top-healthcare-software-development-trends-2026" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">MobileAppDaily - Healthcare Software Development Trends (April 21, 2026)</a></li>
+                                            <li><a href="https://solveit.dev/blog/healthcare-app-development-guide" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">SolveIt - Healthcare App Development Guide</a></li>
+                                            <li><a href="https://aimbeat.com/top-mobile-app-trends-healthcare-2026/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">AIMBeat - Top Mobile App Trends Transforming Healthcare (December 16, 2025)</a></li>
+                                            <li><a href="https://codiant.com/blog/top-development-trends-in-healthcare-mobile-applications/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Codiant - Top Development Trends in Healthcare Mobile Applications (January 21, 2026)</a></li>
                                         </ul>
                                     </div>
                                 </div>

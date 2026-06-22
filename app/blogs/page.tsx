@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 27,
+            title: "Healthcare Interoperability in 2026: The Rules Changed. Most Hospitals Have Not Caught Up.",
+            desc: "TEFCA is live. Information blocking fines just hit $1M per violation. USCDI v3 is mandatory now. Here is the interoperability action plan every hospital CIO needs.",
+            image: "/images/healthcare_interoperability_2026.png",
+            link: '/blogs/healthcare-interoperability-2026',
+            date: 'June 22, 2026'
+        },
+        {
             id: 26,
             title: "Healthcare Cybersecurity 2026: The Breach That Should Change How Every Hospital Thinks About Vendors",
             desc: "1.8 million records stolen via a vendor. HIPAA rules just changed. Here is the cybersecurity action plan every hospital IT director needs right now in 2026.",
