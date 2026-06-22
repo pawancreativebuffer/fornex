@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 24,
+            title: "Medicaid Cuts 2026: What Hospitals Must Do Now?",
+            desc: "$1 trillion in Medicaid cuts is hitting hospital margins now. Here is the technology strategy that separates hospitals that survive from the ones that close.",
+            image: "/images/medicaid_cuts_2026.png",
+            link: '/blogs/medicaid-cuts-2026-what-hospitals-must-do-now',
+            date: 'June 19, 2026'
+        },
+        {
             id: 23,
             title: "Healthcare Software Development in 2026: The Architecture Decisions That Determine Whether You Ship Something That Lasts",
             desc: "Healthcare software development has new rules in 2026. AI-ready architecture, FHIR compliance along with modular design are now table stakes. Here is the guide.",
