@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 26,
+            title: "Healthcare Cybersecurity 2026: The Breach That Should Change How Every Hospital Thinks About Vendors",
+            desc: "1.8 million records stolen via a vendor. HIPAA rules just changed. Here is the cybersecurity action plan every hospital IT director needs right now in 2026.",
+            image: "/images/healthcare_cybersecurity_2026.png",
+            link: '/blogs/healthcare-cybersecurity-2026',
+            date: 'June 21, 2026'
+        },
+        {
             id: 25,
             title: "GLP-1 Drugs Are Reshaping Hospital IT. Most Systems Are Not Ready.",
             desc: "GLP-1 drugs now linked to 30% lower breast cancer risk. Here is what the explosion of Ozempic prescriptions means for your hospital IT infrastructure in 2026.",
