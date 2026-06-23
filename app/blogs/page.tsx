@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 28,
+            title: "AI in Radiology Has Reached a Tipping Point. Most Hospitals Are Still Deciding How to Buy It.",
+            desc: "AI radiology triage is reaching mainstream adoption in 2026. Here is what hospital leaders need to know before investing in diagnostic imaging AI.",
+            image: "/images/ai_radiology_2026.png",
+            link: '/blogs/ai-in-radiology-2026',
+            date: 'June 23, 2026'
+        },
+        {
             id: 27,
             title: "Healthcare Interoperability in 2026: The Rules Changed. Most Hospitals Have Not Caught Up.",
             desc: "TEFCA is live. Information blocking fines just hit $1M per violation. USCDI v3 is mandatory now. Here is the interoperability action plan every hospital CIO needs.",
