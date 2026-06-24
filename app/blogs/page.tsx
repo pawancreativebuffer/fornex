@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 29,
+            title: "CMS-0062-P Explained: What the New Drug Prior Authorization Rule Means for Your Organization",
+            desc: "CMS just proposed FHIR-based prior authorization standards for drugs. Here is what CMS-0062-P means for hospitals, pharmacies along with payers in 2026.",
+            image: "/images/cms_0062_p_rule.png",
+            link: '/blogs/cms-0062-p-drug-prior-auth-fhir',
+            date: 'June 24, 2026'
+        },
+        {
             id: 28,
             title: "AI in Radiology Has Reached a Tipping Point. Most Hospitals Are Still Deciding How to Buy It.",
             desc: "AI radiology triage is reaching mainstream adoption in 2026. Here is what hospital leaders need to know before investing in diagnostic imaging AI.",
