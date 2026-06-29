@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 32,
+            title: "Telehealth Behavioral Health Has Become the Default. Most Practice Infrastructure Has Not Caught Up.",
+            desc: "Mental health is now the top telehealth diagnosis in every age group. Here is what the behavioral telehealth surge means for your IT along with billing systems.",
+            image: "/images/telehealth_behavioral_health_2026.png",
+            link: '/blogs/telehealth-behavioral-health-surge-2026',
+            date: 'June 28, 2026'
+        },
+        {
             id: 31,
             title: "FDA's 2026 Medical Device Cybersecurity Rules: What Changed Along With What Hospitals Need to Do",
             desc: "New FDA cybersecurity rules took effect in February 2026. Here is what hospitals along with device manufacturers must do to stay compliant along with secure.",
