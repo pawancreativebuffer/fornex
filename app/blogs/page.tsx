@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 31,
+            title: "FDA's 2026 Medical Device Cybersecurity Rules: What Changed Along With What Hospitals Need to Do",
+            desc: "New FDA cybersecurity rules took effect in February 2026. Here is what hospitals along with device manufacturers must do to stay compliant along with secure.",
+            image: "/images/fda_cybersecurity_2026.png",
+            link: '/blogs/fda-medical-device-cybersecurity-2026',
+            date: 'June 27, 2026'
+        },
+        {
             id: 30,
             title: "Digital Twins in Healthcare: What the Technology Can Actually Do Right Now",
             desc: "Digital twins promise personalized care simulations for every patient. Here is what the technology can actually do in 2026 along with what is still years away.",
