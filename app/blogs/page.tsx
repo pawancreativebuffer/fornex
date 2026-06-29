@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 33,
+            title: "FAST Security: The New FHIR Trust Layer Every Health IT Leader Needs to Understand",
+            desc: "HL7 FAST Security is now required for TEFCA FHIR exchange. Here is what the new trust layer means for healthcare CISOs along with IT leaders in 2026.",
+            image: "/images/fast_security_fhir_2026.png",
+            link: '/blogs/fast-security-fhir-trust-layer-2026',
+            date: 'June 29, 2026'
+        },
+        {
             id: 32,
             title: "Telehealth Behavioral Health Has Become the Default. Most Practice Infrastructure Has Not Caught Up.",
             desc: "Mental health is now the top telehealth diagnosis in every age group. Here is what the behavioral telehealth surge means for your IT along with billing systems.",
