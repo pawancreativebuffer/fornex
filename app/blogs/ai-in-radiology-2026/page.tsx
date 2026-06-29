@@ -48,7 +48,7 @@ export default function BlogPost() {
                                 </div>
                                 <div>
                                     <p className="text-xs uppercase tracking-wider text-white/50 font-medium text-left">Published</p>
-                                    <p className="font-medium text-white">June 23, 2026</p>
+                                    <p className="font-medium text-white">June 25, 2026</p>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ export default function BlogPost() {
                                         A radiology AI tool that does not integrate cleanly into PACS along with the existing reporting workflow creates a second system radiologists have to check. Radiologists already managing high case volumes will not reliably switch between two interfaces. The tool gets ignored, regardless of how accurate its findings are.
                                     </p>
                                     <p className="mb-10">
-                                        <a href="https://www.articsledge.com/post/ai-medical-imaging" target='_blank' className='text-[#60C6B1]'>Modern AI tools are embedded directly into PACS, reporting software along with hospital workflows, not as add-ons, but as standard parts of how radiology departments operate.</a> That embedded integration is the technical along with operational bar every vendor needs to clear before procurement. Ask for a live demo inside your actual PACS environment, not inside the vendor's sandbox. Ask how many radiologist clicks separate a flagged finding from the report. If the answer is more than one or two, adoption will struggle regardless of the underlying model quality.
+                                        <a href="https://hotshot.co/medical-imaging-ai-news-2026-trends-and-clinical-impact/" target='_blank' className='text-[#60C6B1]'>Modern AI tools are embedded directly into PACS, reporting software along with hospital workflows, not as add-ons, but as standard parts of how radiology departments operate.</a> That embedded integration is the technical along with operational bar every vendor needs to clear before procurement. Ask for a live demo inside your actual PACS environment, not inside the vendor's sandbox. Ask how many radiologist clicks separate a flagged finding from the report. If the answer is more than one or two, adoption will struggle regardless of the underlying model quality.
                                     </p>
 
                                     <h2 className="text-3xl font-bold mb-6">The Governance Structure That Should Exist Before Deployment</h2>
@@ -224,10 +224,10 @@ export default function BlogPost() {
                                             <h5 className="font-bold text-[#1a2b3c] group-hover:text-[#60C6B1] transition-colors line-clamp-2">Agentic AI in Healthcare: What Hospital CTOs Need to Know</h5>
                                         </div>
                                     </Link>
-                                    <Link href="/blogs/healthcare-interoperability-2026" className="block group">
+                                    <Link href="/blogs/cms-0062-p-drug-prior-auth-fhir" className="block group">
                                         <div className="group cursor-pointer">
-                                            <p className="text-xs text-[#60C6B1] font-bold uppercase tracking-wider mb-1">Interoperability</p>
-                                            <h5 className="font-bold text-[#1a2b3c] group-hover:text-[#60C6B1] transition-colors line-clamp-2">Healthcare Interoperability in 2026: The Rules Changed. Most Hospitals Have Not Caught Up.</h5>
+                                            <p className="text-xs text-[#60C6B1] font-bold uppercase tracking-wider mb-1">Prior Authorization</p>
+                                            <h5 className="font-bold text-[#1a2b3c] group-hover:text-[#60C6B1] transition-colors line-clamp-2">CMS-0062-P Explained: What the New Drug Prior Authorization Rule Means for Your Organization</h5>
                                         </div>
                                     </Link>
                                 </div>
