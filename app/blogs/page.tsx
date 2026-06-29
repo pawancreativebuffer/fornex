@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 30,
+            title: "Digital Twins in Healthcare: What the Technology Can Actually Do Right Now",
+            desc: "Digital twins promise personalized care simulations for every patient. Here is what the technology can actually do in 2026 along with what is still years away.",
+            image: "/images/digital_twins_healthcare_2026.png",
+            link: '/blogs/digital-twins-in-healthcare-2026',
+            date: 'June 26, 2026'
+        },
+        {
             id: 29,
             title: "AI in Radiology Has Reached a Tipping Point. Most Hospitals Are Still Deciding How to Buy It.",
             desc: "AI radiology triage is reaching mainstream adoption in 2026. Here is what hospital leaders need to know before investing in diagnostic imaging AI.",
