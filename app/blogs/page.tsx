@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 34,
+            title: "HIPAA Compliance Checklist for Custom EHR Systems (2026 Update)",
+            desc: "A practical HIPAA compliance checklist for custom EHR systems, updated for the 2026 Security Rule changes, encryption, MFA, risk analysis, and vendor oversight.",
+            image: "/images/hipaa_compliance_ehr_2026.png",
+            link: '/blogs/hipaa-compliance-checklist-custom-ehr-systems-2026',
+            date: 'June 30, 2026'
+        },
+        {
             id: 33,
             title: "FAST Security: The New FHIR Trust Layer Every Health IT Leader Needs to Understand",
             desc: "HL7 FAST Security is now required for TEFCA FHIR exchange. Here is what the new trust layer means for healthcare CISOs along with IT leaders in 2026.",
