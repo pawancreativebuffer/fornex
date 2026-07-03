@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 35,
+            title: "EHR vs. EMR: What's the Difference and Which Does Your Practice Need?",
+            desc: "EHR vs EMR explained simply: what each system actually does, the real difference (interoperability), and how to decide which one fits your practice.",
+            image: "/images/ehr_vs_emr_difference_2026.png",
+            link: '/blogs/ehr-vs-emr-whats-the-difference-and-which-does-your-practice-need',
+            date: 'July 1, 2026'
+        },
+        {
             id: 34,
             title: "HIPAA Compliance Checklist for Custom EHR Systems (2026 Update)",
             desc: "A practical HIPAA compliance checklist for custom EHR systems, updated for the 2026 Security Rule changes, encryption, MFA, risk analysis, and vendor oversight.",
