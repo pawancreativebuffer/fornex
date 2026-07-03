@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 36,
+            title: "The Real Cost of Sticking with a Legacy EHR (Hidden Fees, Workarounds, Lost Productivity)",
+            desc: "Legacy EHR systems like Epic, Cerner, and Athena carry hidden costs beyond licensing, implementation, workarounds, and lost productivity. Here's the real total cost.",
+            image: "/images/legacy_ehr_hidden_costs.png",
+            link: '/blogs/the-real-cost-of-sticking-with-a-legacy-ehr',
+            date: 'July 2, 2026'
+        },
+        {
             id: 35,
             title: "EHR vs. EMR: What's the Difference and Which Does Your Practice Need?",
             desc: "EHR vs EMR explained simply: what each system actually does, the real difference (interoperability), and how to decide which one fits your practice.",
