@@ -105,7 +105,7 @@ export default function BlogPost() {
                                         <a href="https://blog.hl7.org/building-a-healthy-digital-future-with-hl7-fast-fhir-at-scale" target='_blank' className='text-[#60C6B1]'>FAST Security is referenced by the RCE along with TEFCA as a component of this trust model along with is being adopted along with considered internationally as a model for secure, interoperable data exchange.</a> The international adoption signal matters for multinational health systems along with vendors operating across the United States, Canada along with the United Kingdom, the exact markets where healthcare technology buyers are increasingly expected to demonstrate FHIR security compliance as a baseline requirement.
                                     </p>
                                     <p className="mb-10">
-                                        For the broader TEFCA along with FHIR compliance landscape that FAST Security operates within, read: <Link href="/blogs/healthcare-interoperability-2026" className="text-[#60C6B1] hover:underline">Healthcare Interoperability — What Hospital CIOs Must Do Now</Link>
+                                        For the broader TEFCA along with FHIR compliance landscape that FAST Security operates within, read: <Link href="/blogs/healthcare-interoperability-2026" className="text-[#60C6B1] hover:underline">Healthcare Interoperability - What Hospital CIOs Must Do Now</Link>
                                     </p>
 
                                     <h2 className="text-3xl font-bold mb-6">FAST Identity, FAST Security along with FAST Consent: The Three Pillars</h2>
@@ -175,12 +175,12 @@ export default function BlogPost() {
                                     <div className="mt-10 pt-8 border-t border-slate-100 bg-[#1a2b3c] p-6 rounded-2xl">
                                         <h3 className="text-xl font-bold text-[#fff] mb-5">References</h3>
                                         <ul className="space-y-2 text-sm">
-                                            <li><a href="https://blog.hl7.org/topic/fast" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7 International — The Standard: FAST Topic Updates (April 15, 2026)</a></li>
-                                            <li><a href="https://blog.hl7.org/topic/fast-security" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7 International — The Standard: FAST Security Topic Updates</a></li>
-                                            <li><a href="https://blog.hl7.org/topic/fhir-implementation-guides" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7 International — The Standard: FHIR Implementation Guides Topic Updates (February 19, 2026)</a></li>
-                                            <li><a href="https://blog.hl7.org/building-a-healthy-digital-future-with-hl7-fast-fhir-at-scale" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7 International — Building a Healthy Digital Future With HL7 FAST FHIR at Scale (February 4, 2026)</a></li>
-                                            <li><a href="https://blog.hl7.org/topic/health-it-policy" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7 International — The Standard: Health IT Policy Updates</a></li>
-                                            <li><a href="https://hl7.org/fhir/security.html" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7.org — FHIR Security Specification (v5.0.0)</a></li>
+                                            <li><a href="https://blog.hl7.org/topic/fast" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7 International - The Standard: FAST Topic Updates (April 15, 2026)</a></li>
+                                            <li><a href="https://blog.hl7.org/topic/fast-security" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7 International - The Standard: FAST Security Topic Updates</a></li>
+                                            <li><a href="https://blog.hl7.org/topic/fhir-implementation-guides" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7 International - The Standard: FHIR Implementation Guides Topic Updates (February 19, 2026)</a></li>
+                                            <li><a href="https://blog.hl7.org/building-a-healthy-digital-future-with-hl7-fast-fhir-at-scale" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7 International - Building a Healthy Digital Future With HL7 FAST FHIR at Scale (February 4, 2026)</a></li>
+                                            <li><a href="https://blog.hl7.org/topic/health-it-policy" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7 International - The Standard: Health IT Policy Updates</a></li>
+                                            <li><a href="https://hl7.org/fhir/security.html" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HL7.org - FHIR Security Specification (v5.0.0)</a></li>
                                         </ul>
                                     </div>
                                 </div>
