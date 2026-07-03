@@ -178,7 +178,7 @@ export default function BlogPost() {
                                         <li><strong>Do you want to stay eligible for federal incentive programs?</strong> Most current programs are built around EHR capabilities, not basic EMR functionality.</li>
                                     </ul>
                                     <p className="mb-10">
-                                        If none of those apply, a genuinely small, standalone practice with no referral relationships and no growth plans, an EMR can technically work. In practice, most growing practices outgrow that model quickly, and migrating later is more disruptive than building for interoperability from the start. It's also worth weighing this against what staying on a limited or legacy system actually costs once workarounds and lost referral efficiency are factored in.
+                                        If none of those apply, a genuinely small, standalone practice with no referral relationships and no growth plans, an EMR can technically work. In practice, most growing practices outgrow that model quickly, and migrating later is more disruptive than building for interoperability from the start. It's also worth weighing this against <a href="/blogs/the-real-cost-of-sticking-with-a-legacy-ehr" target='_blank' className='text-[#60C6B1]'>what staying on a limited or legacy system actually costs</a> once workarounds and lost referral efficiency are factored in.
                                     </p>
 
                                     {/* FAQ Section */}
