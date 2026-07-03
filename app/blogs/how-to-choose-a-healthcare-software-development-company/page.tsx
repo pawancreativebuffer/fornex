@@ -98,13 +98,13 @@ export default function BlogPost() {
                                             Ask every vendor you evaluate: what healthcare-specific projects have you shipped? Not prototypes. Not pilots. Shipped, live systems serving real patients in real clinical environments. Ask for references from those projects. Call the references. Ask specifically whether the vendor understood the regulatory environment or needed to be educated on it during the project.
                                         </p>
                                         <p className="mb-0">
-                                            <a href="https://nonstopio.com/knowledge-base/healthcare-software-development-company-selection-guide" target='_blank' className='text-[#60C6B1]'>The best healthcare software development company for your project is the one that has already built something like it.</a> That is not a high bar in principle. It is a surprisingly effective filter in practice.
+                                            The best healthcare software development company for your project is the one that has already built something like it. That is not a high bar in principle. It is a surprisingly effective filter in practice.
                                         </p>
                                     </div>
 
                                     <h2 className="text-3xl font-bold mb-6">HIPAA Compliance Has to Be Architecture. Not a Feature.</h2>
                                     <p className="mb-6">
-                                        <a href="https://nonstopio.com/knowledge-base/healthcare-software-development-company-selection-guide" target='_blank' className='text-[#60C6B1]'>The difference between a vendor that truly understands HIPAA-compliant healthcare software development along with one that treats compliance as a checklist becomes clear very early in the engagement. Real compliance practice starts with architecture. PHI data architecture is defined before development begins, not audited after development ends.</a>
+                                        The difference between a vendor that truly understands HIPAA-compliant healthcare software development along with one that treats compliance as a checklist becomes clear very early in the engagement. Real compliance practice starts with architecture. PHI data architecture is defined before development begins, not audited after development ends.
                                     </p>
                                     <p className="mb-6">
                                         This is the test. Ask your vendor candidate: when in the development process do you define your PHI data model? If the answer involves any variation of "we handle compliance at the end," walk away.
@@ -113,7 +113,7 @@ export default function BlogPost() {
                                         Real HIPAA compliance in software development means: PHI de-identification is specified during system design. Audit trails along with role-based access controls are architectural decisions made at the start. Encryption key management is part of the infrastructure specification. Every third-party component that touches patient data has a Business Associate Agreement in place before a single line of code is written.
                                     </p>
                                     <p className="mb-6">
-                                        <a href="https://nonstopio.com/knowledge-base/healthcare-software-development-company-selection-guide" target='_blank' className='text-[#60C6B1]'>HIPAA-compliant software development requires building systems where protected health information is encrypted at rest along with in transit, access is controlled by role with full audit logging, PHI is protected in all environments including development along with testing, along with all third-party components that touch patient data are covered by Business Associate Agreements.</a>
+                                        HIPAA-compliant software development requires building systems where protected health information is encrypted at rest along with in transit, access is controlled by role with full audit logging, PHI is protected in all environments including development along with testing, along with all third-party components that touch patient data are covered by Business Associate Agreements.
                                     </p>
                                     <p className="mb-10">
                                         Ask the vendor for their BAA template. Ask how many BAAs they have executed with clients. Ask what their process is when a subcontractor is brought onto a project that touches PHI. Vendors with real healthcare compliance experience can answer all of these immediately.
@@ -131,7 +131,7 @@ export default function BlogPost() {
                                                 Any vendor that treats EHR integration as a scope item to figure out later is a vendor that has not done it before. Real EHR integration experience means the vendor can tell you exactly which EHR systems they have integrated with, which APIs they used, what the limitations of those APIs are along with what their testing approach was for data integrity.
                                             </p>
                                             <p className="text-white/80">
-                                                <a href="https://nonstopio.com/knowledge-base/healthcare-software-development-company-selection-guide" target='_blank' className='text-[#60C6B1]'>Check for active EHR integrations along with long-term client references. Ask for references from clients whose projects had the same regulatory requirements as yours.</a>
+                                                Check for active EHR integrations along with long-term client references. Ask for references from clients whose projects had the same regulatory requirements as yours.
                                             </p>
                                             <p className="text-white/80">
                                                 The FHIR R4 standard is now the baseline for modern healthcare data exchange. A vendor that is not fluent in FHIR R4 along with SMART on FHIR authorization is operating with a skillset that is already behind the current regulatory standard.
@@ -187,7 +187,6 @@ export default function BlogPost() {
                                         <h4 className="text-xl font-bold text-[#fff] mb-5">References</h4>
                                         <ul className="space-y-2 text-sm break-all">
                                             <li><a href="https://www.tactionsoft.com/blog/how-to-choose-healthcare-software-development-company/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">TactionSoft - How to Choose a Healthcare Software Development Company</a></li>
-                                            <li><a href="https://nonstopio.com/knowledge-base/healthcare-software-development-company-selection-guide" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">NonstopIO - How to Choose a Healthcare Software Development Company: Selection Guide</a></li>
                                             <li><a href="https://saga-it.com/blog/how-to-choose-healthcare-software-development-company" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Saga IT - How to Choose a Healthcare Software Development Company</a></li>
                                             <li><a href="https://www.themomentum.ai/blog/top-10-healthcare-software-development-companies-in-2026" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">Momentum - Top Healthcare Software Development Companies: Evaluation Framework</a></li>
                                             <li><a href="https://hyscaler.com/insights/healthcare-software-development-company-guide/" target="_blank" rel="noopener noreferrer" className="text-[#60C6B1] hover:underline">HyScaler - How to Choose the Right Healthcare Software Development Company</a></li>

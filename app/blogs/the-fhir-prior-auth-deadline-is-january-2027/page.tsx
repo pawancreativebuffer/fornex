@@ -94,7 +94,7 @@ export default function BlogPost() {
                                             The rule fixes this by forcing the infrastructure that makes automation possible.
                                         </p>
                                         <p className="mb-4">
-                                            By January 1, 2027, payers must comply with a sweeping set of mandates including support for FHIR-based APIs covering Patient Access, Provider Access, Payer-to-Payer Data Exchange. The Prior Authorization API must also be live in production by that date. <a className='text-[#60C6B1] hover:underline' href='http://Pilotfishtechnology' target='_blank'>(Pilotfishtechnology)</a>
+                                            By January 1, 2027, payers must comply with a sweeping set of mandates including support for FHIR-based APIs covering Patient Access, Provider Access, Payer-to-Payer Data Exchange. The Prior Authorization API must also be live in production by that date.
                                         </p>
                                         <p className="mb-0">
                                             For providers the Prior Authorization API is the one that matters most day-to-day. It must support checking whether prior auth is required, surfacing documentation needs, electronic submission, then electronic decisions. <a className='text-[#60C6B1] hover:underline' href='https://fire.ly/blog/cms-0057-f-decoded-must-have-apis-vs-nice-to-have-igs-for-2026-2027/' target='_blank'>(Firely)</a>
