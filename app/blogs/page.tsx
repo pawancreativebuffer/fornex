@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 37,
+            title: "How to Migrate from Your Current EHR Without Losing Patient Data",
+            desc: "A step-by-step guide to EHR data migration, planning, data mapping, testing, and go-live, so you can switch systems without losing or corrupting patient records.",
+            image: "/images/ehr_migration_without_losing_data.png",
+            link: '/blogs/how-to-migrate-from-your-current-ehr-without-losing-patient-data',
+            date: 'July 3, 2026'
+        },
+        {
             id: 36,
             title: "The Real Cost of Sticking with a Legacy EHR (Hidden Fees, Workarounds, Lost Productivity)",
             desc: "Legacy EHR systems like Epic, Cerner, and Athena carry hidden costs beyond licensing, implementation, workarounds, and lost productivity. Here's the real total cost.",
