@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 42,
+            title: "Why 75% of Home Care Referrals Still Arrive by Fax Along With What That Costs Your Agency",
+            desc: "Fax-based home care referrals cost agencies 15 to 30 minutes per patient. Here is what the intake bottleneck is costing your revenue along with how to fix it.",
+            image: "/images/home_care_referrals_fax_intake.png",
+            link: '/blogs/why-75-percent-of-home-care-referrals-still-arrive-by-fax-in-2026',
+            date: 'July 8, 2026'
+        },
+        {
             id: 41,
             title: "Home Care Billing Management: The Revenue Cycle Guide for Agencies Losing Money Without Knowing It",
             desc: "Home care agencies lose revenue across intake, EVV along with claims. Here is the complete revenue cycle guide that shows where the losses are along with how to stop them.",
