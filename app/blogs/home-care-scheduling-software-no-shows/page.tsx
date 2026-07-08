@@ -204,9 +204,9 @@ export default function BlogPost() {
                                         <p className="text-xs text-[#60C6B1] font-bold uppercase tracking-wider mb-1">Operational Intake</p>
                                         <h5 className="font-bold text-[#1a2b3c] group-hover:text-[#60C6B1] transition-colors line-clamp-2 font-bold">Home Care Patient Intake: The Complete Operational Guide for Agencies</h5>
                                     </Link>
-                                    <Link href="/blogs/why-healthcare-software-fails-in-the-first-90-days" className="block group">
-                                        <p className="text-xs text-[#60C6B1] font-bold uppercase tracking-wider mb-1">Implementation</p>
-                                        <h5 className="font-bold text-[#1a2b3c] group-hover:text-[#60C6B1] transition-colors line-clamp-2 font-bold">Why Healthcare Software Fails in the First 90 Days</h5>
+                                    <Link href="/blogs/home-care-billing-management-revenue-cycle-guide" className="block group">
+                                        <p className="text-xs text-[#60C6B1] font-bold uppercase tracking-wider mb-1">Billing Guide</p>
+                                        <h5 className="font-bold text-[#1a2b3c] group-hover:text-[#60C6B1] transition-colors line-clamp-2 font-bold">Home Care Billing Management: The Revenue Cycle Guide for Agencies</h5>
                                     </Link>
                                 </div>
                             </div>

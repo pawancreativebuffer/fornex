@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 41,
+            title: "Home Care Billing Management: The Revenue Cycle Guide for Agencies Losing Money Without Knowing It",
+            desc: "Home care agencies lose revenue across intake, EVV along with claims. Here is the complete revenue cycle guide that shows where the losses are along with how to stop them.",
+            image: "/images/home_care_billing_management_revenue_cycle.png",
+            link: '/blogs/home-care-billing-management-revenue-cycle-guide',
+            date: 'July 7, 2026'
+        },
+        {
             id: 40,
             title: "Home Care Scheduling Software: What Agencies With Zero No-Shows Do Differently",
             desc: "Caregiver no-shows cost home care agencies revenue along with relationships. Here is what scheduling software actually does in agencies with the lowest no-show rates.",
