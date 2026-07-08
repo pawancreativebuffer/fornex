@@ -19,7 +19,7 @@ export default function BlogPage() {
             desc: "Caregiver no-shows cost home care agencies revenue along with relationships. Here is what scheduling software actually does in agencies with the lowest no-show rates.",
             image: "/images/home_care_scheduling_software_no_shows.png",
             link: '/blogs/home-care-scheduling-software-no-shows',
-            date: 'July 8, 2026'
+            date: 'July 6, 2026'
         },
         {
             id: 39,
