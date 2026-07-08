@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 38,
+            title: "Home Care Patient Intake: The Complete Operational Guide for Agencies",
+            desc: "30 to 65% of home care referrals arrive incomplete. Here is the complete operational guide to fixing patient intake before it costs your agency revenue.",
+            image: "/images/home_care_patient_intake.png",
+            link: '/blogs/home-care-patient-intake-the-complete-operational-guide',
+            date: 'July 4, 2026'
+        },
+        {
             id: 37,
             title: "How to Migrate from Your Current EHR Without Losing Patient Data",
             desc: "A step-by-step guide to EHR data migration, planning, data mapping, testing, and go-live, so you can switch systems without losing or corrupting patient records.",
