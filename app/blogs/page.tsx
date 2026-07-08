@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 39,
+            title: "AI Care Plan Generation for Home Care Agencies: What Works Along With What Gets Agencies Into Trouble",
+            desc: "AI care plan generation is in production at leading home care agencies. Here is what it actually does, where liability sits along with what CMS requires.",
+            image: "/images/ai_care_plan_generation_home_care.png",
+            link: '/blogs/ai-care-plan-generation-home-care-what-works-now',
+            date: 'July 5, 2026'
+        },
+        {
             id: 38,
             title: "Home Care Patient Intake: The Complete Operational Guide for Agencies",
             desc: "30 to 65% of home care referrals arrive incomplete. Here is the complete operational guide to fixing patient intake before it costs your agency revenue.",
