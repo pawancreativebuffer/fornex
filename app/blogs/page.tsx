@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 40,
+            title: "Home Care Scheduling Software: What Agencies With Zero No-Shows Do Differently",
+            desc: "Caregiver no-shows cost home care agencies revenue along with relationships. Here is what scheduling software actually does in agencies with the lowest no-show rates.",
+            image: "/images/home_care_scheduling_software_no_shows.png",
+            link: '/blogs/home-care-scheduling-software-no-shows',
+            date: 'July 8, 2026'
+        },
+        {
             id: 39,
             title: "AI Care Plan Generation for Home Care Agencies: What Works Along With What Gets Agencies Into Trouble",
             desc: "AI care plan generation is in production at leading home care agencies. Here is what it actually does, where liability sits along with what CMS requires.",
