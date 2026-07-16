@@ -1,35 +1,11 @@
-"use client";
-
 import { ChevronRight } from "lucide-react";
-import { useState } from "react";
-import { submitContactForm } from "./action";
 
 export default function ContactForm() {
-    const [result, setResult] = useState("");
-
-    const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
-        setResult("Sending....");
-
-        const formData = new FormData(event.currentTarget);
-        const object = Object.fromEntries(formData.entries());
-
-        try {
-            const res = await submitContactForm(object);
-
-            if (res?.success) {
-                setResult("Form Submitted Successfully!");
-                (event.target as HTMLFormElement).reset();
-            } else {
-                setResult(res?.message || "Something went wrong.");
-            }
-        } catch (error) {
-            setResult("Something went wrong!");
-        }
-    };
-
     return (
-        <form className="space-y-6" onSubmit={onSubmit}>
+        <form className="space-y-6" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="b5b532c4-a389-4597-9408-070f371aa01d" />
+            <input type="hidden" name="redirect" value="https://www.fornexhealth.com/contact" />
+
             <div className="relative group">
                 <input
                     type="text"
@@ -72,7 +48,6 @@ export default function ContactForm() {
                     Get Free Consultation
                     <ChevronRight size={20} />
                 </button>
-                {result && <span className="text-sm font-medium text-[#1a2b3c]">{result}</span>}
             </div>
         </form>
     );
