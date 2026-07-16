@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 44,
+            title: "Patient Intake Automation for Home Care: What to Automate First Along With What to Leave Alone",
+            desc: "Not everything in home care intake should be automated. Here is a sequenced guide to what to automate first along with what requires human judgment to stay.",
+            image: "/images/patient_intake_automation.png",
+            link: '/blogs/patient-intake-automation-home-care-what-to-automate-first',
+            date: 'July 10, 2026'
+        },
+        {
             id: 43,
             title: "What a Good Home Care Intake Process Looks Like Step by Step",
             desc: "Most home care agencies have an intake process. Few have one that works. Here is what a properly structured home care intake workflow looks like in practice.",
