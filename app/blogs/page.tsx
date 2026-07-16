@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 45,
+            title: "Why Home Care Claims Get Denied Along With the Documentation Fixes That Stop It Repeating",
+            desc: "The same 5 denial patterns account for most home care revenue loss. Here is the root cause behind each one along with the documentation fix that stops it repeating.",
+            image: "/images/home_care_claims_denied.png",
+            link: '/blogs/why-home-care-claims-get-denied-root-causes-along-with-fixes',
+            date: 'July 11, 2026'
+        },
+        {
             id: 44,
             title: "Patient Intake Automation for Home Care: What to Automate First Along With What to Leave Alone",
             desc: "Not everything in home care intake should be automated. Here is a sequenced guide to what to automate first along with what requires human judgment to stay.",
