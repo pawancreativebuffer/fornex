@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 46,
+            title: "Revenue Tracking for Home Care Agencies: The Metrics That Actually Tell You If Your Agency Is Healthy",
+            desc: "Most home care agencies track collections. Few track the metrics that show why collections are what they are. Here is the revenue tracking framework that works.",
+            image: "/images/revenue_tracking_home_care.png",
+            link: '/blogs/revenue-tracking-for-home-care-the-metrics-that-matter',
+            date: 'July 12, 2026'
+        },
+        {
             id: 45,
             title: "Why Home Care Claims Get Denied Along With the Documentation Fixes That Stop It Repeating",
             desc: "The same 5 denial patterns account for most home care revenue loss. Here is the root cause behind each one along with the documentation fix that stops it repeating.",
