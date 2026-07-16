@@ -2,6 +2,7 @@
 
 import { ChevronRight } from "lucide-react";
 import { useState } from "react";
+import { submitContactForm } from "./action";
 
 export default function ContactForm() {
     const [result, setResult] = useState("");
@@ -12,26 +13,15 @@ export default function ContactForm() {
 
         const formData = new FormData(event.currentTarget);
         const object = Object.fromEntries(formData.entries());
-        const json = JSON.stringify({
-            ...object,
-            access_key: "b5b532c4-a389-4597-9408-070f371aa01d"
-        });
 
         try {
-            const res = await fetch("https://api.web3forms.com/submit", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    Accept: "application/json"
-                },
-                body: json
-            }).then((res) => res.json());
+            const res = await submitContactForm(object);
 
-            if (res.success) {
+            if (res?.success) {
                 setResult("Form Submitted Successfully!");
                 (event.target as HTMLFormElement).reset();
             } else {
-                setResult(res.message);
+                setResult(res?.message || "Something went wrong.");
             }
         } catch (error) {
             setResult("Something went wrong!");
