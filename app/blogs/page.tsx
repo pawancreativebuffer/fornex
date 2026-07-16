@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 43,
+            title: "What a Good Home Care Intake Process Looks Like Step by Step",
+            desc: "Most home care agencies have an intake process. Few have one that works. Here is what a properly structured home care intake workflow looks like in practice.",
+            image: "/images/home_care_intake_workflow.png",
+            link: '/blogs/what-a-good-home-care-intake-process-looks-like-step-by-step',
+            date: 'July 9, 2026'
+        },
+        {
             id: 42,
             title: "Why 75% of Home Care Referrals Still Arrive by Fax Along With What That Costs Your Agency",
             desc: "Fax-based home care referrals cost agencies 15 to 30 minutes per patient. Here is what the intake bottleneck is costing your revenue along with how to fix it.",
