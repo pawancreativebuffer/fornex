@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 48,
+            title: "Home Care Assessment Best Practices: What Field Staff Need Before the First Visit",
+            desc: "Incomplete home care assessments create care plan failures along with billing denials. Here are the best practices that protect both clinical quality along with revenue.",
+            image: "/images/home_care_assessment_best_practices.png",
+            link: '/blogs/home-care-assessment-best-practices',
+            date: 'July 14, 2026'
+        },
+        {
             id: 47,
             title: "EVV Compliance Home Care Billing: The Silent Revenue Killer",
             desc: "States are switching EVV to hard denials in 2026. Here is how EVV compliance errors are creating silent revenue losses along with the fix that stops them.",
