@@ -14,6 +14,22 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 50,
+            title: "SOPs for Home Care Agencies: 6 Processes You Must Document",
+            desc: "Home care agencies that scale without documented SOPs create compliance gaps along with staff confusion. Here are the 6 processes every growing agency must write down.",
+            image: "/images/sops_home_care_agencies.png",
+            link: '/blogs/sops-for-home-care-agencies-6-processes-you-must-document',
+            date: 'July 16, 2026'
+        },
+        {
+            id: 49,
+            title: "How Home Care Assessment Gaps Create Billing Denials Later",
+            desc: "Most home care billing denials trace back to assessment documentation from weeks earlier. Here is the assessment-to-denial connection agencies need to understand.",
+            image: "/images/assessment_billing_denials.png",
+            link: '/blogs/how-home-care-assessment-gaps-create-billing-denials-later',
+            date: 'July 15, 2026'
+        },
+        {
             id: 48,
             title: "Home Care Assessment Best Practices: What Field Staff Need Before the First Visit",
             desc: "Incomplete home care assessments create care plan failures along with billing denials. Here are the best practices that protect both clinical quality along with revenue.",
