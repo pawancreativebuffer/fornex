@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 47,
+            title: "EVV Compliance Home Care Billing: The Silent Revenue Killer",
+            desc: "States are switching EVV to hard denials in 2026. Here is how EVV compliance errors are creating silent revenue losses along with the fix that stops them.",
+            image: "/images/evv_compliance_home_care_billing.jpg",
+            link: '/blogs/evv-compliance-home-care-billing',
+            date: 'July 13, 2026'
+        },
+        {
             id: 46,
             title: "Revenue Tracking for Home Care Agencies: The Metrics That Actually Tell You If Your Agency Is Healthy",
             desc: "Most home care agencies track collections. Few track the metrics that show why collections are what they are. Here is the revenue tracking framework that works.",
