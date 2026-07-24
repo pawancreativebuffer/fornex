@@ -150,7 +150,7 @@ export default function BlogPost() {
                                     </p>
 
                                     {/* FAQ Section */}
-                                    <h2 className="text-3xl font-bold mb-6 mt-12">Frequently Asked Questions</h2>
+                                    <h2 className="text-3xl font-bold mb-6 mt-12">Frequently Asked Questions  </h2>
 
                                     <h3 className="text-xl font-bold mb-3">What are SOPs in home care?</h3>
                                     <p className="mb-6">
