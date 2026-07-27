@@ -14,6 +14,30 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 53,
+            title: "HIPAA Compliant LLMs: Which AI Can Touch Patient Data in 2026",
+            desc: "Not every AI is safe for healthcare. Here is the definitive 2026 guide to which LLMs are HIPAA compliant, which are banned along with what your team must do now.",
+            image: "/images/hipaa_compliant_ai.png",
+            link: '/blogs/hipaa-compliant-llms-which-ai-can-touch-patient-data-in-2026',
+            date: 'July 21, 2026'
+        },
+        {
+            id: 52,
+            title: "Home Care Caregiver Scheduling: How Retention Agencies Build",
+            desc: "Caregiver turnover in home care runs at 79.2%. Scheduling is a bigger driver than most agencies realize. Here is how the highest-retention agencies build theirs.",
+            image: "/images/caregiver_scheduling.png",
+            link: '/blogs/home-care-caregiver-scheduling-how-retention-agencies-build',
+            date: 'July 20, 2026'
+        },
+        {
+            id: 51,
+            title: "Automation in Home Care Services: What to Cut Along With Keep",
+            desc: "98% of home care executives expect AI cost savings but only 11% have deployed it fully. Here is how automation in home care services actually works in practice.",
+            image: "/images/automation_home_care.png",
+            link: '/blogs/automation-in-home-care-services-what-to-cut-along-with-keep',
+            date: 'July 17, 2026'
+        },
+        {
             id: 50,
             title: "SOPs for Home Care Agencies: 6 Processes You Must Document",
             desc: "Home care agencies that scale without documented SOPs create compliance gaps along with staff confusion. Here are the 6 processes every growing agency must write down.",
