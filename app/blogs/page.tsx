@@ -17,7 +17,7 @@ export default function BlogPage() {
             id: 54,
             title: "FERPA, COPPA & HIPAA Checklist for Children’s Health Platforms (2026 Guide)",
             desc: "Learn how FERPA, COPPA, and HIPAA apply to children’s health platforms. This practical 2026 checklist helps healthcare product teams manage consent, retention, security, vendor compliance, and parental rights.",
-            image: "/images/compliance_isnt_one_size_fits_all.png",
+            image: "/images/hipaa_isnt_enough_childrens_health.png",
             link: '/blogs/ferpa-coppa-hipaa-checklist-childrens-health-platforms',
             date: 'August 7, 2026'
         },

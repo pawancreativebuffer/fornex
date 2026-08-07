@@ -73,7 +73,7 @@ export default function BlogPost() {
                         <div className="lg:col-span-8">
                             <div className="bg-white rounded-3xl p-4 md:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-slate-100">
                                 <img
-                                    src="/images/compliance_isnt_one_size_fits_all.png"
+                                    src="/images/hipaa_isnt_enough_childrens_health.png"
                                     alt="Compliance Isn't One-Size-Fits-All: Different laws apply in different contexts"
                                     className="w-full object-cover rounded-2xl mb-10 shadow-lg"
                                 />
@@ -191,7 +191,7 @@ export default function BlogPost() {
 
                                     {/* Middle Image */}
                                     <img
-                                        src="/images/hipaa_isnt_enough_childrens_health.png"
+                                        src="/images/compliance_isnt_one_size_fits_all.png"
                                         alt="HIPAA Isn't Enough: What every healthcare product team needs to know before collecting a child's data"
                                         className="w-full object-cover rounded-2xl my-10 shadow-lg"
                                     />
