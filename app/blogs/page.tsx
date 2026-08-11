@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 55,
+            title: "HIPAA Compliant LLMs in 2026: Which AI Can Touch Patient Data, Which Can't Along With What Your Team Needs to Know",
+            desc: "Not every AI is safe for healthcare. Here is the definitive 2026 guide to which LLMs are HIPAA compliant, which are banned along with what your team must do",
+            image: "/images/hippma-img.png",
+            link: '/blogs/hipaa-compliant-llms-in-2026-which-ai-can-touch-patient-data',
+            date: 'August 11, 2026'
+        },
+        {
             id: 54,
             title: "FERPA, COPPA & HIPAA Checklist for Children’s Health Platforms (2026 Guide)",
             desc: "Learn how FERPA, COPPA, and HIPAA apply to children’s health platforms. This practical 2026 checklist helps healthcare product teams manage consent, retention, security, vendor compliance, and parental rights.",
