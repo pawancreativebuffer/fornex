@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 56,
+            title: "Agentic AI in Clinical Workflows: When to Deploy in 2026",
+            desc: "82% of medtech executives see agentic AI as an immediate revenue driver. Here is how to know when your clinical workflow is actually ready for it along with when it's not.",
+            image: "/images/deploy-smart-impact-safe.png",
+            link: '/blogs/agentic-ai-in-clinical-workflows-when-to-deploy-in-2026',
+            date: 'August 24, 2026'
+        },
+        {
             id: 55,
             title: "HIPAA Compliant LLMs in 2026: Which AI Can Touch Patient Data, Which Can't Along With What Your Team Needs to Know",
             desc: "Not every AI is safe for healthcare. Here is the definitive 2026 guide to which LLMs are HIPAA compliant, which are banned along with what your team must do",
