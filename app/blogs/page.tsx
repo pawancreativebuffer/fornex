@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 57,
+            title: "Healthcare Workforce Shortage Along With Automation: What Technology Can Fix Along With What It Can't",
+            desc: "81% of physicians now use AI professionally. But a staffing crisis needs more than AI. Here is what technology actually fixes along with where it hits a hard limit.",
+            image: "/images/Untitled-design1.png",
+            link: '/blogs/healthcare-workforce-shortage-automation',
+            date: 'August 31, 2026'
+        },
+        {
             id: 56,
             title: "Agentic AI in Clinical Workflows: When to Deploy in 2026",
             desc: "82% of medtech executives see agentic AI as an immediate revenue driver. Here is how to know when your clinical workflow is actually ready for it along with when it's not.",

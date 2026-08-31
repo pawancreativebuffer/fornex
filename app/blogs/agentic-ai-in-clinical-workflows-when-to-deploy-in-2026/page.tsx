@@ -237,6 +237,7 @@ export default function BlogPost() {
                             </div>
                         </div>
 
+
                         {/* Sidebar */}
                         <div className="lg:col-span-4 space-y-8 lg:sticky lg:top-10 h-fit">
                             {/* CTA Card */}
