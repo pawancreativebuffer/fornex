@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 58,
+            title: "Epic Along With Oracle Health Are Embedding AI Into EHRs. Here Is What Your IT Team Needs to Know.",
+            desc: "Epic is shipping 150+ AI features. Oracle Health just launched AI agents. Here is what both moves mean for your hospital IT team along with integration strategy.",
+            image: "/images/epic-oracle-health-embedding-ai-ehr-integration-2026.webp",
+            link: '/blogs/epic-oracle-health-embedding-ai-ehrs',
+            date: 'September 8, 2026'
+        },
+        {
             id: 57,
             title: "Healthcare Workforce Shortage Along With Automation: What Technology Can Fix Along With What It Can't",
             desc: "81% of physicians now use AI professionally. But a staffing crisis needs more than AI. Here is what technology actually fixes along with where it hits a hard limit.",
