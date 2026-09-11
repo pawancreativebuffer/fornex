@@ -14,6 +14,14 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 59,
+            title: "From Pilot to Production: Why 60% of Healthcare AI Projects Never Ship Along With How to Be in the Other 40%",
+            desc: "60% of healthcare AI projects never make it to production. Here is the exact difference between pilots that ship along with pilots that stay pilots forever.",
+            image: "/images/healthcare-ai-pilot-to-production-2026.webp",
+            link: '/blogs/healthcare-ai-pilot-to-production',
+            date: 'September 11, 2026'
+        },
+        {
             id: 58,
             title: "Epic Along With Oracle Health Are Embedding AI Into EHRs. Here Is What Your IT Team Needs to Know.",
             desc: "Epic is shipping 150+ AI features. Oracle Health just launched AI agents. Here is what both moves mean for your hospital IT team along with integration strategy.",

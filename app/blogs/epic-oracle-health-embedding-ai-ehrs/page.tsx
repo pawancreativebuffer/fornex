@@ -142,10 +142,6 @@ export default function BlogPost() {
                                         The ONC information blocking rule, USCDI along with TEFCA have materially lowered the barrier to data access since 2023. The defaults now favour interoperability. That regulatory shift means connecting best-of-breed tools to Epic along with Oracle is more technically feasible than it was three years ago. The question has moved from "can we connect this" to "should we."
                                     </p>
 
-                                    <p className="mb-6">
-                                        For a detailed look at what modular EHR integration looks like operationally, read: <Link href="/blogs" className="text-[#60C6B1]">EHR Along With EMR Integration: Why Modular Is Replacing Monolithic</Link>
-                                    </p>
-
                                     <p className="mb-10">
                                         Our <Link href="https://www.fornexhealth.com/services/healthcare-software-development" target="_blank" className="text-[#60C6B1]">EHR along With EMR Integration Solutions</Link> team builds the connectivity layer between your existing EHR along with the AI tools that need to plug into it.
                                     </p>
