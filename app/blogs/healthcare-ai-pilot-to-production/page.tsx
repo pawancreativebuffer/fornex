@@ -76,7 +76,9 @@ export default function BlogPost() {
 
                                 <div className="prose prose-lg max-w-none prose-slate prose-headings:text-[#1a2b3c] prose-headings:font-bold prose-p:text-gray-500 prose-p:leading-relaxed">
                                     <p className="mb-6">
-                                        Every healthcare organization has an AI pilot running somewhere right now. Most of them will still be called pilots in 18 months. Not because the technology stopped working along with not because the budget disappeared. Because pilots are the safe place where AI projects live indefinitely without having to prove themselves in the messy reality of a real clinical environment.
+                                        Every healthcare organization has an AI pilot running somewhere right now.</p>
+                                    <p className="mb-6">
+                                        Most of them will still be called pilots in 18 months. Not because the technology stopped working along with not because the budget disappeared. Because pilots are the safe place where AI projects live indefinitely without having to prove themselves in the messy reality of a real clinical environment.
                                     </p>
 
                                     <p className="mb-6">
