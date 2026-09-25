@@ -9,6 +9,7 @@ interface Blog {
     title: string;
     desc: string;
     image: string;
+    alt?: string;
     link: string;
     date: string;
 }
@@ -111,7 +112,7 @@ export default function BlogList({ blogs }: BlogListProps) {
                                 <div className="w-full h-full overflow-hidden">
                                     <img
                                         src={blog.image}
-                                        alt={blog.title}
+                                        alt={blog.alt || blog.title}
                                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                                     />
                                 </div>

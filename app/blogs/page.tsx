@@ -14,6 +14,42 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 63,
+            title: "FY 2027 IPPS Final Rule: What CMS's July 31 Decision Means for Your Hospital IT Strategy",
+            desc: "CMS finalized the FY 2027 inpatient payment rule on July 31. Here is what the 2.3% rate update, new technology payments along with quality changes mean for hospital IT.",
+            image: "/images/fy-2027-ipps-final-rule-hospital-it-strategy.webp",
+            alt: "FY 2027 IPPS Final Rule and its impact on hospital IT strategy",
+            link: '/blogs/fy-2027-ipps-final-rule-hospital-it-strategy',
+            date: 'September 25, 2026'
+        },
+        {
+            id: 62,
+            title: "K-Shaped Hospital Recovery: The Technology Gap That's Deciding Which Hospitals Survive",
+            desc: "Fitch Ratings flagged a K-shaped split in US hospitals in August 2026. Here is how technology investment is determining which side of that split your hospital lands on.",
+            image: "/images/k-shaped-hospital-recovery-technology-investment-2026.webp",
+            alt: "K-shaped hospital recovery showing how technology investment influences financial",
+            link: '/blogs/k-shaped-hospital-recovery-tech-gap',
+            date: 'September 23, 2026'
+        },
+        {
+            id: 61,
+            title: "CMS TEAM Model 2026: What 714 Hospitals Must Do Now Along With Why Your EHR Alone Won't Get You There",
+            desc: "714 hospitals are now accountable for 30 days post-surgery under the mandatory CMS TEAM model. Here is what the mandate requires along with what technology enables it.",
+            image: "/images/cms-team-model-2026-hospital-care-accountability.webp",
+            alt: "CMS TEAM Model 2026 requiring hospitals to coordinate care through 30 days after",
+            link: '/blogs/cms-team-model-2026-what-714-hospitals-must-do-now',
+            date: 'September 22, 2026'
+        },
+        {
+            id: 60,
+            title: "Payer AI vs Hospital AI: The $48 Billion Claim Denial War Hospitals Are Losing",
+            desc: "Payers are denying claims with AI in milliseconds. Hospitals are losing $48 billion a year fighting back manually. Here is what the arms race looks like in 2026.",
+            image: "/images/payer-ai-vs-hospital-ai-claim-denials-2026.webp",
+            alt: "Payer AI versus hospital AI in the fight against healthcare claim denials",
+            link: '/blogs/payer-ai-vs-hospital-ai-claim-denial-war',
+            date: 'September 21, 2026'
+        },
+        {
             id: 59,
             title: "From Pilot to Production: Why 60% of Healthcare AI Projects Never Ship Along With How to Be in the Other 40%",
             desc: "60% of healthcare AI projects never make it to production. Here is the exact difference between pilots that ship along with pilots that stay pilots forever.",
