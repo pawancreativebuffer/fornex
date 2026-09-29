@@ -14,6 +14,24 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 65,
+            title: "AI Drug Diversion Detection: The $5 Billion Hospital Problem Nobody Is Talking About Publicly",
+            desc: "Two-thirds of healthcare leaders can't confidently catch drug diversion. AI is now the only scalable fix. Here is what hospitals need to know along with do in 2026.",
+            image: "/images/ai-drug-diversion-detection-hospitals-2026.webp",
+            alt: "AI-powered drug diversion detection system analyzing hospital medication data to identify suspicious patterns and protect patient safety.",
+            link: '/blogs/ai-drug-diversion-detection-hospital-2026',
+            date: 'September 29, 2026'
+        },
+        {
+            id: 64,
+            title: "Dragon Copilot vs Every Other Ambient Scribe in 2026: The NEJM Trial Data Nobody Leads With",
+            desc: "A NEJM AI trial at UCLA Health just tested Dragon Copilot against real clinicians. Here is what the data shows along with what it means before you sign a contract.",
+            image: "/images/dragon-copilot-vs-ambient-scribes-2026-comparison.jpg",
+            alt: "ForNex Health graphic comparing Dragon Copilot with other ambient AI scribes in 2026, highlighting clinical documentation and EHR integration.",
+            link: '/blogs/dragon-copilot-vs-ambient-scribes-2026',
+            date: 'September 28, 2026'
+        },
+        {
             id: 63,
             title: "FY 2027 IPPS Final Rule: What CMS's July 31 Decision Means for Your Hospital IT Strategy",
             desc: "CMS finalized the FY 2027 inpatient payment rule on July 31. Here is what the 2.3% rate update, new technology payments along with quality changes mean for hospital IT.",
