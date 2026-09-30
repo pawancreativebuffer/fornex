@@ -14,6 +14,15 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 66,
+            title: "Healthcare AI M&A 2026: What Vendor Consolidation Means for You",
+            desc: "AI companies are consolidating in 2026. Your scribe vendor could merge. Your RCM platform could be acquired. Here is what healthcare AI M&A means for your stack.",
+            image: "/images/healthcare-ai-ma-consolidation-2026.webp",
+            alt: "Healthcare AI vendor consolidation represented by connected AI, healthcare, analytics, and business puzzle pieces in a hospital technology environment.",
+            link: '/blogs/healthcare-ai-ma-consolidation-2026',
+            date: 'September 30, 2026'
+        },
+        {
             id: 65,
             title: "AI Drug Diversion Detection: The $5 Billion Hospital Problem Nobody Is Talking About Publicly",
             desc: "Two-thirds of healthcare leaders can't confidently catch drug diversion. AI is now the only scalable fix. Here is what hospitals need to know along with do in 2026.",
