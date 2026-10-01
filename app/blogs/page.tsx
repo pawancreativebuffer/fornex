@@ -14,6 +14,15 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 67,
+            title: "AI Overviews Are Eating Healthcare Search Traffic. Most Hospitals Are Watching It Happen.",
+            desc: "Google AI Overviews now answer patient health questions before they reach your website. Here is what US hospitals must do to stay visible in the new search landscape.",
+            image: "/images/ai-overviews-healthcare-search-visibility-2026.jpg",
+            alt: "AI Overviews changing healthcare search visibility, with AI-generated answers appearing above traditional hospital search results and reducing website clicks.",
+            link: '/blogs/ai-overviews-healthcare-search-2026',
+            date: 'October 1, 2026'
+        },
+        {
             id: 66,
             title: "Healthcare AI M&A 2026: What Vendor Consolidation Means for You",
             desc: "AI companies are consolidating in 2026. Your scribe vendor could merge. Your RCM platform could be acquired. Here is what healthcare AI M&A means for your stack.",
