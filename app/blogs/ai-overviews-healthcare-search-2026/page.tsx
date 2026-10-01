@@ -70,7 +70,7 @@ export default function BlogPost() {
                         <div className="lg:col-span-8">
                             <div className="bg-white rounded-3xl p-4 md:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-slate-100">
                                 <img
-                                    src="/images/ai-overviews-healthcare-search-visibility-2026.jpg"
+                                    src="/images/healthcare-seo-ai-overviews-strategy-2026.jpg"
                                     alt="AI Overviews changing healthcare search visibility, with AI-generated answers appearing above traditional hospital search results and reducing website clicks."
                                     className="w-full object-cover rounded-2xl mb-10 shadow-lg"
                                 />
@@ -169,7 +169,7 @@ export default function BlogPost() {
                                     </p>
 
                                     <img
-                                        src="/images/healthcare-seo-ai-overviews-strategy-2026.jpg"
+                                        src="/images/ai-overviews-healthcare-search-visibility-2026.jpg"
                                         alt="Healthcare SEO strategy for AI Overviews showing the shift from traditional search results to AI-generated answers, with expert authorship, structured content, trust signals, and AI search visibility."
                                         className="w-full object-cover rounded-2xl mb-10 shadow-lg"
                                     />

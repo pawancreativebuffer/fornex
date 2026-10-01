@@ -17,7 +17,7 @@ export default function BlogPage() {
             id: 67,
             title: "AI Overviews Are Eating Healthcare Search Traffic. Most Hospitals Are Watching It Happen.",
             desc: "Google AI Overviews now answer patient health questions before they reach your website. Here is what US hospitals must do to stay visible in the new search landscape.",
-            image: "/images/ai-overviews-healthcare-search-visibility-2026.jpg",
+            image: "/images/healthcare-seo-ai-overviews-strategy-2026.jpg",
             alt: "AI Overviews changing healthcare search visibility, with AI-generated answers appearing above traditional hospital search results and reducing website clicks.",
             link: '/blogs/ai-overviews-healthcare-search-2026',
             date: 'October 1, 2026'
