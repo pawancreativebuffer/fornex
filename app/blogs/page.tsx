@@ -14,6 +14,15 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 68,
+            title: "Hospital AI Upcoding 2026: The $942M Problem Payers Are Flagging",
+            desc: "BCBSA says hospitals' AI coding tools cost its plans $942M for the same care. Here is what that means for your coding operations before CMS along with payers respond.",
+            image: "/images/hospital-ai-upcoding-2026-bcbs-942-million.webp",
+            alt: "Hospital AI coding under scrutiny, showing AI-assisted medical coding, increasing claim complexity, payer costs, and compliance risk in a modern healthcare setting.",
+            link: '/blogs/hospital-ai-upcoding-2026',
+            date: 'October 5, 2026'
+        },
+        {
             id: 67,
             title: "AI Overviews Are Eating Healthcare Search Traffic. Most Hospitals Are Watching It Happen.",
             desc: "Google AI Overviews now answer patient health questions before they reach your website. Here is what US hospitals must do to stay visible in the new search landscape.",
