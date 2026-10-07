@@ -14,6 +14,24 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 70,
+            title: "Hospitals Are Outsourcing Their IT Departments. Four Just Did It in September.",
+            desc: "Trinity Health along with 3 other major health systems outsourced IT operations in 2026. Here is why financial pressure is pushing hospitals toward IT outsourcing now.",
+            image: "/images/hospital-it-outsourcing-2026.webp",
+            alt: "ForNex Health graphic showing hospitals transitioning from in-house IT teams to outsourced healthcare technology partners in 2026.",
+            link: '/blogs/hospital-it-outsourcing-2026',
+            date: 'October 7, 2026'
+        },
+        {
+            id: 69,
+            title: "34 Health Systems Are Walking Away From Medicare Advantage. Here Is What's Behind It.",
+            desc: "34 US health systems are exiting Medicare Advantage contracts in 2026. Here is why it's happening along with what the exodus means for hospital revenue cycle strategy.",
+            image: "/images/health-systems-dropping-medicare-advantage-2026.webp",
+            alt: "ForNex Health graphic showing health systems exiting Medicare Advantage contracts due to rising denials, prior authorization requirements, lower reimbursement margins, and administrative burden.",
+            link: '/blogs/34-health-systems-drop-medicare-advantage-2026',
+            date: 'October 6, 2026'
+        },
+        {
             id: 68,
             title: "Hospital AI Upcoding 2026: The $942M Problem Payers Are Flagging",
             desc: "BCBSA says hospitals' AI coding tools cost its plans $942M for the same care. Here is what that means for your coding operations before CMS along with payers respond.",
