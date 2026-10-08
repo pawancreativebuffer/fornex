@@ -14,6 +14,15 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 71,
+            title: "CMS Is Expanding the ACCESS Model. Here Is What COPD Along With Substance Use Disorder Add to Your Billing Picture.",
+            desc: "CMS is expanding Medicare's ACCESS model to cover COPD, substance use disorder along with tobacco cessation in 2027. Here is what it means for your care model along with billing.",
+            image: "/images/cms-access-model-expansion-2027.webp",
+            alt: "CMS ACCESS model expansion in 2027 highlighting COPD, substance use disorder, and tobacco cessation through technology-enabled chronic care management.",
+            link: '/blogs/cms-access-model-expansion-2027',
+            date: 'October 8, 2026'
+        },
+        {
             id: 70,
             title: "Hospitals Are Outsourcing Their IT Departments. Four Just Did It in September.",
             desc: "Trinity Health along with 3 other major health systems outsourced IT operations in 2026. Here is why financial pressure is pushing hospitals toward IT outsourcing now.",
