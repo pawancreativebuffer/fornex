@@ -7,6 +7,16 @@ import Link from 'next/link';
 const CLIENTS_DATA = [
     {
         id: "01",
+        name: "HerMD",
+        category: "Womens Health Care",
+        description: "A specialized women's healthcare platform dedicated to closing the gap in female healthcare across menopause, sexual health, and gynecology. The platform combines expert clinical consultations, personalized treatment pathways, and modern virtual care delivery to provide women with comprehensive, accessible medical support.",
+        impact: "Accessible, specialized women's healthcare",
+        image: "/images/hermd.jpg",
+        icon: '/images/her-md.png',
+        link: '/clients/hermd'
+    },
+    {
+        id: "02",
         name: "Ones",
         category: "Personalized Supplement Platform",
         description: "Ones is a personalized wellness platform that uses health data, biomarkers, and lifestyle insights to create tailored daily supplement formulas. The platform combines science-backed nutrition, premium ingredients, and a seamless digital experience to help users optimize their overall health and performance.",
@@ -16,7 +26,7 @@ const CLIENTS_DATA = [
         link: '/clients/ones-health'
     },
     {
-        id: "02",
+        id: "03",
         name: "Apollo 360",
         category: "Healthtech Platform",
         description: "A comprehensive healthcare platform designed to provide personalized care and facilitate real-time health monitoring. Apollo 360 Health integrates with existing healthcare systems, enabling patients to track their health metrics, access medical records, and communicate with healthcare providers seamlessly across multiple devices.",
@@ -26,7 +36,7 @@ const CLIENTS_DATA = [
         link: '/clients/apollo-360'
     },
     {
-        id: "03",
+        id: "04",
         name: "Oasis Notes",
         category: "Digital Health Records",
         description: "Oasis Notes revolutionizes healthcare documentation by providing an intuitive platform for healthcare providers to record and manage patient notes efficiently. This platform integrates with EHR/EMR systems, offering secure, real-time access to patient information, improving clinical workflows, and enhancing patient care delivery.",
@@ -36,7 +46,7 @@ const CLIENTS_DATA = [
         link: '/clients'
     },
     {
-        id: "04",
+        id: "05",
         name: "Super School",
         category: "Special Children Management",
         description: "Super School offers a mobile-first solution to bridge the gap between parents and teachers. With real-time updates on student progress, attendance, and school activities, Super School enhances parent involvement and ensures better academic outcomes for students.",
@@ -46,7 +56,7 @@ const CLIENTS_DATA = [
         link: '/clients/super-school'
     },
     {
-        id: "05",
+        id: "06",
         name: "MRI Safe Programming & Scheduling",
         category: "Medical Device Software",
         description: "A specialized healthcare solution designed to ensure safe MRI procedures for patients with pacemakers. The system enables clinicians to program devices into MRI-safe modes, verify compatibility, and manage pre-MRI workflows with structured scheduling and safety checks.",
@@ -56,7 +66,7 @@ const CLIENTS_DATA = [
         link: '/clients/mri-safe-programming'
     },
     {
-        id: "06",
+        id: "07",
         name: "Carevation",
         category: "Caregiving Platform",
         description: "A unified caregiving platform designed to simplify and coordinate care journeys. It empowers caregivers and families with tools for communication, scheduling, and real-time updates-ensuring seamless collaboration and better care outcomes.",
