@@ -14,6 +14,42 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 75,
+            title: "Hospital M&A Is Closing in Fall 2026. The Technology Commitments Inside These Deals Are the Real Story.",
+            desc: "Major hospital mergers are closing in fall 2026 with $800M+ technology commitments attached. Here is what the M&A wave means for healthcare IT strategy along with vendors.",
+            image: "/images/healthcare-ma-2026-hospital-technology-commitments.webp",
+            alt: "Healthcare mergers and acquisitions in 2026 highlighting technology investment commitments from UNC Health, Independence Health System, Prime Healthcare Foundation and Lifepoint Health.",
+            link: '/blogs/healthcare-ma-2026-hospital-technology',
+            date: 'October 20, 2026'
+        },
+        {
+            id: 74,
+            title: "Hospital Margins in 2026 Are Slim. The Strata Data Makes That Specific.",
+            desc: "Hospital median operating margins were negative in January 2026. Here is what the Strata Decision Technology data shows along with what it means for your financial strategy.",
+            image: "/images/hospital-operating-margins-2026-strata-report.webp",
+            alt: "Hospital financial performance dashboard showing negative operating margins in January and February 2026, followed by modest improvement in Q2, with a healthcare professional reviewing financial data.",
+            link: '/blogs/hospital-operating-margins-2026',
+            date: 'October 19, 2026'
+        },
+        {
+            id: 73,
+            title: "Big Tech Is Betting $700 Billion on AI. Hospitals Are Where the Return Gets Proven — But the Window Is Narrowing.",
+            desc: "Microsoft, Google along with Amazon are betting $700 billion on AI. Healthcare is where the ROI gets proven. Here is what that means for hospitals along with the window that's closing.",
+            image: "/images/big-tech-healthcare-ai-investment-2026.webp",
+            alt: "ForNex Health graphic illustrating major technology companies investing in healthcare AI, featuring Microsoft and Mayo Clinic, Google Cloud and CVS Health, and Amazon HealthScribe.",
+            link: '/blogs/big-tech-healthcare-ai-investment-2026',
+            date: 'October 15, 2026'
+        },
+        {
+            id: 72,
+            title: "Healthcare AI Adoption Is Outpacing Governance. A New Index Just Proved It.",
+            desc: "A new Healthcare AI Readiness Index finds hospitals are adopting AI faster than building the governance to use it safely. Here is what that gap looks like in practice.",
+            image: "/images/healthcare-ai-governance-gap-2026.webp",
+            alt: "ForNex Health graphic illustrating the gap between rising healthcare AI adoption and lagging governance, cybersecurity, and staff training readiness.",
+            link: '/blogs/healthcare-ai-governance-gap-2026',
+            date: 'October 14, 2026'
+        },
+        {
             id: 71,
             title: "CMS Is Expanding the ACCESS Model. Here Is What COPD Along With Substance Use Disorder Add to Your Billing Picture.",
             desc: "CMS is expanding Medicare's ACCESS model to cover COPD, substance use disorder along with tobacco cessation in 2027. Here is what it means for your care model along with billing.",
