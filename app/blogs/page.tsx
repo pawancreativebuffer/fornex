@@ -14,6 +14,15 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 76,
+            title: "AI Agents Are Doing Hospital Paperwork Now. Here Is What That Actually Looks Like.",
+            desc: "Hospital for Special Surgery is using AI agents to cut insurance claim time. Here is what agentic AI handling healthcare paperwork actually looks like in production.",
+            image: "/images/ai-agents-doing-hospital-paperwork-in-2026.webp",
+            alt: "AI agents automating hospital paperwork, insurance claims processing and administrative workflows in a modern healthcare environment.",
+            link: '/blogs/ai-agents-healthcare-paperwork-2026',
+            date: 'October 28, 2026'
+        },
+        {
             id: 75,
             title: "Hospital M&A Is Closing in Fall 2026. The Technology Commitments Inside These Deals Are the Real Story.",
             desc: "Major hospital mergers are closing in fall 2026 with $800M+ technology commitments attached. Here is what the M&A wave means for healthcare IT strategy along with vendors.",
