@@ -14,6 +14,15 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 77,
+            title: "Epic Just Launched Prescription Price Shopping Inside the EHR. Here Is What Changes.",
+            desc: "Epic launched a prescription price comparison tool with Amazon Pharmacy on October 16. Here is what it means for patient portals, drug costs along with your IT strategy.",
+            image: "/images/epic-prescription-marketplace-drug-price-transparency.webp",
+            alt: "Doctor reviewing Epic's Prescription Marketplace dashboard to compare prescription prices across pharmacies and help patients choose affordable medications.",
+            link: '/blogs/epic-prescription-marketplace-2026',
+            date: 'November 12, 2026'
+        },
+        {
             id: 76,
             title: "AI Agents Are Doing Hospital Paperwork Now. Here Is What That Actually Looks Like.",
             desc: "Hospital for Special Surgery is using AI agents to cut insurance claim time. Here is what agentic AI handling healthcare paperwork actually looks like in production.",
