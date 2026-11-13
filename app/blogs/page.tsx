@@ -14,6 +14,15 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 78,
+            title: "Hospitals Are Suing to Stop the 340B Rebate Model. Here Is Everything That’s at Stake.",
+            desc: "Hospitals filed a lawsuit October 13 to block a revived 340B drug rebate model. Here is what the 340B dispute means for hospital finances along with drug procurement.",
+            image: "/images/340b-drug-rebate-hospital-lawsuit-2026.webp",
+            alt: "Hospital building with medication bottles illustrating the 340B drug rebate dispute, hospital finances and pharmaceutical procurement.",
+            link: '/blogs/340b-drug-rebate-hospital-lawsuit-2026',
+            date: 'November 13, 2026'
+        },
+        {
             id: 77,
             title: "Epic Just Launched Prescription Price Shopping Inside the EHR. Here Is What Changes.",
             desc: "Epic launched a prescription price comparison tool with Amazon Pharmacy on October 16. Here is what it means for patient portals, drug costs along with your IT strategy.",
