@@ -14,6 +14,15 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 79,
+            title: "Google Calls It “AI with Purpose.” Kaiser Says It Requires Four P’s. Both Are Right.",
+            desc: "Google's Aashima Gupta along with Kaiser's VP of AI just defined what purposeful healthcare AI looks like at HIMSS. Here is the framework every hospital needs right now.",
+            image: "/images/healthcare-ai-roi-framework-2026.webp",
+            alt: "Healthcare professionals reviewing an AI-powered clinical workflow dashboard illustrating Google's AI with Purpose vision and Kaiser's Four P's framework.",
+            link: '/blogs/healthcare-ai-roi-framework-2026',
+            date: 'November 16, 2026'
+        },
+        {
             id: 78,
             title: "Hospitals Are Suing to Stop the 340B Rebate Model. Here Is Everything That’s at Stake.",
             desc: "Hospitals filed a lawsuit October 13 to block a revived 340B drug rebate model. Here is what the 340B dispute means for hospital finances along with drug procurement.",
