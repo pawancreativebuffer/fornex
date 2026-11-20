@@ -14,6 +14,15 @@ export const metadata = {
 export default function BlogPage() {
     const blogs = [
         {
+            id: 80,
+            title: "CMS Just Released a Clinical AI Roadmap. Here Is What It Means for Your Hospital.",
+            desc: "CMS released its Clinical Super Intelligence Roadmap on November 13. Here is what it says, what it does not require and how hospitals should prepare now.",
+            image: "/images/cms-clinical-ai-roadmap-2026.webp",
+            alt: "CMS Clinical Super Intelligence Roadmap displayed on a laptop alongside a hospital setting, highlighting clinical AI adoption, public trust, data infrastructure and healthcare payment priorities.",
+            link: '/blogs/cms-clinical-ai-roadmap-2026',
+            date: 'November 20, 2026'
+        },
+        {
             id: 79,
             title: "Google Calls It “AI with Purpose.” Kaiser Says It Requires Four P’s. Both Are Right.",
             desc: "Google's Aashima Gupta along with Kaiser's VP of AI just defined what purposeful healthcare AI looks like at HIMSS. Here is the framework every hospital needs right now.",
